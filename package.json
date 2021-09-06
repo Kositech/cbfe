@@ -1,0 +1,21 @@
+{
+  "name": "crystal-ball",
+  "version": "1.0.0",
+  "description": "New world",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "cd ./client && npm run build:dev && cd ../ && PORT=7000 env-cmd -f ./config/local.env nodemon ./src/index.js --ignore './src/public/javascripts' './node_modules' --ext js --exec babel-node"
+  },
+  "author": "tim leung",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4"
+  }
+}
