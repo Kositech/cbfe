@@ -276,7 +276,7 @@ a.active {
   border-radius: 10px;
 }
 
-.style-button:hover, .style-button:focus, .style-button:active, .style-button:disabled {
+.style-btn:hover, .style-btn:focus, .style-btn:active, .style-btn:disabled {
   background: var(--main-green);
   border: none;
   box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4);
@@ -317,7 +317,6 @@ a.active {
 
 .login-box {
   width: 440px;
-  height: 564px;
   border-radius: 20px;
   box-shadow: 10px 10px 40px rgba(192, 197, 233, 0.6);
   background: rgba(255, 255, 255, 0.8);
@@ -357,4 +356,12 @@ a.active {
   background-repeat: no-repeat;
   width: 103px;
   height: 44px;
+}
+
+.login-header{
+  padding-bottom: 130px;
+}
+
+.login-content{
+  padding-bottom: 184px;
 }

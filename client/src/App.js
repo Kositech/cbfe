@@ -5,7 +5,9 @@ import Backend from 'i18next-http-backend';
 import Loader from './components/loader';
 import { initReactI18next } from 'react-i18next';
 import i18n from "i18next";
-import './App.css';
+import './css/side-menu.scss'
+import './App.scss';
+import './css/responsive.scss'
 
 i18n.use(Backend)
   .use(initReactI18next)

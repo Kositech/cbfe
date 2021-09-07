@@ -14,27 +14,27 @@ function Login(props) {
     return (
         <ViewWrapper>
             <FullPageBg url={bg} />
-            <div style={{ marginBottom: "130px" }}>
+            <div className="login-header">
                 <Row>
-                    <Col>
+                    <Col sm={12} md={4}>
                         <div className="logo mt-3 ml-4"></div>
                     </Col>
-                    <Col className="d-flex justify-content-end">
+                    <Col sm={12} md={8} className="d-flex justify-content-end">
                         <div className="slogan mt-3 mr-4"></div>
                     </Col>
                 </Row>
             </div>
-            <div style={{ marginBottom: "184px" }} >
+            <div className="login-content">
                 <Row>
-                    <Col className="d-flex justify-content-center align-items-center flex-column">
-                        <div className="text-start bold fst-italic font-xl drop-shadow white lh-1 mb-4">
+                    <Col sm={12} md={12} lg={6} className="d-flex justify-content-center align-items-center flex-column">
+                        <div className="text-start bold fst-italic font-xl drop-shadow white lh-1 slogan-text1">
                             {t('Welcome_to')}
-                        </div>
-                        <div className="text-start font-70 bold fst-italic drop-shadow white lh-1 mt-1">
-                            {t('Crystal_Ball')}
+                            <div className="text-start font-70 bold fst-italic drop-shadow white lh-1 pb-4 mt-1 slogan-text2">
+                                {t('Crystal_Ball')}
+                            </div>
                         </div>
                     </Col>
-                    <Col className="d-flex justify-content-center al--ign-items-center flex-column">
+                    <Col sm={12} md={12} lg={6} className="d-flex justify-content-center align-items-center flex-column">
                         <div className="login-box py-3 px-4">
                             <Form>
                                 <ViewContent

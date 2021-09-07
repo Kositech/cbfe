@@ -10,5 +10,11 @@
     "Forgot_your_password?": "Forgot your password?",
     "Need_support?": "Need support?",
     "Stay_Signed_In": "Stay Signed In",
-    "Or_Sign_In_with_Single_Sign_On": "Or Sign In with Signle Sign On"
+    "Or_Sign_In_with_Single_Sign_On": "Or Sign In with Signle Sign On",
+    "side_menu": {
+        "Central_Search": "Central Search",
+        "Central_Search_info": "Document related to this project.",
+        "CIA": "CIA",
+        "Knowledge_Portal": "Knowledge Portal"
+    }
 }
