@@ -3,26 +3,27 @@
 }
 
 /*** Common ***/
-.opacity-7{
+
+.opacity-7 {
   opacity: .7;
 }
 
-.loader{
+.loader {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
 
-.lh-1{
+.lh-1 {
   line-height: 1;
 }
 
-.lh-1-5{
+.lh-1-5 {
   line-height: 1.5;
 }
 
@@ -34,116 +35,326 @@
   padding-top: 10px;
 }
 
-.login-fieldset{
+.login-fieldset {
   min-width: 350px;
 }
 
-.login-fieldset .row{
+.login-fieldset .row {
   margin-bottom: 1.8rem;
 }
 
-.login-fieldset .icon-label-wrapper{
+.login-fieldset .icon-label-wrapper {
   margin-bottom: 3rem;
 }
 
-.bg-gray{
+.bg-gray {
   background-color: var(--main-gray);
 }
 
-.bg-light-gray{
+.bg-light-gray {
   background-color: var(--main-light-gray);
 }
 
-.bg-white{
+.bg-white {
   background-color: var(--main-bg-color);
 }
 
-.bg-light-red{
+.bg-light-red {
   background-color: var(--main-light-red);
 }
 
-.bg-light-orange{
+.bg-light-orange {
   background-color: var(--main-light-orange);
 }
 
-.bg-orange{
+.bg-orange {
   background-color: var(--main-orange);
 }
 
-.bg-deep-blue{
+.bg-deep-blue {
   background-color: var(--main-deep-blue)
 }
 
-.bg-green{
+.bg-green {
   background-color: var(--main-green)
 }
 
-.bg-dark-purple{
+.bg-dark-purple {
   background-color: var(--main-dark-purple)
 }
 
-.bg-primary-pink{
+.bg-primary-pink {
   background-color: var(--main-primary-pink)
 }
 
-.bg-frozen-blue{
+.bg-frozen-blue {
   background-color: var(--main-frozen-blue)
 }
 
-.border-r-n{
+.border-r-n {
   border-radius: 5px;
 }
 
-.border-r-8{
+.border-r-8 {
   border-radius: 8px;
 }
 
-.border-r-100{
+.border-r-100 {
   border-radius: 0px 100px 100px 0px;
 }
 
-.border-100{
+.border-100 {
   border-radius: 100px;
 }
 
-.border-t-light-gray{
+.border-t-light-gray {
   border-top: 1px solid var(--main-light-gray)
 }
 
-.border-b-disable-light-purple{
+.border-b-disable-light-purple {
   border-bottom: 1px solid var(--disable-light-purple)
 }
 
-.border-b-light-gray{
+.border-b-light-gray {
   border-bottom: 1px solid var(--main-light-gray)
 }
 
-.border-l-light-gray{
+.border-l-light-gray {
   border-left: 1px solid var(--main-light-gray)
 }
 
-.border-r-light-gray{
+.border-r-light-gray {
   border-right: 1px solid var(--main-light-gray)
 }
 
-.bar-h{
+.bar-h {
   min-height: 10px;
 }
 
-.dot{
+.dot {
   height: 10px;
   width: 10px;
   border-radius: 50%;
   display: inline-block;
 }
 
-a{
+a {
   color: var(--main-gray);
   text-decoration: none;
 }
 
-a.active{
+a.active {
   color: var(--main-orange)
 }
 
+.bg-cover {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
 /*** Common End ***/
+
+/*** Font ***/
+
+.deep-green {
+  color: var(--main-deep-green)
+}
+
+.dark {
+  color: var(--main-dark)
+}
+
+.dark-green {
+  color: var(--main-dark-green)
+}
+
+.dark-purple {
+  color: var(--main-dark-purple)
+}
+
+.white {
+  color: var(--main-bg-color)
+}
+
+.orange {
+  color: var(--main-orange)
+}
+
+.deep-blue {
+  color: var(--main-deep-blue)
+}
+
+.light-red {
+  color: var(--main-light-red)
+}
+
+.gray {
+  color: var(--main-gray)
+}
+
+.light-purple {
+  color: var(--text-light-purple)
+}
+
+.d-light-purple {
+  color: var(--disable-light-purple)
+}
+
+.brown {
+  color: var(--main-brown)
+}
+
+.light-gray {
+  color: var(--main-light-gray)
+}
+
+.font-xs {
+  font-size: 12px;
+}
+
+.font-s {
+  font-size: 14px;
+}
+
+.font-n {
+  font-size: 16px;
+}
+
+.font-m {
+  font-size: 18px;
+}
+
+.font-xm {
+  font-size: 20px;
+}
+
+.font-l {
+  font-size: 24px;
+}
+
+.font-xl {
+  font-size: 30px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-xxl {
+  font-size: 40px;
+}
+
+.font-48 {
+  font-size: 48px;
+}
+
+.font-50 {
+  font-size: 50px;
+}
+
+.font-70 {
+  font-size: 70px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*** Font End ***/
+
+/*** Style ***/
+.drop-shadow{
+  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.style-btn {
+  padding: 16px 16px;
+  box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4);
+  border: none;
+  border-radius: 10px;
+}
+
+.style-button:hover, .style-button:focus, .style-button:active, .style-button:disabled {
+  background: var(--main-green);
+  border: none;
+  box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4);
+}
+
+.logo {
+  width: 228.81px;
+  height: 60px;
+  background-image: url('./assets/NWCON-LOGO.png');
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  width: 418.8px;
+  height: 60px;
+  background-image: url('./assets/slogan.png');
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.sso-logo{
+  width:44px;
+  height: 43px;
+  background-image: url('./assets/sso-logo.png');
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.sso-logo-wrap{
+  border-radius: 4px;
+  box-shadow: 0px 0px 7px rgba(192, 197, 233, 0.6);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.login-box {
+  width: 440px;
+  height: 564px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px rgba(192, 197, 233, 0.6);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.language-box {
+  width: 74px;
+  height: 25px;
+}
+
+.download-wrap{
+  width: 440px;
+}
+
+.download-ios{
+  background-image: url('./assets/download_ios.png');
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 132px;
+  height: 44px;
+}
+
+.download-android{
+  background-image: url('./assets/download_android.png');
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 44px;
+}
+
+.download-android-apk{
+  background-image: url('./assets/download_android_apk.png');
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 103px;
+  height: 44px;
+}

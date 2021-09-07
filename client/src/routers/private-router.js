@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Route, Redirect, useHistory } from 'react-router-dom';
 import { routesFilterPath } from '../helpers/common'
-import { apiLogout, apiGetCurrentUser } from '../helpers/api/account-management';
-import variable from '../helpers/variable';
+// import { apiLogout, apiGetCurrentUser } from '../helpers/api/account-management';
+// import variable from '../helpers/variable';
 import Loader from '../components/loader';
 
 export default function PrivateRoute({ component: Component, token, ...rest }) {

@@ -1,0 +1,14 @@
+{
+    "Welcome_to": "Welcome to",
+    "Crystal_Ball": "Crystal Ball",
+    "Sign_In": "Sign In",
+    "with_email": "with email",
+    "form":{
+        "Email": "Email",
+        "Password": "Password"
+    },
+    "Forgot_your_password?": "Forgot your password?",
+    "Need_support?": "Need support?",
+    "Stay_Signed_In": "Stay Signed In",
+    "Or_Sign_In_with_Single_Sign_On": "Or Sign In with Signle Sign On"
+}
