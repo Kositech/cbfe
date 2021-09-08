@@ -16,5 +16,9 @@
         "Central_Search_info": "Document related to this project.",
         "CIA": "CIA",
         "Knowledge_Portal": "Knowledge Portal"
-    }
+    },
+    "Hello": "Hello",
+    "project_select_description": "Which project you're working today?",
+    "Select_Project": "Select Project",
+    "Next": "Next"
 }

@@ -80,7 +80,7 @@ function Login(props) {
                                 <ViewContent
                                     css="d-flex justify-content-start align-items-center mb-5 pb-2"
                                 >
-                                    <Button size="lg" className="style-btn white bg-green bold fst-italic w-100">
+                                    <Button size="lg" className="font-l style-btn white bg-green bold fst-italic w-100">
                                         {t('Sign_In')}
                                     </Button>
                                 </ViewContent>

@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import { slide as Menu } from 'react-burger-menu'
 import variable from '../helpers/variable'
 
 function SideMenu(props) {
+
+    const [isOpen, setIsOpen] = useState(false)
 
     const renderSubMenu = (submenu) => {
         let submenulayout = [];
@@ -51,9 +54,19 @@ function SideMenu(props) {
     }
 
     return (
-        <Menu pageWrapId={'page-wrap'}
+        <Menu
+            pageWrapId={'page-wrap'}
             outerContainerId={'outer-container'}
-            style={{ padding: 0 }}>
+            noOverlay
+            burgerButtonClassName={"cb-menu-bth"}
+            burgerBarClassName={"cb-menu-bar"}
+            crossButtonClassName={"cb-menu-cross-btn"}
+            crossClassName={"cb-menu-cross"}
+            menuClassName={"cb-menu"}
+            morphShapeClassName={"cb-menu-morph-shape"}
+            itemListClassName={"cb-menu-item-list"}
+            overlayClassName={"cb-menu-overlay"}
+        >
             {renderMenu()}
             {props.children}
         </Menu>

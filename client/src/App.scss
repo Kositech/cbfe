@@ -157,6 +157,9 @@ a.active {
 /*** Common End ***/
 
 /*** Font ***/
+.light-blue {
+  color: var(--main-light-blue)
+}
 
 .deep-green {
   color: var(--main-deep-green)
@@ -274,12 +277,13 @@ a.active {
   box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4);
   border: none;
   border-radius: 10px;
+  min-width: 292px;
 }
 
 .style-btn:hover, .style-btn:focus, .style-btn:active, .style-btn:disabled {
   background: var(--main-green);
   border: none;
-  box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4);
+  box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4) !important;
 }
 
 .logo {
@@ -364,4 +368,54 @@ a.active {
 
 .login-content{
   padding-bottom: 184px;
+}
+
+.crystal-ball-logo{
+  width: 58px;
+  height: 59px;
+  background-image: url('./assets/crystal-ball-logo.png');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.project-select-box{
+  box-shadow: 10px 10px 40px rgba(192, 197, 233, 0.6);
+  border-radius: 20px;
+}
+
+.cb-favorite-icon{
+  width: 24px;
+  height: 24px;
+  background-image: url('./assets/favorite.png');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.project-select-dropdown{
+  .menu{
+    max-height: 200px;
+  }
+}
+
+.cb-user-profile-wrap{
+  background: var(--main-nature-green);
+  padding: 7px;
+  border-radius: 50%;
+  position: absolute;
+  left: 90px;
+  top: 20px;
+  width: 52px;
+  height: 52px;
+}
+
+.cb-user-profile{
+  background-image: url('./assets/feather_user.png');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+
 }
