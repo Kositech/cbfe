@@ -1,8 +1,8 @@
 function ViewWrapper(props){
     // container-xxl
     return (
-        <div className="container-fluid main-container" {...props}>
-            <div className="mainWrapper">
+        <div {...props}>
+            <div className="container-fluid main-container">
                 <div className="main">
                     {props.children}
                 </div>

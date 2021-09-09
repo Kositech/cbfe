@@ -2,11 +2,10 @@ import ViewContent from '../components/view-content';
 
 function DropdownProjectItem(props) {
     let fav = (typeof(props.fav) !== "undefined") ? props.fav : false
-    console.log("DropdownProjectItem props ", props)
 
     return (
         <ViewContent
-            css="d-flex justify-content-between align-items-center"
+            css="d-flex justify-content-between align-items-center dropdown-project-item"
         >
             <div className="">{props.value}</div>
             {

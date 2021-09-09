@@ -47,6 +47,10 @@
   margin-bottom: 3rem;
 }
 
+.bg-sky-green {
+  background-color: var(--main-sky-green)
+}
+
 .bg-gray {
   background-color: var(--main-gray);
 }
@@ -127,6 +131,11 @@
   border-right: 1px solid var(--main-light-gray)
 }
 
+.border-deep-dark {
+  border-left: 0.5px solid var(--main-deep-gray);
+  border-right: 0.5px solid var(--main-deep-gray);
+}
+
 .bar-h {
   min-height: 10px;
 }
@@ -157,6 +166,10 @@ a.active {
 /*** Common End ***/
 
 /*** Font ***/
+.deep-dark {
+  color: var(--main-deep-dark)
+}
+
 .light-blue {
   color: var(--main-light-blue)
 }
@@ -237,6 +250,10 @@ a.active {
   font-size: 24px;
 }
 
+.font-28 {
+  font-size: 28px;
+}
+
 .font-xl {
   font-size: 30px;
 }
@@ -265,6 +282,10 @@ a.active {
   font-weight: bold;
 }
 
+.font-robot{
+  font-family: 'Roboto', sans-serif;
+}
+
 /*** Font End ***/
 
 /*** Style ***/
@@ -277,7 +298,8 @@ a.active {
   box-shadow: 0px 9px 20px rgba(35, 215, 150, 0.4);
   border: none;
   border-radius: 10px;
-  min-width: 292px;
+  max-width: 100%;
+  width: 292px;
 }
 
 .style-btn:hover, .style-btn:focus, .style-btn:active, .style-btn:disabled {
@@ -291,8 +313,13 @@ a.active {
   height: 60px;
   background-image: url('./assets/NWCON-LOGO.png');
   background-position: center center;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+
+.logo-md{
+  width: 141px;
+  height: 35px;
 }
 
 .slogan {
@@ -300,8 +327,13 @@ a.active {
   height: 60px;
   background-image: url('./assets/slogan.png');
   background-position: center center;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+
+.slogan-sm{
+  width: 250px;
+  height: 35px;
 }
 
 .sso-logo{
@@ -375,13 +407,8 @@ a.active {
   height: 59px;
   background-image: url('./assets/crystal-ball-logo.png');
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-
-.project-select-box{
-  box-shadow: 10px 10px 40px rgba(192, 197, 233, 0.6);
-  border-radius: 20px;
 }
 
 .cb-favorite-icon{
@@ -389,7 +416,7 @@ a.active {
   height: 24px;
   background-image: url('./assets/favorite.png');
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -413,9 +440,91 @@ a.active {
 .cb-user-profile{
   background-image: url('./assets/feather_user.png');
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 38px;
   height: 38px;
-
 }
+
+.cb-notifications-icon{
+  width: 46px;
+  height: 46px;
+  background-image: url('./assets/ic_outline-notifications-active.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo-sm{
+  width: 35px;
+  height: 36px;
+}
+
+/*** Project select ***/
+.project-select{
+
+  .project-select-box{
+    margin-bottom: 203px;
+    box-shadow: 10px 10px 40px rgba(192, 197, 233, 0.6);
+    border-radius: 20px;
+  }
+  .project-select-header{
+    margin-bottom: 128px;
+  }
+  .project-select-dropdown{
+    margin-bottom: 200px;
+  }
+}
+
+/*** Project select end ***/
+
+/*** Nav Tab ***/
+.nav-tab{
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.nav-tab-home{
+  background-image: url('./assets/ic_checklist.png')
+}
+
+.nav-tab-safety{
+  background-image: url('./assets/ic_health.png')
+}
+
+.nav-tab-database{
+  background-image: url('./assets/ic_book.png')
+}
+
+.nav-tab-vwt{
+  background-image: url('./assets/ic_vwt.png')
+}
+
+.nav-tab-gia{
+  background-image: url('./assets/ic_gia.png')
+}
+
+/*** Nav Tab end ***/
+
+.cb-clock-wrap{
+  border-left: 5px solid var(--main-nature-green);
+  border-bottom: 1px solid var(--main-nature-green);
+}
+
+.footer-menu{
+  position: fixed;
+  bottom: -150px;
+  height: 56px;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  transform: translate3d(0px, -100%, 0px);
+  display: block;
+  opacity: 0;
+}
+
+/*** Style end ***/

@@ -37,6 +37,29 @@
             font-size: 50px;
         }
     }
-
     /* login end */
+
+    /* project select */
+    .project-select{
+        .project-select-box{
+            margin-bottom: 30px;
+        }
+        .project-select-header{
+            margin-bottom: 30px;
+        }
+        .project-select-dropdown{
+            margin-bottom: 30px;
+        }
+    }
+    /* project select end */
+    .footer-menu-wrap{
+        margin-bottom: 56px;
+    }
+
+    .footer-menu{
+        transform: none;
+        bottom: 0;
+        opacity: 1;
+        display: block;
+    }
 }

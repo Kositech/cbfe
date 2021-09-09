@@ -1,7 +1,7 @@
 import { Trans } from 'react-i18next'
 const LANGUAGE = [
-    { code: "zh-hant", name: "繁" },
-    { code: "zh-hans", name: "简" },
+    { code: "zh-HK", name: "繁" },
+    { code: "zh-cn", name: "简" },
     { code: "en", name: "English" }
 ]
 
@@ -28,11 +28,19 @@ const SIDE_MENU = [
             }
         ]
     },
+]
 
+const NAV_TAB = [
+    {name: "nav_tab.Home", link: "/", className: "nav-tab nav-tab-home" },
+    {name: "nav_tab.Safety", link: "/", className: "nav-tab nav-tab-safety" },
+    {name: "nav_tab.Database", link: "/", className: "nav-tab nav-tab-database" },
+    {name: "nav_tab.VWT", link: "/", className: "nav-tab nav-tab-vwt" },
+    {name: "nav_tab.GIA", link: "/", className: "nav-tab nav-tab-gia" },
 ]
 
 export default {
     LANGUAGE,
     DOWNLOAD_LINK,
-    SIDE_MENU
+    SIDE_MENU,
+    NAV_TAB
 }

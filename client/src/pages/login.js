@@ -9,7 +9,7 @@ import FullPageBg from '../components/full-page-bg'
 import bg from '../assets/bg01.png'
 
 function Login(props) {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     return (
         <ViewWrapper>
@@ -45,7 +45,7 @@ function Login(props) {
                                             return (
                                                 <div className="language-box text-center"
                                                     onClick={() => {
-
+                                                        i18n.changeLanguage(v.code)
                                                     }}>
                                                     {v.name}
                                                 </div>

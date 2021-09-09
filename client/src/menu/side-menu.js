@@ -3,6 +3,7 @@ import { slide as Menu } from 'react-burger-menu'
 import variable from '../helpers/variable'
 
 function SideMenu(props) {
+    var burgerButtonClassName = (typeof(burgerButtonClassName) !== "undefined") ? props.burgerButtonClassName : ""
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -58,7 +59,7 @@ function SideMenu(props) {
             pageWrapId={'page-wrap'}
             outerContainerId={'outer-container'}
             noOverlay
-            burgerButtonClassName={"cb-menu-bth"}
+            burgerButtonClassName={"cb-menu-bth " + burgerButtonClassName}
             burgerBarClassName={"cb-menu-bar"}
             crossButtonClassName={"cb-menu-cross-btn"}
             crossClassName={"cb-menu-cross"}

@@ -21,15 +21,15 @@ function ProjectSelect(props) {
         if (project !== null) {
             setNextDisable(false)
         }
-    }, project)
+    }, [project])
 
     useEffect(() => {
-        console.log("process ", process)
+        // console.log("process ", process)
         if(process){
-            setProcess(true)
+            setProcess(false)
             handleNextOnClick()
         }
-    }, process)
+    }, [process])
 
     const handleNextOnClick = () => {
         history.push('/')
@@ -39,7 +39,7 @@ function ProjectSelect(props) {
         <ViewWrapper id="outer-container">
             <SideMenu >
             </SideMenu>
-            <div id="page-wrap">
+            <div id="page-wrap" className="project-select">
                 <Row>
                     <Col>
                         <div className="cb-user-profile-wrap">
@@ -56,10 +56,10 @@ function ProjectSelect(props) {
                         </ViewContent>
                     </Col>
                 </Row>
-                <div className="" style={{ marginBottom: "128px" }}></div>
+                <div className="project-select-header"></div>
                 <Row>
                     <Col md={{ span: 8, offset: 2 }}>
-                        <div className="project-select-box pl-6 pr-6 pt-6 pb-6" style={{ marginBottom: "203px" }}>
+                        <div className="project-select-box pl-6 pr-6 pt-6 pb-6">
                             <ViewContent
                                 css="d-flex justify-content-start align-items-start mt-1 ml-2 pl-1 mb-1 mr-2 pr-1 flex-column"
                             >
@@ -75,7 +75,6 @@ function ProjectSelect(props) {
                                         // console.log("onChange ", value)
                                         setProject(value)
                                     }}
-                                    style={{ marginBottom: '200px' }}
                                     className="project-select-dropdown"
                                 />
                             </ViewContent>
@@ -84,6 +83,7 @@ function ProjectSelect(props) {
                             >
                                 <Button size="lg" className="font-l style-btn white bg-green bold fst-italic align-items-center d-flex justify-content-center" disabled={nextDisable}
                                     onClick={() => {
+                                        console.log("onClick")
                                         setProcess(true)
                                     }}
                                 >

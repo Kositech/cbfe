@@ -7,7 +7,9 @@
     --main-light-red: #D60064;
     --main-gray: #918E9D;
     --main-light-gray: #F7f7fc;
+    --main-dark-gray: #5A5A65;
     --main-green: #3AB67D;
+    --main-sky-green: #01A299;
     --main-light-green: #E7F5D6;
     --main-light-purple: #D8D8F1;
     --text-light-purple: #B4B2CC;
@@ -17,7 +19,10 @@
     --main-light-black: #676580;
     --main-pink: #Fcf7fb;
     --main-dark: #524C6F;
+    --main-deep-dark: #212121;
+    --main-deep-gray: #979797;
     --main-nature-green: #018786;
+    --main-dartmouth-green: #005457;
     --main-deep-green: #666668;
     --main-dark-green: #013232;
     --main-frozen-blue: #D5E2E8;

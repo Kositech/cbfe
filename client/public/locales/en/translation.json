@@ -3,6 +3,7 @@
     "Crystal_Ball": "Crystal Ball",
     "Sign_In": "Sign In",
     "with_email": "with email",
+    "Project": "Project",
     "form":{
         "Email": "Email",
         "Password": "Password"
@@ -20,5 +21,14 @@
     "Hello": "Hello",
     "project_select_description": "Which project you're working today?",
     "Select_Project": "Select Project",
-    "Next": "Next"
+    "Next": "Next",
+    "nav_tab":{
+        "Home": "Home",
+        "Safety": "Safety",
+        "Database": "Database",
+        "VWT": "VWT",
+        "GIA": "GIA" 
+    },
+    "cb_clock": "<0/>/<1/>/<2/> (<3/>) <4/>:<5/>:<6/>",
+    "Project_summary", "Project summary"
 }

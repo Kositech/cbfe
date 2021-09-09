@@ -1,6 +1,6 @@
 {
     "Welcome_to": "Welcome to",
-    "Crystal_Ball": "Crystal Ball",
+    "Crystal_Ball": "水晶球",
     "Sign_In": "Sign In",
     "with_email": "with email",
     "Project": "Project",
@@ -23,11 +23,11 @@
     "Select_Project": "Select Project",
     "Next": "Next",
     "nav_tab":{
-        "Home": "Home",
-        "Safety": "Safety",
-        "Database": "Database",
+        "Home": "主頁",
+        "Safety": "健康及安全",
+        "Database": "資料庫",
         "VWT": "VWT",
         "GIA": "GIA" 
     },
-    "cb_clock": "<0/>/<1/>/<2/> (<3/>) <4/>:<5/>:<6/>"
+    "cb_clock": "<0/>年<1/>月<2/>日 (<3/>) <4/>:<5/>:<6/>"
 }
