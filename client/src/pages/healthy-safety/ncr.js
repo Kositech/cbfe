@@ -124,6 +124,7 @@ function NCR(props) {
                         <DataTable
                             data={ncrData}
                             columns={NCRColumns}
+                            pagination
                         />
                     </Col>
                 </Row>

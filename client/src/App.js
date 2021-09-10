@@ -8,6 +8,7 @@ import i18n from "i18next";
 import './css/side-menu.scss'
 import './css/nav-top.scss'
 import './css/dropdown.scss'
+import './css/icon.scss'
 import './App.scss';
 import './css/common.scss'
 import './css/responsive.scss'

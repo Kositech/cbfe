@@ -43,7 +43,7 @@ function ViewTabs(props) {
                             fluid
                             selection
                             options={options}
-                            className={"cb-tabs-dropdown"}
+                            className={"cb-tabs-dropdown mb-3"}
                             value={tabs[current].value}
                             onChange={(e, data) => {
                                 const { value } = data;                                

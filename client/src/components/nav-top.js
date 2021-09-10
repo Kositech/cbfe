@@ -13,6 +13,10 @@ function NavTop(props) {
     let history = useHistory()
     const { t } = useTranslation();
 
+    useEffect(() => {
+        //Fetch notification
+    }, [])
+
     return (
         <ViewContent
             css="position-fixed d-flex justify-content-end align-items-start nav-top"
@@ -33,7 +37,9 @@ function NavTop(props) {
                                 className={"nav-top-dropdown"}
                             />
                         </div>
-                        <div className="cb-notifications-icon mx-4 my-3"></div>
+                        <div className="cb-notifications-icon mx-4 my-3 pointer">
+
+                        </div>
                     </Col>
                 </Row>
                 <Row>

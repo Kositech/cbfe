@@ -12,6 +12,7 @@ import ViewShadowBox from '../components/view-shadowbox';
 import ResponsiveFooterMenu from '../components/responsive-footer-menu';
 
 import skycityImg from '../assets/Skycity1a.png'
+import ViewContentLabel from '../components/view-content-label';
 
 function Dashboard(props) {
     let history = useHistory()
@@ -54,12 +55,17 @@ function Dashboard(props) {
                 </Row>
                 <Row>
                     <Col sm={12} md={4} >
-                        <ViewShadowBox >
+                        <ViewShadowBox 
+                            className="p-2 mb-3"
+                        >
                             <ViewContent
                                 css="d-flex justify-content-start align-items-center mb-2 px-2"
                             >
-                                <div className="info-icon"></div>
-                                <div className="ml-2 font-xl bold">{t('Project_summary')}</div>
+                                <ViewContentLabel
+                                    icon="info-icon"
+                                    label={t('Project_summary')}
+                                >
+                                </ViewContentLabel>
                             </ViewContent>
                             <div className="align-items-center w-100">
                                 <img src={skycityImg} className="img-shadow w-100" />
@@ -77,7 +83,17 @@ function Dashboard(props) {
                         </ViewShadowBox>
                         <Row>
                             <Col sm={12} md={6}>
-
+                                <ViewShadowBox >
+                                    <ViewContent
+                                        css="d-flex justify-content-start align-items-center mb-2 px-2"
+                                    >
+                                        <ViewContentLabel
+                                            icon="tree-icon"
+                                            label={t('Enviro')}
+                                        >
+                                        </ViewContentLabel>
+                                    </ViewContent>
+                                </ViewShadowBox>
                             </Col>
                             <Col sm={12} md={6}>
 
