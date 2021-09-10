@@ -2,3 +2,31 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.102751);
     border-radius: 12px;
 }
+
+.img-shadow{
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ncr-menu-wrap{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+    &.active{
+        background: var(--main-dartmouth-green);
+        .ncr-menu-name{
+            color: white !important;
+        }        
+    }
+}
+
+.cb-data-tab-item{
+    color: var(--main-dark);
+    background: var(--main-light-purple);
+    border-radius: 20px 20px 0px 0px;
+
+    &.active{
+        background: var(--main-sky-green);
+        color: white;
+    }
+}

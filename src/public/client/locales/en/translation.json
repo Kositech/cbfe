@@ -29,5 +29,32 @@
         "VWT": "VWT",
         "GIA": "GIA" 
     },
-    "cb_clock": "<0/>/<1/>/<2/> (<3/>) <4/>:<5/>:<6/>"
+    "cb_clock": "<0/>/<1/>/<2/> (<3/>) <4/>:<5/>:<6/>",
+    "Project_summary": "Project summary",
+    "Site_Area": "Site Area",
+    "GFA": "GFA",
+    "CFA": "CFA",
+    "PD_PIC_name": "PD/PIC Name + Contact",
+    "Safety_Hotline": "Safety Hotline",
+    "PTW": "PTW",
+    "NCR": "NCR",
+    "Gate_Access": "Gate Access",
+    "Iot": "Iot",
+    "All": "All",
+    "NEW": "NEW",
+    "WIP": "WIP",
+    "COMPLETED": "COMPLETED",
+    "CLOSED": "CLOSED",
+    "REJECTED": "REJECTED",
+    "OVERDUE": "OVERDUE",
+    "LATE": "LATE",
+    "Columns":{
+        "applicant": "Applicant",
+        "pcCompany": "PC Company",
+        "type": "Type",
+        "description": "Description",
+        "status": "Status",
+        "location": "Location",
+        "time": "Time"
+    }
 }

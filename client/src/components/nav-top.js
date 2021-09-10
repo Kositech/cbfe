@@ -17,8 +17,8 @@ function NavTop(props) {
         <ViewContent
             css="position-fixed d-flex justify-content-end align-items-start nav-top"
         >
-            <div className="logo logo-md mt-3"></div>
-            <div className="slogan slogan-sm mt-3"></div>
+            <div className="logo logo-md mt-3 mr-2"></div>
+            <div className="slogan slogan-sm mt-3 mr-2"></div>
             <div className="nav-top-menu container-fluid">
                 <Row>
                     <Col className="d-flex justify-content-end align-items-end p-0">

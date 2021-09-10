@@ -1,22 +1,37 @@
 import React, { useState, useEffect } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { useHistory } from 'react-router-dom';
-import { Row, Col, Button } from 'react-bootstrap'
-import moment from 'moment';
+import { Row, Col } from 'react-bootstrap'
 import SideMenu from '../menu/side-menu';
 import variable from '../helpers/variable';
 import ViewWrapper from '../components/view-wrapper'
 import ViewContent from '../components/view-content';
 import NavTop from '../components/nav-top';
-import NavTopItem from '../components/nav-top-item'
 import DateClock from '../components/date-clock'
 import ViewShadowBox from '../components/view-shadowbox';
+import ResponsiveFooterMenu from '../components/responsive-footer-menu';
 
 import skycityImg from '../assets/Skycity1a.png'
 
 function Dashboard(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
+
+    const renderSummary = (label, value) => {
+        return (
+            <Row className="w-100 dark-gray">
+                <Col md={5} className="d-flex align-items-center">
+                    <div className="check-icon"></div>
+                    <div className="ml-2">{label}:</div>
+                </Col>
+                <Col md={7}>
+                    <div className="">
+                        {value}
+                    </div>
+                </Col>
+            </Row>
+        )
+    }
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
@@ -40,16 +55,24 @@ function Dashboard(props) {
                 <Row>
                     <Col sm={12} md={4} >
                         <ViewShadowBox >
-                            <ViewContent>
-                                <div className="info-icon"></div>
-                                <div className="ml-1">{t('Project_summary')}</div>
-                            </ViewContent>
                             <ViewContent
-                                css="d-flex justify-content-between align-items-center"
+                                css="d-flex justify-content-start align-items-center mb-2 px-2"
                             >
-                                <img src={skycityImg} />
-                                <div>Skycity</div>
-                                <div className=""></div>
+                                <div className="info-icon"></div>
+                                <div className="ml-2 font-xl bold">{t('Project_summary')}</div>
+                            </ViewContent>
+                            <div className="align-items-center w-100">
+                                <img src={skycityImg} className="img-shadow w-100" />
+                            </div>
+                            <ViewContent
+                                css="d-flex justify-content-start align-items-start flex-column px-2"
+                            >
+                                <div className="font-n deep-dark mb-1 bold">Skycity</div>
+                                {renderSummary(t('Site_Area'), "48,412.00 m2 / 521,102.00 ft2")}
+                                {renderSummary(t('GFA'), "267,480.00 m2 / 2,879,131.00 ft2")}
+                                {renderSummary(t('CFA'), "400,161.00 m2 / 4,301,131.00 ft2")}
+                                {renderSummary(t('PD/PIC Name + Contact'), "ABCD, Mr. Poon Wan Kong")}
+                                {renderSummary(t('GFA'), "+852 2222 2222")}
                             </ViewContent>
                         </ViewShadowBox>
                         <Row>
@@ -66,16 +89,7 @@ function Dashboard(props) {
                     </Col>
                 </Row>
             </div>
-            <div className="footer-menu-wrap"></div>
-            <div className="footer-menu bg-sky-green white container-fluid nav-top-menu">
-                <Row style={{ height: "100%" }}>
-                    {
-                        variable.NAV_TAB.map(function (v, i) {
-                            return (<NavTopItem value={v} />)
-                        })
-                    }
-                </Row>
-            </div>
+            <ResponsiveFooterMenu />
         </ViewWrapper >
     )
 }

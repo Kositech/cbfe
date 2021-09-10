@@ -52,8 +52,18 @@
         }
     }
     /* project select end */
+
+    /* Nav Top */
+    .nav-top{
+        transform: translate3d(0, -100%, 0px);
+        display: block;
+        top: -125px;
+        opacity: 0;
+    }
+    /* Nav Top End */
+
     .footer-menu-wrap{
-        margin-bottom: 56px;
+        padding-bottom: 56px;
     }
 
     .footer-menu{
@@ -61,5 +71,6 @@
         bottom: 0;
         opacity: 1;
         display: block;
+        z-index: 1000;
     }
 }

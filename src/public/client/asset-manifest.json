@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d9916f3.chunk.css",
-    "main.js": "/static/js/main.11bc1747.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.7a465edb.js",
-    "static/css/2.32e8a01c.chunk.css": "/static/css/2.32e8a01c.chunk.css",
-    "static/js/2.c4df176f.chunk.js": "/static/js/2.c4df176f.chunk.js",
-    "static/js/3.fb4dc8d2.chunk.js": "/static/js/3.fb4dc8d2.chunk.js",
+    "main.css": "/static/css/main.2779108c.chunk.css",
+    "main.js": "/static/js/main.6773d970.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.54e47a2b.js",
+    "static/css/2.6c6c4bea.chunk.css": "/static/css/2.6c6c4bea.chunk.css",
+    "static/js/2.62fb2910.chunk.js": "/static/js/2.62fb2910.chunk.js",
+    "static/js/3.413e9b77.chunk.js": "/static/js/3.413e9b77.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.c4df176f.chunk.js.LICENSE.txt": "/static/js/2.c4df176f.chunk.js.LICENSE.txt",
+    "static/js/2.62fb2910.chunk.js.LICENSE.txt": "/static/js/2.62fb2910.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/slogan.bd241807.png",
+    "static/media/Skycity1a.b928a2ae.png": "/static/media/Skycity1a.b928a2ae.png",
     "static/media/bg01.8693ff3d.png": "/static/media/bg01.8693ff3d.png",
     "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
     "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a465edb.js",
-    "static/css/2.32e8a01c.chunk.css",
-    "static/js/2.c4df176f.chunk.js",
-    "static/css/main.0d9916f3.chunk.css",
-    "static/js/main.11bc1747.chunk.js"
+    "static/js/runtime-main.54e47a2b.js",
+    "static/css/2.6c6c4bea.chunk.css",
+    "static/js/2.62fb2910.chunk.js",
+    "static/css/main.2779108c.chunk.css",
+    "static/js/main.6773d970.chunk.js"
   ]
 }

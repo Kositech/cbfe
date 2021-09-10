@@ -5,6 +5,8 @@ import variable from '../helpers/variable'
 function SideMenu(props) {
     var burgerButtonClassName = (typeof(burgerButtonClassName) !== "undefined") ? props.burgerButtonClassName : ""
 
+    // console.log("burgerButtonClassName ", burgerButtonClassName)
+
     const [isOpen, setIsOpen] = useState(false)
 
     const renderSubMenu = (submenu) => {

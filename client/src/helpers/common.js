@@ -6,6 +6,21 @@ function debug(name = "", value = "") {
     }
 }
 
+function objArrayToDropdownObject(objs, keys = [], targetKeys = ['key', 'value', 'text']){
+    let output = []
+
+    objs.map(function(obj, i){
+        let newObj = {...obj};
+        keys.map(function(key, j){
+            newObj[targetKeys[j]] = obj[key]
+        })
+
+        output.push(newObj)
+    })
+
+    return output
+}
+
 function searchArrayObject(nameKey, props, myArray){
     for (var i=0; i < myArray.length; i++) {
         if (myArray[i][props] === nameKey) {
@@ -98,5 +113,6 @@ export {
     currencyFormat,
     routesFilterPath,
     arrayGroupBy,
-    countDecimals
+    countDecimals,
+    objArrayToDropdownObject
 }
