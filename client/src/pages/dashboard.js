@@ -56,7 +56,7 @@ function Dashboard(props) {
                 burgerButtonClassName="cb-menu-bth-sm"
             >
             </SideMenu>
-            <div id="page-wrap" className="cb-dashboard pt-4 pl-5 pr-5 pb-4 mt-1">
+            <div id="page-wrap" className="cb-page-wrap cb-dashboard pt-4 pl-5 pr-5 pb-4 mt-1">
                 <NavTop showIcon={true} />
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">
@@ -196,7 +196,7 @@ function Dashboard(props) {
                                                     <div className="bold font-xm deep-dark">
                                                         {a.announcement}
                                                     </div>
-                                                    <div className="font-s gray">{a.date}</div>
+                                                    <div className="font-s gray announcement-carousel-date">{a.date}</div>
                                                 </div>
                                             )
                                         })
@@ -244,7 +244,7 @@ function Dashboard(props) {
                                                                 <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
                                                                 <ViewLabelBox
                                                                     data={variable.LABEL_BOX_2}
-                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                    className="w-100 p-2 box-bg box-fire-bg"
                                                                 >
                                                                 </ViewLabelBox>
                                                             </div>
@@ -254,7 +254,7 @@ function Dashboard(props) {
                                                                 <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
                                                                 <ViewLabelBox
                                                                     data={variable.LABEL_BOX_3}
-                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                    className="w-100 p-2 box-bg box-wall-bg"
                                                                 >
                                                                 </ViewLabelBox>
                                                             </div>

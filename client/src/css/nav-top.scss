@@ -1,26 +1,27 @@
-.nav-top{
+.nav-top {
     right: 0;
-    top: 0;
-    .nav-top-menu{
+    top  : 0;
+
+    .nav-top-menu {
         max-width: 353px;
-        flex: 0 0 353px;
+        flex     : 0 0 353px;
     }
-    .ui.selection.nav-top-dropdown{
-        border:none;
+
+    .ui.selection.nav-top-dropdown {
+        border       : none;
         border-radius: 0;
-        display: flex;
-        align-items: center;
-        box-shadow: none;
-        >.dropdown.icon{
-        }
-        >.menu{
-            
-        }
+        display      : flex;
+        align-items  : center;
+        box-shadow   : none;
+
+        >.dropdown.icon {}
+
+        >.menu {}
     }
 }
 
-.nav-top-menu{
-    .nav-top-menu-item:hover{
+.nav-top-menu {
+    .nav-top-menu-item:hover {
         background-color: var(--main-dartmouth-green)
     }
 }

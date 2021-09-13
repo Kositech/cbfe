@@ -1,117 +1,128 @@
-.cb-menu-cross-btn{
+.cb-menu-cross-btn {
   display: none;
 }
-.bm-menu.cb-menu{
-  padding:0;
+
+.bm-menu.cb-menu {
+  padding   : 0;
   background: white;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);  
-  .cb-menu-overlay{
-    top: 0;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+
+  .cb-menu-overlay {
+      top: 0;
   }
-  .cb-menu-header{
-    padding: 12px 11px 24px;
+
+  .cb-menu-header {
+      padding: 12px 11px 24px;
   }
-  .cb-menu-item-list{
-    padding: 0;
-    ul, li{
-      list-style-type:none;
-    }
-    >ul{      
+
+  .cb-menu-item-list {
       padding: 0;
-      >li{
-        >a{
-          padding: 14px 12px;
-          background: rgba(33, 33, 33, 0.08);
-        }
-        ul{
-          padding: 0;
-        }
+
+      ul,
+      li {
+          list-style-type: none;
       }
-    }
+
+      >ul {
+          padding: 0;
+
+          >li {
+              >a {
+                  padding   : 14px 12px;
+                  background: rgba(33, 33, 33, 0.08);
+              }
+
+              ul {
+                  padding: 0;
+              }
+          }
+      }
   }
-  .cb-menu-footer{
-    padding: 12px 11px;
+
+  .cb-menu-footer {
+      padding: 12px 11px;
   }
 }
+
 /* Position and sizing of burger button */
 .bm-burger-button {
-    position: absolute;
-    width: 52px;
-    height: 52px;
-    left: 20px;
-    top: 20px;
-    background: var(--main-nature-green);
-    padding: 7px;
-    border-radius: 50%;
+  position     : absolute;
+  width        : 52px;
+  height       : 52px;
+  left         : 20px;
+  top          : 20px;
+  background   : var(--main-nature-green);
+  padding      : 7px;
+  border-radius: 50%;
 
-    >span{
-        position: absolute;
-        width: 26px;
-        height: 20px;
-        top: 16px;
-        left: 13px;
-    }
+  >span {
+      position: absolute;
+      width   : 26px;
+      height  : 20px;
+      top     : 16px;
+      left    : 13px;
   }
-  
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: white;
-  }
-  
-  /* Color/shape of burger icon bars on hover*/
-  .bm-burger-bars-hover {
-    background: white;
-  }
-  
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
-    height: 24px;
-    width: 24px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #bdc3c7;
-  }
-  
-  /*
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width : 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
   Sidebar wrapper styles
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
-  .bm-menu-wrap {
-    position: fixed;
-    height: 100%;
-    left:0;
-    top: 0;
-  }
-  
-  /* General sidebar styles */
-  .bm-menu {
-    background: #373a47;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
-  }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-  
-  /* Wrapper for item list */
-  .bm-item-list {
-    color: #b8b7ad;
-    padding: 0.8em;
-  }
-  
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
+.bm-menu-wrap {
+  position: fixed;
+  height  : 100%;
+  left    : 0;
+  top     : 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding   : 2.5em 1.5em 0;
+  font-size : 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color  : #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
 
 //   .cb-menu-bth{
 //       display: none;

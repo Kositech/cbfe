@@ -1,81 +1,97 @@
 /* md to lg */
-@media only screen and (min-width: 769px) and (max-width: 992px){
-    
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .nav-top {}
 }
 
 /* sm to md */
 // @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-@media only screen and (min-width: 320px) and (max-width: 768px){
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+    /* Common */
+    .cb-page-wrap {
+        padding-left : 0px !important;
+        padding-right: 0px !important;
+    }
+
+    /* Common end */
+
     /* login */
-    .slogan, .logo{
-        width: 100%;
-        margin: 8px auto !important;
+    .slogan,
+    .logo {
+        width          : 100%;
+        margin         : 8px auto !important;
         background-size: contain;
     }
 
-    .download-wrap, .login-box{
-        width: 100%;
+    .download-wrap,
+    .login-box {
+        width    : 100%;
         max-width: 440px;
     }
 
-    .download-wrap{
-        align-items: center !important;
+    .download-wrap {
+        align-items   : center !important;
         flex-direction: column;
     }
 
-    .download-wrap >div{
+    .download-wrap>div {
         margin-bottom: 10px;
     }
 
-    .login-header{
+    .login-header {
         padding-bottom: 10px;
     }
 
-    .login-content{
+    .login-content {
         padding-bottom: 50px;
 
-        .slogan-text1{
+        .slogan-text1 {
             font-size: 20px;
         }
 
-        .slogan-text2{
+        .slogan-text2 {
             font-size: 50px;
         }
     }
+
     /* login end */
 
     /* project select */
-    .project-select{
-        .project-select-box{
+    .project-select {
+        .project-select-box {
             margin-bottom: 30px;
         }
-        .project-select-header{
+
+        .project-select-header {
             margin-bottom: 30px;
         }
-        .project-select-dropdown{
+
+        .project-select-dropdown {
             margin-bottom: 30px;
         }
     }
+
     /* project select end */
 
     /* Nav Top */
-    .nav-top{
+    .nav-top {
         transform: translate3d(0, -100%, 0px);
-        display: block;
-        top: -125px;
-        opacity: 0;
+        display  : block;
+        top      : -125px;
+        opacity  : 0;
     }
+
     /* Nav Top End */
 
-    .footer-menu-wrap{
+    .footer-menu-wrap {
         padding-bottom: 56px;
     }
 
-    .footer-menu{
+    .footer-menu {
         transform: none;
-        bottom: 0;
-        opacity: 1;
-        display: block;
-        z-index: 1000;
+        bottom   : 0;
+        opacity  : 1;
+        display  : block;
+        z-index  : 1000;
     }
 }

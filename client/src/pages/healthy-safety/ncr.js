@@ -72,7 +72,7 @@ function NCR(props) {
             <SideMenu
                 burgerButtonClassName="cb-menu-bth-sm"
             ></SideMenu>
-            <div id="page-wrap" className="cb-ncr pt-4 pl-5 pr-5 pb-4 mt-1">
+            <div id="page-wrap" className="cb-page-wrap cb-ncr pt-4 pl-5 pr-5 pb-4 mt-1">
                 <NavTop showIcon={true} />
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">

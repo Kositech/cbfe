@@ -63,6 +63,7 @@
 
 .info-icon {
     width              : 35.25px;
+    flex               : 0 0 35.25px;
     height             : 34px;
     background-image   : url('../assets/ic_info-circle.png');
     background-position: center;
@@ -70,11 +71,11 @@
     background-repeat  : no-repeat;
 }
 
-.temperature-icon{
-    width: 50px;
-    height: 50px;
-    flex: 0 0 50px;
-    background-image: url('../assets/ic_temp.png');
+.temperature-icon {
+    width              : 50px;
+    height             : 50px;
+    flex               : 0 0 50px;
+    background-image   : url('../assets/ic_temp.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
@@ -89,50 +90,50 @@
     background-repeat  : no-repeat;
 }
 
-.ear-icon{
-    width: 50px;
-    height: 50px;
-    flex: 0 0 50px;
-    background-image: url('../assets/ic_ear-outline.png');
+.ear-icon {
+    width              : 50px;
+    height             : 50px;
+    flex               : 0 0 50px;
+    background-image   : url('../assets/ic_ear-outline.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
 }
 
-.face-mask-icon{
-    width: 50px;
-    height: 50px;
-    flex: 0 0 50px;
-    background-image: url('../assets/ic_face-mask-outline.png');
+.face-mask-icon {
+    width              : 50px;
+    height             : 50px;
+    flex               : 0 0 50px;
+    background-image   : url('../assets/ic_face-mask-outline.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
 }
 
-.gateway-in-icon{
-    width: 83px;
-    height: 83px;
-    flex: 0 0 83px;
-    background-image: url('../assets/ic_gateway-in.png');
+.gateway-in-icon {
+    width              : 83px;
+    height             : 83px;
+    flex               : 0 0 83px;
+    background-image   : url('../assets/ic_gateway-in.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
 }
 
-.gateway-out-icon{
-    width: 83px;
-    height: 83px;
-    flex: 0 0 83px;
-    background-image: url('../assets/ic_gateway-out.png');
+.gateway-out-icon {
+    width              : 83px;
+    height             : 83px;
+    flex               : 0 0 83px;
+    background-image   : url('../assets/ic_gateway-out.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
 }
 
-.worker-icon{
-    width: 35px;
-    height: 35px;
-    background-image: url('../assets/ic_worker-outline.png');
+.worker-icon {
+    width              : 35px;
+    height             : 35px;
+    background-image   : url('../assets/ic_worker-outline.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
@@ -165,43 +166,55 @@
 }
 
 .tree-icon {
-    width: 34px;
-    height: 34px;
-    background-image: url('../assets/ic_tree.png');
+    width              : 34px;
+    height             : 34px;
+    background-image   : url('../assets/ic_tree.png');
     background-repeat  : no-repeat;
     background-size    : auto;
     background-position: center;
 }
 
-.door-left-icon{
-    width: 34px;
-    height: 34px;
-    background-image: url('../assets/ic_door-left.png');
-    background-repeat: no-repeat;
-    background-size: auto;
+.door-left-icon {
+    width              : 34px;
+    height             : 34px;
+    background-image   : url('../assets/ic_door-left.png');
+    background-repeat  : no-repeat;
+    background-size    : auto;
     background-position: center;
 }
 
-.box-bg{
+.box-bg {
     background-repeat: no-repeat;
 }
 
-.box-vector-bg{
-    background-image: url('../assets/vector.png');
+.box-vector-bg {
+    background-image   : url('../assets/vector.png');
     background-position: calc(100%) calc(100% + 20px);
-    background-size: 86px 74px;
+    background-size    : 86px 74px;
 }
 
-.user-icon{
-    width: 42px;
-    height: 42px;
-    background-image: url('../assets/ic_feather-user.png');
-    background-repeat: no-repeat;
-    background-size: 35px 35px;
+.box-fire-bg {
+    background-image   : url('../assets/fire.png');
+    background-position: calc(100%) calc(100% + 20px);
+    background-size    : 86px 74px;
+}
+
+.box-wall-bg {
+    background-image   : url('../assets/wall.png');
+    background-position: calc(100%) calc(100% + 20px);
+    background-size    : 86px 74px;
+}
+
+.user-icon {
+    width              : 42px;
+    height             : 42px;
+    background-image   : url('../assets/ic_feather-user.png');
+    background-repeat  : no-repeat;
+    background-size    : 35px 35px;
     background-position: center;
-    background-color: var(--main-nature-green);
-    padding: 7px;
-    border-radius: 50%;
+    background-color   : var(--main-nature-green);
+    padding            : 7px;
+    border-radius      : 50%;
 }
 
 /*** Nav Tab ***/
