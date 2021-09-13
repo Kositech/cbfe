@@ -4,6 +4,8 @@ import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { NCRPeriodChart } from '../helpers/charts/ncr-chart'
+import Chart from "react-apexcharts";
 import SideMenu from '../menu/side-menu';
 import variable from '../helpers/variable';
 import ViewWrapper from '../components/view-wrapper'
@@ -16,12 +18,21 @@ import ViewLabelBox from '../components/view-label-box';
 import skycityImg from '../assets/Skycity1a.png'
 import ViewContentLabel from '../components/view-content-label';
 
-
 import dummy from '../helpers/dummy';
+
 
 function Dashboard(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
+
+    const [ncrPeriodChart, setNCRPeriodChart] = useState(NCRPeriodChart(
+        [{
+            data: [21, 8, 6, 5, 4, 3, 2, 1, 1, 1, 1], name: "本週期"
+        }, {
+            data: [34, 11, 6, 3, 6, 3, 11, 2, 1, 0, 0], name: "上週期"
+        }],
+        ["01. 下墮防護", "05. 電力", "06. 機器設備", "15. 個人防護裝備", "03. 危險品", "04. 廢料處理", "07. 物料堆放", "13. 焊接/氣體火焰切割", "09. 防火", "14. 出入口", "26. 其他"]
+    ))
 
     const renderSummary = (label, value) => {
         return (
@@ -182,10 +193,10 @@ function Dashboard(props) {
                                         dummy.announcement.map(function (a, i) {
                                             return (
                                                 <div className="d-flex justify-content-between align-items-center">
-                                                    <div className="bold font-20">
+                                                    <div className="bold font-xm deep-dark">
                                                         {a.announcement}
                                                     </div>
-                                                    <div className="font-s">{a.date}</div>
+                                                    <div className="font-s gray">{a.date}</div>
                                                 </div>
                                             )
                                         })
@@ -215,68 +226,85 @@ function Dashboard(props) {
                                     </div>
                                 </Col>
                                 <Col md={12} lg={8} className="mb-3">
-                                    <div className="border-gray p-3 mb-3">
-                                        <Carousel
-                                            autoPlay={true}
-                                            showArrows={true}
-                                            infiniteLoop={true}
-                                            showStatus={false}
-                                            showThumbs={false}
-                                            showIndicators={false}
-                                            className="cb-carousel"
-                                        >
-                                            <div className="pb-2">
-                                                <Row>
-                                                    <Col>
-                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
-                                                            <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
-                                                            <ViewLabelBox
-                                                                data={variable.LABEL_BOX_2}
-                                                                className="w-100 p-2 box-bg box-vector-bg"
-                                                            >
-                                                            </ViewLabelBox>
-                                                        </div>
-                                                    </Col>
-                                                    <Col>
-                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
-                                                            <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
-                                                            <ViewLabelBox
-                                                                data={variable.LABEL_BOX_3}
-                                                                className="w-100 p-2 box-bg box-vector-bg"
-                                                            >
-                                                            </ViewLabelBox>
-                                                        </div>
-                                                    </Col>
-                                                </Row>
-                                            </div>
-                                            <div className="pb-2">
-                                                <Row>
-                                                    <Col>
-                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
-                                                            <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
-                                                            <ViewLabelBox
-                                                                data={variable.LABEL_BOX_2}
-                                                                className="w-100 p-2 box-bg box-vector-bg"
-                                                            >
-                                                            </ViewLabelBox>
-                                                        </div>
-                                                    </Col>
-                                                    <Col>
-                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
-                                                            <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
-                                                            <ViewLabelBox
-                                                                data={variable.LABEL_BOX_3}
-                                                                className="w-100 p-2 box-bg box-vector-bg"
-                                                            >
-                                                            </ViewLabelBox>
-                                                        </div>
-                                                    </Col>
-                                                </Row>
-                                            </div>
-                                        </Carousel>
+                                    <div className="pr-2">
+                                        <div className="border-gray p-3 mb-3">
+                                            <Carousel
+                                                autoPlay={true}
+                                                showArrows={true}
+                                                infiniteLoop={true}
+                                                showStatus={false}
+                                                showThumbs={false}
+                                                showIndicators={false}
+                                                className="cb-carousel"
+                                            >
+                                                <div className="pb-2">
+                                                    <Row>
+                                                        <Col>
+                                                            <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                                <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
+                                                                <ViewLabelBox
+                                                                    data={variable.LABEL_BOX_2}
+                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                >
+                                                                </ViewLabelBox>
+                                                            </div>
+                                                        </Col>
+                                                        <Col>
+                                                            <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                                <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
+                                                                <ViewLabelBox
+                                                                    data={variable.LABEL_BOX_3}
+                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                >
+                                                                </ViewLabelBox>
+                                                            </div>
+                                                        </Col>
+                                                    </Row>
+                                                </div>
+                                                <div className="pb-2">
+                                                    <Row>
+                                                        <Col>
+                                                            <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                                <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
+                                                                <ViewLabelBox
+                                                                    data={variable.LABEL_BOX_2}
+                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                >
+                                                                </ViewLabelBox>
+                                                            </div>
+                                                        </Col>
+                                                        <Col>
+                                                            <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                                <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
+                                                                <ViewLabelBox
+                                                                    data={variable.LABEL_BOX_3}
+                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                >
+                                                                </ViewLabelBox>
+                                                            </div>
+                                                        </Col>
+                                                    </Row>
+                                                </div>
+                                            </Carousel>
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>
+                            <div className="px-2">
+                                <div className="border-gray p-3 mb-3">
+                                    <div className="bold deep-dark font-xm">{t('8月累計NCR')}</div>
+                                    <Row>
+                                        <Col>
+                                            <Chart
+                                                options={ncrPeriodChart.options}
+                                                series={ncrPeriodChart.series}
+                                                height='487'
+                                                type="bar"
+                                            />
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </div>
                         </ViewShadowBox>
                     </Col>
                 </Row>

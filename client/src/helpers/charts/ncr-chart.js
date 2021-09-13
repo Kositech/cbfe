@@ -1,3 +1,53 @@
+function NCRPeriodChart(series, xcategoires) {
+    return {
+        series: series,
+        options: {
+            colors: ['#00509d', '#fdc500'],
+            chart: {
+              type: 'bar',
+              height: 450
+            },
+            plotOptions: {
+              bar: {
+                horizontal: true,
+                dataLabels: {
+                  position: 'top',
+                },
+                barHeight: '90%',
+              }
+            },
+            dataLabels: {
+              enabled: true,
+              offsetX: -6,
+              style: {
+                fontSize: '15px',
+                colors: ['#fff'],
+              },
+              dropShadow: {
+                  enabled: true,
+                  top: 1,
+                  left: 1,
+                  blur: 1,
+                  color: '#000',
+                  opacity: 0.7
+              }
+            },
+            stroke: {
+              show: true,
+              width: 1,
+              colors: ['#fff']
+            },
+            tooltip: {
+              shared: true,
+              intersect: false
+            },
+            xaxis: {
+                categories: xcategoires,
+            },
+        }
+    }
+}
+
 function NCRChart(series, xcategoires) {
 
     return {
@@ -18,7 +68,7 @@ function NCRChart(series, xcategoires) {
                 text: "承判商NC數目",
                 align: 'left',
                 offsetX: 0,
-                style:{
+                style: {
                     fontSize: '25px'
                 }
             },
@@ -121,5 +171,6 @@ function NCRChart(series, xcategoires) {
 }
 
 export {
-    NCRChart
+    NCRChart,
+    NCRPeriodChart
 }
