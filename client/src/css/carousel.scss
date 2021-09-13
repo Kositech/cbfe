@@ -1,0 +1,73 @@
+.announcement-carousel{
+    width: calc(100% - 30px);
+    position: relative;
+    .carousel.carousel-slider{
+        overflow: revert;
+        .control-arrow{
+            opacity: 1;
+            &::before{
+                display: none;
+            }
+        }
+        .control-prev{
+            right: -30px;
+            left: auto;
+            top: -25px;
+            width: 24px;
+            height: 24px;
+            background: transparent;
+            background-image: url('../assets/ic_down-circle.png');
+            background-position: center;
+            background-size    : cover;
+            background-repeat  : no-repeat;
+            transform: rotate(90deg);
+        }
+        .control-next{
+            right: -30px;
+            left: auto;
+            top: auto;
+            bottom: 0px;
+            width: 24px;
+            height: 24px;
+            background: transparent;
+            background-image: url('../assets/ic_down-circle.png');
+            background-position: center;
+            background-size    : cover;
+            background-repeat  : no-repeat;
+            transform: rotate(-90deg);
+        }
+    }
+}
+
+.cb-carousel{
+    .carousel.carousel-slider{
+        padding: 0 25px;
+        .control-arrow{
+            opacity: 1;
+            &::before{
+                display: none;
+            }
+        }
+        .control-prev{
+            top: calc(50% - 12px);
+            width: 24px;
+            height: 24px;
+            background: transparent;
+            background-image: url('../assets/ic_down-circle.png');
+            background-position: center;
+            background-size    : cover;
+            background-repeat  : no-repeat;
+        }
+        .control-next{
+            top: calc(50% - 12px);
+            width: 24px;
+            height: 24px;
+            background: transparent;
+            background-image: url('../assets/ic_down-circle.png');
+            background-position: center;
+            background-size    : cover;
+            background-repeat  : no-repeat;
+            transform: rotate(-180deg);
+        }
+    }
+}

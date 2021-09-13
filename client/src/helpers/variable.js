@@ -48,11 +48,31 @@ const NCR_MENU = [
     {name: "Iot", link: "/healthy-safety/iot", className: "cb-ncr-menu-icon cb-iot-icon"},
 ]
 
+const LABEL_BOX_1 = [
+    {label: "Submitted", value: 250 },
+    {label: "Approved", value: 212 },
+]
+
+const LABEL_BOX_2 = [
+    {label: "Submitted", value: 45 },
+    {label: "Approved", value: 40 },
+]
+
+const LABEL_BOX_3 = [
+    {label: "Submitted", value: 30 },
+    {label: "Approved", value: 18 },
+]
+
 export default {
     RESPONSIVE_WIDTH,
     LANGUAGE,
     DOWNLOAD_LINK,
     SIDE_MENU,
     NAV_TAB,
-    NCR_MENU
+    NCR_MENU,
+
+
+    LABEL_BOX_1,
+    LABEL_BOX_2,
+    LABEL_BOX_3
 }

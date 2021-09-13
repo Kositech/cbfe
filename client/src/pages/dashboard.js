@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SideMenu from '../menu/side-menu';
 import variable from '../helpers/variable';
 import ViewWrapper from '../components/view-wrapper'
@@ -10,9 +12,12 @@ import NavTop from '../components/nav-top';
 import DateClock from '../components/date-clock'
 import ViewShadowBox from '../components/view-shadowbox';
 import ResponsiveFooterMenu from '../components/responsive-footer-menu';
-
+import ViewLabelBox from '../components/view-label-box';
 import skycityImg from '../assets/Skycity1a.png'
 import ViewContentLabel from '../components/view-content-label';
+
+
+import dummy from '../helpers/dummy';
 
 function Dashboard(props) {
     let history = useHistory()
@@ -54,8 +59,8 @@ function Dashboard(props) {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} md={4} >
-                        <ViewShadowBox 
+                    <Col sm={12} md={5} >
+                        <ViewShadowBox
                             className="p-2 mb-3"
                         >
                             <ViewContent
@@ -82,26 +87,197 @@ function Dashboard(props) {
                             </ViewContent>
                         </ViewShadowBox>
                         <Row>
-                            <Col sm={12} md={6}>
+                            <Col md={12} lg={6} className="mb-3">
                                 <ViewShadowBox >
                                     <ViewContent
-                                        css="d-flex justify-content-start align-items-center mb-2 px-2"
+                                        css="d-flex justify-content-start align-items-center flex-column mb-2 px-2"
                                     >
-                                        <ViewContentLabel
-                                            icon="tree-icon"
-                                            label={t('Enviro')}
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100 mb-4"
                                         >
-                                        </ViewContentLabel>
+                                            <ViewContentLabel
+                                                icon="tree-icon"
+                                                label={t('Enviro')}
+                                            >
+                                            </ViewContentLabel>
+                                        </ViewContent>
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100 mb-3 pb-1"
+                                        >
+                                            <div className="temperature-icon"></div>
+                                            <div className="bold font-l w-100 text-center">28 &deg;C</div>
+                                        </ViewContent>
+                                        <div className="index-border-lv index-border-lv-1 mb-4 w-100"></div>
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100 mb-3 pb-1"
+                                        >
+                                            <div className="ear-icon"></div>
+                                            <div className="bold font-l w-100 text-center">45dB</div>
+                                        </ViewContent>
+                                        <div className="index-border-lv index-border-lv-2 mb-4 w-100"></div>
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100 mb-3 pb-1"
+                                        >
+                                            <div className="face-mask-icon"></div>
+                                            <div className="bold font-l w-100 text-center">5(偏差)</div>
+                                        </ViewContent>
+                                        <div className="index-border-lv index-border-lv-3 mb-4 w-100"></div>
                                     </ViewContent>
                                 </ViewShadowBox>
                             </Col>
-                            <Col sm={12} md={6}>
-
+                            <Col md={12} lg={6} className="mb-3">
+                                <ViewShadowBox className="h-100 p-2">
+                                    <ViewContent
+                                        css="d-flex justify-content-start align-items-start flex-column mb-2 px-2"
+                                    >
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100"
+                                        >
+                                            <ViewContentLabel
+                                                icon="door-left-icon"
+                                                label={t('即日出入閘')}
+                                            >
+                                            </ViewContentLabel>
+                                        </ViewContent>
+                                    </ViewContent>
+                                    <ViewContent
+                                        css="d-flex justify-content-center align-items-center flex-column mb-2 px-2 gateway-box"
+                                    >
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100"
+                                        >
+                                            <div className="gateway-in-icon"></div>
+                                            <div className="bold font-48 text-center w-100">128</div>
+                                        </ViewContent>
+                                        <ViewContent
+                                            css="d-flex justify-content-start align-items-center w-100"
+                                        >
+                                            <div className="gateway-out-icon"></div>
+                                            <div className="bold font-48 text-center w-100">26</div>
+                                        </ViewContent>
+                                    </ViewContent>
+                                </ViewShadowBox>
                             </Col>
                         </Row>
                     </Col>
-                    <Col sm={12} md={8} >
-
+                    <Col sm={12} md={7} >
+                        <ViewShadowBox
+                            className="p-2 mb-3"
+                        >
+                            <ViewContent
+                                css="d-flex flex-column justify-content-start align-items-start"
+                            >
+                                <div className="font-xm bold deep-dark">{t('Announcement')}:</div>
+                                <Carousel
+                                    autoPlay={true}
+                                    showArrows={true}
+                                    infiniteLoop={true}
+                                    showStatus={false}
+                                    showThumbs={false}
+                                    showIndicators={false}
+                                    className="announcement-carousel"
+                                    axis="vertical"
+                                >
+                                    {
+                                        dummy.announcement.map(function (a, i) {
+                                            return (
+                                                <div className="d-flex justify-content-between align-items-center">
+                                                    <div className="bold font-20">
+                                                        {a.announcement}
+                                                    </div>
+                                                    <div className="font-s">{a.date}</div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </Carousel>
+                            </ViewContent>
+                        </ViewShadowBox>
+                        <ViewShadowBox>
+                            <ViewContent
+                                css="d-flex justify-content-start align-items-center mb-3"
+                            >
+                                <ViewContentLabel
+                                    icon="worker-icon"
+                                    label={t('PTW_and_NCR')}
+                                >
+                                </ViewContentLabel>
+                            </ViewContent>
+                            <Row>
+                                <Col md={12} lg={4} className="mb-3">
+                                    <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                        <div className="bold font-xm gray mb-2 pb-1">{t('即日工作')}</div>
+                                        <ViewLabelBox
+                                            data={variable.LABEL_BOX_1}
+                                            className="w-100 p-2 box-bg box-vector-bg"
+                                        >
+                                        </ViewLabelBox>
+                                    </div>
+                                </Col>
+                                <Col md={12} lg={8} className="mb-3">
+                                    <div className="border-gray p-3 mb-3">
+                                        <Carousel
+                                            autoPlay={true}
+                                            showArrows={true}
+                                            infiniteLoop={true}
+                                            showStatus={false}
+                                            showThumbs={false}
+                                            showIndicators={false}
+                                            className="cb-carousel"
+                                        >
+                                            <div className="pb-2">
+                                                <Row>
+                                                    <Col>
+                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                            <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
+                                                            <ViewLabelBox
+                                                                data={variable.LABEL_BOX_2}
+                                                                className="w-100 p-2 box-bg box-vector-bg"
+                                                            >
+                                                            </ViewLabelBox>
+                                                        </div>
+                                                    </Col>
+                                                    <Col>
+                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                            <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
+                                                            <ViewLabelBox
+                                                                data={variable.LABEL_BOX_3}
+                                                                className="w-100 p-2 box-bg box-vector-bg"
+                                                            >
+                                                            </ViewLabelBox>
+                                                        </div>
+                                                    </Col>
+                                                </Row>
+                                            </div>
+                                            <div className="pb-2">
+                                                <Row>
+                                                    <Col>
+                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                            <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
+                                                            <ViewLabelBox
+                                                                data={variable.LABEL_BOX_2}
+                                                                className="w-100 p-2 box-bg box-vector-bg"
+                                                            >
+                                                            </ViewLabelBox>
+                                                        </div>
+                                                    </Col>
+                                                    <Col>
+                                                        <div className="d-flex flex-column justify-content-start align-items-start px-2">
+                                                            <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
+                                                            <ViewLabelBox
+                                                                data={variable.LABEL_BOX_3}
+                                                                className="w-100 p-2 box-bg box-vector-bg"
+                                                            >
+                                                            </ViewLabelBox>
+                                                        </div>
+                                                    </Col>
+                                                </Row>
+                                            </div>
+                                        </Carousel>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </ViewShadowBox>
                     </Col>
                 </Row>
             </div>

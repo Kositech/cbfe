@@ -19,7 +19,7 @@ function NavTop(props) {
 
     return (
         <ViewContent
-            css="position-fixed d-flex justify-content-end align-items-start nav-top"
+            css="position-absolute d-flex justify-content-end align-items-start nav-top"
         >
             <div className="logo logo-md mt-3 mr-2"></div>
             <div className="slogan slogan-sm mt-3 mr-2"></div>

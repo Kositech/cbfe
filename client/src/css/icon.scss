@@ -70,10 +70,69 @@
     background-repeat  : no-repeat;
 }
 
+.temperature-icon{
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    background-image: url('../assets/ic_temp.png');
+    background-position: center;
+    background-size    : auto;
+    background-repeat  : no-repeat;
+}
+
 .check-icon {
     width              : 16px;
     height             : 16px;
     background-image   : url('../assets/ic_uncheck.png');
+    background-position: center;
+    background-size    : auto;
+    background-repeat  : no-repeat;
+}
+
+.ear-icon{
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    background-image: url('../assets/ic_ear-outline.png');
+    background-position: center;
+    background-size    : auto;
+    background-repeat  : no-repeat;
+}
+
+.face-mask-icon{
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+    background-image: url('../assets/ic_face-mask-outline.png');
+    background-position: center;
+    background-size    : auto;
+    background-repeat  : no-repeat;
+}
+
+.gateway-in-icon{
+    width: 83px;
+    height: 83px;
+    flex: 0 0 83px;
+    background-image: url('../assets/ic_gateway-in.png');
+    background-position: center;
+    background-size    : auto;
+    background-repeat  : no-repeat;
+}
+
+.gateway-out-icon{
+    width: 83px;
+    height: 83px;
+    flex: 0 0 83px;
+    background-image: url('../assets/ic_gateway-out.png');
+    background-position: center;
+    background-size    : auto;
+    background-repeat  : no-repeat;
+}
+
+.worker-icon{
+    width: 35px;
+    height: 35px;
+    background-image: url('../assets/ic_worker-outline.png');
     background-position: center;
     background-size    : auto;
     background-repeat  : no-repeat;
@@ -112,6 +171,25 @@
     background-repeat  : no-repeat;
     background-size    : auto;
     background-position: center;
+}
+
+.door-left-icon{
+    width: 34px;
+    height: 34px;
+    background-image: url('../assets/ic_door-left.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.box-bg{
+    background-repeat: no-repeat;
+}
+
+.box-vector-bg{
+    background-image: url('../assets/vector.png');
+    background-position: calc(100%) calc(100% + 20px);
+    background-size: 86px 74px;
 }
 
 /*** Nav Tab ***/

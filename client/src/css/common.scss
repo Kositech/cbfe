@@ -30,3 +30,23 @@
         color: white;
     }
 }
+
+.index-border-lv{
+    border: 6px solid transparent
+}
+
+.index-border-lv-1{
+    border-color: var(--main-sky-green);
+}
+
+.index-border-lv-2{
+    border-color: var(--main-orange)
+}
+
+.index-border-lv-3{
+    border-color: var(--main-ruby-red)
+}
+
+.gateway-box{
+    height: calc(100% - 45px);
+}

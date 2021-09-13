@@ -95,6 +95,11 @@
   background-color: var(--main-frozen-blue)
 }
 
+.border-gray{
+  border-radius: 12px;
+  border: 1px solid var(--main-gray)
+}
+
 .border-r-n {
   border-radius: 5px;
 }
