@@ -1,9 +1,13 @@
 import { useState } from 'react'
+import { Trans, useTranslation } from 'react-i18next'
+import { useHistory } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu'
 import variable from '../helpers/variable'
 
 function SideMenu(props) {
-    var burgerButtonClassName = (typeof(burgerButtonClassName) !== "undefined") ? props.burgerButtonClassName : ""
+    let history = useHistory()
+    const { t, i18n } = useTranslation();
+    var burgerButtonClassName = (typeof (burgerButtonClassName) !== "undefined") ? props.burgerButtonClassName : ""
 
     // console.log("burgerButtonClassName ", burgerButtonClassName)
 
@@ -18,8 +22,8 @@ function SideMenu(props) {
             }
 
             submenulayout.push(
-                <li>
-                    <a>{sm.name}</a>
+                <li className="pl-4 mb-3">
+                    <a className="d-flex" href={sm.link}>{t(sm.name)}</a>
                     {sub}
                 </li>
             )
@@ -42,8 +46,13 @@ function SideMenu(props) {
             }
 
             layout.push(
-                <li>
-                    <a>{v.name}</a>
+                <li className="lv-1">
+                    <a className="font-n d-flex align-items-center" href={v.link}>{t(v.name)}</a>
+                    {
+                        (typeof (v.description) !== "undefined") ?
+                            (<div className="font-xs pl-3 mb-3">{t(v.description)}</div>) :
+                            (null)
+                    }
                     {sub}
                 </li>
             )
@@ -56,11 +65,29 @@ function SideMenu(props) {
         )
     }
 
+    const renderHeader = () => {
+        return (
+            <div className="cb-menu-header">
+                <div className="user-icon mb-3"></div>
+                <div className="font-xm bold deep-dark">{t('side_menu.Central_Search')}</div>
+                <div className="font-s bold gray">{'CIA, KP, VVMU & GIA'}</div>
+            </div>
+        )
+    }
+
+    const renderFooter = () => {
+        return (
+            <div className="cb-menu-footer">
+                <div className="crystal-ball-logo logo-sm "></div>
+            </div>
+        )
+    }
+
     return (
         <Menu
             pageWrapId={'page-wrap'}
             outerContainerId={'outer-container'}
-            noOverlay
+            // noOverlay
             burgerButtonClassName={"cb-menu-bth " + burgerButtonClassName}
             burgerBarClassName={"cb-menu-bar"}
             crossButtonClassName={"cb-menu-cross-btn"}
@@ -70,8 +97,10 @@ function SideMenu(props) {
             itemListClassName={"cb-menu-item-list"}
             overlayClassName={"cb-menu-overlay"}
         >
+            {renderHeader()}
             {renderMenu()}
             {props.children}
+            {renderFooter()}
         </Menu>
     )
 }

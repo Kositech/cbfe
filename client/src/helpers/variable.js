@@ -16,51 +16,66 @@ const DOWNLOAD_LINK = [
 
 const SIDE_MENU = [
     {
-        name: <Trans i18nKey="side_menu.Central_Search"></Trans>, link: "#",
+        name: "side_menu.CIA",
+        description: "side_menu.CIA_description",
         sub: [
-            {
-                name: <Trans i18nKey="side_menu.CIA"></Trans>,               
-            },
-            {
-                name: <Trans i18nKey="side_menu.Knowledge_Portal"></Trans>, 
-                link: "#",
-                sub: [
-                    {name: "AAAA"},
-                    {name: "BBBB"}
-                ]
-            }
+            { name: 'side_menu.SSF', link: "#" },
+            { name: 'side_menu.TSF', link: "#" },
+            { name: 'side_menu.DCS', link: "#" },
         ]
+    },
+    {
+        name: 'side_menu.Knowledge_Portal',
+        description: 'side_menu.Knowledge_Portal_description',
+        link: "#",
+        sub: [
+            { name: "side_menu.Building_Materials", link: "#" },
+            { name: "side_menu.Design_Reference_Library", link: "#" },
+            { name: "side_menu.Statutory_Updates_Impact_Remarks", link: "#" },
+            { name: "side_menu.Operation_Control_Reference_Systems", link: "#" },
+            { name: "side_menu.Project", link: "#" },
+        ]
+    },
+    {
+        name: 'side_menu.VVMU',
+        link: "#",
+        description: 'side_menu.VVMU_description'
+    },
+    {
+        name: 'side_menu.GIA',
+        link: "#",
+        description: 'side_menu.GIA_description'
     },
 ]
 
 const NAV_TAB = [
-    {name: "nav_tab.Home", link: "/", className: "nav-tab nav-tab-home" },
-    {name: "nav_tab.Safety", link: "/healthy-safety/ncr", className: "nav-tab nav-tab-safety" },
-    {name: "nav_tab.Database", link: "/", className: "nav-tab nav-tab-database" },
-    {name: "nav_tab.VWT", link: "/", className: "nav-tab nav-tab-vwt" },
-    {name: "nav_tab.GIA", link: "/", className: "nav-tab nav-tab-gia" },
+    { name: "nav_tab.Home", link: "/", className: "nav-tab nav-tab-home" },
+    { name: "nav_tab.Safety", link: "/healthy-safety/ncr", className: "nav-tab nav-tab-safety" },
+    { name: "nav_tab.Database", link: "/", className: "nav-tab nav-tab-database" },
+    { name: "nav_tab.VWT", link: "/", className: "nav-tab nav-tab-vwt" },
+    { name: "nav_tab.GIA", link: "/", className: "nav-tab nav-tab-gia" },
 ]
 
 const NCR_MENU = [
-    {name: "PTW", link: "/healthy-safety/ptw", className: "cb-ncr-menu-icon cb-checklist-icon"},
-    {name: "NCR", link: "/healthy-safety/ncr", className: "cb-ncr-menu-icon cb-checklist-icon"},
-    {name: "Gate_Access", link: "/healthy-safety/gate-access", className: "cb-ncr-menu-icon cb-arrow-exchange-icon"},
-    {name: "Iot", link: "/healthy-safety/iot", className: "cb-ncr-menu-icon cb-iot-icon"},
+    { name: "PTW", link: "/healthy-safety/ptw", className: "cb-ncr-menu-icon cb-checklist-icon" },
+    { name: "NCR", link: "/healthy-safety/ncr", className: "cb-ncr-menu-icon cb-checklist-icon" },
+    { name: "Gate_Access", link: "/healthy-safety/gate-access", className: "cb-ncr-menu-icon cb-arrow-exchange-icon" },
+    { name: "Iot", link: "/healthy-safety/iot", className: "cb-ncr-menu-icon cb-iot-icon" },
 ]
 
 const LABEL_BOX_1 = [
-    {label: "Submitted", value: 250 },
-    {label: "Approved", value: 212 },
+    { label: "Submitted", value: 250 },
+    { label: "Approved", value: 212 },
 ]
 
 const LABEL_BOX_2 = [
-    {label: "Submitted", value: 45 },
-    {label: "Approved", value: 40 },
+    { label: "Submitted", value: 45 },
+    { label: "Approved", value: 40 },
 ]
 
 const LABEL_BOX_3 = [
-    {label: "Submitted", value: 30 },
-    {label: "Approved", value: 18 },
+    { label: "Submitted", value: 30 },
+    { label: "Approved", value: 18 },
 ]
 
 export default {

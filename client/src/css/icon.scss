@@ -44,7 +44,7 @@
 }
 
 .cb-user-profile {
-    background-image   : url('../assets/feather_user.png');
+    background-image   : url('../assets/ic_feather-user.png');
     background-position: center;
     background-size    : cover;
     background-repeat  : no-repeat;
@@ -190,6 +190,18 @@
     background-image: url('../assets/vector.png');
     background-position: calc(100%) calc(100% + 20px);
     background-size: 86px 74px;
+}
+
+.user-icon{
+    width: 42px;
+    height: 42px;
+    background-image: url('../assets/ic_feather-user.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: center;
+    background-color: var(--main-nature-green);
+    padding: 7px;
+    border-radius: 50%;
 }
 
 /*** Nav Tab ***/
