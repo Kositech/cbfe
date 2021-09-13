@@ -82,7 +82,7 @@ function NCR(props) {
                 </Row>
                 <div className="font-28 bold deep-dark mb-3">{t('nav_tab.Safety')}</div>
                 <Row>
-                    <Col className="d-flex justify-content-start align-items-center mt-1 mb-4">
+                    <Col className="d-flex justify-content-start align-items-center mt-1 mb-4 ncr-menu">
                         {
                             variable.NCR_MENU.map(function (v, i) {
                                 let isActive = (v.link == props.match.url) ? "active" : ""
