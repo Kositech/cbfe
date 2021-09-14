@@ -16,6 +16,7 @@ import ResponsiveFooterMenu from '../../components/responsive-footer-menu'
 import DateClock from '../../components/date-clock'
 import ViewShadowBox from '../../components/view-shadowbox';
 import ViewTabs from '../../components/view-tabs';
+import HealthSafetyMenu from '../../menu/health-safety-menu';
 
 import "react-responsive-tabs/styles.css";
 
@@ -80,30 +81,8 @@ function NCR(props) {
                         <div className="crystal-ball-logo logo-sm ml-2"></div>
                     </Col>
                 </Row>
-                <div className="font-28 bold deep-dark mb-3">{t('nav_tab.Safety')}</div>
-                <Row>
-                    <Col className="d-flex justify-content-start align-items-center mt-1 mb-4 ncr-menu">
-                        {
-                            variable.NCR_MENU.map(function (v, i) {
-                                let isActive = (v.link == props.match.url) ? "active" : ""
-                                return (
-                                    <a href={v.link} className="mr-3">
-                                        <ViewShadowBox
-                                            className={"ncr-menu-wrap px-2 " + isActive}
-                                        >
-                                            <ViewContent
-                                                css="d-flex justify-content-center align-items-center"
-                                            >
-                                                <div className={v.className}></div>
-                                                <div className="font-m bold deep-dark pl-2 ncr-menu-name">{t(v.name)}</div>
-                                            </ViewContent>
-                                        </ViewShadowBox>
-                                    </a>
-                                )
-                            })
-                        }
-                    </Col>
-                </Row>
+                <div className="font-28 bold deep-dark mb-3">{t('Health_Safety')}</div>
+                <HealthSafetyMenu {...props}/>
                 <Row>
                     <Col md={7} className="mt-2 mb-4">
                         <DateClock />

@@ -50,17 +50,17 @@ const SIDE_MENU = [
 
 const NAV_TAB = [
     { name: "nav_tab.Home", link: "/", className: "nav-tab nav-tab-home" },
-    { name: "nav_tab.Safety", link: "/healthy-safety/ncr", className: "nav-tab nav-tab-safety" },
+    { name: "nav_tab.Safety", link: "/health-safety", className: "nav-tab nav-tab-safety" },
     { name: "nav_tab.Database", link: "/", className: "nav-tab nav-tab-database" },
     { name: "nav_tab.VWT", link: "/VWT/viewer", className: "nav-tab nav-tab-vwt", target: "_blank" },
     { name: "nav_tab.GIA", link: "/", className: "nav-tab nav-tab-gia" },
 ]
 
 const NCR_MENU = [
-    { name: "PTW", link: "/healthy-safety/ptw", className: "cb-ncr-menu-icon cb-checklist-icon" },
-    { name: "NCR", link: "/healthy-safety/ncr", className: "cb-ncr-menu-icon cb-checklist-icon" },
-    { name: "Gate_Access", link: "/healthy-safety/gate-access", className: "cb-ncr-menu-icon cb-arrow-exchange-icon" },
-    { name: "Iot", link: "/healthy-safety/iot", className: "cb-ncr-menu-icon cb-iot-icon" },
+    { name: "PTW", link: "/health-safety/ptw", className: "cb-ncr-menu-icon cb-checklist-icon" },
+    { name: "NCR", link: "/health-safety/ncr", className: "cb-ncr-menu-icon cb-checklist-icon" },
+    { name: "Gate_Access", link: "/health-safety/gate-access", className: "cb-ncr-menu-icon cb-arrow-exchange-icon" },
+    { name: "Iot", link: "/health-safety/iot", className: "cb-ncr-menu-icon cb-iot-icon" },
 ]
 
 const LABEL_BOX_1 = [
