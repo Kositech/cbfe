@@ -55,10 +55,25 @@
 .cb-notifications-icon {
     width              : 46px;
     height             : 46px;
+    flex: 0 0 46px;
     background-image   : url('../assets/ic_outline-notifications-active.png');
     background-position: center;
     background-size    : contain;
     background-repeat  : no-repeat;
+    position: relative;
+    span{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        background: rgba(255, 0,0,.85);
+        border-radius: 50%;
+        bottom: 0;
+        right: 0;
+        color: white;
+        font-size:80%;
+    }
 }
 
 .info-icon {
@@ -189,20 +204,32 @@
 
 .box-vector-bg {
     background-image   : url('../assets/vector.png');
-    background-position: calc(100%) calc(100% + 20px);
+    background-position: bottom -25px right -3px;
     background-size    : 86px 74px;
 }
 
 .box-fire-bg {
     background-image   : url('../assets/fire.png');
-    background-position: calc(100%) calc(100% + 20px);
-    background-size    : 86px 74px;
+    background-position: bottom -19px right 0px;
+    background-size    : 58px 68px;
 }
 
 .box-wall-bg {
     background-image   : url('../assets/wall.png');
-    background-position: calc(100%) calc(100% + 20px);
-    background-size    : 86px 74px;
+    background-position: bottom -8px right -7px;
+    background-size    : 67px 51px;
+}
+
+.box-stair-bg{
+    background-image   : url('../assets/stair.png');
+    background-position: bottom -12px right 0px;
+    background-size    : 49px 62px;
+}
+
+.box-ceiling-bg{
+    background-image   : url('../assets/ceiling.png');
+    background-position: bottom -4px right -4px;
+    background-size    : 50px 50px;
 }
 
 .user-icon {

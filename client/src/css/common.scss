@@ -51,3 +51,19 @@
 .gateway-box {
     height: calc(100% - 45px);
 }
+
+.gateway-box-content{
+    width: 85px;
+}
+
+.min-width-content{
+    min-width: 85px;
+}
+
+.vwt-iframe-wrap{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 140px;
+    height: calc(100% - 141px);
+}

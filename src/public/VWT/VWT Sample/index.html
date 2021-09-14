@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head xmlns = "http://www.w3.org/1999/xhtml">
+     <title> Virtual WalkThrough(VWT) Floor Plan View </title>
+     <style type = "text/css">
+         #top {
+             width: 100 %;
+             margin: 0;
+             padding: 0;
+             background - color:#000;
+             top: 0;
+             left: 0;
+         }
+
+         #contechpointlogo {
+             margin: 0;
+             padding: 0;
+             background -color:#000;
+             top: 0;
+             right: 0;
+         }
+     </style>
+</head>
+
+<link rel = "stylesheet" href="planviews.css">
+
+<body>
+     <div id = "container">
+         <div id="top">
+             <div id = "vwt_logo">
+                 <img src="img/VWT_logo.JPG" align = left>
+             </div>
+         <div id = "contechpointlogo">
+             <img src = "https://www.contechpoint.com/Home_files/logo_top.png" width = 250 align = right>
+         </div>
+     </div>
+</div>
+<br><br><hr>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+<h3 class="w3-bar-item">Floor Plans</h3>
+         <a href = "#" class="w3-bar-item w3-button" onclick = "Select_Floor_Plan_6F()">6/F</a>
+</div>
+
+<!-- Page Content -->
+<div style = "margin-left:15%">
+     <div class="w3-container">
+         <div id = "PlanView">
+             <img src="img/VWT_background5.jpg" height=900>
+         </div>
+     </div>
+</div>
+
+<script src = "Planviews.js" ></script>
+</body>
+</html>

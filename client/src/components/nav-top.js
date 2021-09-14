@@ -13,9 +13,18 @@ function NavTop(props) {
     let history = useHistory()
     const { t } = useTranslation();
 
+    const [notificationBoxEnable, setNotificationBoxEnable] = useState(false)
+
     useEffect(() => {
         //Fetch notification
     }, [])
+
+    useEffect(() => {
+        // Socket?
+        if(notificationBoxEnable){
+
+        }
+    }, [notificationBoxEnable])
 
     return (
         <ViewContent
@@ -38,7 +47,7 @@ function NavTop(props) {
                             />
                         </div>
                         <div className="cb-notifications-icon mx-4 my-3 pointer">
-
+                            <span>8</span>
                         </div>
                     </Col>
                 </Row>

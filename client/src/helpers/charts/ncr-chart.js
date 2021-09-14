@@ -1,3 +1,35 @@
+function NCRPeriodChartDataReassign(data){
+    let thisMonth = data.thismonth;
+    let previousMonth = data.previousmonth
+
+    let xcategoires = []
+    let thisMonthData = []
+    let previousMonthData = []
+
+    thisMonth.map(function(v, i){
+        xcategoires.push(v.list_type)
+        thisMonthData.push(v.count)
+
+        let check = previousMonth.some((ele) => {
+            if(ele.list_type === v.list_type){
+                previousMonthData.push(ele.count)
+            }
+
+            return ele.list_type === v.list_type
+        })        
+    })
+
+    console.log("thisMonthData ", thisMonthData)
+    console.log("xcategoires ", xcategoires)
+    console.log("previousMonthData ", previousMonthData)
+
+    return {
+        thisMonthData: thisMonthData,
+        xcategoires: xcategoires,
+        previousMonthData: previousMonthData
+    }
+}
+
 function NCRPeriodChart(series, xcategoires) {
     return {
         series: series,
@@ -171,6 +203,7 @@ function NCRChart(series, xcategoires) {
 }
 
 export {
+    NCRPeriodChartDataReassign,
     NCRChart,
     NCRPeriodChart
 }

@@ -22,7 +22,7 @@ function DateClock(props) {
                 {<Trans i18nKey="cb_clock"
                     components={[clock.format('YYYY'),
                     clock.format('M'), clock.format('D'),
-                    clock.locale('zh-HK').format('ddd'), clock.format('HH'),
+                    t('weekdaysShort.' + clock.format('ddd')), clock.format('HH'),
                     clock.format('mm'), clock.format('ss')]}
                 ></Trans>}
             </div>

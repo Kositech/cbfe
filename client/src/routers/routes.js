@@ -5,6 +5,7 @@ import PTW from '../pages/healthy-safety/ptw'
 import NCR from '../pages/healthy-safety/ncr'
 import GateAccess from '../pages/healthy-safety/gate-access'
 import Iot from '../pages/healthy-safety/iot'
+import VWTViewer from '../pages/vwt/vwt-viewer'
 
 export default [
     { path: "/login", name: "", Component: Login, isPrivate: false, exact: true },
@@ -14,4 +15,5 @@ export default [
     { path: "/healthy-safety/ncr", name: "", Component: NCR, isPrivate: false },
     { path: "/healthy-safety/gate-access", name: "", Component: GateAccess, isPrivate: false },
     { path: "/healthy-safety/iot", name: "", Component: Iot, isPrivate: false },
+    { path: "/VWT/viewer", name: "", Component: VWTViewer, isPrivate: false}
 ]

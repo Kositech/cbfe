@@ -16,7 +16,7 @@ function ViewLabelBox(props) {
                                 <div className="font-xm bold deep-dark mb-1">
                                     {t(d.label)}
                                 </div>
-                                <div className="font-xxl bold deep-dark lh-1">
+                                <div className="font-xxl bold deep-dark lh-1-1">
                                     {d.value}
                                 </div>
                             </Col>

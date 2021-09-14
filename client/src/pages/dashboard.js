@@ -3,10 +3,13 @@ import { Trans, useTranslation } from 'react-i18next'
 import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-responsive-carousel';
+import moment from 'moment';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { NCRPeriodChart } from '../helpers/charts/ncr-chart'
+import { NCRPeriodChart, NCRPeriodChartDataReassign } from '../helpers/charts/ncr-chart'
 import Chart from "react-apexcharts";
 import SideMenu from '../menu/side-menu';
+import { _gqlQuery } from '../gql/apolloClient';
+import { ncrTypesCountRecentMonths } from '../gql/ncrGql';
 import variable from '../helpers/variable';
 import ViewWrapper from '../components/view-wrapper'
 import ViewContent from '../components/view-content';
@@ -20,19 +23,42 @@ import ViewContentLabel from '../components/view-content-label';
 
 import dummy from '../helpers/dummy';
 
-
 function Dashboard(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
 
     const [ncrPeriodChart, setNCRPeriodChart] = useState(NCRPeriodChart(
         [{
-            data: [21, 8, 6, 5, 4, 3, 2, 1, 1, 1, 1], name: "本週期"
+            data: [], name: "本週期"
         }, {
-            data: [34, 11, 6, 3, 6, 3, 11, 2, 1, 0, 0], name: "上週期"
+            data: [], name: "上週期"
         }],
-        ["01. 下墮防護", "05. 電力", "06. 機器設備", "15. 個人防護裝備", "03. 危險品", "04. 廢料處理", "07. 物料堆放", "13. 焊接/氣體火焰切割", "09. 防火", "14. 出入口", "26. 其他"]
+        []
     ))
+
+    useEffect(() => {
+        async function fetchData() {
+            let items = await _gqlQuery(ncrTypesCountRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') },)
+
+            if (typeof (items.errors) !== "undefined") {
+
+            } else {
+                console.log("fetchData ", items)
+                let newResult = NCRPeriodChartDataReassign(items.data.ncrTypesCountRecentMonths[0])
+
+                setNCRPeriodChart(NCRPeriodChart(
+                    [{
+                        data: newResult.thisMonthData, name: "本週期"
+                    }, {
+                        data: newResult.previousMonthData, name: "上週期"
+                    }],
+                    newResult.xcategoires
+                ))
+            }
+        }
+
+        fetchData()
+    }, [])
 
     const renderSummary = (label, value) => {
         return (
@@ -49,6 +75,8 @@ function Dashboard(props) {
             </Row>
         )
     }
+
+    console.log("props", ncrPeriodChart)
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
@@ -72,7 +100,7 @@ function Dashboard(props) {
                 <Row>
                     <Col sm={12} md={5} >
                         <ViewShadowBox
-                            className="p-2 mb-3"
+                            className="p-3 mb-3"
                         >
                             <ViewContent
                                 css="d-flex justify-content-start align-items-center mb-2 px-2"
@@ -113,31 +141,31 @@ function Dashboard(props) {
                                             </ViewContentLabel>
                                         </ViewContent>
                                         <ViewContent
-                                            css="d-flex justify-content-start align-items-center w-100 mb-3 pb-1"
+                                            css="d-flex justify-content-center align-items-center w-100 mb-3 pb-1"
                                         >
                                             <div className="temperature-icon"></div>
-                                            <div className="bold font-l w-100 text-center">28 &deg;C</div>
+                                            <div className="bold font-l text-center min-width-content">28 &deg;C</div>
                                         </ViewContent>
                                         <div className="index-border-lv index-border-lv-1 mb-4 w-100"></div>
                                         <ViewContent
-                                            css="d-flex justify-content-start align-items-center w-100 mb-3 pb-1"
+                                            css="d-flex justify-content-center align-items-center w-100 mb-3 pb-1"
                                         >
                                             <div className="ear-icon"></div>
-                                            <div className="bold font-l w-100 text-center">45dB</div>
+                                            <div className="bold font-l text-center min-width-content">45dB</div>
                                         </ViewContent>
                                         <div className="index-border-lv index-border-lv-2 mb-4 w-100"></div>
                                         <ViewContent
-                                            css="d-flex justify-content-start align-items-center w-100 mb-3 pb-1"
+                                            css="d-flex justify-content-center align-items-center w-100 mb-3 pb-1"
                                         >
                                             <div className="face-mask-icon"></div>
-                                            <div className="bold font-l w-100 text-center">5(偏差)</div>
+                                            <div className="bold font-l text-center min-width-content">5(偏差)</div>
                                         </ViewContent>
                                         <div className="index-border-lv index-border-lv-3 mb-4 w-100"></div>
                                     </ViewContent>
                                 </ViewShadowBox>
                             </Col>
                             <Col md={12} lg={6} className="mb-3">
-                                <ViewShadowBox className="h-100 p-2">
+                                <ViewShadowBox className="h-100 p-3">
                                     <ViewContent
                                         css="d-flex justify-content-start align-items-start flex-column mb-2 px-2"
                                     >
@@ -155,16 +183,16 @@ function Dashboard(props) {
                                         css="d-flex justify-content-center align-items-center flex-column mb-2 px-2 gateway-box"
                                     >
                                         <ViewContent
-                                            css="d-flex justify-content-start align-items-center w-100"
+                                            css="d-flex justify-content-center align-items-center w-100"
                                         >
                                             <div className="gateway-in-icon"></div>
-                                            <div className="bold font-48 text-center w-100">128</div>
+                                            <div className="bold font-48 text-center gateway-box-content">128</div>
                                         </ViewContent>
                                         <ViewContent
-                                            css="d-flex justify-content-start align-items-center w-100"
+                                            css="d-flex justify-content-center align-items-center w-100"
                                         >
                                             <div className="gateway-out-icon"></div>
-                                            <div className="bold font-48 text-center w-100">26</div>
+                                            <div className="bold font-48 text-center gateway-box-content">26</div>
                                         </ViewContent>
                                     </ViewContent>
                                 </ViewShadowBox>
@@ -173,12 +201,12 @@ function Dashboard(props) {
                     </Col>
                     <Col sm={12} md={7} >
                         <ViewShadowBox
-                            className="p-2 mb-3"
+                            className="p-3 mb-3"
                         >
                             <ViewContent
                                 css="d-flex flex-column justify-content-start align-items-start"
                             >
-                                <div className="font-xm bold deep-dark">{t('Announcement')}:</div>
+                                <div className="font-xm bold deep-dark mb-2">{t('Announcement')}:</div>
                                 <Carousel
                                     autoPlay={true}
                                     showArrows={true}
@@ -186,14 +214,15 @@ function Dashboard(props) {
                                     showStatus={false}
                                     showThumbs={false}
                                     showIndicators={false}
+                                    dynamicHeight={true}                                    
                                     className="announcement-carousel"
                                     axis="vertical"
                                 >
                                     {
                                         dummy.announcement.map(function (a, i) {
                                             return (
-                                                <div className="d-flex justify-content-between align-items-center">
-                                                    <div className="bold font-xm deep-dark">
+                                                <div className="d-flex justify-content-between align-items-start">
+                                                    <div className="bold font-xm deep-dark text-left">
                                                         {a.announcement}
                                                     </div>
                                                     <div className="font-s gray announcement-carousel-date">{a.date}</div>
@@ -229,7 +258,7 @@ function Dashboard(props) {
                                     <div className="pr-2">
                                         <div className="border-gray p-3 mb-3">
                                             <Carousel
-                                                autoPlay={true}
+                                                autoPlay={false}
                                                 showArrows={true}
                                                 infiniteLoop={true}
                                                 showStatus={false}
@@ -265,20 +294,20 @@ function Dashboard(props) {
                                                     <Row>
                                                         <Col>
                                                             <div className="d-flex flex-column justify-content-start align-items-start px-2">
-                                                                <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
+                                                                <div className="bold font-xm gray mb-2 pb-1">{t('梯具工作')}</div>
                                                                 <ViewLabelBox
                                                                     data={variable.LABEL_BOX_2}
-                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                    className="w-100 p-2 box-bg box-stair-bg"
                                                                 >
                                                                 </ViewLabelBox>
                                                             </div>
                                                         </Col>
                                                         <Col>
                                                             <div className="d-flex flex-column justify-content-start align-items-start px-2">
-                                                                <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
+                                                                <div className="bold font-xm gray mb-2 pb-1">{t('假天花工作')}</div>
                                                                 <ViewLabelBox
                                                                     data={variable.LABEL_BOX_3}
-                                                                    className="w-100 p-2 box-bg box-vector-bg"
+                                                                    className="w-100 p-2 box-bg box-ceiling-bg"
                                                                 >
                                                                 </ViewLabelBox>
                                                             </div>
@@ -295,12 +324,18 @@ function Dashboard(props) {
                                     <div className="bold deep-dark font-xm">{t('8月累計NCR')}</div>
                                     <Row>
                                         <Col>
-                                            <Chart
-                                                options={ncrPeriodChart.options}
-                                                series={ncrPeriodChart.series}
-                                                height='487'
-                                                type="bar"
-                                            />
+                                            {
+                                                (ncrPeriodChart.options.xaxis.categories.length > 0) ?
+                                                    (
+                                                        <Chart
+                                                            options={ncrPeriodChart.options}
+                                                            series={ncrPeriodChart.series}
+                                                            height={(ncrPeriodChart.options.xaxis.categories.length * 25 > 487) ? ncrPeriodChart.options.xaxis.categories.length * 25 : 487}
+                                                            type="bar"
+                                                        />
+                                                    ) :
+                                                    (null)
+                                            }
                                         </Col>
                                     </Row>
                                 </div>

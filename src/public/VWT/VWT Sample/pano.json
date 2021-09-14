@@ -1,0 +1,3656 @@
+{
+  "default": {
+    "firstScene": "Pano_00_AIM_Executive Lavatory_F",
+    "sceneFadeDuration": 2000
+  },
+
+  "scenes": {
+
+    "Pano_00_AIM_Executive Lavatory_F": {
+
+      "panorama": "Pano_00_AIM_Executive Lavatory_F.jpg",
+      "panoramaflip": "Pano_00_AIM_Executive Lavatory_F_flipEM",
+      "hotSpots": [
+        {
+          "pitch": -76,
+          "yaw": -2,
+          "type": "info",
+          "text": "7263382 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F. LAV.|Floors|Floor: FN_TL50_CT-01(600 x 600)|(98.358652028, 83.779361941, 91.535433071)|(107.174287752, 90.971064767, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -54,
+          "yaw": 96,
+          "type": "info",
+          "text": "7274613 Casework",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Casework|CSS_Bottom Cabinet: CSS_Bottom Cabinet_800mm|(98.521045318, 85.635285251, 91.633858268)|(101.738306500, 88.852546434, 95.980314961)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": 16,
+          "type": "info",
+          "text": "4913319 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Toliet Locker_Wall Based: 700 x 410|(100.423366711, 83.918556189, 92.847769029)|(102.998460304, 86.493649782, 93.175853019)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -168,
+          "type": "info",
+          "text": "4639529 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Full Mirror w single frame: 800 x 2655|(101.699954083, 88.814192394, 91.699475066)|(103.745470247, 90.859708557, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -62,
+          "yaw": -168,
+          "type": "info",
+          "text": "4172326 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x75)|(101.818789049, 89.014224816, 91.699475066)|(103.735030678, 90.930466445, 91.945538058)",
+          "show": "yes"
+        },
+        {
+          "pitch": -62,
+          "yaw": -66,
+          "type": "info",
+          "text": "4170580 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x75)|(102.050779464, 83.819960263, 91.699475066)|(107.174287752, 88.964347688, 91.945538058)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": -20,
+          "type": "info",
+          "text": "4170579 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 91.945538058)|(107.174287752, 88.964347688, 92.683727034)",
+          "show": "yes"
+        },
+        {
+          "pitch": -60,
+          "yaw": -140,
+          "type": "info",
+          "text": "4171461 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x75)|(103.636434752, 88.999145439, 91.699475066)|(105.376362856, 90.739073543, 91.945538058)",
+          "show": "yes"
+        },
+        {
+          "pitch": -48,
+          "yaw": -104,
+          "type": "info",
+          "text": "4003719 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|NW_Toilet_Duravit_222709: NW_Toilet_Duravit_222709|(104.019544915, 87.584330878, 92.001146594)|(106.181050028, 89.745835992, 93.316444729)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": -140,
+          "type": "info",
+          "text": "4171460 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(103.653834033, 89.014224816, 91.945538058)|(105.399561898, 90.739073543, 92.683727034)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": 50,
+          "type": "info",
+          "text": "4171292 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652472, 83.779361941, 91.945538058)|(102.151695294, 87.572404763, 92.683727034)",
+          "show": "yes"
+        },
+        {
+          "pitch": -52,
+          "yaw": -44,
+          "type": "info",
+          "text": "4912156 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 92.683727034)|(107.133689430, 88.902870229, 93.667979003)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": 120,
+          "type": "info",
+          "text": "7263391 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F. LAV.|Floors|Floor: FN_TL50_CT-01(600 x 600)|(99.344611465, 88.709158412, 91.535433071)|(101.838508234, 91.203055181, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 166,
+          "type": "info",
+          "text": "3307935 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV|Doors|NW_Door_T_D1_TP_Type1: 865 x 2750|(98.739066564, 86.911232705, 91.502624672)|(103.636434120, 91.808600262, 101.291994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": 114,
+          "type": "info",
+          "text": "4172926 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x75)|(98.358652028, 87.410011917, 91.699475066)|(99.704197503, 88.755557392, 91.945538058)",
+          "show": "yes"
+        },
+        {
+          "pitch": -50,
+          "yaw": -140,
+          "type": "info",
+          "text": "4896188 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(103.664273602, 89.003785247, 92.683727034)|(105.338084438, 90.698475221, 93.667979003)",
+          "show": "yes"
+        },
+        {
+          "pitch": -54,
+          "yaw": 172,
+          "type": "info",
+          "text": "4506346 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|NW_DoorStop_Bonco_DS093: NW_DoorStop_Bonco_DS093|(101.740376289, 90.466949598, 91.651902887)|(102.094239000, 90.820812309, 92.651902887)",
+          "show": "yes"
+        },
+        {
+          "pitch": -40,
+          "yaw": 72,
+          "type": "info",
+          "text": "7274614 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|NW_Basin_Duravit_033043: NW_Basin_Duravit_033043_450 x 335mm|(99.066222790, 86.180462724, 91.633858268)|(101.349722557, 88.463962490, 94.586614173)",
+          "show": "yes"
+        },
+        {
+          "pitch": -46,
+          "yaw": 22,
+          "type": "info",
+          "text": "4889968 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652028, 83.779361941, 92.683727034)|(102.151695294, 87.572405206, 93.667979003)",
+          "show": "yes"
+        },
+        {
+          "pitch": -32,
+          "yaw": -108,
+          "type": "info",
+          "text": "4003717 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Furniture|CSS_Furring: 730 x 850|(103.613396511, 87.178184010, 91.043307087)|(107.011894014, 90.576681513, 95.143700787)",
+          "show": "yes"
+        },
+        {
+          "pitch": -50,
+          "yaw": 112,
+          "type": "info",
+          "text": "4896894 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.399250794, 87.471488933, 91.945538058)|(99.704197947, 88.755556948, 92.683727034)",
+          "show": "yes"
+        },
+        {
+          "pitch": -40,
+          "yaw": -48,
+          "type": "info",
+          "text": "4912168 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 93.667979003)|(107.133689430, 88.902870229, 94.652230971)",
+          "show": "yes"
+        },
+        {
+          "pitch": -44,
+          "yaw": -98,
+          "type": "info",
+          "text": "3849518 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|NW_KEUCO_Paper Holder_14970 010000: NW_KEUCO_Paper Holder_14970 010000|(104.577154621, 86.805677337, 93.436679790)|(105.841502376, 88.070025092, 94.436679790)",
+          "show": "yes"
+        },
+        {
+          "pitch": -46,
+          "yaw": 114,
+          "type": "info",
+          "text": "4896191 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.399250351, 87.471489376, 92.683727034)|(99.704197503, 88.755557392, 93.667979003)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": -140,
+          "type": "info",
+          "text": "4896227 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(103.664273602, 89.003785247, 93.667979003)|(105.338084438, 90.698475221, 94.652230971)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": 28,
+          "type": "info",
+          "text": "4889982 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652472, 83.779361941, 93.667979003)|(102.151695294, 87.572404763, 94.652230971)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": -88,
+          "type": "info",
+          "text": "4219601 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Toliet Shelf: CSS_Toliet Shelf|(104.575995118, 86.679242113, 94.061679790)|(105.967937601, 88.071184595, 94.160104987)",
+          "show": "yes"
+        },
+        {
+          "pitch": -40,
+          "yaw": 114,
+          "type": "info",
+          "text": "4897096 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.399250794, 87.471488933, 93.667979003)|(99.704197947, 88.755556948, 94.652230971)",
+          "show": "yes"
+        },
+        {
+          "pitch": -24,
+          "yaw": -72,
+          "type": "info",
+          "text": "4912197 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 94.652230971)|(107.133689430, 88.902870229, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -32,
+          "yaw": -88,
+          "type": "info",
+          "text": "5781381 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Single Socket with USB: Type 1|(105.265679585, 87.073625816, 94.340551181)|(105.573553897, 87.381500128, 94.635826772)",
+          "show": "yes"
+        },
+        {
+          "pitch": -18,
+          "yaw": -138,
+          "type": "info",
+          "text": "4896259 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(103.664273602, 89.003785247, 94.652230971)|(105.338084438, 90.698475221, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -20,
+          "yaw": 86,
+          "type": "info",
+          "text": "4890000 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652028, 83.779361941, 94.652230971)|(102.151695294, 87.572405206, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -28,
+          "yaw": -110,
+          "type": "info",
+          "text": "4003718 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|NW_Sensor_H2O PRO_FL3035-PC: NW_Sensor_H2O PRO_FL3035-PC|(106.104347515, 88.509182945, 94.061679790)|(106.438259051, 88.843094481, 95.143700787)",
+          "show": "yes"
+        },
+        {
+          "pitch": -18,
+          "yaw": 114,
+          "type": "info",
+          "text": "4896262 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(98.399250351, 87.471489376, 94.652230971)|(99.704197503, 88.755557392, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": 78,
+          "type": "info",
+          "text": "7274619 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|HS_SensorFaucet_Kohler_26391H-BRD: 60 x 80 x 185|(99.331155843, 86.445395776, 94.952106049)|(100.026176807, 87.140416741, 95.980314961)",
+          "show": "yes"
+        },
+        {
+          "pitch": -24,
+          "yaw": 56,
+          "type": "info",
+          "text": "7274616 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Soap Shelf: CSS_Soap Shelf|(99.959385355, 85.635285780, 95.400262487)|(101.107737903, 86.783638328, 96.400262487)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": -134,
+          "type": "info",
+          "text": "4170807 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(105.237168608, 88.801954399, 93.667979003)|(107.174287752, 90.739073543, 94.652230971)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": 122,
+          "type": "info",
+          "text": "6461390 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|NW_DoorHandle_Colombo_AMA-MF11-RSB-GM: NW_DoorHandle_Colombo_AMA-MF11-RSB-GM|(99.484385021, 88.521775563, 91.502624672)|(100.409497386, 89.446887928, 95.062335958)",
+          "show": "yes"
+        },
+        {
+          "pitch": -14,
+          "yaw": -116,
+          "type": "info",
+          "text": "4170810 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(105.237168608, 88.801954399, 94.652230971)|(107.174287752, 90.739073543, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -16,
+          "yaw": 110,
+          "type": "info",
+          "text": "5781201 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Single Socket: Type 1|(99.170618476, 88.204092070, 95.160761155)|(99.478492789, 88.511966382, 95.456036745)",
+          "show": "yes"
+        },
+        {
+          "pitch": 24,
+          "yaw": 76,
+          "type": "info",
+          "text": "7274615 Casework",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Casework|CSS_Toliet Mirror: CSS_Toliet Mirror_795mm|(98.497845748, 85.600487218, 95.400262487)|(101.142536465, 88.245177935, 99.245406844)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": -52,
+          "type": "info",
+          "text": "4912212 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 95.636482960)|(107.133689430, 88.902870229, 96.620734928)",
+          "show": "yes"
+        },
+        {
+          "pitch": -2,
+          "yaw": -138,
+          "type": "info",
+          "text": "4896296 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(103.664273602, 89.003785247, 95.636482940)|(105.399561898, 90.739073543, 96.620734908)",
+          "show": "yes"
+        },
+        {
+          "pitch": -2,
+          "yaw": 114,
+          "type": "info",
+          "text": "4897114 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.399250794, 87.471488933, 95.636482940)|(99.704197947, 88.755556948, 96.620734908)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": 32,
+          "type": "info",
+          "text": "4890025 Walls",
+          "linktype": "ma",
+          "URLs": " hello02;undefined;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652472, 83.779361941, 95.636482940)|(102.151695294, 87.572404763, 96.620734908)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 66,
+          "type": "info",
+          "text": "7274618 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|NW_Paper Tower Dispenser_Bonco_3055S: NW_Paper Tower Dispenser_Bonco_3055S|(99.616039542, 85.834797536, 95.800524955)|(100.370008387, 86.588766381, 96.800524955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -2,
+          "yaw": -124,
+          "type": "info",
+          "text": "4911027 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(105.298646068, 88.801954399, 95.636482940)|(107.174287752, 90.698475221, 96.620734908)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 84,
+          "type": "info",
+          "text": "7274617 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|NW_Hand Dryer_Veltia_thin: NW_Hand Dryer_Veltia_thin|(98.804073094, 86.384614816, 95.800524955)|(99.878188710, 87.458730432, 96.800524955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 48,
+          "type": "info",
+          "text": "6300494 Plumbing Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Plumbing Fixtures|NW_Mirror_KEUCO_17613010000: NW_Mirror_KEUCO_17613010000|(100.424526666, 85.119106578, 95.935039370)|(101.579838926, 86.274418839, 96.948818898)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 24,
+          "type": "info",
+          "text": "6276364 Generic Models",
+          "linktype": "ma",
+          "URLs": " fff;undefined;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|NW_Hook_Bonco_ZP1283: NW_Hook_Bonco_ZP1283|(101.101397817, 84.596586382, 96.371391076)|(101.436580579, 84.931769144, 97.371391076)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": -94,
+          "type": "info",
+          "text": "4912224 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 96.620734928)|(107.133689430, 88.902870229, 97.604986897)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": -132,
+          "type": "info",
+          "text": "4911045 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(105.298646068, 88.801954399, 96.620734908)|(107.174287752, 90.698475221, 97.604986877)",
+          "show": "yes"
+        },
+        {
+          "pitch": 14,
+          "yaw": -140,
+          "type": "info",
+          "text": "4896381 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(103.664273602, 89.003785247, 96.620734908)|(105.399561898, 90.739073543, 97.604986877)",
+          "show": "yes"
+        },
+        {
+          "pitch": 14,
+          "yaw": 108,
+          "type": "info",
+          "text": "4896383 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(98.399250351, 87.471489376, 96.620734908)|(99.704197503, 88.755557392, 97.604986877)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 26,
+          "type": "info",
+          "text": "4890038 Walls",
+          "linktype": "ma",
+          "URLs": " 555;undefined;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652028, 83.779361941, 96.620734908)|(102.151695294, 87.572405206, 97.604986877)",
+          "show": "yes"
+        },
+        {
+          "pitch": 34,
+          "yaw": -66,
+          "type": "info",
+          "text": "4912236 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 97.604986917)|(107.133689430, 88.902870229, 98.589238885)",
+          "show": "yes"
+        },
+        {
+          "pitch": 22,
+          "yaw": -118,
+          "type": "info",
+          "text": "4911056 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(105.298646068, 88.801954399, 97.604986877)|(107.174287752, 90.698475221, 98.589238845)",
+          "show": "yes"
+        },
+        {
+          "pitch": 28,
+          "yaw": -140,
+          "type": "info",
+          "text": "4896400 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(103.664273602, 89.003785247, 97.604986877)|(105.399561898, 90.739073543, 98.589238845)",
+          "show": "yes"
+        },
+        {
+          "pitch": 28,
+          "yaw": 100,
+          "type": "info",
+          "text": "4897129 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.399250794, 87.471488933, 97.604986877)|(99.704197947, 88.755556948, 98.589238845)",
+          "show": "yes"
+        },
+        {
+          "pitch": 32,
+          "yaw": 28,
+          "type": "info",
+          "text": "4890050 Walls",
+          "linktype": "ma",
+          "URLs": " ;undefined;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652472, 83.779361941, 97.604986877)|(102.151695294, 87.572404763, 98.589238845)",
+          "show": "yes"
+        },
+        {
+          "pitch": 48,
+          "yaw": -16,
+          "type": "info",
+          "text": "4912251 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 98.589238845)|(107.133689430, 88.902870229, 99.573490814)",
+          "show": "yes"
+        },
+        {
+          "pitch": 32,
+          "yaw": -118,
+          "type": "info",
+          "text": "4170812 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(105.237168608, 88.801954399, 98.589238845)|(107.174287752, 90.739073543, 99.573490814)",
+          "show": "yes"
+        },
+        {
+          "pitch": 44,
+          "yaw": -140,
+          "type": "info",
+          "text": "4896419 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(103.664273602, 89.003785247, 98.589238845)|(105.338084438, 90.698475221, 99.573490814)",
+          "show": "yes"
+        },
+        {
+          "pitch": 40,
+          "yaw": 100,
+          "type": "info",
+          "text": "4896421 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x600)|(98.399250351, 87.471489376, 98.589238845)|(99.704197503, 88.755557392, 99.573490814)",
+          "show": "yes"
+        },
+        {
+          "pitch": 44,
+          "yaw": 28,
+          "type": "info",
+          "text": "4890066 Walls",
+          "linktype": "ma",
+          "URLs": " ;undefined;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652028, 83.779361941, 98.589238845)|(102.151695294, 87.572405206, 99.573490814)",
+          "show": "yes"
+        },
+        {
+          "pitch": 56,
+          "yaw": -24,
+          "type": "info",
+          "text": "4912269 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(102.050779464, 83.819960263, 99.573490814)|(107.133689430, 88.902870229, 100.557742782)",
+          "show": "yes"
+        },
+        {
+          "pitch": 40,
+          "yaw": -130,
+          "type": "info",
+          "text": "4170813 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x310)|(105.237168608, 88.801954399, 99.573490814)|(107.174287752, 90.739073543, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 54,
+          "yaw": -140,
+          "type": "info",
+          "text": "4896438 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(103.664273602, 89.003785247, 99.573490814)|(105.338084438, 90.698475221, 100.557742782)",
+          "show": "yes"
+        },
+        {
+          "pitch": 60,
+          "yaw": -74,
+          "type": "info",
+          "text": "4912319 Reveals",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Reveals|Reveal: Reveal 50x10|(102.070498649, 83.895357147, 100.557742782)|(107.035093504, 88.906350085, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 48,
+          "yaw": 104,
+          "type": "info",
+          "text": "4897143 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.399250794, 87.471488933, 99.573490814)|(99.704197947, 88.755556948, 100.557742782)",
+          "show": "yes"
+        },
+        {
+          "pitch": 44,
+          "yaw": -108,
+          "type": "info",
+          "text": "6272955 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lav_Ceiling_PT8: Lav_Ceiling_PT-01|(104.682711519, 88.247497310, 100.787401575)|(107.120929957, 90.685715748, 101.646981628)",
+          "show": "yes"
+        },
+        {
+          "pitch": 46,
+          "yaw": -130,
+          "type": "info",
+          "text": "6336591 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x310)|(105.318365253, 88.883151044, 100.721784777)|(107.093091107, 90.657876898, 101.607611549)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": 42,
+          "type": "info",
+          "text": "4890083 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|F.LAV.|Walls|Basic Wall: FN_TL35_CT02(600x300)|(98.358652472, 83.779361941, 99.573490814)|(102.151695294, 87.572404763, 100.557742782)",
+          "show": "yes"
+        },
+        {
+          "pitch": 74,
+          "yaw": 68,
+          "type": "info",
+          "text": "3051306 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_PT20_PT02|(98.358652028, 83.779361941, 100.721784777)|(107.174287752, 90.971064767, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 50,
+          "yaw": -138,
+          "type": "info",
+          "text": "4896569 Reveals",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Reveals|Reveal: Reveal 50x10|(103.711831637, 88.970146637, 100.557742782)|(105.341564294, 90.599879295, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 56,
+          "yaw": 18,
+          "type": "info",
+          "text": "4890255 Reveals",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Reveals|Reveal: Reveal 50x10|(98.474647235, 83.895357147, 100.557742782)|(102.070498649, 87.491208561, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 58,
+          "yaw": -116,
+          "type": "info",
+          "text": "4365578 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Doors|NW_AccessPanel_T_D1_Ceiling Base: 730 x 350_PT-02|(103.694431546, 87.259218147, 100.721784777)|(106.199928014, 89.764714616, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 54,
+          "yaw": 110,
+          "type": "info",
+          "text": "4896746 Reveals",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Reveals|Reveal: Reveal 50x10|(98.474647235, 87.491208561, 100.557742782)|(99.727396545, 88.697559788, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 58,
+          "yaw": 152,
+          "type": "info",
+          "text": "3061430 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Louver: CSS_Louver_1430 x 150|(98.143080128, 87.143222940, 100.718503937)|(102.186493855, 91.186636667, 100.853018373)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": 168,
+          "type": "info",
+          "text": "4896779 Reveals",
+          "linktype": "ma",
+          "URLs": " ;undefined;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Reveals|Reveal: Reveal 50x10|(101.629717398, 90.599880642, 100.557742782)|(101.902305598, 90.872468841, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 66,
+          "yaw": 94,
+          "type": "info",
+          "text": "3066187 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1m_5000k_503lm|(97.548541503, 84.662781437, 98.721784777)|(103.205395753, 90.319635686, 102.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 84,
+          "yaw": 80,
+          "type": "info",
+          "text": "3436879 Sprinklers",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Sprinklers|CSS_Sprinkler: CSS_Sprinkler_PT-02|(101.833056658, 87.172569530, 100.709868110)|(102.339877668, 87.679390539, 101.049868767)",
+          "show": "yes"
+        }
+      ]
+    },
+    "Pano_00_AIM_Executive Lavatory_F_flipEM": {
+
+      "panorama": "Pano_00_AIM_Executive Lavatory_F_flipEM.jpg",
+      "panoramaflip": "Pano_00_AIM_Executive Lavatory_F_flipST",
+      "hotSpots": [
+
+      ]
+    },
+    "Pano_00_AIM_Executive Lavatory_F_flipST": {
+
+      "panorama": "Pano_00_AIM_Executive Lavatory_F_flipST.jpg",
+      "panoramaflip": "Pano_00_AIM_Executive Lavatory_F",
+      "hotSpots": [
+        {
+          "pitch": 30,
+          "yaw": 112,
+          "type": "info",
+          "text": "2816418 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(98.010666408, 87.375213355, 91.535433071)|(101.954503441, 91.319050388, 102.690288714)",
+          "show": "yes"
+        },
+        {
+          "pitch": -68,
+          "yaw": -140,
+          "type": "info",
+          "text": "11519745 Wall Sweeps",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Wall Sweeps|Wall Sweep: FN_WP_Angled Fillet_40x40mm|(96.688320899, 84.939314471, 90.469160105)|(105.538755052, 94.497319861, 90.600393701)",
+          "show": "yes"
+        },
+        {
+          "pitch": -78,
+          "yaw": 6,
+          "type": "info",
+          "text": "11523518 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(100.933745161, 84.881316868, 90.469160105)|(105.608352176, 89.555923883, 91.617454068)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": -142,
+          "type": "info",
+          "text": "11526553 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(103.659633794, 89.045543522, 90.469160105)|(104.871783884, 90.257693613, 92.191601050)",
+          "show": "yes"
+        },
+        {
+          "pitch": -62,
+          "yaw": -170,
+          "type": "info",
+          "text": "11522106 Walls",
+          "linktype": "ma",
+          "URLs": " google;www.google.com;drawing| ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(101.826908253, 89.062942803, 90.469160105)|(103.711831637, 90.947866186, 92.191601050)",
+          "show": "yes"
+        },
+        {
+          "pitch": -60,
+          "yaw": 56,
+          "type": "info",
+          "text": "11524660 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP10|(98.358652028, 84.898716149, 90.387139108)|(100.974343484, 87.514407604, 91.617454068)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": -4,
+          "type": "info",
+          "text": "11527594 Wall Sweeps",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Wall Sweeps|Wall Sweep: FN_WP_Angled Fillet_25x25mm|(100.956944203, 83.825760024, 91.617454068)|(107.127889670, 90.681075940, 91.748687664)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -148,
+          "type": "info",
+          "text": "5698106 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(103.462441942, 89.115140646, 91.535433071)|(105.434360460, 91.087059164, 102.690288714)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": 142,
+          "type": "info",
+          "text": "11519358 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(96.636123056, 89.671919061, 90.387139108)|(100.620558252, 93.656354585, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": 128,
+          "type": "info",
+          "text": "11519395 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(98.347052047, 87.468009980, 90.387139108)|(100.603158972, 89.724116905, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -58,
+          "yaw": -16,
+          "type": "info",
+          "text": "11521002 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_CP10|(102.047299608, 83.779361941, 91.617454068)|(107.174287753, 88.906350086, 92.191601050)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": -158,
+          "type": "info",
+          "text": "2816584 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(101.606517820, 89.231135853, 91.535433071)|(103.810427562, 91.435045595, 102.690288714)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": -52,
+          "type": "info",
+          "text": "2816415 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(101.838508235, 83.315381113, 91.535433071)|(107.406278167, 88.883151044, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": 166,
+          "type": "info",
+          "text": "11522590 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(101.444124249, 90.565082181, 90.469160105)|(101.844307534, 90.965265467, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -54,
+          "yaw": 162,
+          "type": "info",
+          "text": "11519125 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(97.511886896, 90.582481464, 90.469160105)|(101.496322092, 94.566916987, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": 62,
+          "type": "info",
+          "text": "11523603 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_CP10|(98.358652028, 85.635285251, 91.617454068)|(100.237774380, 87.514407603, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": 30,
+          "type": "info",
+          "text": "11524155 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_CP10|(100.214575339, 83.790961462, 91.617454068)|(102.082098170, 85.658484293, 92.191601050)",
+          "show": "yes"
+        },
+        {
+          "pitch": -54,
+          "yaw": -132,
+          "type": "info",
+          "text": "11519041 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: FN_CP15|(104.819586041, 89.503726040, 90.469160105)|(105.590952895, 90.275092894, 91.617454068)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": 100,
+          "type": "info",
+          "text": "11524472 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_CP10|(98.358652029, 87.468009521, 91.535433071)|(99.599800920, 88.709158412, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": 44,
+          "type": "info",
+          "text": "2816416 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(97.894671201, 83.431376320, 91.535433071)|(102.186493856, 87.723198975, 102.690288714)",
+          "show": "yes"
+        },
+        {
+          "pitch": -44,
+          "yaw": -138,
+          "type": "info",
+          "text": "11521914 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_CP10|(105.295166212, 88.871551524, 91.617454068)|(107.162688232, 90.739073544, 92.191601050)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": -126,
+          "type": "info",
+          "text": "2816417 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(92.964874908, 89.985105509, 91.535433071)|(106.304323701, 103.324554301, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 24,
+          "yaw": -2,
+          "type": "info",
+          "text": "11517740 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW50|(101.954503442, 83.547371527, 97.244094488)|(103.033259045, 84.626127129, 98.129921326)",
+          "show": "yes"
+        },
+        {
+          "pitch": -56,
+          "yaw": 134,
+          "type": "info",
+          "text": "8138506 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC250|(78.929454890, 85.646884762, 90.715223097)|(102.986860799, 107.523580862, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": -116,
+          "type": "info",
+          "text": "4861736 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(106.072333302, 88.651160620, 91.535433071)|(108.798220664, 91.377047982, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": -108,
+          "type": "info",
+          "text": "4861630 Structural Framing",
+          "linktype": "ma",
+          "URLs": "structural beam;www.google.com;method| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 575 x 700|(97.720678406, 80.299505724, 102.362204724)|(107.406278181, 89.985105499, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 56,
+          "yaw": -132,
+          "type": "info",
+          "text": "4861620 Structural Framing",
+          "linktype": "ma",
+          "URLs": " structural framing;www.google.com;material| ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 300 x 700|(85.454185278, 88.854152232, 102.362204724)|(106.971296156, 110.371263109, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 58,
+          "yaw": 92,
+          "type": "info",
+          "text": "8109447 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: S_RC250|(93.138867737, 82.329421845, 102.690288714)|(105.608352474, 95.390612865, 103.510498688)",
+          "show": "yes"
+        },
+        {
+          "pitch": -80,
+          "yaw": 114,
+          "type": "info",
+          "text": "10018210 Floors",
+          "linktype": "ma",
+          "URLs": "HELLO;www.google.com;material| ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: FN_CS25|(93.138867452, 82.329422487, 90.387139108)|(105.608352189, 95.390482980, 90.469160105)",
+          "show": "yes"
+        },
+        {
+          "pitch": -68,
+          "yaw": -18,
+          "type": "info",
+          "text": "8137876 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC150|(44.727202620, 43.935008364, 91.043307087)|(115.467945060, 114.519147463, 91.535433071)",
+          "show": "yes"
+        }
+      ]
+    },
+    "Pano_00_AIM_Lift Lobby_02G11_STR": {
+
+      "panorama": "Pano_00_AIM_Lift Lobby_02G11_STR.jpg",
+      "panoramaflip": "Pano_00_AIM_Lift Lobby_02G11_STR_flipEM",
+      "hotSpots": [
+        {
+          "pitch": -60,
+          "yaw": -130,
+          "type": "info",
+          "text": "3096841 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(51.937370235, 57.545886127, 91.535433071)|(84.573781645, 87.509767791, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -76,
+          "yaw": -162,
+          "type": "info",
+          "text": "5459893 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: FN_CR45|(48.650066068, 53.905956333, 91.535433071)|(88.213711236, 91.843348724, 91.683070866)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": -130,
+          "type": "info",
+          "text": "5252824 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(78.412116254, 68.820620058, 91.535433071)|(81.671581568, 72.080085371, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -150,
+          "type": "info",
+          "text": "2816601 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack|(76.551553136, 66.641070121, 91.535433071)|(90.209988747, 80.299505732, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -152,
+          "type": "info",
+          "text": "3239770 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT20_MT01|(78.129087930, 71.762258524, 91.699475066)|(78.430675468, 72.063846062, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -176,
+          "type": "info",
+          "text": "3238614 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(74.695629797, 71.924651809, 91.699475066)|(78.129087916, 75.358109928, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": 54,
+          "type": "info",
+          "text": "5255850 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(70.039582221, 60.448086025, 91.535433071)|(73.299047535, 63.707551338, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -94,
+          "type": "info",
+          "text": "3240334 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(81.678541259, 65.619152363, 91.765091864)|(84.409068432, 68.349679536, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -108,
+          "type": "info",
+          "text": "3239806 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(81.191361384, 68.351999435, 91.699475066)|(81.701740295, 68.862378345, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": -146,
+          "type": "info",
+          "text": "7129145 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW200|(76.219806844, 67.440277096, 90.715223097)|(83.991485706, 75.211955957, 91.765091864)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 76,
+          "type": "info",
+          "text": "3245440 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(66.761557569, 63.990580032, 91.699475066)|(70.195015204, 67.424037661, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": 84,
+          "type": "info",
+          "text": "3235760 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|L6_Lift Lobby_Finishes_MT-01: L6_Lift Lobby_Finishes_MT-01|(52.250557508, 60.325131120, 91.699475066)|(84.497224794, 89.869110251, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 60,
+          "type": "info",
+          "text": "6410096 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL25_CT03|(70.369008138, 63.654193555, 91.699475066)|(70.519802366, 63.804987783, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 22,
+          "type": "info",
+          "text": "2816602 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack|(61.501175042, 52.228665665, 91.535433071)|(75.159610653, 65.887101276, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 18,
+          "type": "info",
+          "text": "6409730 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(73.350085304, 60.394728123, 91.699475066)|(73.790867077, 60.835509894, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -34,
+          "yaw": 26,
+          "type": "info",
+          "text": "7128992 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW200|(61.339941705, 58.128181887, 90.715223097)|(74.679390497, 71.467630679, 91.765091864)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "info",
+          "text": "3244440 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(73.769987976, 57.710599069, 91.765091864)|(76.500515150, 60.441126243, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -26,
+          "yaw": -44,
+          "type": "info",
+          "text": "5253080 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_TL150_CT-03|(76.574752179, 53.910596172, 91.207349081)|(88.211391356, 65.547235351, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": 168,
+          "type": "info",
+          "text": "5255774 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(71.800389462, 75.200356437, 91.535433071)|(75.407840396, 78.807807371, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -24,
+          "yaw": 100,
+          "type": "info",
+          "text": "5255805 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(63.543850636, 66.943817611, 91.535433071)|(66.803315930, 70.203282905, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -6,
+          "type": "info",
+          "text": "3690399 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT10_MT01|(76.484275821, 57.622442712, 91.699475066)|(76.600271028, 57.738437919, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -20,
+          "yaw": -72,
+          "type": "info",
+          "text": "5253116 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|CORRIDOR|Floors|Floor: FN_PT150_CA-01|(84.385869407, 61.918905251, 91.207349081)|(134.605438565, 113.675972259, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 8,
+          "yaw": 96,
+          "type": "info",
+          "text": "2816603 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2750w X 2800d Rear Jack|(55.063441060, 58.724397251, 91.535433071)|(68.663879068, 72.324835258, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": -20,
+          "yaw": -12,
+          "type": "info",
+          "text": "3060173 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|CORRIDOR|Floors|Floor: FN_PT150_CA-01|(42.392124659, 21.315943031, 91.207349081)|(80.200762342, 57.733798187, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -12,
+          "yaw": 166,
+          "type": "info",
+          "text": "5199530 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Lift Car|Walls|Basic Wall: FN_MT50_MT01|(71.377006957, 74.776973932, 91.699475066)|(76.306803249, 79.706770224, 102.001312336)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 166,
+          "type": "info",
+          "text": "2816600 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack(Without Lift Door)|(70.055821550, 73.136801706, 91.535433071)|(83.714257161, 86.795237317, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 162,
+          "type": "info",
+          "text": "6432907 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(68.524684788, 78.095596904, 91.699475066)|(71.958142826, 81.529054941, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 112,
+          "type": "info",
+          "text": "3245815 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(60.590612091, 70.161524555, 91.699475066)|(64.024070673, 73.594983136, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -28,
+          "type": "info",
+          "text": "7111799 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(80.470769431, 54.477550982, 91.699475066)|(82.537804067, 56.544585618, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -36,
+          "type": "info",
+          "text": "11432409 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Doors|NW_Door_T_D2_GP_L1R1: D2_1350 x 2750_AIM|(82.259415568, 54.108686275, 91.699475066)|(88.059175913, 59.908446620, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": -58,
+          "type": "info",
+          "text": "7111904 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Signage_Corridor_LE15: 375 x 2750|(85.250274967, 59.560460999, 91.699475066)|(86.609235827, 60.919421858, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -66,
+          "type": "info",
+          "text": "7110829 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(86.493241561, 60.500023113, 91.699475066)|(88.244769126, 62.251550677, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -18,
+          "yaw": -16,
+          "type": "info",
+          "text": "6504598 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_WD12_PL01|(76.539953590, 50.472498149, 91.699475066)|(80.324615468, 54.257160027, 91.863517060)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -14,
+          "type": "info",
+          "text": "3254191 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(47.436756236, 21.315942999, 91.699475066)|(80.366373743, 54.245560506, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -16,
+          "yaw": -58,
+          "type": "info",
+          "text": "7111905 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(85.720712542, 59.616138698, 91.804461942)|(86.553558127, 60.448984284, 93.339895013)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -78,
+          "type": "info",
+          "text": "3671559 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(88.455880403, 62.335067226, 91.699475066)|(134.617450266, 108.508648787, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -18,
+          "yaw": -76,
+          "type": "info",
+          "text": "5301600 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD12_PL01|(88.444280882, 62.376825501, 91.699475066)|(114.730215476, 88.662760094, 91.863517060)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 154,
+          "type": "info",
+          "text": "6435490 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_TL25_CT03|(68.199898216, 81.714647279, 91.699475066)|(68.350691985, 81.865441048, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 116,
+          "type": "info",
+          "text": "3697321 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(59.772846120, 73.780575466, 91.699475066)|(60.405019761, 74.412749108, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 152,
+          "type": "info",
+          "text": "2816599 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack|(63.560089964, 79.632533292, 91.535433071)|(77.218525575, 93.290968903, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 150,
+          "type": "info",
+          "text": "6430740 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_TL20_CT03|(64.859236111, 84.591328374, 91.699475066)|(65.462411346, 85.194503609, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 118,
+          "type": "info",
+          "text": "2816435 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LIFT LOBBY|Doors|NW_Door_T_D1_TP_VP_Type1: 1050 x 3000|(54.617431499, 71.507312872, 89.068241470)|(60.439111095, 77.328992469, 101.706036745)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 148,
+          "type": "info",
+          "text": "4054331 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(62.110149836, 85.171304562, 91.765091926)|(64.856916203, 87.918070930, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": 136,
+          "type": "info",
+          "text": "5253027 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_TL150_CT-03|(48.654705876, 81.139311029, 91.207349081)|(62.724924475, 93.464961707, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": 122,
+          "type": "info",
+          "text": "3700005 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(53.699336547, 78.623375629, 91.699475066)|(55.587738515, 80.511777597, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "info",
+          "text": "3248111 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(55.638776432, 77.262751762, 91.765091864)|(56.948362382, 78.572337712, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -8,
+          "yaw": 146,
+          "type": "info",
+          "text": "7477063 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_PT150_CA-01|(56.542379935, 89.753115086, 91.207349081)|(80.750579623, 113.961314774, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 144,
+          "type": "info",
+          "text": "7113065 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(54.988045110, 91.725034554, 91.699475066)|(56.858785981, 93.595775425, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": 140,
+          "type": "info",
+          "text": "7113170 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Signage_Corridor_LE15: 375 x 2750|(54.048483936, 90.482068900, 91.699475066)|(55.407444795, 91.841029759, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 138,
+          "type": "info",
+          "text": "11432640 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Doors|NW_Door_T_D2_GP_L1R1: D2_1350 x 2750_AIM|(48.596708272, 87.491208561, 91.699475066)|(54.396468617, 93.290968905, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 130,
+          "type": "info",
+          "text": "7112095 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(49.084786285, 85.821775729, 91.699475066)|(51.032607615, 87.769597059, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -8,
+          "yaw": 124,
+          "type": "info",
+          "text": "7476956 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_PT150_CA-01|(36.623528018, 62.183189468, 91.207349081)|(52.243597581, 85.572647840, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -8,
+          "yaw": -58,
+          "type": "info",
+          "text": "7111909 Security Devices",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Security Devices|WHS_SmartCardRender_Suprema_Xpass-S2: WHS_SmartCardRender_Suprema_Xpass-S2|(85.865242570, 59.970542720, 94.555184796)|(86.199154105, 60.304454256, 95.555184796)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": 158,
+          "type": "info",
+          "text": "5787719 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|L6_Lift Lobby_Finishes_MT4: L6_Lift Lobby_Finishes_MT-01|(70.235614109, 73.641380393, 94.755577480)|(76.507475407, 79.901642168, 94.952427929)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 146,
+          "type": "info",
+          "text": "3257376 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(56.963181760, 93.827765809, 91.699475066)|(77.050332570, 113.914916644, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": 140,
+          "type": "info",
+          "text": "7113171 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(54.104161635, 90.952506474, 91.804461942)|(54.937007221, 91.785352060, 93.339895013)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 124,
+          "type": "info",
+          "text": "3254709 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(36.689144816, 73.495731248, 91.699475066)|(48.873675077, 85.738259112, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": -30,
+          "type": "info",
+          "text": "7109633 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|Lift Lobby_GB_7: Lift Lobby_GB-01|(80.401172306, 54.542508298, 94.955708516)|(82.449647709, 56.590983701, 95.014763634)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": -34,
+          "type": "info",
+          "text": "7110840 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|L6_Lift Lobby_Finishes_MT11: L6_Lift Lobby_Finishes_MT-01|(80.239938937, 54.245560536, 91.699475066)|(88.455880403, 62.461502002, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 122,
+          "type": "info",
+          "text": "7107459 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|HS_LEDDisplay_Vertical: 805 x 1333 x 55|(53.604220599, 78.528259681, 95.019685115)|(55.599338157, 80.523377239, 99.393044695)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 140,
+          "type": "info",
+          "text": "7113174 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(54.104161635, 90.952506474, 96.637139108)|(54.937007221, 91.785352060, 100.682414698)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": -58,
+          "type": "info",
+          "text": "7111908 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(85.720712542, 59.616138698, 96.637139108)|(86.553558127, 60.448984284, 100.682414698)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 158,
+          "type": "info",
+          "text": "7129516 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Signage_FloorSignage: CSS_Signage_FloorSignage|(70.274255528, 79.163291833, 98.084238600)|(70.801208918, 79.690245222, 99.097112861)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 134,
+          "type": "info",
+          "text": "3228727 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_PT20_PT01|(48.197684703, 77.144436118, 100.721784777)|(64.975231492, 93.921982748, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": 120,
+          "type": "info",
+          "text": "5904684 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|L6_Bulkhead_Lift Lobby_7: L6_Bulkhead_Lift Lobby_01|(56.809168466, 77.144436562, 100.787401575)|(64.975231031, 85.310499127, 100.951443570)",
+          "show": "yes"
+        },
+        {
+          "pitch": 64,
+          "yaw": 108,
+          "type": "info",
+          "text": "3230762 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_WD20_PL01|(56.159595731, 59.652358649, 101.541994751)|(82.467308946, 85.960071861, 101.607611549)",
+          "show": "yes"
+        },
+        {
+          "pitch": 14,
+          "yaw": 86,
+          "type": "info",
+          "text": "7129559 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|WHS_LS_Maxlite_ML-FLW-4W_TextType: WHS_LS_Maxlite_ML-FLW-4W_TextType|(67.954450089, 65.886226900, 98.084238600)|(68.435005395, 66.366782206, 99.097112861)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 84,
+          "type": "info",
+          "text": "7129558 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Signage_FloorSignage: CSS_Signage_FloorSignage|(67.908052006, 65.839828817, 98.084238600)|(68.435005395, 66.366782206, 99.097112861)",
+          "show": "yes"
+        },
+        {
+          "pitch": 60,
+          "yaw": -176,
+          "type": "info",
+          "text": "7130982 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lift Lobby_Louver MT2: Lift Lobby_Louver MT-01|(60.225227611, 63.625194632, 101.509186352)|(78.464314078, 81.864281099, 101.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 106,
+          "type": "info",
+          "text": "7129905 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(64.158779892, 69.642020783, 99.911417323)|(64.513570565, 69.996811456, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": -16,
+          "type": "info",
+          "text": "6032324 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT02_Perforated Sheet|(44.223688994, 21.315943083, 100.721784777)|(79.748380871, 56.840634960, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 20,
+          "yaw": -78,
+          "type": "info",
+          "text": "6040012 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT02_Perforated Sheet|(85.279032699, 62.371286788, 100.721784777)|(134.605438535, 113.052612016, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 70,
+          "yaw": 14,
+          "type": "info",
+          "text": "5295866 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lift Lobby_Ceiling_black line: Lift Lobby_Ceiling_black line|(57.493540523, 60.916706554, 101.541994751)|(81.226159966, 84.602927907, 101.548556431)",
+          "show": "yes"
+        },
+        {
+          "pitch": 36,
+          "yaw": -70,
+          "type": "info",
+          "text": "3228561 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_PT20_PT01|(73.651672899, 53.569570177, 100.721784777)|(88.550097334, 68.467994533, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 22,
+          "yaw": 172,
+          "type": "info",
+          "text": "6654468 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(74.264127632, 75.464825532, 99.911417323)|(74.618918305, 75.819616205, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 22,
+          "yaw": -34,
+          "type": "info",
+          "text": "3229569 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1s_3000k_448lm|(78.850114155, 54.782416141, 98.721784777)|(84.506968405, 60.439270391, 102.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 28,
+          "yaw": 106,
+          "type": "info",
+          "text": "7130608 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Louver: CSS_Louver_3344 x 100|(64.913933727, 68.749862438, 101.673228347)|(73.339646371, 77.175575081, 101.742125984)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": 146,
+          "type": "info",
+          "text": "7131047 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lift Lobby_Louver MT14: Lift Lobby_Louver MT-01|(65.120225897, 68.520191814, 101.509186352)|(73.569316896, 76.969282814, 101.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": 172,
+          "type": "info",
+          "text": "6402779 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_GB5|(71.902465244, 75.302432238, 101.640419948)|(74.811625013, 78.211592008, 101.656824147)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": 118,
+          "type": "info",
+          "text": "7130599 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT01|(65.157344363, 68.557310281, 101.673228347)|(73.532198429, 76.932164347, 101.738845144)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": 96,
+          "type": "info",
+          "text": "6403251 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_GB5|(63.908075585, 67.308042580, 101.640419948)|(66.817235354, 70.217202349, 101.656824147)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": -80,
+          "type": "info",
+          "text": "3579893 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_CCTV: CSS_CCTV|(83.082083301, 65.064695288, 100.541272982)|(83.550703937, 65.533315924, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 34,
+          "yaw": -114,
+          "type": "info",
+          "text": "6654507 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(80.759859218, 68.969093947, 99.911417323)|(81.114649891, 69.323884619, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 34,
+          "yaw": 56,
+          "type": "info",
+          "text": "7129964 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(70.596513863, 63.204286813, 99.911417323)|(70.951304536, 63.559077485, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": -76,
+          "type": "info",
+          "text": "4729059 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|L6_Bulkhead_Lift Lobby_4: L6_Bulkhead_Lift Lobby_01|(73.651672986, 60.301932042, 100.787401575)|(81.817735551, 68.467994607, 100.951443570)",
+          "show": "yes"
+        },
+        {
+          "pitch": 38,
+          "yaw": -104,
+          "type": "info",
+          "text": "3257996 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT10_MT01|(81.697100493, 67.674587972, 100.787401575)|(82.393071194, 68.370558673, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": 38,
+          "yaw": 16,
+          "type": "info",
+          "text": "3244938 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT10_MT01|(73.698070938, 59.675558453, 91.699475066)|(74.394041595, 60.371529109, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": -160,
+          "type": "info",
+          "text": "7130572 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT01|(60.262346077, 63.662313104, 101.673228347)|(78.427195606, 81.827162633, 101.738845144)",
+          "show": "yes"
+        },
+        {
+          "pitch": 42,
+          "yaw": 34,
+          "type": "info",
+          "text": "6403592 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_GB5|(70.403807171, 60.812310994, 101.640419948)|(73.312966940, 63.721470763, 101.656824147)",
+          "show": "yes"
+        },
+        {
+          "pitch": 42,
+          "yaw": 36,
+          "type": "info",
+          "text": "6403633 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_WD10_PL01|(70.403807171, 60.812310974, 101.607611549)|(73.213211082, 63.621714885, 101.640419948)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": 70,
+          "type": "info",
+          "text": "7130594 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1w_3000k_524lm|(68.859446746, 62.469418310, 99.673228347)|(74.516300996, 68.126272560, 103.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 54,
+          "yaw": -164,
+          "type": "info",
+          "text": "7130593 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1w_3000k_524lm|(73.963236049, 67.573207613, 99.673228347)|(79.620090298, 73.230061863, 103.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 56,
+          "yaw": 74,
+          "type": "info",
+          "text": "7130592 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1w_3000k_524lm|(69.323427574, 62.933399138, 99.673228347)|(74.980281823, 68.590253387, 103.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 58,
+          "yaw": -168,
+          "type": "info",
+          "text": "7130591 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1w_3000k_524lm|(73.499255221, 67.109226786, 99.673228347)|(79.156109471, 72.766081035, 103.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 68,
+          "yaw": 102,
+          "type": "info",
+          "text": "7130610 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Louver: CSS_Louver_1600 x 100|(71.831887312, 65.877821669, 101.673228347)|(76.211687139, 70.257621496, 101.742125984)",
+          "show": "yes"
+        },
+        {
+          "pitch": 84,
+          "yaw": -30,
+          "type": "info",
+          "text": "5090295 Sprinklers",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Sprinklers|CSS_Sprinkler: CSS_Sprinkler_WD-01|(75.705136119, 66.090440836, 101.530078084)|(76.211957129, 66.597261846, 101.870078740)",
+          "show": "yes"
+        }
+      ]
+    },
+    "Pano_00_AIM_Lift Lobby_02G11_STR_flipEM": {
+
+      "panorama": "Pano_00_AIM_Lift Lobby_02G11_STR_flipEM.jpg",
+      "panoramaflip": "Pano_00_AIM_Lift Lobby_02G11_STR_flipST",
+      "hotSpots": [
+
+      ]
+    },
+    "Pano_00_AIM_Lift Lobby_02G11_STR_flipST": {
+
+      "panorama": "Pano_00_AIM_Lift Lobby_02G11_STR_flipST.jpg",
+      "panoramaflip": "Pano_00_AIM_Lift Lobby_02G11_STR",
+      "hotSpots": [
+        {
+          "pitch": 6,
+          "yaw": -106,
+          "type": "info",
+          "text": "2816397 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(63.676085169, 67.076052148, 91.535433071)|(83.395270340, 86.795237319, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": 80,
+          "type": "info",
+          "text": "2816396 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(61.936157068, 58.724397254, 91.535433071)|(75.043615443, 71.831855629, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": -72,
+          "type": "info",
+          "text": "6205193 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(47.378758600, 20.967957411, 91.207349081)|(98.590642441, 72.179841251, 103.674540682)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 114,
+          "type": "info",
+          "text": "10099933 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(59.616252930, 71.599865215, 91.535433071)|(62.168147482, 74.151759767, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 120,
+          "type": "info",
+          "text": "5679582 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(52.134562084, 76.935644732, 91.207349081)|(56.832367965, 81.633450613, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 130,
+          "type": "info",
+          "text": "2816544 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(36.361060827, 73.283642598, 91.207349081)|(78.116310218, 115.502872817, 103.674540682)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 116,
+          "type": "info",
+          "text": "5679687 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(56.600377551, 73.803774146, 91.535433071)|(59.964238551, 77.167635146, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 88,
+          "yaw": -62,
+          "type": "info",
+          "text": "4861641 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: S_RC150|(44.727202620, 43.935008364, 104.166666667)|(115.465912078, 114.512585783, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": -140,
+          "type": "info",
+          "text": "8137909 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(69.736834744, 73.136801699, 78.412073491)|(91.891919260, 95.291886214, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -34,
+          "yaw": 26,
+          "type": "info",
+          "text": "8138319 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(67.648921020, 50.227748338, 78.412073491)|(76.377560339, 58.956387657, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -30,
+          "yaw": -92,
+          "type": "info",
+          "text": "4861726 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(83.163279942, 65.742107260, 91.535433071)|(98.609873306, 81.188700625, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -30,
+          "yaw": 2,
+          "type": "info",
+          "text": "6659270 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(67.648921020, 50.227748338, 91.535433071)|(76.377560339, 58.956387657, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": 166,
+          "type": "info",
+          "text": "8137911 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(62.342140305, 86.563246896, 78.412073491)|(78.465474063, 102.686580653, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": 148,
+          "type": "info",
+          "text": "4861730 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(62.342140305, 86.563246896, 91.535433071)|(78.465474063, 102.686580653, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 174,
+          "type": "info",
+          "text": "4861728 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(69.736834744, 73.136801699, 91.535433071)|(91.891919260, 95.291886214, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 128,
+          "type": "info",
+          "text": "5372043 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G2: 1400 x 700/600|(24.492904298, 77.857806619, 102.034120735)|(56.884565821, 110.249468142, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": 138,
+          "type": "info",
+          "text": "9615456 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 500 x 550|(47.749944016, 85.832476355, 102.526246719)|(69.789033326, 107.871565664, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": 134,
+          "type": "info",
+          "text": "4861628 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 575 x 700|(51.261283238, 75.482389828, 102.362204724)|(63.676085185, 87.897191775, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": 150,
+          "type": "info",
+          "text": "4861626 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 300 x 700|(62.545131918, 65.945098872, 102.362204724)|(84.062242796, 87.462209749, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": 120,
+          "type": "info",
+          "text": "4861622 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 300 x 700|(54.657457849, 58.057424803, 102.362204724)|(76.174568727, 79.574535680, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 24,
+          "yaw": -6,
+          "type": "info",
+          "text": "7956596 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G2: 1400 x 550/700|(69.968825158, 23.635847160, 102.034120735)|(102.128496268, 55.795518269, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 24,
+          "yaw": -76,
+          "type": "info",
+          "text": "7716997 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 1000 x 550|(83.818652861, 37.256004353, 102.526246719)|(115.280032825, 68.717384317, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 26,
+          "yaw": -8,
+          "type": "info",
+          "text": "7772925 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: S_RC200|(15.370247240, -6.269781433, 103.674540682)|(118.599815645, 108.741530453, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 46,
+          "yaw": -44,
+          "type": "info",
+          "text": "4861603 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 575 x 700|(75.043615460, 57.622442777, 102.362204724)|(84.497224821, 67.076052139, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -60,
+          "yaw": -162,
+          "type": "info",
+          "text": "8137876 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC150|(44.727202620, 43.935008364, 91.043307087)|(115.467945060, 114.519147463, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": -116,
+          "type": "info",
+          "text": "8137907 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(83.163279942, 65.742107260, 78.412073491)|(99.286613699, 81.865441017, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": 42,
+          "type": "info",
+          "text": "8137937 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(51.786576479, 49.560775899, 78.412073491)|(69.649838339, 67.424037759, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -26,
+          "yaw": -44,
+          "type": "info",
+          "text": "8138450 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC200|(15.370247240, -6.269781433, 90.551181102)|(118.599815646, 108.741530436, 91.207349081)",
+          "show": "yes"
+        },
+        {
+          "pitch": -24,
+          "yaw": 98,
+          "type": "info",
+          "text": "8137905 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(47.494753824, 68.641987432, 78.412073491)|(50.568626806, 71.715860414, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": 102,
+          "type": "info",
+          "text": "8137903 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(45.003471650, 69.224578241, 78.412073491)|(52.598542927, 76.819649517, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": 134,
+          "type": "info",
+          "text": "8138622 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC150|(15.370247239, -11.077965398, 90.715223097)|(225.097937667, 140.250774759, 91.207349081)",
+          "show": "yes"
+        }
+      ]
+    },
+    "Pano_00_AIM_Lift Lobby_01G10_STR": {
+
+      "panorama": "Pano_00_AIM_Lift Lobby_01G10_STR.jpg",
+      "panoramaflip": "Pano_00_AIM_Lift Lobby_01G10_STR_flipEM",
+      "hotSpots": [
+        {
+          "pitch": -62,
+          "yaw": -50,
+          "type": "info",
+          "text": "3096841 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(51.937370235, 57.545886127, 91.535433071)|(84.573781645, 87.509767791, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -28,
+          "yaw": 138,
+          "type": "info",
+          "text": "5459893 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: FN_CR45|(48.650066068, 53.905956333, 91.535433071)|(88.213711236, 91.843348724, 91.683070866)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": -116,
+          "type": "info",
+          "text": "5255788 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(65.420653083, 81.812083229, 91.535433071)|(68.680118396, 85.071548543, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -110,
+          "type": "info",
+          "text": "3235760 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|L6_Lift Lobby_Finishes_MT-01: L6_Lift Lobby_Finishes_MT-01|(52.250557508, 60.325131120, 91.699475066)|(84.497224794, 89.869110251, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -112,
+          "type": "info",
+          "text": "6435490 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_TL25_CT03|(68.199898216, 81.714647279, 91.699475066)|(68.350691985, 81.865441048, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -158,
+          "type": "info",
+          "text": "6430740 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_TL20_CT03|(64.859236111, 84.591328374, 91.699475066)|(65.462411346, 85.194503609, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -168,
+          "type": "info",
+          "text": "4054331 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(62.110149836, 85.171304562, 91.765091926)|(64.856916203, 87.918070930, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -28,
+          "yaw": 146,
+          "type": "info",
+          "text": "5253027 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_TL150_CT-03|(48.654705876, 81.139311029, 91.207349081)|(62.724924475, 93.464961707, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -108,
+          "type": "info",
+          "text": "6432907 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(68.524684788, 78.095596904, 91.699475066)|(71.958142826, 81.529054941, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": -122,
+          "type": "info",
+          "text": "2816599 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack|(63.560089964, 79.632533292, 91.535433071)|(77.218525575, 93.290968903, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 64,
+          "type": "info",
+          "text": "3247949 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(56.925163428, 76.628257300, 91.699475066)|(57.557337900, 77.260431770, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -36,
+          "yaw": 40,
+          "type": "info",
+          "text": "5330117 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(57.209352154, 74.064763353, 91.535433071)|(59.814604743, 76.670015941, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 42,
+          "type": "info",
+          "text": "2816435 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LIFT LOBBY|Doors|NW_Door_T_D1_TP_VP_Type1: 1050 x 3000|(54.617431499, 71.507312872, 89.068241470)|(60.439111095, 77.328992469, 101.706036745)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 28,
+          "type": "info",
+          "text": "3697321 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(59.772846120, 73.780575466, 91.699475066)|(60.405019761, 74.412749108, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 78,
+          "type": "info",
+          "text": "3248111 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(55.638776432, 77.262751762, 91.765091864)|(56.948362382, 78.572337712, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 60,
+          "type": "info",
+          "text": "3258995 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(57.220952213, 76.384667778, 91.699475066)|(57.534138859, 76.697854424, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": 2,
+          "type": "info",
+          "text": "3245815 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(60.590612091, 70.161524555, 91.699475066)|(64.024070673, 73.594983136, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": -16,
+          "yaw": 82,
+          "type": "info",
+          "text": "3700005 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(53.699336547, 78.623375629, 91.699475066)|(55.587738515, 80.511777597, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 170,
+          "type": "info",
+          "text": "6945056 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(60.207828466, 87.969108820, 91.699475066)|(62.059111945, 89.820392299, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -8,
+          "yaw": 168,
+          "type": "info",
+          "text": "7108068 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Doors|CSS_Door_T_AP_TP: 772 x 1880|(59.391222186, 87.113064194, 91.568241532)|(62.973154175, 90.694996182, 97.933070928)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 98,
+          "type": "info",
+          "text": "3704425 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(52.252877074, 80.562815268, 91.699475066)|(53.648298876, 81.958237071, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": -12,
+          "type": "info",
+          "text": "5255805 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(63.543850636, 66.943817611, 91.535433071)|(66.803315930, 70.203282905, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": -74,
+          "type": "info",
+          "text": "5255774 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(71.800389462, 75.200356437, 91.535433071)|(75.407840396, 78.807807371, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -18,
+          "yaw": 164,
+          "type": "info",
+          "text": "7477063 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_PT150_CA-01|(56.542379935, 89.753115086, 91.207349081)|(80.750579623, 113.961314774, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": -14,
+          "type": "info",
+          "text": "2816603 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2750w X 2800d Rear Jack|(55.063441060, 58.724397251, 91.535433071)|(68.663879068, 72.324835258, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": -12,
+          "yaw": -76,
+          "type": "info",
+          "text": "5199530 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Lift Car|Walls|Basic Wall: FN_MT50_MT01|(71.377006957, 74.776973932, 91.699475066)|(76.306803249, 79.706770224, 102.001312336)",
+          "show": "yes"
+        },
+        {
+          "pitch": -18,
+          "yaw": 106,
+          "type": "info",
+          "text": "7476956 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_PT150_CA-01|(36.623528018, 62.183189468, 91.207349081)|(52.243597581, 85.572647840, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": -70,
+          "type": "info",
+          "text": "2816600 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack(Without Lift Door)|(70.055821550, 73.136801706, 91.535433071)|(83.714257161, 86.795237317, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -20,
+          "type": "info",
+          "text": "3245440 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(66.761557569, 63.990580032, 91.699475066)|(70.195015204, 67.424037661, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -66,
+          "type": "info",
+          "text": "3238614 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(74.695629797, 71.924651809, 91.699475066)|(78.129087916, 75.358109928, 101.541994751)",
+          "show": "yes"
+        },
+        {
+          "pitch": -16,
+          "yaw": 160,
+          "type": "info",
+          "text": "6505493 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: FN_WD12_PL01|(56.784549106, 93.595775367, 91.699475066)|(60.289025183, 97.100251444, 91.863517060)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 160,
+          "type": "info",
+          "text": "3257376 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(56.963181760, 93.827765809, 91.699475066)|(77.050332570, 113.914916644, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 152,
+          "type": "info",
+          "text": "7113065 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(54.988045110, 91.725034554, 91.699475066)|(56.858785981, 93.595775425, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -14,
+          "yaw": 144,
+          "type": "info",
+          "text": "7113171 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(54.104161635, 90.952506474, 91.804461942)|(54.937007221, 91.785352060, 93.339895013)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 132,
+          "type": "info",
+          "text": "11432640 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Doors|NW_Door_T_D2_GP_L1R1: D2_1350 x 2750_AIM|(48.596708272, 87.491208561, 91.699475066)|(54.396468617, 93.290968905, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 118,
+          "type": "info",
+          "text": "7112095 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(49.084786285, 85.821775729, 91.699475066)|(51.032607615, 87.769597059, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 108,
+          "type": "info",
+          "text": "3254709 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(36.689144816, 73.495731248, 91.699475066)|(48.873675077, 85.738259112, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -16,
+          "yaw": 108,
+          "type": "info",
+          "text": "4965703 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD12_PL01|(46.074972531, 82.886198792, 91.699475066)|(48.885274587, 85.696500848, 91.863517060)",
+          "show": "yes"
+        },
+        {
+          "pitch": -14,
+          "yaw": -26,
+          "type": "info",
+          "text": "5255850 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(70.039582221, 60.448086025, 91.535433071)|(73.299047535, 63.707551338, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -14,
+          "yaw": -62,
+          "type": "info",
+          "text": "5252824 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LOBBY|Floors|Floor: FN_TL50_CT-03|(78.412116254, 68.820620058, 91.535433071)|(81.671581568, 72.080085371, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": -12,
+          "yaw": -96,
+          "type": "info",
+          "text": "6433236 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|Model Text: 10mm Aria|(69.572362123, 79.996030323, 94.834269085)|(70.137746098, 80.561414298, 94.868134248)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -28,
+          "type": "info",
+          "text": "2816602 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack|(61.501175042, 52.228665665, 91.535433071)|(75.159610653, 65.887101276, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": -60,
+          "type": "info",
+          "text": "2816601 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Lift Center Door: Passenger Lift 2800w X 2800d Rear Jack|(76.551553136, 66.641070121, 91.535433071)|(90.209988747, 80.299505732, 102.198162730)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": 146,
+          "type": "info",
+          "text": "7113170 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Signage_Corridor_LE15: 375 x 2750|(54.048483936, 90.482068900, 91.699475066)|(55.407444795, 91.841029759, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -30,
+          "type": "info",
+          "text": "3244440 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(73.769987976, 57.710599069, 91.765091864)|(76.500515150, 60.441126243, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": -44,
+          "type": "info",
+          "text": "5253080 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|LOBBY|Floors|Floor: FN_TL150_CT-03|(76.574752179, 53.910596172, 91.207349081)|(88.211391356, 65.547235351, 91.699475066)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -58,
+          "type": "info",
+          "text": "3240334 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_MT09_MR01|(81.678541259, 65.619152363, 91.765091864)|(84.409068432, 68.349679536, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": 88,
+          "type": "info",
+          "text": "7107459 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|HS_LEDDisplay_Vertical: 805 x 1333 x 55|(53.604220599, 78.528259681, 95.019685115)|(55.599338157, 80.523377239, 99.393044695)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -34,
+          "type": "info",
+          "text": "3254191 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(47.436756236, 21.315942999, 91.699475066)|(80.366373743, 54.245560506, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -38,
+          "type": "info",
+          "text": "7111799 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(80.470769431, 54.477550982, 91.699475066)|(82.537804067, 56.544585618, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -46,
+          "type": "info",
+          "text": "11432409 Doors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Doors|NW_Door_T_D2_GP_L1R1: D2_1350 x 2750_AIM|(82.259415568, 54.108686275, 91.699475066)|(88.059175913, 59.908446620, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": -50,
+          "type": "info",
+          "text": "7111905 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(85.720712542, 59.616138698, 91.804461942)|(86.553558127, 60.448984284, 93.339895013)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -54,
+          "type": "info",
+          "text": "7110829 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|LIFT LOBBY|Walls|Basic Wall: FN_TL20_CT03|(86.493241561, 60.500023113, 91.699475066)|(88.244769126, 62.251550677, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 0,
+          "yaw": -56,
+          "type": "info",
+          "text": "3671559 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|Corridor|Walls|Basic Wall: FN_WD25_WP01|(88.455880403, 62.335067226, 91.699475066)|(134.617450266, 108.508648787, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": -6,
+          "yaw": 144,
+          "type": "info",
+          "text": "7113175 Security Devices",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Security Devices|WHS_SmartCardRender_Suprema_Xpass-S2: WHS_SmartCardRender_Suprema_Xpass-S2|(54.458565657, 91.097036502, 94.555184796)|(54.792477193, 91.430948038, 95.555184796)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": 118,
+          "type": "info",
+          "text": "7115695 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|Model Text: 80mm Century Gothic|(49.204524092, 85.848717265, 95.113803435)|(50.197999747, 86.842192921, 95.144356955)",
+          "show": "yes"
+        },
+        {
+          "pitch": -2,
+          "yaw": -50,
+          "type": "info",
+          "text": "7111904 Specialty Equipment",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Specialty Equipment|CSS_Signage_Corridor_LE15: 375 x 2750|(85.250274967, 59.560460999, 91.699475066)|(86.609235827, 60.919421858, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": 146,
+          "type": "info",
+          "text": "7113174 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(54.104161635, 90.952506474, 96.637139108)|(54.937007221, 91.785352060, 100.682414698)",
+          "show": "yes"
+        },
+        {
+          "pitch": 6,
+          "yaw": -50,
+          "type": "info",
+          "text": "7111908 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_Mirror_LD15: CSS_Furniture_Mirror_LD15|(85.720712542, 59.616138698, 96.637139108)|(86.553558127, 60.448984284, 100.682414698)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": -44,
+          "type": "info",
+          "text": "3228561 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_PT20_PT01|(73.651672899, 53.569570177, 100.721784777)|(88.550097334, 68.467994533, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": -26,
+          "type": "info",
+          "text": "7129964 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(70.596513863, 63.204286813, 99.911417323)|(70.951304536, 63.559077485, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": -30,
+          "type": "info",
+          "text": "5291177 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Louver: CSS_Louver_3438 x 180_MT-01|(74.391721823, 59.652359464, 100.951443957)|(82.416270236, 67.676907876, 102.027306036)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": -46,
+          "type": "info",
+          "text": "4729059 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|L6_Bulkhead_Lift Lobby_4: L6_Bulkhead_Lift Lobby_01|(73.651672986, 60.301932042, 100.787401575)|(81.817735551, 68.467994607, 100.951443570)",
+          "show": "yes"
+        },
+        {
+          "pitch": 66,
+          "yaw": 168,
+          "type": "info",
+          "text": "3230762 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_WD20_PL01|(56.159595731, 59.652358649, 101.541994751)|(82.467308946, 85.960071861, 101.607611549)",
+          "show": "yes"
+        },
+        {
+          "pitch": 14,
+          "yaw": -88,
+          "type": "info",
+          "text": "7129517 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|WHS_LS_Maxlite_ML-FLW-4W_TextType: WHS_LS_Maxlite_ML-FLW-4W_TextType|(70.274255528, 79.163291833, 98.084238600)|(70.754810835, 79.643847139, 99.097112861)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": 164,
+          "type": "info",
+          "text": "5612979 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT02_Perforated Sheet|(56.999401090, 90.650917973, 100.721784777)|(80.309797831, 113.961314727, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 40,
+          "yaw": -174,
+          "type": "info",
+          "text": "3228727 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_PT20_PT01|(48.197684703, 77.144436118, 100.721784777)|(64.975231492, 93.921982748, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": 104,
+          "type": "info",
+          "text": "5613086 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT02_Perforated Sheet|(36.689316519, 71.695752210, 100.721784777)|(51.468749478, 85.120266354, 100.787401575)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": -70,
+          "type": "info",
+          "text": "6654468 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(74.264127632, 75.464825532, 99.911417323)|(74.618918305, 75.819616205, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 22,
+          "yaw": -8,
+          "type": "info",
+          "text": "7129905 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(64.158779892, 69.642020783, 99.911417323)|(64.513570565, 69.996811456, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 66,
+          "yaw": 12,
+          "type": "info",
+          "text": "5295866 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lift Lobby_Ceiling_black line: Lift Lobby_Ceiling_black line|(57.493540523, 60.916706554, 101.541994751)|(81.226159966, 84.602927907, 101.548556431)",
+          "show": "yes"
+        },
+        {
+          "pitch": 24,
+          "yaw": 104,
+          "type": "info",
+          "text": "3689422 Furniture",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Furniture|CSS_CCTV: CSS_CCTV|(53.197078066, 81.958237075, 100.541272982)|(53.665698702, 82.426857711, 100.721784777)",
+          "show": "yes"
+        },
+        {
+          "pitch": 28,
+          "yaw": -62,
+          "type": "info",
+          "text": "7130599 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT01|(65.157344363, 68.557310281, 101.673228347)|(73.532198429, 76.932164347, 101.738845144)",
+          "show": "yes"
+        },
+        {
+          "pitch": 28,
+          "yaw": -32,
+          "type": "info",
+          "text": "7131047 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lift Lobby_Louver MT14: Lift Lobby_Louver MT-01|(65.120225897, 68.520191814, 101.509186352)|(73.569316896, 76.969282814, 101.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 28,
+          "yaw": -64,
+          "type": "info",
+          "text": "7130608 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Louver: CSS_Louver_3344 x 100|(64.913933727, 68.749862438, 101.673228347)|(73.339646371, 77.175575081, 101.742125984)",
+          "show": "yes"
+        },
+        {
+          "pitch": 32,
+          "yaw": 160,
+          "type": "info",
+          "text": "6531084 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_iDL3: iDL3_3000k_448lm|(60.139753372, 85.996392428, 98.721784777)|(60.916197114, 86.772836170, 100.889107612)",
+          "show": "yes"
+        },
+        {
+          "pitch": 36,
+          "yaw": -116,
+          "type": "info",
+          "text": "6654101 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Lighting_LiftLobby_LiftArrivalLight: CSS_Lighting_LiftLobby_LiftArrivalLight|(67.768396047, 81.960557118, 99.911417323)|(68.123186719, 82.315347791, 100.914698163)",
+          "show": "yes"
+        },
+        {
+          "pitch": 56,
+          "yaw": 170,
+          "type": "info",
+          "text": "5904684 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|L6_Bulkhead_Lift Lobby_7: L6_Bulkhead_Lift Lobby_01|(56.809168466, 77.144436562, 100.787401575)|(64.975231031, 85.310499127, 100.951443570)",
+          "show": "yes"
+        },
+        {
+          "pitch": 40,
+          "yaw": 46,
+          "type": "info",
+          "text": "5295493 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Exit Sign Plate: CSS_Exit Sign Plate|(58.160513097, 75.015924045, 101.033464567)|(58.984079066, 75.839490014, 101.771653544)",
+          "show": "yes"
+        },
+        {
+          "pitch": 50,
+          "yaw": -102,
+          "type": "info",
+          "text": "7130572 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_MT20_MT01|(60.262346077, 63.662313104, 101.673228347)|(78.427195606, 81.827162633, 101.738845144)",
+          "show": "yes"
+        },
+        {
+          "pitch": 60,
+          "yaw": -84,
+          "type": "info",
+          "text": "7130982 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Lift Lobby_Louver MT2: Lift Lobby_Louver MT-01|(60.225227611, 63.625194632, 101.509186352)|(78.464314078, 81.864281099, 101.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 44,
+          "yaw": -150,
+          "type": "info",
+          "text": "6402515 Ceilings",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Ceilings|Compound Ceiling: FN_WD10_PL01|(65.506489536, 81.897919682, 101.607611549)|(68.315893447, 84.707323593, 101.640419948)",
+          "show": "yes"
+        },
+        {
+          "pitch": 52,
+          "yaw": 8,
+          "type": "info",
+          "text": "7130577 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1w_3000k_524lm|(59.533432120, 72.723394592, 99.673228347)|(65.190286369, 78.380248841, 103.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 62,
+          "yaw": -70,
+          "type": "info",
+          "text": "7130609 Generic Models",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Generic Models|CSS_Louver: CSS_Louver_1600 x 100|(62.041891850, 75.667817131, 101.673228347)|(66.421691677, 80.047616958, 101.742125984)",
+          "show": "yes"
+        },
+        {
+          "pitch": 56,
+          "yaw": -92,
+          "type": "info",
+          "text": "7130576 Lighting Fixtures",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Lighting Fixtures|CSS_Downlight_L02&L03: iAJ1w_3000k_524lm|(63.709259767, 76.899222239, 99.673228347)|(69.366114017, 82.556076489, 103.673228347)",
+          "show": "yes"
+        },
+        {
+          "pitch": 86,
+          "yaw": 16,
+          "type": "info",
+          "text": "6027867 Sprinklers",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Sprinklers|CSS_Sprinkler: CSS_Sprinkler_WD-01|(62.713672906, 79.081904049, 101.530078084)|(63.220493916, 79.588725059, 101.870078740)",
+          "show": "yes"
+        }
+      ]
+    },
+    "Pano_00_AIM_Lift Lobby_01G10_STR_flipEM": {
+
+      "panorama": "Pano_00_AIM_Lift Lobby_01G10_STR_flipEM.jpg",
+      "panoramaflip": "Pano_00_AIM_Lift Lobby_01G10_STR_flipST",
+      "hotSpots": [
+
+      ]
+    },
+    "Pano_00_AIM_Lift Lobby_01G10_STR_flipST": {
+
+      "panorama": "Pano_00_AIM_Lift Lobby_01G10_STR_flipST.jpg",
+      "panoramaflip": "Pano_00_AIM_Lift Lobby_01G10_STR",
+      "hotSpots": [
+        {
+          "pitch": 6,
+          "yaw": -108,
+          "type": "info",
+          "text": "2816397 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(63.676085169, 67.076052148, 91.535433071)|(83.395270340, 86.795237319, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 78,
+          "type": "info",
+          "text": "5679582 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(52.134562084, 76.935644732, 91.207349081)|(56.832367965, 81.633450613, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 68,
+          "type": "info",
+          "text": "2816392 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(49.988650758, 70.323917939, 91.535433071)|(56.948363172, 77.283630353, 103.674540682)",
+          "show": "yes"
+        },
+        {
+          "pitch": 20,
+          "yaw": 66,
+          "type": "info",
+          "text": "5679687 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(56.600377551, 73.803774146, 91.535433071)|(59.964238551, 77.167635146, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 20,
+          "type": "info",
+          "text": "10099933 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_BW100|(59.616252930, 71.599865215, 91.535433071)|(62.168147482, 74.151759767, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": 174,
+          "type": "info",
+          "text": "7712448 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(60.486216979, 87.897191786, 91.207349081)|(62.574130703, 89.985105510, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": -18,
+          "type": "info",
+          "text": "2816396 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: PA_CO100|(61.936157068, 58.724397254, 91.535433071)|(75.043615443, 71.831855629, 102.362204724)",
+          "show": "yes"
+        },
+        {
+          "pitch": -4,
+          "yaw": 166,
+          "type": "info",
+          "text": "2816400 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(60.370221772, 89.637119889, 91.207349081)|(85.197640889, 114.464539007, 102.526246719)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 100,
+          "type": "info",
+          "text": "2816390 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(41.986535482, 71.253433597, 91.207349081)|(52.482547705, 81.749445820, 102.526246719)",
+          "show": "yes"
+        },
+        {
+          "pitch": 4,
+          "yaw": 152,
+          "type": "info",
+          "text": "2816544 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(36.361060827, 73.283642598, 91.207349081)|(78.116310218, 115.502872817, 103.674540682)",
+          "show": "yes"
+        },
+        {
+          "pitch": 2,
+          "yaw": -56,
+          "type": "info",
+          "text": "6205193 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: PA_BW100|(47.378758600, 20.967957411, 91.207349081)|(98.590642441, 72.179841251, 103.674540682)",
+          "show": "yes"
+        },
+        {
+          "pitch": 88,
+          "yaw": -82,
+          "type": "info",
+          "text": "4861641 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: S_RC150|(44.727202620, 43.935008364, 104.166666667)|(115.465912078, 114.512585783, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -32,
+          "yaw": -176,
+          "type": "info",
+          "text": "4861730 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(62.342140305, 86.563246896, 91.535433071)|(78.465474063, 102.686580653, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": -136,
+          "type": "info",
+          "text": "8137909 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(69.736834744, 73.136801699, 78.412073491)|(91.891919260, 95.291886214, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": -76,
+          "type": "info",
+          "text": "8137907 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(83.163279942, 65.742107260, 78.412073491)|(99.286613699, 81.865441017, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": -58,
+          "type": "info",
+          "text": "4861726 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(83.163279942, 65.742107260, 91.535433071)|(98.609873306, 81.188700625, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 10,
+          "yaw": -78,
+          "type": "info",
+          "text": "4861728 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Walls|Basic Wall: S_RC575|(69.736834744, 73.136801699, 91.535433071)|(91.891919260, 95.291886214, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 12,
+          "yaw": -56,
+          "type": "info",
+          "text": "7716997 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 1000 x 550|(83.818652861, 37.256004353, 102.526246719)|(115.280032825, 68.717384317, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": -44,
+          "type": "info",
+          "text": "4861603 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 575 x 700|(75.043615460, 57.622442777, 102.362204724)|(84.497224821, 67.076052139, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 44,
+          "yaw": 28,
+          "type": "info",
+          "text": "4861622 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 300 x 700|(54.657457849, 58.057424803, 102.362204724)|(76.174568727, 79.574535680, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 16,
+          "yaw": -58,
+          "type": "info",
+          "text": "4861626 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 300 x 700|(62.545131918, 65.945098872, 102.362204724)|(84.062242796, 87.462209749, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": 18,
+          "yaw": -80,
+          "type": "info",
+          "text": "9383620 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|8/F|null|null|Walls|Basic Wall: S_RC575|(69.736834744, 73.136801699, 104.658792651)|(91.891919260, 95.291886214, 117.782152231)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": 108,
+          "type": "info",
+          "text": "5372043 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G2: 1400 x 700/600|(24.492904298, 77.857806619, 102.034120735)|(56.884565821, 110.249468142, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 22,
+          "yaw": 164,
+          "type": "info",
+          "text": "9615456 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 500 x 550|(47.749944016, 85.832476355, 102.526246719)|(69.789033326, 107.871565664, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 26,
+          "yaw": 164,
+          "type": "info",
+          "text": "8090844 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Floors|Floor: S_RC150|(15.370247239, -11.077965398, 103.838582677)|(225.097937667, 140.250774759, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 30,
+          "yaw": 164,
+          "type": "info",
+          "text": "9615762 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 300 x 550|(52.157761140, 81.888640058, 102.526246719)|(73.732869622, 103.463748540, 104.330708661)",
+          "show": "yes"
+        },
+        {
+          "pitch": 36,
+          "yaw": 92,
+          "type": "info",
+          "text": "4861628 Structural Framing",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|7/F|null|null|Structural Framing|HS_Beam_CR_G1G1: 575 x 700|(51.261283238, 75.482389828, 102.362204724)|(63.676085185, 87.897191775, 104.658792651)",
+          "show": "yes"
+        },
+        {
+          "pitch": -60,
+          "yaw": -2,
+          "type": "info",
+          "text": "8137876 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC150|(44.727202620, 43.935008364, 91.043307087)|(115.467945060, 114.519147463, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -38,
+          "yaw": -152,
+          "type": "info",
+          "text": "8137911 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(62.342140305, 86.563246896, 78.412073491)|(78.465474063, 102.686580653, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -26,
+          "yaw": 166,
+          "type": "info",
+          "text": "8138622 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC150|(15.370247239, -11.077965398, 90.715223097)|(225.097937667, 140.250774759, 91.207349081)",
+          "show": "yes"
+        },
+        {
+          "pitch": -22,
+          "yaw": -10,
+          "type": "info",
+          "text": "8137937 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(51.786576479, 49.560775899, 78.412073491)|(69.649838339, 67.424037759, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -20,
+          "yaw": -14,
+          "type": "info",
+          "text": "8138319 Walls",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Walls|Basic Wall: S_RC575|(67.648921020, 50.227748338, 78.412073491)|(76.377560339, 58.956387657, 91.535433071)",
+          "show": "yes"
+        },
+        {
+          "pitch": -10,
+          "yaw": -40,
+          "type": "info",
+          "text": "8138450 Floors",
+          "linktype": "ma",
+          "URLs": " ",
+          "Parameters": "AIM_17104_CSS|6/F|null|null|Floors|Floor: S_RC200|(15.370247240, -6.269781433, 90.551181102)|(118.599815646, 108.741530436, 91.207349081)",
+          "show": "yes"
+        }
+      ]
+    }
+  }
+}

@@ -4,7 +4,7 @@
     "Sign_In": "Sign In",
     "with_email": "with email",
     "Project": "Project",
-    "form":{
+    "form": {
         "Email": "Email",
         "Password": "Password"
     },
@@ -16,18 +16,74 @@
         "Central_Search": "Central Search",
         "Central_Search_info": "Document related to this project.",
         "CIA": "CIA",
-        "Knowledge_Portal": "Knowledge Portal"
+        "CIA_description": "Documents related to this project.",
+        "SSF": "Shop Drawing Submission (SSF)",
+        "TSF": "Technical Submission (TSF)",
+        "DCS": "Document Control System (DCS)",
+        "Knowledge_Portal": "Knowledge Portal",
+        "Knowledge_Portal_description": "A place with treasures",
+        "Building_Materials": "Building Materials",
+        "Design_Reference_Library": "Design Reference Library",
+        "Statutory_Updates_Impact_Remarks": "Statutory Updates & Impact Remarks",
+        "Operation_Control_Reference_Systems": "Operation Control - Reference Systems",
+        "Project": "Project",
+        "VVMU": "Virtual Visual Mock Up (VVMU)",
+        "VVMU_description": "A 360 degree view of a specific place.",
+        "GIA": "GIA",
+        "GIA_description": "3D model with permits."
     },
     "Hello": "Hello",
     "project_select_description": "Which project you're working today?",
     "Select_Project": "Select Project",
     "Next": "Next",
-    "nav_tab":{
+    "nav_tab": {
         "Home": "主頁",
         "Safety": "健康及安全",
         "Database": "資料庫",
         "VWT": "VWT",
-        "GIA": "GIA" 
+        "GIA": "GIA"
     },
-    "cb_clock": "<0/>年<1/>月<2/>日 (<3/>) <4/>:<5/>:<6/>"
+    "cb_clock": "<0/>年<1/>月<2/>日 (<3/>) <4/>:<5/>:<6/>",
+    "Project_summary": "Project summary",
+    "Site_Area": "Site Area",
+    "GFA": "GFA",
+    "CFA": "CFA",
+    "PD_PIC_name": "PD/PIC Name + Contact",
+    "Safety_Hotline": "Safety Hotline",
+    "PTW": "PTW",
+    "NCR": "NCR",
+    "Gate_Access": "Gate Access",
+    "Iot": "Iot",
+    "All": "All",
+    "NEW": "NEW",
+    "WIP": "WIP",
+    "COMPLETED": "COMPLETED",
+    "CLOSED": "CLOSED",
+    "REJECTED": "REJECTED",
+    "OVERDUE": "OVERDUE",
+    "LATE": "LATE",
+    "Columns": {
+        "applicant": "Applicant",
+        "pcCompany": "PC Company",
+        "type": "Type",
+        "description": "Description",
+        "status": "Status",
+        "location": "Location",
+        "time": "Time"
+    },
+    "Enviro": "環保數值",
+    "Entry": "Entry",
+    "Announcement": "Announcement",
+    "PTW_and_NCR": "PTW and NCR",
+    "Submitted": "Submitted",
+    "Approved": "Approved",
+    "weekdaysShort": {
+        "Sun": "日",
+        "Mon": "一",
+        "Tue": "二",
+        "Wed": "三",
+        "Thu": "四",
+        "Fri": "五",
+        "Sat": "六"
+    }
 }

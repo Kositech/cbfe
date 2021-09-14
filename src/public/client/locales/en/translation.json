@@ -76,5 +76,14 @@
     "Announcement": "Announcement",
     "PTW_and_NCR": "PTW and NCR",
     "Submitted": "Submitted",
-    "Approved": "Approved"
+    "Approved": "Approved",
+    "weekdaysShort": {
+        "Sun": "Sun",
+        "Mon":"Mon",
+        "Tue":"Tue",
+        "Wed":"Wed",
+        "Thu":"Thu",
+        "Fri":"Fri",
+        "Sat":"Sat"
+    }
 }

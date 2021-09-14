@@ -7,6 +7,7 @@ const startServer = () => {
 
     app.use(express.static(path.join(__dirname, '../src/public')));
     app.use(express.static(path.join(__dirname, '../src/public/client')));
+    app.use(express.static(path.join(__dirname, '../src/public/VWT')));
 
     app.get('*', (req, res) => {
         res.sendFile(path.join(__dirname, '../src/public/client/index.html'));
