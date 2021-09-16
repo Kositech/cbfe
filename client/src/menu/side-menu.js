@@ -77,9 +77,9 @@ function SideMenu(props) {
 
     const renderFooter = () => {
         return (
-            <div className="cb-menu-footer">
+            <a className="cb-menu-footer" href="/">
                 <div className="crystal-ball-logo logo-sm "></div>
-            </div>
+            </a>
         )
     }
 

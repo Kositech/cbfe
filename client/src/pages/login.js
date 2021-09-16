@@ -9,6 +9,7 @@ import FullPageBg from '../components/full-page-bg'
 import bg from '../assets/bg01.png'
 
 function Login(props) {
+    let history = useHistory()
     const { t, i18n } = useTranslation();
 
     return (
@@ -43,7 +44,7 @@ function Login(props) {
                                     {
                                         variable.LANGUAGE.map(function (v, i) {
                                             return (
-                                                <div className="language-box text-center"
+                                                <div className="language-box text-center pointer"
                                                     onClick={() => {
                                                         i18n.changeLanguage(v.code)
                                                     }}>
@@ -80,7 +81,11 @@ function Login(props) {
                                 <ViewContent
                                     css="d-flex justify-content-start align-items-center mb-5 pb-2"
                                 >
-                                    <Button size="lg" className="font-l style-btn white bg-green bold fst-italic w-100">
+                                    <Button size="lg" className="font-l style-btn white bg-green bold fst-italic w-100"
+                                        onClick={() => {
+                                            history.push("/")
+                                        }}
+                                    >
                                         {t('Sign_In')}
                                     </Button>
                                 </ViewContent>
