@@ -23,7 +23,7 @@ function HealthSafetyMenu(props) {
                                     <ViewContent
                                         css="d-flex justify-content-center align-items-center"
                                     >
-                                        <div className={v.className}></div>
+                                        <div className={v.className + " " + isActive}></div>
                                         <div className="font-m bold deep-dark pl-2 ncr-menu-name">{t(v.name)}</div>
                                     </ViewContent>
                                 </ViewShadowBox>

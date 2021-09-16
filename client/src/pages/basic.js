@@ -4,16 +4,16 @@ import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import moment from 'moment'
 import Chart from "react-apexcharts";
-import variable from '../../helpers/variable'
-import NavTop from '../../components/nav-top';
-import ResponsiveFooterMenu from '../../components/responsive-footer-menu'
-import ViewWrapper from '../../components/view-wrapper'
-import ViewContent from '../../components/view-content'
-import DateClock from '../../components/date-clock'
-import HealthSafetyMenu from '../../menu/health-safety-menu'
-import SideMenu from '../../menu/side-menu'
+import variable from '../helpers/variable'
+import NavTop from '../components/nav-top';
+import ResponsiveFooterMenu from '../components/responsive-footer-menu'
+import ViewWrapper from '../components/view-wrapper'
+import ViewContent from '../components/view-content'
+import DateClock from '../components/date-clock'
+import HealthSafetyMenu from '../menu/health-safety-menu'
+import SideMenu from '../menu/side-menu'
 
-function Iot(props){
+function Basic(props){
     let history = useHistory()
     const { t, i18n } = useTranslation();
 
@@ -38,4 +38,4 @@ function Iot(props){
     )
 }
 
-export default Iot
+export default PTW

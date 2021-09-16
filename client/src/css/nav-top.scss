@@ -22,6 +22,9 @@
 
 .nav-top-menu {
     .nav-top-menu-item:hover {
-        background-color: var(--main-dartmouth-green)
+        background-color: var(--main-dartmouth-green);
+    }
+    .nav-top-menu-item.active {
+        background-color: var(--main-dartmouth-green);
     }
 }

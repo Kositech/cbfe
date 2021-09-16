@@ -85,7 +85,7 @@ function Dashboard(props) {
             >
             </SideMenu>
             <div id="page-wrap" className="cb-page-wrap cb-dashboard pt-4 pl-5 pr-5 pb-4 mt-1">
-                <NavTop showIcon={true} />
+                <NavTop showIcon={true} {...props}/>
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">
                         <div className="ml-6 pl-5 bold font-xl">{t('Crystal_Ball')}</div>

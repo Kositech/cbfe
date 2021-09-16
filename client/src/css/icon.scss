@@ -164,15 +164,23 @@
 
 .cb-checklist-icon {
     background-image: url('../assets/ic_card-checklist.png');
-
+    &.active{
+        background-image: url('../assets/ic_card-checklist-white.png');
+    }
 }
 
 .cb-arrow-exchange-icon {
     background-image: url('../assets/ic_arrows-exchange.png');
+    &.active{
+        background-image: url('../assets/ic_arrows-exchange-white.png');
+    }
 }
 
 .cb-iot-icon {
     background-image: url('../assets/ic_icons_iot.png');
+    &.active{
+        background-image: url('../assets/ic_icons_iot-white.png');
+    }
 }
 
 .logo-sm {

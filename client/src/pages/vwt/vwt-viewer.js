@@ -14,7 +14,7 @@ function VWTViewer(props) {
             >
             </SideMenu>
             <div id="page-wrap" className="cb-page-wrap cb-dashboard pt-4 pl-5 pr-5 pb-4 mt-1">
-                <NavTop showIcon={true} />
+                <NavTop showIcon={true} {...props}/>
                 <div className="vwt-iframe-wrap">
                     <iframe name="vwt-iframe" src={"/VWT/VWT Sample/wrap.html"} height="100%" width="100%"/>
                 </div>

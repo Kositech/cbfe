@@ -67,6 +67,7 @@
         "pcCompany": "PC Company",
         "type": "Type",
         "description": "Description",
+        "Sub-Type": "Sub-Type",
         "status": "Status",
         "location": "Location",
         "time": "Time"
@@ -86,5 +87,19 @@
         "Fri":"Fri",
         "Sat":"Sat"
     },
-    "Health_Safety": "Health & Safety"
+    "Health_Safety": "Health & Safety",
+    "Monthly_NCR": "Monthly NCR",
+    "Top_Ten_Work_Type": "Top 10 type of work",
+    "Permit_Submission_Status": "Permit Submission Status",
+    "Work_permit_status_distribution": "Work permit status distribution",
+    "Permit": "Permit",
+    "non-Approved": "non-Approved",
+    "non-Cancelled": "non-Cancelled",
+    "Rejected": "Rejected",
+    "Cancelled": "Cancelled",
+    "Total": "Total",
+    "Hot_Work_Permit": "Hot Work Permit",
+    "Exterior_wall_Permit": "Exterior wall",
+    "Ladder_Work_Permit": "Ladder Work Permit",
+    "Above_Ceiling_Permit": "Above Ceiling Permit"
 }

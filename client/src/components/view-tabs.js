@@ -31,7 +31,7 @@ function ViewTabs(props) {
                                                 setCurrent(i)
                                                 onChange(tab, i)
                                             }}
-                                                className={"cb-data-tab-item w-100 py-2 bold font-n text-center pointer " + active}>{tab.name}</div>
+                                                className={"cb-data-tab-item w-100 py-3 bold font-n text-center pointer " + active}>{tab.name}</div>
                                         </Col>
                                     )
                                 })

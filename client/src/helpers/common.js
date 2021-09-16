@@ -6,12 +6,12 @@ function debug(name = "", value = "") {
     }
 }
 
-function objArrayToDropdownObject(objs, keys = [], targetKeys = ['key', 'value', 'text']){
+function objArrayToDropdownObject(objs, keys = [], targetKeys = ['key', 'value', 'text']) {
     let output = []
 
-    objs.map(function(obj, i){
-        let newObj = {...obj};
-        keys.map(function(key, j){
+    objs.map(function (obj, i) {
+        let newObj = { ...obj };
+        keys.map(function (key, j) {
             newObj[targetKeys[j]] = obj[key]
         })
 
@@ -21,8 +21,8 @@ function objArrayToDropdownObject(objs, keys = [], targetKeys = ['key', 'value',
     return output
 }
 
-function searchArrayObject(nameKey, props, myArray){
-    for (var i=0; i < myArray.length; i++) {
+function searchArrayObject(nameKey, props, myArray) {
+    for (var i = 0; i < myArray.length; i++) {
         if (myArray[i][props] === nameKey) {
             return myArray[i];
         }
@@ -41,8 +41,8 @@ function objToQueryString(obj) {
 function countDecimals(str) { // str must be number
     console.log("conuntDecimals ", str)
     let value = Number(str)
-    if(Math.floor(value) === value) return 0;
-    return value.toString().split(".")[1].length || 0; 
+    if (Math.floor(value) === value) return 0;
+    return value.toString().split(".")[1].length || 0;
 }
 
 function currencyFormat(n, currency = "", output = 0, fixed = 0) {
@@ -92,18 +92,22 @@ function routesFilterPath(mpath, mparams) {
     return crumbs
 }
 
-function arrayGroupBy(list, keyGetter){
+function arrayGroupBy(list, keyGetter) {
     const map = new Map();
     list.forEach((item) => {
         const key = keyGetter(item);
-         const collection = map.get(key);
-         if (!collection) {
-             map.set(key, [item]);
-         } else {
-             collection.push(item);
-         }
+        const collection = map.get(key);
+        if (!collection) {
+            map.set(key, [item]);
+        } else {
+            collection.push(item);
+        }
     });
     return map;
+}
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
 }
 
 export {
@@ -114,5 +118,6 @@ export {
     routesFilterPath,
     arrayGroupBy,
     countDecimals,
-    objArrayToDropdownObject
+    objArrayToDropdownObject,
+    getRandomInt
 }

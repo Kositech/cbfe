@@ -2,11 +2,11 @@ import { gql } from '@apollo/client';
 
 let ncrTypesCountRecentMonthsOutput = `
     previousmonth{
-        list_type
+        safety_type
         count
     }
     thismonth{
-        list_type
+        safety_type
         count
     }
 `

@@ -74,7 +74,7 @@ function NCR(props) {
                 burgerButtonClassName="cb-menu-bth-sm"
             ></SideMenu>
             <div id="page-wrap" className="cb-page-wrap cb-ncr pt-4 pl-5 pr-5 pb-4 mt-1">
-                <NavTop showIcon={true} />
+                <NavTop showIcon={true} {...props}/>
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">
                         <div className="ml-6 pl-5 bold font-xl">{t('Crystal_Ball')}</div>
@@ -82,19 +82,25 @@ function NCR(props) {
                     </Col>
                 </Row>
                 <div className="font-28 bold deep-dark mb-3">{t('Health_Safety')}</div>
-                <HealthSafetyMenu {...props}/>
+                <HealthSafetyMenu {...props} />
                 <Row>
-                    <Col md={7} className="mt-2 mb-4">
+                    <Col md={12} className="mt-2 mb-4">
                         <DateClock />
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <Chart 
-                            options={ncrChart.options}
-                            series={ncrChart.series}
-                            height='487'
-                        />
+                        {
+                            (ncrChart.options.xaxis.categories.length > 0) ?
+                                (
+                                    <Chart
+                                        options={ncrChart.options}
+                                        series={ncrChart.series}
+                                        height={(ncrChart.options.xaxis.categories.length * 25 > 487) ? ncrChart.options.xaxis.categories.length * 25 : 487}
+                                    />
+                                ) :
+                                (null)
+                        }
                     </Col>
                 </Row>
                 <Row>

@@ -54,7 +54,7 @@ function NavTop(props) {
                 <Row>
                     {
                         variable.NAV_TAB.map(function (v, i) {
-                            return (<NavTopItem value={v} />)
+                            return (<NavTopItem value={v} {...props}/>)
                         })
                     }
                 </Row>

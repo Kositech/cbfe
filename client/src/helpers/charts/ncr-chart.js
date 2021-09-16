@@ -1,4 +1,4 @@
-function NCRPeriodChartDataReassign(data){
+function NCRPeriodChartDataReassign(data) {
     let thisMonth = data.thismonth;
     let previousMonth = data.previousmonth
 
@@ -6,17 +6,17 @@ function NCRPeriodChartDataReassign(data){
     let thisMonthData = []
     let previousMonthData = []
 
-    thisMonth.map(function(v, i){
-        xcategoires.push(v.list_type)
+    thisMonth.map(function (v, i) {
+        xcategoires.push(v.safety_type)
         thisMonthData.push(v.count)
 
         let check = previousMonth.some((ele) => {
-            if(ele.list_type === v.list_type){
+            if (ele.safety_type === v.safety_type) {
                 previousMonthData.push(ele.count)
             }
 
-            return ele.list_type === v.list_type
-        })        
+            return ele.safety_type === v.safety_type
+        })
     })
 
     console.log("thisMonthData ", thisMonthData)
@@ -36,42 +36,42 @@ function NCRPeriodChart(series, xcategoires) {
         options: {
             colors: ['#00509d', '#fdc500'],
             chart: {
-              type: 'bar',
-              height: 450
+                type: 'bar',
+                height: 450
             },
             plotOptions: {
-              bar: {
-                horizontal: true,
-                dataLabels: {
-                  position: 'top',
-                },
-                barHeight: '90%',
-              }
+                bar: {
+                    horizontal: true,
+                    dataLabels: {
+                        position: 'top',
+                    },
+                    barHeight: '90%',
+                }
             },
             dataLabels: {
-              enabled: true,
-              offsetX: -6,
-              style: {
-                fontSize: '15px',
-                colors: ['#fff'],
-              },
-              dropShadow: {
-                  enabled: true,
-                  top: 1,
-                  left: 1,
-                  blur: 1,
-                  color: '#000',
-                  opacity: 0.7
-              }
+                enabled: true,
+                offsetX: -6,
+                style: {
+                    fontSize: '15px',
+                    colors: ['#fff'],
+                },
+                dropShadow: {
+                    enabled: true,
+                    top: 1,
+                    left: 1,
+                    blur: 1,
+                    color: '#000',
+                    opacity: 0.7
+                }
             },
             stroke: {
-              show: true,
-              width: 1,
-              colors: ['#fff']
+                show: true,
+                width: 1,
+                colors: ['#fff']
             },
             tooltip: {
-              shared: true,
-              intersect: false
+                shared: true,
+                intersect: false
             },
             xaxis: {
                 categories: xcategoires,
@@ -202,8 +202,43 @@ function NCRChart(series, xcategoires) {
     }
 }
 
+function NCRPermitChart(series, xcategoires) {
+    return {
+        series: series,
+        options: {
+            chart: {
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            legend: {
+                tooltipHoverFormatter: function (val, opts) {
+                    return val + ' - <strong>' + opts.w.globals.series[opts.seriesIndex][opts.dataPointIndex] + '</strong>'
+                }
+            },
+            markers: {
+                size: 0,
+                hover: {
+                    sizeOffset: 6
+                }
+            },
+            xaxis: {
+                categories: xcategoires
+            },
+            grid: {
+                borderColor: '#f1f1f1',
+            }
+        }
+    }
+}
+
 export {
     NCRPeriodChartDataReassign,
     NCRChart,
-    NCRPeriodChart
+    NCRPeriodChart,
+    NCRPermitChart
 }

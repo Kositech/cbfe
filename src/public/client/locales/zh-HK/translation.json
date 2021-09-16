@@ -67,6 +67,7 @@
         "pcCompany": "PC Company",
         "type": "Type",
         "description": "Description",
+        "Sub-Type": "Sub-Type",
         "status": "Status",
         "location": "Location",
         "time": "Time"
@@ -86,5 +87,19 @@
         "Fri": "五",
         "Sat": "六"
     },
-    "Health_Safety": "健康及安全"
+    "Health_Safety": "健康及安全",
+    "Monthly_NCR": "本月累計NCR",
+    "Top_Ten_Work_Type": "最高10款工種",
+    "Permit_Submission_Status": "許可證已提交狀況",
+    "Work_permit_status_distribution": "工作許可證狀況分佈",
+    "Permit": "許可證",
+    "non-Approved": "未批核",
+    "non-Cancelled": "未註銷",
+    "Rejected": "不批核",
+    "Cancelled": "已註銷",
+    "Total": "總數量",
+    "Hot_Work_Permit": "熱工序",
+    "Exterior_wall_Permit": "外牆/樓邊",
+    "Ladder_Work_Permit": "梯具工作",
+    "Above_Ceiling_Permit": "假天花工作"
 }
