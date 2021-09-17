@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 function NavTopItem(props) {
     let { t } = useTranslation()
 
-    console.log("navTopItem props", props)
+    // console.log("navTopItem props", props)
     let active = ""
     if (typeof (props.match) !== "undefined") {
         if (props.match.path !== "/" && props.value.link !== "/"){

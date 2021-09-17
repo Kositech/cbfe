@@ -1,4 +1,4 @@
-function NCRPeriodChartDataReassign(data) {
+function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
     let thisMonth = data.thismonth;
     let previousMonth = data.previousmonth
 
@@ -7,15 +7,15 @@ function NCRPeriodChartDataReassign(data) {
     let previousMonthData = []
 
     thisMonth.map(function (v, i) {
-        xcategoires.push(v.safety_type)
+        xcategoires.push(v[fieldName])
         thisMonthData.push(v.count)
 
         let check = previousMonth.some((ele) => {
-            if (ele.safety_type === v.safety_type) {
+            if (ele[fieldName] === v[fieldName]) {
                 previousMonthData.push(ele.count)
             }
 
-            return ele.safety_type === v.safety_type
+            return ele[fieldName] === v[fieldName]
         })
     })
 

@@ -2,13 +2,16 @@ import React, { useState, useEffect } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { useHistory } from 'react-router-dom';
 import { Row, Col, Button } from 'react-bootstrap'
+import moment from 'moment'
 import DataTable from 'react-data-table-component';
 import Tabs from "react-responsive-tabs";
 import Chart from "react-apexcharts";
+import { _gqlQuery } from '../../gql/apolloClient';
+import { ncrByCompanyAndPeriodRecentMonths } from '../../gql/ncrGql'
 import SideMenu from '../../menu/side-menu';
 import variable from '../../helpers/variable';
 import { NCRColumns } from '../../helpers/dataTableColumns';
-import { NCRChart } from '../../helpers/charts/ncr-chart'
+import { NCRChart, NCRPeriodChartDataReassign } from '../../helpers/charts/ncr-chart'
 import ViewWrapper from '../../components/view-wrapper'
 import ViewContent from '../../components/view-content';
 import NavTop from '../../components/nav-top';
@@ -40,21 +43,48 @@ function NCR(props) {
         { applicant: "CK Tsang (曾志強) (震昇地基)", pcCompany: "CS 震昇 (地基)", type: "13. 焊接/氣體火焰切割", description: "270. 風煤壓力錶損毀", status: "NEW", location: "Mid Zone - Mid Zone", time: "07/04/2021 17:30" },
     ])
 
+    // [{
+    //     name: '本週期',
+    //     type: 'column',
+    //     data: [1, 4, 5, 1, 1, 7, 2, 1, 1, 3, 3, 1, 4, 1, 2]
+    // }, {
+    //     name: '上週期',
+    //     type: 'column',
+    //     data: [0, 0, 4, 1, 0, 5, 5, 0, 0, 1, 0, 0, 0, 0, 0]
+    // }, {
+    //     name: '平均行動回應時間',
+    //     type: 'line',
+    //     data: [2, 1.3, 18, 23, 16, 8, 1.5, 0, 2, 2, 0.7, 23, 11, 1, 3.5]
+    // }], ["EC宜利(打拆/地盤平...", "GS 創昇(什項)", "Hop Fat 合發(釘板)", "TW 天和(扎鐵)",
+    //  "WY 宏業(臨時鐵器/圍街板)", "YH 有合(棚)", "明泰(釘板)", "港利(外欄-圍街)",
+    //   "Alpha Idea星滿(煤氣)", "ATAL 安樂(ELE)", "Lixil Suzuki鈴木 (火閘)",
+    //    "Majestic定安(水喉)", "Majestic定安(消防)", "Or Sui Ying(柯穗瑛)", "ST 順通 (冷氣)"]
+
     const [ncrChart, setNCRChart] = useState(NCRChart(
-        [{
-            name: '本週期',
-            type: 'column',
-            data: [1, 4, 5, 1, 1, 7, 2, 1, 1, 3, 3, 1, 4, 1, 2]
-        }, {
-            name: '上週期',
-            type: 'column',
-            data: [0, 0, 4, 1, 0, 5, 5, 0, 0, 1, 0, 0, 0, 0, 0]
-        }, {
-            name: '平均行動回應時間',
-            type: 'line',
-            data: [2, 1.3, 18, 23, 16, 8, 1.5, 0, 2, 2, 0.7, 23, 11, 1, 3.5]
-        }], ["EC宜利(打拆/地盤平...", "GS 創昇(什項)", "Hop Fat 合發(釘板)", "TW 天和(扎鐵)", "WY 宏業(臨時鐵器/圍街板)", "YH 有合(棚)", "明泰(釘板)", "港利(外欄-圍街)", "Alpha Idea星滿(煤氣)", "ATAL 安樂(ELE)", "Lixil Suzuki鈴木 (火閘)", "Majestic定安(水喉)", "Majestic定安(消防)", "Or Sui Ying(柯穗瑛)", "ST 順通 (冷氣)"]
+        [], []
     ))
+
+    useEffect(() => {
+        async function fetchNCRChart(){
+            let items = await _gqlQuery(ncrByCompanyAndPeriodRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
+
+            if (typeof (items.errors) !== "undefined") {
+
+            } else {
+                let newResult = NCRPeriodChartDataReassign(items.data.ncrByCompanyAndPeriodRecentMonths[0], "company_name")
+                console.log("NCRPeriodChartDataReassign newResult ", newResult)
+                setNCRChart(NCRChart(
+                    [
+                        {data: newResult.thisMonthData, name: "本週期", type: "column"},
+                        {data: newResult.previousMonthData, name: "上週期", type: 'column'},
+                    ],
+                    newResult.xcategoires
+                ))
+            }
+        }
+
+        fetchNCRChart()
+    }, [])
 
     useEffect(() => {
         if (typeof (updateNCRData) == "number") {
@@ -96,7 +126,7 @@ function NCR(props) {
                                     <Chart
                                         options={ncrChart.options}
                                         series={ncrChart.series}
-                                        height={(ncrChart.options.xaxis.categories.length * 25 > 487) ? ncrChart.options.xaxis.categories.length * 25 : 487}
+                                        height={(ncrChart.options.xaxis.categories.length * 25 > 487) ? 487 : 300}
                                     />
                                 ) :
                                 (null)

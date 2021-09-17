@@ -38,7 +38,7 @@ function Dashboard(props) {
 
     useEffect(() => {
         async function fetchData() {
-            let items = await _gqlQuery(ncrTypesCountRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') },)
+            let items = await _gqlQuery(ncrTypesCountRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
 
             if (typeof (items.errors) !== "undefined") {
 
