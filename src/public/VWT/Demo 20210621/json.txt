@@ -1,0 +1,2658 @@
+{
+    "default":{
+     "firstScene": "Pano_00_AIM_Lift Lobby_01G11_STR",
+     "sceneFadeDuration": 2000
+ },
+
+    "scenes": {
+
+        "Pano_00_AIM_Lift Lobby_01G11_STR": {
+
+        "panorama": "Pano_00_AIM_Lift Lobby_01G11_STR.jpg",
+        "panoramaflip": "Pano_00_AIM_Lift Lobby_01G11_STR_flipEM",
+        "hotSpots": [
+            {
+"pitch": 0,
+"yaw": 135.526842893842,
+"type": "scene",
+"text": "Pano_00_AIM_Lift Lobby_02G10_STR",
+"sceneId": "Pano_00_AIM_Lift Lobby_02G10_STR",
+"show": "yes"},
+            {
+"pitch": -60,
+"yaw": 9,
+"type": "info",
+"text": "3096841 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -73,
+"yaw": -159,
+"type": "info",
+"text": "5459893 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -38,
+"yaw": -132,
+"type": "info",
+"text": "5252824 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 3,
+"yaw": -132,
+"type": "info",
+"text": "2816601 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": -154,
+"type": "info",
+"text": "3239770 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 177,
+"type": "info",
+"text": "3238614 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -37,
+"yaw": 41,
+"type": "info",
+"text": "5255850 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": -109,
+"type": "info",
+"text": "3239806 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 76,
+"type": "info",
+"text": "3245440 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -2,
+"yaw": 63,
+"type": "info",
+"text": "3235760 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 61,
+"type": "info",
+"text": "6410096 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": -95,
+"type": "info",
+"text": "3240334 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -36,
+"yaw": -147,
+"type": "info",
+"text": "7129145 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 3,
+"yaw": 41,
+"type": "info",
+"text": "2816602 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 19,
+"type": "info",
+"text": "6409730 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -35,
+"yaw": 36,
+"type": "info",
+"text": "7128992 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 2,
+"type": "info",
+"text": "3244440 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -26,
+"yaw": -44,
+"type": "info",
+"text": "5253080 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -23,
+"yaw": 168,
+"type": "info",
+"text": "5255774 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -23,
+"yaw": 100,
+"type": "info",
+"text": "5255805 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -21,
+"yaw": -10,
+"type": "info",
+"text": "3060173 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -21,
+"yaw": -78,
+"type": "info",
+"text": "5253116 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -14,
+"yaw": 167,
+"type": "info",
+"text": "5199530 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 10,
+"yaw": 103,
+"type": "info",
+"text": "2816603 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 20,
+"yaw": 172,
+"type": "info",
+"text": "2816600 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 159,
+"type": "info",
+"text": "6432907 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 110,
+"type": "info",
+"text": "3245815 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -28,
+"type": "info",
+"text": "7111799 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -45,
+"type": "info",
+"text": "11432409 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -57,
+"type": "info",
+"text": "7111904 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": -65,
+"type": "info",
+"text": "7110829 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -18,
+"yaw": -17,
+"type": "info",
+"text": "6504598 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": -71,
+"type": "info",
+"text": "7110840 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -13,
+"type": "info",
+"text": "3254191 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -77,
+"type": "info",
+"text": "3671559 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -17,
+"yaw": -79,
+"type": "info",
+"text": "5301600 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 154,
+"type": "info",
+"text": "6435490 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 115,
+"type": "info",
+"text": "3697321 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -13,
+"yaw": 152,
+"type": "info",
+"text": "5255788 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -13,
+"yaw": 153,
+"type": "info",
+"text": "7129237 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -13,
+"yaw": 118,
+"type": "info",
+"text": "5330117 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 118,
+"type": "info",
+"text": "2816435 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -12,
+"yaw": -174,
+"type": "info",
+"text": "5787719 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 6,
+"yaw": 151,
+"type": "info",
+"text": "2816599 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 150,
+"type": "info",
+"text": "6430740 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": 119,
+"type": "info",
+"text": "3247949 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -12,
+"yaw": 76,
+"type": "info",
+"text": "6078635 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -11,
+"yaw": -177,
+"type": "info",
+"text": "6079736 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 149,
+"type": "info",
+"text": "4054331 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -3,
+"yaw": 122,
+"type": "info",
+"text": "3700005 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 120,
+"type": "info",
+"text": "3248111 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -6,
+"yaw": 111,
+"type": "info",
+"text": "5159530 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -9,
+"yaw": 136,
+"type": "info",
+"text": "5253027 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -3,
+"yaw": 147,
+"type": "info",
+"text": "7108068 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -8,
+"yaw": 146,
+"type": "info",
+"text": "7477063 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": 123,
+"type": "info",
+"text": "3704425 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 142,
+"type": "info",
+"text": "7113065 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": 140,
+"type": "info",
+"text": "7113170 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": 135,
+"type": "info",
+"text": "11432640 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 128,
+"type": "info",
+"text": "7112095 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -8,
+"yaw": 124,
+"type": "info",
+"text": "7476956 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 146,
+"type": "info",
+"text": "3257376 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 145,
+"type": "info",
+"text": "7113069 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 125,
+"type": "info",
+"text": "3254709 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -6,
+"yaw": -29,
+"type": "info",
+"text": "7109633 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 121,
+"type": "info",
+"text": "7107459 Furniture",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 7,
+"yaw": 147,
+"type": "info",
+"text": "6945056 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 9,
+"yaw": 158,
+"type": "info",
+"text": "7129516 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 10,
+"yaw": 135,
+"type": "info",
+"text": "3228727 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 9,
+"yaw": 125,
+"type": "info",
+"text": "3689422 Furniture",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 9,
+"yaw": -62,
+"type": "info",
+"text": "7109371 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 11,
+"yaw": -67,
+"type": "info",
+"text": "7110833 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 12,
+"yaw": 122,
+"type": "info",
+"text": "5904684 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": 135,
+"type": "info",
+"text": "6955299 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": 120,
+"type": "info",
+"text": "3257753 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 63,
+"yaw": 15,
+"type": "info",
+"text": "3230762 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 15,
+"yaw": 117,
+"type": "info",
+"text": "5295493 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 17,
+"yaw": 87,
+"type": "info",
+"text": "7129558 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 19,
+"yaw": -10,
+"type": "info",
+"text": "6032324 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 18,
+"yaw": 106,
+"type": "info",
+"text": "7129905 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 20,
+"yaw": -79,
+"type": "info",
+"text": "6040012 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 64,
+"yaw": 172,
+"type": "info",
+"text": "7130982 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 37,
+"yaw": -44,
+"type": "info",
+"text": "3228561 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 21,
+"yaw": -66,
+"type": "info",
+"text": "3676276 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 22,
+"yaw": 172,
+"type": "info",
+"text": "6654468 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 70,
+"yaw": 16,
+"type": "info",
+"text": "5295866 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 22,
+"yaw": -34,
+"type": "info",
+"text": "3229569 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 24,
+"yaw": -44,
+"type": "info",
+"text": "3676373 Sprinklers",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 30,
+"yaw": 172,
+"type": "info",
+"text": "6403030 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 30,
+"yaw": 154,
+"type": "info",
+"text": "7131047 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 27,
+"yaw": 166,
+"type": "info",
+"text": "6402779 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 30,
+"yaw": 119,
+"type": "info",
+"text": "7130599 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 31,
+"yaw": 141,
+"type": "info",
+"text": "7130608 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 30,
+"yaw": -80,
+"type": "info",
+"text": "3579893 Furniture",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 30,
+"yaw": -70,
+"type": "info",
+"text": "6533663 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 33,
+"yaw": -114,
+"type": "info",
+"text": "6654507 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 34,
+"yaw": 57,
+"type": "info",
+"text": "7129964 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 52,
+"yaw": -77,
+"type": "info",
+"text": "4729059 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 38,
+"yaw": 16,
+"type": "info",
+"text": "3244938 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 39,
+"yaw": -105,
+"type": "info",
+"text": "3257996 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 42,
+"yaw": 53,
+"type": "info",
+"text": "6403633 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 41,
+"yaw": 27,
+"type": "info",
+"text": "6403592 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 42,
+"yaw": -114,
+"type": "info",
+"text": "6402791 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 43,
+"yaw": -122,
+"type": "info",
+"text": "6403044 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 53,
+"yaw": 73,
+"type": "info",
+"text": "7130572 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 52,
+"yaw": 71,
+"type": "info",
+"text": "7130594 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 54,
+"yaw": -163,
+"type": "info",
+"text": "7130593 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 56,
+"yaw": 76,
+"type": "info",
+"text": "7130592 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 58,
+"yaw": -169,
+"type": "info",
+"text": "7130591 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 67,
+"yaw": 103,
+"type": "info",
+"text": "7130610 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 85,
+"yaw": -26,
+"type": "info",
+"text": "5090295 Sprinklers",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+}
+        ]
+    },
+        "Pano_00_AIM_Lift Lobby_01G11_STR_flipEM": {
+
+        "panorama": "Pano_00_AIM_Lift Lobby_01G11_STR_flipEM.jpg",
+        "panoramaflip": "Pano_00_AIM_Lift Lobby_01G11_STR_flipST",
+        "hotSpots": [
+            {
+"pitch": 0,
+"yaw": 135.526842893842,
+"type": "scene",
+"text": "Pano_00_AIM_Lift Lobby_02G10_STR",
+"sceneId": "Pano_00_AIM_Lift Lobby_02G10_STR",
+"show": "yes"}            
+        ]
+    },
+        "Pano_00_AIM_Lift Lobby_01G11_STR_flipST": {
+
+        "panorama": "Pano_00_AIM_Lift Lobby_01G11_STR_flipST.jpg",
+        "panoramaflip": "Pano_00_AIM_Lift Lobby_01G11_STR",
+        "hotSpots": [
+            {
+"pitch": 0,
+"yaw": 135.526842893842,
+"type": "scene",
+"text": "Pano_00_AIM_Lift Lobby_02G10_STR",
+"sceneId": "Pano_00_AIM_Lift Lobby_02G10_STR",
+"show": "yes"},
+            {
+"pitch": 6,
+"yaw": -94,
+"type": "info",
+"text": "2816397 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 147,
+"type": "info",
+"text": "7712448 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 121,
+"type": "info",
+"text": "5679582 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 6,
+"yaw": 91,
+"type": "info",
+"text": "2816396 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -24,
+"yaw": 96,
+"type": "info",
+"text": "8098330 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 6,
+"yaw": -71,
+"type": "info",
+"text": "6205193 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 3,
+"yaw": 113,
+"type": "info",
+"text": "10099933 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": 119,
+"type": "info",
+"text": "5679687 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 140,
+"type": "info",
+"text": "2816544 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 16,
+"yaw": 167,
+"type": "info",
+"text": "4861730 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": 137,
+"type": "info",
+"text": "9615762 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 12,
+"yaw": 126,
+"type": "info",
+"text": "5372043 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 67,
+"yaw": 20,
+"type": "info",
+"text": "4861641 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -37,
+"yaw": -127,
+"type": "info",
+"text": "8137909 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -36,
+"yaw": -115,
+"type": "info",
+"text": "8137907 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -36,
+"yaw": 44,
+"type": "info",
+"text": "8137937 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -35,
+"yaw": 26,
+"type": "info",
+"text": "8138319 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": -89,
+"type": "info",
+"text": "4861726 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -30,
+"yaw": 2,
+"type": "info",
+"text": "6659270 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -17,
+"yaw": 166,
+"type": "info",
+"text": "8137911 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": 171,
+"type": "info",
+"text": "4861728 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 12,
+"yaw": 138,
+"type": "info",
+"text": "9615456 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 16,
+"yaw": 135,
+"type": "info",
+"text": "4861628 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 15,
+"yaw": 149,
+"type": "info",
+"text": "4861626 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 15,
+"yaw": 121,
+"type": "info",
+"text": "4861622 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 23,
+"yaw": -6,
+"type": "info",
+"text": "7956596 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 29,
+"yaw": -78,
+"type": "info",
+"text": "7716997 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 35,
+"yaw": -40,
+"type": "info",
+"text": "7772925 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 47,
+"yaw": -44,
+"type": "info",
+"text": "4861603 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -60,
+"yaw": 9,
+"type": "info",
+"text": "8137876 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -26,
+"yaw": -45,
+"type": "info",
+"text": "8138450 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -24,
+"yaw": 97,
+"type": "info",
+"text": "8137905 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -22,
+"yaw": 102,
+"type": "info",
+"text": "8137903 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -21,
+"yaw": 104,
+"type": "info",
+"text": "8138080 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -9,
+"yaw": 135,
+"type": "info",
+"text": "8138622 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+}
+        ]
+    },
+        "Pano_00_AIM_Lift Lobby_02G10_STR": {
+
+        "panorama": "Pano_00_AIM_Lift Lobby_02G10_STR.jpg",
+        "panoramaflip": "Pano_00_AIM_Lift Lobby_02G10_STR_flipEM",
+        "hotSpots": [
+            {
+"pitch": 0,
+"yaw": -44.4731571061576,
+"type": "scene",
+"text": "Pano_00_AIM_Lift Lobby_01G11_STR",
+"sceneId": "Pano_00_AIM_Lift Lobby_01G11_STR",
+"show": "yes"},
+            {
+"pitch": -60,
+"yaw": -2,
+"type": "info",
+"text": "3096841 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -73,
+"yaw": 9,
+"type": "info",
+"text": "5459893 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -39,
+"yaw": -132,
+"type": "info",
+"text": "5255788 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": -155,
+"type": "info",
+"text": "6430740 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -28,
+"yaw": 137,
+"type": "info",
+"text": "5253027 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": -111,
+"type": "info",
+"text": "6435490 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 5,
+"yaw": -123,
+"type": "info",
+"text": "2816599 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -2,
+"yaw": 21,
+"type": "info",
+"text": "3235760 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -161,
+"type": "info",
+"text": "4054331 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": -94,
+"type": "info",
+"text": "6432907 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -37,
+"yaw": -145,
+"type": "info",
+"text": "7129237 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 63,
+"type": "info",
+"text": "3247949 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -37,
+"yaw": 45,
+"type": "info",
+"text": "5330117 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 45,
+"type": "info",
+"text": "2816435 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 26,
+"type": "info",
+"text": "3697321 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 74,
+"type": "info",
+"text": "3248111 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": 4,
+"type": "info",
+"text": "3245815 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -16,
+"yaw": 82,
+"type": "info",
+"text": "3700005 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -8,
+"yaw": 170,
+"type": "info",
+"text": "7108068 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 17,
+"yaw": 170,
+"type": "info",
+"text": "6945056 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": 98,
+"type": "info",
+"text": "3704425 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -22,
+"yaw": -75,
+"type": "info",
+"text": "5255774 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -22,
+"yaw": -12,
+"type": "info",
+"text": "5255805 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -19,
+"yaw": 162,
+"type": "info",
+"text": "7477063 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -13,
+"yaw": -73,
+"type": "info",
+"text": "5199530 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -18,
+"yaw": 105,
+"type": "info",
+"text": "7476956 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 12,
+"yaw": -14,
+"type": "info",
+"text": "2816603 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -19,
+"yaw": -15,
+"type": "info",
+"text": "7128992 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": -21,
+"type": "info",
+"text": "3245440 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": -66,
+"type": "info",
+"text": "3238614 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 16,
+"yaw": -74,
+"type": "info",
+"text": "2816600 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 144,
+"type": "info",
+"text": "7113170 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 152,
+"type": "info",
+"text": "7113065 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 133,
+"type": "info",
+"text": "11432640 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 119,
+"type": "info",
+"text": "7112095 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -16,
+"yaw": 162,
+"type": "info",
+"text": "6505493 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 161,
+"type": "info",
+"text": "3257376 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": 113,
+"type": "info",
+"text": "7112106 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": 107,
+"type": "info",
+"text": "3254709 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -16,
+"yaw": 107,
+"type": "info",
+"text": "4965703 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -13,
+"yaw": -27,
+"type": "info",
+"text": "5255850 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -13,
+"yaw": -62,
+"type": "info",
+"text": "5252824 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 1,
+"yaw": -59,
+"type": "info",
+"text": "3239806 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 8,
+"yaw": -60,
+"type": "info",
+"text": "2816601 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -11,
+"yaw": 9,
+"type": "info",
+"text": "6079167 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 3,
+"yaw": -28,
+"type": "info",
+"text": "2816602 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -30,
+"type": "info",
+"text": "3244440 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -1,
+"yaw": -58,
+"type": "info",
+"text": "3240334 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -10,
+"yaw": 4,
+"type": "info",
+"text": "5159530 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -10,
+"yaw": 3,
+"type": "info",
+"text": "6079204 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -10,
+"yaw": -44,
+"type": "info",
+"text": "5253080 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -10,
+"yaw": -86,
+"type": "info",
+"text": "6433235 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 6,
+"yaw": 84,
+"type": "info",
+"text": "7107459 Furniture",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -9,
+"yaw": -33,
+"type": "info",
+"text": "3060173 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -9,
+"yaw": -56,
+"type": "info",
+"text": "5253116 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -33,
+"type": "info",
+"text": "3254191 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -35,
+"type": "info",
+"text": "7111803 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -38,
+"type": "info",
+"text": "7111799 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -45,
+"type": "info",
+"text": "11432409 Doors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -50,
+"type": "info",
+"text": "7111904 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -53,
+"type": "info",
+"text": "7110829 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 0,
+"yaw": -56,
+"type": "info",
+"text": "3671559 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -5,
+"yaw": 115,
+"type": "info",
+"text": "6075527 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -2,
+"yaw": -36,
+"type": "info",
+"text": "7111870 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 5,
+"yaw": -53,
+"type": "info",
+"text": "7110833 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 8,
+"yaw": 155,
+"type": "info",
+"text": "7115697 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 9,
+"yaw": -21,
+"type": "info",
+"text": "7129558 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 10,
+"yaw": -44,
+"type": "info",
+"text": "3228561 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 10,
+"yaw": -55,
+"type": "info",
+"text": "3579893 Furniture",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 12,
+"yaw": -26,
+"type": "info",
+"text": "7129964 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": -41,
+"type": "info",
+"text": "5291177 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 12,
+"yaw": -45,
+"type": "info",
+"text": "4729059 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 63,
+"yaw": -15,
+"type": "info",
+"text": "3230762 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 16,
+"yaw": -88,
+"type": "info",
+"text": "7129516 Specialty Equipment",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 17,
+"yaw": 104,
+"type": "info",
+"text": "5613086 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 17,
+"yaw": 163,
+"type": "info",
+"text": "5612979 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 40,
+"yaw": 112,
+"type": "info",
+"text": "3228727 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 67,
+"yaw": -112,
+"type": "info",
+"text": "5295866 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 58,
+"yaw": -13,
+"type": "info",
+"text": "7130982 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 17,
+"yaw": -71,
+"type": "info",
+"text": "6654468 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 18,
+"yaw": 115,
+"type": "info",
+"text": "3229798 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 19,
+"yaw": 143,
+"type": "info",
+"text": "4674263 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 21,
+"yaw": -9,
+"type": "info",
+"text": "7129905 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 24,
+"yaw": 105,
+"type": "info",
+"text": "3689422 Furniture",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 28,
+"yaw": -34,
+"type": "info",
+"text": "7131047 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 25,
+"yaw": -73,
+"type": "info",
+"text": "6402779 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 28,
+"yaw": -60,
+"type": "info",
+"text": "7130599 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 29,
+"yaw": -79,
+"type": "info",
+"text": "6403030 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 28,
+"yaw": -8,
+"type": "info",
+"text": "6403269 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 29,
+"yaw": -43,
+"type": "info",
+"text": "7130608 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 31,
+"yaw": 104,
+"type": "info",
+"text": "6530945 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 32,
+"yaw": 161,
+"type": "info",
+"text": "6531084 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 35,
+"yaw": -114,
+"type": "info",
+"text": "6654101 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 57,
+"yaw": 98,
+"type": "info",
+"text": "5904684 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 39,
+"yaw": 68,
+"type": "info",
+"text": "3257753 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 40,
+"yaw": 45,
+"type": "info",
+"text": "5295493 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 40,
+"yaw": -160,
+"type": "info",
+"text": "3236487 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 51,
+"yaw": 9,
+"type": "info",
+"text": "7130572 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 44,
+"yaw": -123,
+"type": "info",
+"text": "6402515 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 44,
+"yaw": -149,
+"type": "info",
+"text": "6401609 Ceilings",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 49,
+"yaw": 12,
+"type": "info",
+"text": "7130595 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 52,
+"yaw": -96,
+"type": "info",
+"text": "7130596 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 52,
+"yaw": 7,
+"type": "info",
+"text": "7130577 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 62,
+"yaw": -26,
+"type": "info",
+"text": "7130609 Generic Models",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 55,
+"yaw": -90,
+"type": "info",
+"text": "7130576 Lighting Fixtures",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 85,
+"yaw": -4,
+"type": "info",
+"text": "6027867 Sprinklers",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+}
+        ]
+    },
+        "Pano_00_AIM_Lift Lobby_02G10_STR_flipEM": {
+
+        "panorama": "Pano_00_AIM_Lift Lobby_02G10_STR_flipEM.jpg",
+        "panoramaflip": "Pano_00_AIM_Lift Lobby_02G10_STR_flipST",
+        "hotSpots": [
+            {
+"pitch": 0,
+"yaw": -44.4731571061576,
+"type": "scene",
+"text": "Pano_00_AIM_Lift Lobby_01G11_STR",
+"sceneId": "Pano_00_AIM_Lift Lobby_01G11_STR",
+"show": "yes"}            
+        ]
+    },
+        "Pano_00_AIM_Lift Lobby_02G10_STR_flipST": {
+
+        "panorama": "Pano_00_AIM_Lift Lobby_02G10_STR_flipST.jpg",
+        "panoramaflip": "Pano_00_AIM_Lift Lobby_02G10_STR",
+        "hotSpots": [
+            {
+"pitch": 0,
+"yaw": -44.4731571061576,
+"type": "scene",
+"text": "Pano_00_AIM_Lift Lobby_01G11_STR",
+"sceneId": "Pano_00_AIM_Lift Lobby_01G11_STR",
+"show": "yes"},
+            {
+"pitch": 3,
+"yaw": -55,
+"type": "info",
+"text": "6205193 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 6,
+"yaw": -96,
+"type": "info",
+"text": "2816397 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": 67,
+"type": "info",
+"text": "2816392 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 18,
+"yaw": 65,
+"type": "info",
+"text": "5679687 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": 17,
+"type": "info",
+"text": "10099933 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": 81,
+"type": "info",
+"text": "5679582 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 8,
+"yaw": 172,
+"type": "info",
+"text": "7712448 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": -30,
+"type": "info",
+"text": "2816396 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -3,
+"yaw": 173,
+"type": "info",
+"text": "2816400 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 3,
+"yaw": 100,
+"type": "info",
+"text": "2816390 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 4,
+"yaw": 160,
+"type": "info",
+"text": "2816544 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 68,
+"yaw": -9,
+"type": "info",
+"text": "4861641 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -38,
+"yaw": -131,
+"type": "info",
+"text": "8137909 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -33,
+"yaw": -177,
+"type": "info",
+"text": "4861730 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -17,
+"yaw": -75,
+"type": "info",
+"text": "8137907 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -19,
+"yaw": -15,
+"type": "info",
+"text": "8138319 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 2,
+"yaw": -31,
+"type": "info",
+"text": "6659270 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -10,
+"yaw": -58,
+"type": "info",
+"text": "4861726 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": -79,
+"type": "info",
+"text": "4861728 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 13,
+"yaw": -57,
+"type": "info",
+"text": "7716997 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 16,
+"yaw": -44,
+"type": "info",
+"text": "4861603 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 44,
+"yaw": 28,
+"type": "info",
+"text": "4861622 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 15,
+"yaw": -57,
+"type": "info",
+"text": "4861626 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 17,
+"yaw": -78,
+"type": "info",
+"text": "9383620 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 31,
+"yaw": 109,
+"type": "info",
+"text": "5372043 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 25,
+"yaw": 144,
+"type": "info",
+"text": "9615456 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 25,
+"yaw": 166,
+"type": "info",
+"text": "8090844 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 36,
+"yaw": 141,
+"type": "info",
+"text": "9615762 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": 50,
+"yaw": 123,
+"type": "info",
+"text": "4861628 Structural Framing",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -60,
+"yaw": -2,
+"type": "info",
+"text": "8137876 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -27,
+"yaw": 134,
+"type": "info",
+"text": "8138622 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -23,
+"yaw": -9,
+"type": "info",
+"text": "8137937 Walls",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+},
+{
+"pitch": -10,
+"yaw": -49,
+"type": "info",
+"text": "8138450 Floors",
+"linktype": "ma",
+"URLs": "Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show": "yes"
+}
+        ]
+    }    }
+}

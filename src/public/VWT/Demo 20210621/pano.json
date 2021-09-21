@@ -1,0 +1,4514 @@
+ {
+    "default":{
+     "firstScene": "Pano_00_AIM_Lift Lobby_01G10_STR",
+     "sceneFadeDuration": 2000
+ },
+
+    "scenes":{
+"Pano_00_AIM_Executive Lavatory_F":{
+"panorama":"Pano_00_AIM_Executive Lavatory_F.jpg",
+"panoramaflip":"Pano_00_AIM_Executive Lavatory_F_flipEM",
+"hotSpots":[
+
+{
+"pitch":-23,
+"yaw":80,
+"type":"info",
+"text":"Tap",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf|Block wall 工程說明;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4|",
+"show":"yes",
+"div":{
+}
+},
+
+{
+"pitch":-40,
+"yaw":80,
+"type":"info",
+"text":"Basin",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf|Block wall 工程說明;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4|",
+"show":"yes",
+"div":{
+}
+},
+
+
+{
+"pitch":3,
+"yaw":-51,
+"type":"info",
+"text":"Shop Drawing of Block Wall Summary",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf|Block wall 工程說明;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":6,
+"yaw":-96,
+"type":"info",
+"text":"Method Statement for Construction of Superstructure (From G/F to R/F)",
+"linktype":"ma",
+"URLs":"Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":17,
+"yaw":64,
+"type":"info",
+"text":"5679687 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":18,
+"type":"info",
+"text":"Precast Solid Concrete Block",
+"linktype":"ma",
+"URLs":"Precast Solid Concrete Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_c8b1ad6f-16f0-4fdf-91c6-bd5f1001a149.pdf&originalname=Fire+Block.pdf|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf|Block wall 工程說明;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":81,
+"type":"info",
+"text":"5679582 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":68,
+"type":"info",
+"text":"2816392 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":-22,
+"type":"info",
+"text":"2816396 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":8,
+"yaw":171,
+"type":"info",
+"text":"7712448 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-1,
+"yaw":169,
+"type":"info",
+"text":"2816400 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":3,
+"yaw":100,
+"type":"info",
+"text":"2816390 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":159,
+"type":"info",
+"text":"Shop Drawing of Block Wall Summary",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://www.google.com.hk|Shop Drawing of Block Wall Stiffener;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_6c500118-eed9-454e-80f1-fbc3c228b8bc.pdf&originalname=201105+NWCON%27s+Blockwall+Stiffener+Standard+Details+(P%26T+endorsed).pdf|Block wall 工程說明;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":68,
+"yaw":-8,
+"type":"info",
+"text":"Typical Floor of Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-38,
+"yaw":-126,
+"type":"info",
+"text":"8137909 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-32,
+"yaw":-175,
+"type":"info",
+"text":"4861730 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-22,
+"yaw":-9,
+"type":"info",
+"text":"8137937 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-17,
+"yaw":-75,
+"type":"info",
+"text":"8137907 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-20,
+"yaw":-14,
+"type":"info",
+"text":"8138319 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-60,
+"yaw":-2,
+"type":"info",
+"text":"Typical Floor of Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":1,
+"yaw":-31,
+"type":"info",
+"text":"6659270 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-11,
+"yaw":-58,
+"type":"info",
+"text":"4861726 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":13,
+"yaw":-79,
+"type":"info",
+"text":"4861728 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":13,
+"yaw":-56,
+"type":"info",
+"text":"7716997 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":16,
+"yaw":-44,
+"type":"info",
+"text":"Typical Floor of Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":15,
+"yaw":-30,
+"type":"info",
+"text":"4861622 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":15,
+"yaw":-57,
+"type":"info",
+"text":"4861626 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":18,
+"yaw":-80,
+"type":"info",
+"text":"9383620 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":30,
+"yaw":108,
+"type":"info",
+"text":"Typical Floor System Formwork Pre-camber Procedure",
+"linktype":"ma",
+"URLs":"",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":25,
+"yaw":144,
+"type":"info",
+"text":"9615456 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":25,
+"yaw":165,
+"type":"info",
+"text":"8090844 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":36,
+"yaw":140,
+"type":"info",
+"text":"Typical Floor of Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":49,
+"yaw":125,
+"type":"info",
+"text":"4861628 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-38,
+"yaw":-152,
+"type":"info",
+"text":"8137911 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-27,
+"yaw":134,
+"type":"info",
+"text":"Typical Floor of Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-10,
+"yaw":-48,
+"type":"info",
+"text":"TYP Floor of Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;drawing|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-76,
+"yaw":-2,
+"type":"info",
+"text":"TYP Female Toilet Layout Plan(LZ 5-18/F)",
+"linktype":"ma",
+"URLs":"Typical Female Toilet Layout Plan(LZ 5-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=2;drawing|FOH Toilet - Floor Tile (CT-01);https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f5809%2fMS_17104_TEMP000473(Rev0)_5616b827-a5ce-488b-8ee0-77ce87645036.pdf&originalname=Sprial+FOH+Tiles+Material+Schedule_1.pdf;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-49,
+"yaw":78,
+"type":"info",
+"text":"Counter & Wash Basin Detail",
+"linktype":"ma",
+"URLs":"Counter Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=43;drawing|Wash Basin (KOHLER Verticyl K-2889T-411C)(SF03);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=4ef36304-1742-449d-9d51-58c2ecc60fd9;material|Typical Toilet Counter & Feature (ST-01) Monte Grey Marble (Polished);https://cia.contechpoint.com/Modules/MS/MSForm.aspx?id=8051;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-56,
+"yaw":18,
+"type":"info",
+"text":"Lavatory Detail",
+"linktype":"ma",
+"URLs":"Detail Section;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=67;drawing|Typical Toilet Counter & Feature (ST-01) Monte Grey Marble (Polished);https://cia.contechpoint.com/Modules/MS/MSForm.aspx?id=8051;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-60,
+"yaw":-140,
+"type":"info",
+"text":"4171461 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-62,
+"yaw":-168,
+"type":"info",
+"text":"4172326 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":0,
+"yaw":-169,
+"type":"info",
+"text":"4639529 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-62,
+"yaw":-72,
+"type":"info",
+"text":"4170580 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-62,
+"yaw":-141,
+"type":"info",
+"text":"4172325 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-59,
+"yaw":-64,
+"type":"info",
+"text":"4170579 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-53,
+"yaw":-139,
+"type":"info",
+"text":"4171460 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-50,
+"yaw":-140,
+"type":"info",
+"text":"4896188 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-59,
+"yaw":50,
+"type":"info",
+"text":"4171293 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-39,
+"yaw":-120,
+"type":"info",
+"text":"Water Closet",
+"linktype":"ma",
+"URLs":"Water Closet;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=1416d8f2-9115-4acc-b21e-88105a1bd650;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-56,
+"yaw":49,
+"type":"info",
+"text":"4171292 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-51,
+"yaw":-46,
+"type":"info",
+"text":"4912156 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-55,
+"yaw":143,
+"type":"info",
+"text":"7263391 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":1,
+"yaw":143,
+"type":"info",
+"text":"Door Detail",
+"linktype":"ma",
+"URLs":"Door Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=40|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-56,
+"yaw":115,
+"type":"info",
+"text":"4172926 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-51,
+"yaw":113,
+"type":"info",
+"text":"4896894 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-54,
+"yaw":172,
+"type":"info",
+"text":"4506346 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-45,
+"yaw":28,
+"type":"info",
+"text":"4889968 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-44,
+"yaw":-91,
+"type":"info",
+"text":"3849518 Plumbing Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-39,
+"yaw":-140,
+"type":"info",
+"text":"4896227 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-39,
+"yaw":-46,
+"type":"info",
+"text":"4912168 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-46,
+"yaw":114,
+"type":"info",
+"text":"Lavatory Vanity Counter",
+"linktype":"ma",
+"URLs":"Counter Detail BD04;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=43|Counter Detail BD05;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=44|Counter Detail BD21;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=71|Counter Detail BD22;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=73|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-38,
+"yaw":-88,
+"type":"info",
+"text":"4219601 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-36,
+"yaw":28,
+"type":"info",
+"text":"4889982 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-39,
+"yaw":115,
+"type":"info",
+"text":"TYP Toilet Counter",
+"linktype":"ma",
+"URLs":"Typical Toilet Counter & Feature (ST-01) Monte Grey Marble (Polished);https://cia.contechpoint.com/Modules/MS/MSForm.aspx?id=8051|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-22,
+"yaw":-140,
+"type":"info",
+"text":"4896259 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-24,
+"yaw":-51,
+"type":"info",
+"text":"4912197 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-31,
+"yaw":-88,
+"type":"info",
+"text":"13A Single Socket Outlet with USB port",
+"linktype":"ma",
+"URLs":"13A Single Socket Outlet with USB port;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=3|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-21,
+"yaw":42,
+"type":"info",
+"text":"4890000 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-19,
+"yaw":104,
+"type":"info",
+"text":"Flow Chart",
+"linktype":"ma",
+"URLs":"Flow Chart (SF04);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=07772eb2-2a9c-437b-8b7e-1305d484de6e|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":16,
+"yaw":72,
+"type":"info",
+"text":"6294010 Casework",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-22,
+"yaw":124,
+"type":"info",
+"text":"6461390 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-21,
+"yaw":-124,
+"type":"info",
+"text":"Lavatory WC Furring",
+"linktype":"ma",
+"URLs":"Lavatory WC Furring;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=10;drawing|Conceal Cistern;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=ef9beb29-a3b6-43fe-9c0a-04f1fa6f6f1a;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-14,
+"yaw":-123,
+"type":"info",
+"text":"4170810 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-17,
+"yaw":108,
+"type":"info",
+"text":"13A Single Socket Outlet",
+"linktype":"ma",
+"URLs":"Setting Out Plan;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=3|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-3,
+"yaw":-140,
+"type":"info",
+"text":"4896296 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-4,
+"yaw":-50,
+"type":"info",
+"text":"Low Zone Exe Lav Elevation & Wall Tile",
+"linktype":"ma",
+"URLs":"Elevation Drawing;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=10;drawing|FOH Toilet - Wall Tile (CT-02);https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f5810%2fMS_17104_TEMP000474(Rev0)_1a6096ee-afc6-43aa-ad5f-dd2041c83626.pdf&originalname=Sprial+FOH+Tiles+Material+Schedule_2.pdf;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-4,
+"yaw":27,
+"type":"info",
+"text":"Low Zone Exe Lav Elevation & Wall Tile",
+"linktype":"ma",
+"URLs":"Elevation Drawing;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=9;drawing|FOH Toilet - Wall Tile (CT-02);https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f5810%2fMS_17104_TEMP000474(Rev0)_1a6096ee-afc6-43aa-ad5f-dd2041c83626.pdf&originalname=Sprial+FOH+Tiles+Material+Schedule_2.pdf;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-3,
+"yaw":107,
+"type":"info",
+"text":"Elevation Drawing",
+"linktype":"ma",
+"URLs":"Elevation Drawing;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=9|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-2,
+"yaw":-123,
+"type":"info",
+"text":"Low Zone Exe Lav Elevation & Wall Tile",
+"linktype":"ma",
+"URLs":"Elevation Drawing;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=10;drawing|FOH Toilet - Wall Tile (CT-02);https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f5810%2fMS_17104_TEMP000474(Rev0)_1a6096ee-afc6-43aa-ad5f-dd2041c83626.pdf&originalname=Sprial+FOH+Tiles+Material+Schedule_2.pdf;material|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":8,
+"yaw":40,
+"type":"info",
+"text":"Cosmetic Mirror",
+"linktype":"ma",
+"URLs":"Cosmetic Mirror;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=588083db-b3ac-4c97-b1a5-1af60609467e|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":24,
+"type":"info",
+"text":"6276364 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":17,
+"yaw":-49,
+"type":"info",
+"text":"4912224 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":10,
+"yaw":-123,
+"type":"info",
+"text":"4911045 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":16,
+"yaw":-140,
+"type":"info",
+"text":"Lavatory Pipe Duct Access Door",
+"linktype":"ma",
+"URLs":"Pipe Duct Access Door Detail BD10C;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c58073page=53|Pipe Duct Access Door Detail BD10D;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c58073page=54|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":14,
+"yaw":107,
+"type":"info",
+"text":"4896383 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":17,
+"yaw":25,
+"type":"info",
+"text":"4890038 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":34,
+"yaw":-50,
+"type":"info",
+"text":"4912236 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":22,
+"yaw":-123,
+"type":"info",
+"text":"4911056 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":32,
+"yaw":-140,
+"type":"info",
+"text":"4896400 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":29,
+"yaw":107,
+"type":"info",
+"text":"4897129 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":32,
+"yaw":28,
+"type":"info",
+"text":"4890050 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":47,
+"yaw":-66,
+"type":"info",
+"text":"4912251 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":32,
+"yaw":-123,
+"type":"info",
+"text":"4170812 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":44,
+"yaw":-140,
+"type":"info",
+"text":"4896419 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":40,
+"yaw":107,
+"type":"info",
+"text":"4896421 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":44,
+"yaw":28,
+"type":"info",
+"text":"4890066 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":56,
+"yaw":-23,
+"type":"info",
+"text":"4912269 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":40,
+"yaw":-123,
+"type":"info",
+"text":"4170813 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":51,
+"yaw":-139,
+"type":"info",
+"text":"4896438 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":60,
+"yaw":-78,
+"type":"info",
+"text":"4912319 Reveals",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":48,
+"yaw":104,
+"type":"info",
+"text":"4897143 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":46,
+"yaw":-123,
+"type":"info",
+"text":"Ceiling Detail Section",
+"linktype":"ma",
+"URLs":"Ceiling Detail Section BD35;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=88|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":45,
+"yaw":-108,
+"type":"info",
+"text":"6272955 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":53,
+"yaw":42,
+"type":"info",
+"text":"4890083 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":74,
+"yaw":3,
+"type":"info",
+"text":"Reflected Ceiling Plan",
+"linktype":"ma",
+"URLs":"Reflected Ceiling Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=4|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":55,
+"yaw":-139,
+"type":"info",
+"text":"4896569 Reveals",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":57,
+"yaw":65,
+"type":"info",
+"text":"4890255 Reveals",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":53,
+"yaw":106,
+"type":"info",
+"text":"4896746 Reveals",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":58,
+"yaw":-117,
+"type":"info",
+"text":"4365578 Doors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":58,
+"yaw":162,
+"type":"info",
+"text":"3061430 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":52,
+"yaw":169,
+"type":"info",
+"text":"4896779 Reveals",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":66,
+"yaw":94,
+"type":"info",
+"text":"3066187 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":85,
+"yaw":87,
+"type":"info",
+"text":"Reflected Ceiling Plan",
+"linktype":"ma",
+"URLs":"Reflected Ceiling Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=168b9aa3-617b-4bc5-b33d-25e27a3c5807#page=4|",
+"show":"yes",
+"div":{
+}
+}
+]
+},
+"Pano_00_AIM_Executive Lavatory_F_flipEM":{
+"panorama":"Pano_00_AIM_Executive Lavatory_F_flipEM.jpg",
+"panoramaflip":"Pano_00_AIM_Executive Lavatory_F_flipST",
+"hotSpots":[
+{
+"pitch":8,
+"yaw":110,
+"type":"info",
+"text":"CSD Elevation Drawing_1",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_1;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8340%2fSSF_17104_TEMP000439(Rev0)_d955de72-280f-40db-bef1-8ec58ae3b6ca.pdf&originalname=17104-CSD-LZ+5_18F-D1-3+(0).pdf|",
+"show":"yes"
+},
+{
+"pitch":8,
+"yaw":180,
+"type":"info",
+"text":"CSD Elevation Drawing_2",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_2;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8340%2fSSF_17104_TEMP000439(Rev0)_d955de72-280f-40db-bef1-8ec58ae3b6ca.pdf&originalname=17104-CSD-LZ+5_18F-D1-3+(0).pdf|",
+"show":"yes"
+},
+{
+"pitch":10,
+"yaw":-60,
+"type":"info",
+"text":"CSD Elevation Drawing_3",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_3;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8340%2fSSF_17104_TEMP000439(Rev0)_d955de72-280f-40db-bef1-8ec58ae3b6ca.pdf&originalname=17104-CSD-LZ+5_18F-D1-3+(0).pdf|",
+"show":"yes"
+},
+{
+"pitch":10,
+"yaw":40,
+"type":"info",
+"text":"CSD Elevation Drawing_4",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_4;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8340%2fSSF_17104_TEMP000439(Rev0)_d955de72-280f-40db-bef1-8ec58ae3b6ca.pdf&originalname=17104-CSD-LZ+5_18F-D1-3+(0).pdf|",
+"show":"yes"
+},
+{
+"pitch":40,
+"yaw":145,
+"type":"info",
+"text":"CSD Low Zone Plan",
+"linktype":"dw",
+"URLs":"CSD Low Zone Plan;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_6d07ec1a-5e9b-48c0-bd06-94d1b7c4e9ef.pdf&originalname=17104_CSD_LZ_P1+(Rev.A).pdf|",
+"show":"yes"
+},
+{
+"pitch":75,
+"yaw":148,
+"type":"info",
+"text":"Female Lav. Ceiling Plan",
+"linktype":"dw",
+"URLs":"Female Lavatory Ceiling Plan;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8340%2fSSF_17104_TEMP000439(Rev0)_1c87257b-90ae-472e-b070-73ada808d7fe.pdf&originalname=17104-CSD-LZ+5_18F-D1+(0).pdf|",
+"show":"yes"
+}
+]
+},
+"Pano_00_AIM_Executive Lavatory_F_flipST":{
+"panorama":"Pano_00_AIM_Executive Lavatory_F_flipST.jpg",
+"panoramaflip":"Pano_00_AIM_Executive Lavatory_F",
+"hotSpots":[
+{
+"pitch":30,
+"yaw":112,
+"type":"info",
+"text":"2816418 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":12,
+"yaw":45,
+"type":"info",
+"text":"Inter block wall construction detail & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Inter block wall construction detail;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=71fbedb1-a1ea-43de-967f-e5162984ff5c#page=1;drawing|Block wall plastering Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":5,
+"yaw":176,
+"type":"info",
+"text":"Shop Drawing of Block Wall Summary & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf;drawing|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|Precast Solid Concrete Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_c8b1ad6f-16f0-4fdf-91c6-bd5f1001a149.pdf&originalname=Fire+Block.pdf;drawing|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-68,
+"yaw":-168,
+"type":"info",
+"text":"11519745 Wall Sweeps",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-78,
+"yaw":1,
+"type":"info",
+"text":"11523518 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-60,
+"yaw":-142,
+"type":"info",
+"text":"11526553 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-62,
+"yaw":-174,
+"type":"info",
+"text":"11522106 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-58,
+"yaw":19,
+"type":"info",
+"text":"11527594 Wall Sweeps",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-60,
+"yaw":59,
+"type":"info",
+"text":"11524660 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-59,
+"yaw":-71,
+"type":"info",
+"text":"11521002 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":3,
+"yaw":-147,
+"type":"info",
+"text":"5698106 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-59,
+"yaw":142,
+"type":"info",
+"text":"11519358 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-58,
+"yaw":117,
+"type":"info",
+"text":"11519395 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":-51,
+"type":"info",
+"text":"Inter block wall construction detail & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Inter block wall construction detail;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=71fbedb1-a1ea-43de-967f-e5162984ff5c#page=1;drawing|Block wall plastering Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-56,
+"yaw":167,
+"type":"info",
+"text":"11522590 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-38,
+"yaw":67,
+"type":"info",
+"text":"Waterproof detail plan & diagram",
+"linktype":"ma",
+"URLs":"Waterproof detail plan & diagram;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=d41241f4-77b6-4bcd-a7be-83df82707093#page=21;drawing|Waterproof Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=d2728d9b-f5c9-491a-9f33-a6fb1011be3f&#page=5;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-56,
+"yaw":31,
+"type":"info",
+"text":"11524155 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-55,
+"yaw":161,
+"type":"info",
+"text":"11519125 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-54,
+"yaw":-132,
+"type":"info",
+"text":"Sunken Slab - Drainage",
+"linktype":"ma",
+"URLs":"Sunken Slab - Drainage;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=d41241f4-77b6-4bcd-a7be-83df82707093#page=34|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-36,
+"yaw":104,
+"type":"info",
+"text":"11524472 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-45,
+"yaw":-139,
+"type":"info",
+"text":"11521999 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-43,
+"yaw":-123,
+"type":"info",
+"text":"11521914 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":6,
+"yaw":-133,
+"type":"info",
+"text":"2816417 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":24,
+"yaw":-3,
+"type":"info",
+"text":"11517740 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-57,
+"yaw":122,
+"type":"info",
+"text":"8138506 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":6,
+"yaw":-117,
+"type":"info",
+"text":"TYP details for R.C. wall & parapet",
+"linktype":"ma",
+"URLs":"Typical details for R.C. wall & parapet;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=e07676f9-11bb-4e4c-ba6e-36c60d707e9a#page=7;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":71,
+"yaw":-52,
+"type":"info",
+"text":"4861630 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":57,
+"yaw":-132,
+"type":"info",
+"text":"4861620 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":78,
+"yaw":20,
+"type":"info",
+"text":"Framing Plan, Typ RC beam detail & Ceiling Plastering Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Framing Plan;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=;drawing|Typical detail for R.C. beams;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=e07676f9-11bb-4e4c-ba6e-36c60d707e9a#page=13;drawing|Ceiling Plastering Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=10;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-78,
+"yaw":26,
+"type":"info",
+"text":"Low Zone Framing Plan (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Waterproof detail plan & diagram;https://kp.nwconstruction.com.hk/Modules/LinkTo.aspx?guid=d41241f4-77b6-4bcd-a7be-83df82707093#page=21;drawing|Waterproof Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=d2728d9b-f5c9-491a-9f33-a6fb1011be3f&#page=6;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-67,
+"yaw":-54,
+"type":"info",
+"text":"10019525 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-53,
+"yaw":158,
+"type":"info",
+"text":"9857237 Slab Edges",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+}
+]
+},
+"Pano_00_AIM_Lift Lobby_02G11_STR":{
+"panorama":"Pano_00_AIM_Lift Lobby_02G11_STR.jpg",
+"panoramaflip":"Pano_00_AIM_Lift Lobby_02G11_STR_flipEM",
+"hotSpots":[
+{
+"pitch":0,
+"yaw":135.526842893842,
+"type":"scene",
+"text":"Pano_00_AIM_Lift Lobby_01G10_STR",
+"sceneId":"Pano_00_AIM_Lift Lobby_01G10_STR",
+"show":"yes"
+},
+{
+"pitch":-60,
+"yaw":9,
+"type":"info",
+"text":"3096841 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-75,
+"yaw":5,
+"type":"info",
+"text":"5459893 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-38,
+"yaw":-131,
+"type":"info",
+"text":"5252824 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":3,
+"yaw":-132,
+"type":"info",
+"text":"2816601 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":-153,
+"type":"info",
+"text":"3239770 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":179,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation & Material",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=9|Floor and Wall Material;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|Tower Office FOH Lift Lobby - Terrazzo Tile;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=292a58e9-66be-44aa-b4ba-5d425a0945c3#page=1|",
+"show":"yes"
+},
+{
+"pitch":-37,
+"yaw":41,
+"type":"info",
+"text":"5255850 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":-109,
+"type":"info",
+"text":"3239806 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":75,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation & Material",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation & Material;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=8|Floor and Wall Material;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|Tower Office FOH Lift Lobby - Terrazzo Tile;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=292a58e9-66be-44aa-b4ba-5d425a0945c3#page=1|",
+"show":"yes"
+},
+{
+"pitch":-3,
+"yaw":63,
+"type":"info",
+"text":"3235760 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":60,
+"type":"info",
+"text":"6410096 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-95,
+"type":"info",
+"text":"Wall Material",
+"linktype":"ma",
+"URLs":"Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=566da9ec-d638-4372-8920-0b80130356e7|",
+"show":"yes"
+},
+{
+"pitch":-36,
+"yaw":-146,
+"type":"info",
+"text":"7129145 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":3,
+"yaw":41,
+"type":"info",
+"text":"2816602 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":19,
+"type":"info",
+"text":"6409730 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-35,
+"yaw":33,
+"type":"info",
+"text":"7128992 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":2,
+"type":"info",
+"text":"Wall Material",
+"linktype":"ma",
+"URLs":"Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=566da9ec-d638-4372-8920-0b80130356e7|",
+"show":"yes"
+},
+{
+"pitch":-26,
+"yaw":-44,
+"type":"info",
+"text":"Low Zone (5-15/F) Master Layout Plan",
+"linktype":"ma",
+"URLs":"Low Zone (5-15/F) Master Layout Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=2|Low Zone Typical Layout Plan (6/F to 18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=ea8b0969-e7a2-4426-b4a8-97cae719185e#page=2|Work Methodology and Risk Assessment Report;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f18471%2fTSF_17104_TEMP001409(Rev0)_eac02cd8-c5ce-436b-859b-b5582899ad27.pdf&originalname=Ngai+To+Method+statement+for+Fit+out+Works+CIP.pdf#page=7|Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|",
+"show":"yes"
+},
+{
+"pitch":-24,
+"yaw":169,
+"type":"info",
+"text":"5255774 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-24,
+"yaw":100,
+"type":"info",
+"text":"5255805 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-6,
+"type":"info",
+"text":"3690399 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-21,
+"yaw":-11,
+"type":"info",
+"text":"TYP Lift Lobby Floor Divider Trim Detail",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Floor Divider Trim Detail;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=23|",
+"show":"yes"
+},
+{
+"pitch":-21,
+"yaw":-78,
+"type":"info",
+"text":"5253116 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-14,
+"yaw":167,
+"type":"info",
+"text":"5199530 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":8,
+"yaw":96,
+"type":"info",
+"text":"2816603 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":18,
+"yaw":164,
+"type":"info",
+"text":"Lift Portal Details",
+"linktype":"ma",
+"URLs":"Lift Portal Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=2|",
+"show":"yes"
+},
+{
+"pitch":1,
+"yaw":159,
+"type":"info",
+"text":"6432907 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":110,
+"type":"info",
+"text":"3245815 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-28,
+"type":"info",
+"text":"7111799 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-1,
+"yaw":-45,
+"type":"info",
+"text":"Door Schedule of Flat",
+"linktype":"ma",
+"URLs":"Door Schedule of Flat;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=2f695fec-e2d6-4103-9c89-df03d30f43dd#page=6|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-57,
+"type":"info",
+"text":"7111904 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-1,
+"yaw":-65,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=10|Floor and Wall Material;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-21,
+"type":"info",
+"text":"Wall Joint Detail",
+"linktype":"ma",
+"URLs":"Wall Joint Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=7|",
+"show":"yes"
+},
+{
+"pitch":-17,
+"yaw":-9,
+"type":"info",
+"text":"6504598 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-14,
+"type":"info",
+"text":"3254191 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-77,
+"type":"info",
+"text":"TYP Lift Lobby Corridor",
+"linktype":"ma",
+"URLs":"Corridor Wall Finish Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=26|",
+"show":"yes"
+},
+{
+"pitch":-17,
+"yaw":-79,
+"type":"info",
+"text":"5301600 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":154,
+"type":"info",
+"text":"6435490 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":115,
+"type":"info",
+"text":"3697321 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-13,
+"yaw":152,
+"type":"info",
+"text":"5255788 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-13,
+"yaw":153,
+"type":"info",
+"text":"7129237 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-13,
+"yaw":118,
+"type":"info",
+"text":"5330117 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":118,
+"type":"info",
+"text":"2816435 Doors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-6,
+"yaw":158,
+"type":"info",
+"text":"5787719 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":6,
+"yaw":151,
+"type":"info",
+"text":"2816599 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":150,
+"type":"info",
+"text":"6430740 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":119,
+"type":"info",
+"text":"3247949 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-11,
+"yaw":-177,
+"type":"info",
+"text":"Lift Button Details",
+"linktype":"ma",
+"URLs":"Lift Button Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=3|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":149,
+"type":"info",
+"text":"4054331 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-6,
+"yaw":121,
+"type":"info",
+"text":"3700005 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":120,
+"type":"info",
+"text":"3248111 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-6,
+"yaw":111,
+"type":"info",
+"text":"Lift Button Details",
+"linktype":"ma",
+"URLs":"Lift Button Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=3|",
+"show":"yes"
+},
+{
+"pitch":-9,
+"yaw":136,
+"type":"info",
+"text":"Low Zone (5-15/F) Master Layout Plan",
+"linktype":"ma",
+"URLs":"Low Zone (5-15/F) Master Layout Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=2|Low Zone Typical Layout Plan (6/F to 18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=ea8b0969-e7a2-4426-b4a8-97cae719185e#page=2|Work Methodology and Risk Assessment Report;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f18471%2fTSF_17104_TEMP001409(Rev0)_eac02cd8-c5ce-436b-859b-b5582899ad27.pdf&originalname=Ngai+To+Method+statement+for+Fit+out+Works+CIP.pdf#page=7|Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|",
+"show":"yes"
+},
+{
+"pitch":-3,
+"yaw":147,
+"type":"info",
+"text":"Typical HR Door Details",
+"linktype":"ma",
+"URLs":"Typical HR Door Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=24|",
+"show":"yes"
+},
+{
+"pitch":-8,
+"yaw":146,
+"type":"info",
+"text":"7477063 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":123,
+"type":"info",
+"text":"TYP Lift Lobby Detail",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=6|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":143,
+"type":"info",
+"text":"Floor and Wall Material",
+"linktype":"ma",
+"URLs":"Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|",
+"show":"yes"
+},
+{
+"pitch":-1,
+"yaw":140,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=8|Door Schedule of Flat;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=2f695fec-e2d6-4103-9c89-df03d30f43dd#page=6|",
+"show":"yes"
+},
+{
+"pitch":-1,
+"yaw":135,
+"type":"info",
+"text":"11432640 Doors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-1,
+"yaw":128,
+"type":"info",
+"text":"Unit Number Signage & LED Details",
+"linktype":"ma",
+"URLs":"Unit Number Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=29|LED Strip;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=10|",
+"show":"yes"
+},
+{
+"pitch":-8,
+"yaw":124,
+"type":"info",
+"text":"TYP Lift Lobby Floor Divider Trim Detail",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Floor Divider Trim Detail;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=23|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":146,
+"type":"info",
+"text":"Wall Material",
+"linktype":"ma",
+"URLs":"Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=566da9ec-d638-4372-8920-0b80130356e7|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":125,
+"type":"info",
+"text":"3254709 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-6,
+"yaw":-30,
+"type":"info",
+"text":"7109633 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-3,
+"yaw":-27,
+"type":"info",
+"text":"Unit Number Signage Details",
+"linktype":"ma",
+"URLs":"Unit Number Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=29|",
+"show":"yes"
+},
+{
+"pitch":2,
+"yaw":121,
+"type":"info",
+"text":"TV Door Details",
+"linktype":"ma",
+"URLs":"TV Door Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=17|",
+"show":"yes"
+},
+{
+"pitch":7,
+"yaw":147,
+"type":"info",
+"text":"6945056 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":9,
+"yaw":158,
+"type":"info",
+"text":"Signage Distribution Plan & Detail",
+"linktype":"ma",
+"URLs":"Signage Distribution Plan;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=82511f5b-5705-4e0e-b62a-180f9c6a005a#page=7|Floor Level Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=16|",
+"show":"yes"
+},
+{
+"pitch":10,
+"yaw":135,
+"type":"info",
+"text":"3228727 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":9,
+"yaw":125,
+"type":"info",
+"text":"3689422 Furniture",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":9,
+"yaw":-61,
+"type":"info",
+"text":"6078509 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":11,
+"yaw":-67,
+"type":"info",
+"text":"7110833 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":12,
+"yaw":122,
+"type":"info",
+"text":"5904684 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":13,
+"yaw":135,
+"type":"info",
+"text":"TYP Lift Lobby Section",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Section;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=5|",
+"show":"yes"
+},
+{
+"pitch":13,
+"yaw":120,
+"type":"info",
+"text":"3257753 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":63,
+"yaw":15,
+"type":"info",
+"text":"3230762 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":15,
+"yaw":117,
+"type":"info",
+"text":"5295493 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":17,
+"yaw":87,
+"type":"info",
+"text":"Floor Level Signage Details",
+"linktype":"ma",
+"URLs":"Floor Level Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=16|",
+"show":"yes"
+},
+{
+"pitch":19,
+"yaw":-10,
+"type":"info",
+"text":"6032324 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":20,
+"yaw":-79,
+"type":"info",
+"text":"6040012 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":63,
+"yaw":93,
+"type":"info",
+"text":"7130982 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":18,
+"yaw":106,
+"type":"info",
+"text":"Lift Arrival Light Details",
+"linktype":"ma",
+"URLs":"Lift Arrival Light Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=11|",
+"show":"yes"
+},
+{
+"pitch":69,
+"yaw":-106,
+"type":"info",
+"text":"5295866 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":37,
+"yaw":-44,
+"type":"info",
+"text":"3228561 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":21,
+"yaw":-66,
+"type":"info",
+"text":"3676276 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":23,
+"yaw":173,
+"type":"info",
+"text":"Lift Arrival Light Details",
+"linktype":"ma",
+"URLs":"Lift Arrival Light Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=11|",
+"show":"yes"
+},
+{
+"pitch":22,
+"yaw":-34,
+"type":"info",
+"text":"3229569 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":29,
+"yaw":110,
+"type":"info",
+"text":"7131047 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":31,
+"yaw":140,
+"type":"info",
+"text":"Timber false ceiling suspension system",
+"linktype":"ma",
+"URLs":"Timber false ceiling suspension system;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=c704def6-d383-49d3-b7f4-f8395ffac155#page=5|",
+"show":"yes"
+},
+{
+"pitch":30,
+"yaw":117,
+"type":"info",
+"text":"7130608 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":29,
+"yaw":-80,
+"type":"info",
+"text":"3579893 Furniture",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":30,
+"yaw":172,
+"type":"info",
+"text":"6402779 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":30,
+"yaw":96,
+"type":"info",
+"text":"6403251 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":34,
+"yaw":-114,
+"type":"info",
+"text":"6654507 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":34,
+"yaw":57,
+"type":"info",
+"text":"7129964 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":52,
+"yaw":-15,
+"type":"info",
+"text":"Lift Lobby & Office Corridor Typ. Detail",
+"linktype":"ma",
+"URLs":"Lift Lobby & Office Corridor Typical Detail;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=20|Typical Lift Lobby Ceiling Section;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=5|",
+"show":"yes"
+},
+{
+"pitch":38,
+"yaw":-104,
+"type":"info",
+"text":"3257996 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":38,
+"yaw":16,
+"type":"info",
+"text":"3244938 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":42,
+"yaw":54,
+"type":"info",
+"text":"6403633 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":43,
+"yaw":-123,
+"type":"info",
+"text":"6403044 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":53,
+"yaw":73,
+"type":"info",
+"text":"7130572 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":42,
+"yaw":34,
+"type":"info",
+"text":"6403592 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":52,
+"yaw":71,
+"type":"info",
+"text":"7130594 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":54,
+"yaw":-163,
+"type":"info",
+"text":"7130593 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":56,
+"yaw":75,
+"type":"info",
+"text":"7130592 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":58,
+"yaw":-168,
+"type":"info",
+"text":"7130591 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":67,
+"yaw":98,
+"type":"info",
+"text":"7130610 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":85,
+"yaw":-30,
+"type":"info",
+"text":"5090295 Sprinklers",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+}
+]
+},
+"Pano_00_AIM_Lift Lobby_02G11_STR_flipEM":{
+"panorama":"Pano_00_AIM_Lift Lobby_02G11_STR_flipEM.jpg",
+"panoramaflip":"Pano_00_AIM_Lift Lobby_02G11_STR_flipST",
+"hotSpots":[
+{
+"pitch":0,
+"yaw":135.526842893842,
+"type":"scene",
+"text":"Pano_00_AIM_Lift Lobby_01G10_STR_flipEM",
+"sceneId":"Pano_00_AIM_Lift Lobby_01G10_STR_flipEM",
+"show":"yes"
+},
+{
+"pitch":10,
+"yaw":135,
+"type":"info",
+"text":"CSD Elevation & Section Drawing_1",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_1;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_62ffe062-59b7-4188-adfe-f17b305808a8.pdf&originalname=17104-CSD-LZ+5_18F-D2-2+(0).pdf|CSD Section Drawing_1;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_bf65d4ae-54ca-4026-b52f-92598151bcdf.pdf&originalname=17104_CSD_LZ_S2+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":30,
+"yaw":165,
+"type":"info",
+"text":"CSD Elevation & Section Drawing_2",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_2;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_f6a46c30-eb6c-4328-a473-b42194d6a485.pdf&originalname=17104-CSD-LZ+5_18F-D2-1+(0).pdf|CSD Section Drawing_2;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_02e05386-8f02-4001-9cb8-b119ee355c93.pdf&originalname=17104_CSD_LZ_S1+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":25,
+"yaw":-40,
+"type":"info",
+"text":"CSD Elevation & Section Drawing_3",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_3;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_bf65d4ae-54ca-4026-b52f-92598151bcdf.pdf&originalname=17104_CSD_LZ_S2+(Rev.A).pdf|CSD Section Drawing_3;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_62ffe062-59b7-4188-adfe-f17b305808a8.pdf&originalname=17104-CSD-LZ+5_18F-D2-2+(0).pdf",
+"show":"yes"
+},
+{
+"pitch":20,
+"yaw":115,
+"type":"info",
+"text":"CSD Elevation & Section Drawing_4",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_4;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_f6a46c30-eb6c-4328-a473-b42194d6a485.pdf&originalname=17104-CSD-LZ+5_18F-D2-1+(0).pdf|CSD Section Drawing_4;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_02e05386-8f02-4001-9cb8-b119ee355c93.pdf&originalname=17104_CSD_LZ_S1+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":50,
+"yaw":135,
+"type":"info",
+"text":" CSD Low Zone & Ceiling Plan",
+"linktype":"dw",
+"URLs":"CSD Low Zone;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_6d07ec1a-5e9b-48c0-bd06-94d1b7c4e9ef.pdf&originalname=17104_CSD_LZ_P1+(Rev.A).pdf|CSD Ceiling Plan;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_4296f981-8116-4d66-a53b-9f9a32a75e80.pdf&originalname=17104-CSD-LZ+5_18F-D2+(0).pdf",
+"show":"yes"
+}
+]
+},
+"Pano_00_AIM_Lift Lobby_02G11_STR_flipST":{
+"panorama":"Pano_00_AIM_Lift Lobby_02G11_STR_flipST.jpg",
+"panoramaflip":"Pano_00_AIM_Lift Lobby_02G11_STR",
+"hotSpots":[
+{
+"pitch":0,
+"yaw":135.526842893842,
+"type":"scene",
+"text":"Pano_00_AIM_Lift Lobby_01G10_STR_flipST",
+"sceneId":"Pano_00_AIM_Lift Lobby_01G10_STR_flipST",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":2,
+"yaw":121,
+"type":"info",
+"text":"5679582 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":5,
+"yaw":155,
+"type":"info",
+"text":"2816397 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":6,
+"yaw":87,
+"type":"info",
+"text":"MS for Construction of Superstructure (From G/F to R/F)",
+"linktype":"ma",
+"URLs":"Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":6,
+"yaw":-73,
+"type":"info",
+"text":"Block Wall Summary & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf;drawing|Shop Drawing of Block Wall Stiffener;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_6c500118-eed9-454e-80f1-fbc3c228b8bc.pdf&originalname=201105+NWCON%27s+Blockwall+Stiffener+Standard+Details+(P%26T+endorsed).pdf;drawing|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":3,
+"yaw":113,
+"type":"info",
+"text":"Precast Solid Concrete Block",
+"linktype":"ma",
+"URLs":"Precast Solid Concrete Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_c8b1ad6f-16f0-4fdf-91c6-bd5f1001a149.pdf&originalname=Fire+Block.pdf;drawing|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":119,
+"type":"info",
+"text":"5679687 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":2,
+"yaw":147,
+"type":"info",
+"text":"7712448 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":2,
+"yaw":141,
+"type":"info",
+"text":"Block Wall Summary & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf;drawing|Shop Drawing of Block Wall Stiffener;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_6c500118-eed9-454e-80f1-fbc3c228b8bc.pdf&originalname=201105+NWCON%27s+Blockwall+Stiffener+Standard+Details+(P%26T+endorsed).pdf;drawing|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":16,
+"yaw":167,
+"type":"info",
+"text":"4861730 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":13,
+"yaw":138,
+"type":"info",
+"text":"9615762 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":12,
+"yaw":126,
+"type":"info",
+"text":"TYP Floor System Formwork Pre-camber Procedure",
+"linktype":"ma",
+"URLs":"Typical Floor System Formwork Pre-camber Procedure;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f16269%2fTSF_17104_TEMP001261(Rev0)_fd392282-2e45-4d09-9ee2-69a13246e338.pdf&originalname=20201118+TYP+Beam+Deflection+value+(from+PROKON)+as-built.pdf|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":67,
+"yaw":20,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-37,
+"yaw":-129,
+"type":"info",
+"text":"8137909 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-36,
+"yaw":-115,
+"type":"info",
+"text":"8137907 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-36,
+"yaw":42,
+"type":"info",
+"text":"8137937 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-34,
+"yaw":25,
+"type":"info",
+"text":"8138319 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":4,
+"yaw":-88,
+"type":"info",
+"text":"4861726 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-30,
+"yaw":3,
+"type":"info",
+"text":"6659270 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-17,
+"yaw":166,
+"type":"info",
+"text":"8137911 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":13,
+"yaw":172,
+"type":"info",
+"text":"4861728 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":12,
+"yaw":138,
+"type":"info",
+"text":"9615456 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":16,
+"yaw":135,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":15,
+"yaw":149,
+"type":"info",
+"text":"4861626 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":15,
+"yaw":121,
+"type":"info",
+"text":"4861622 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":23,
+"yaw":-6,
+"type":"info",
+"text":"7956596 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":29,
+"yaw":-78,
+"type":"info",
+"text":"TYP Floor System Formwork Pre-camber Procedure",
+"linktype":"ma",
+"URLs":"Typical Floor System Formwork Pre-camber Procedure;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f16269%2fTSF_17104_TEMP001261(Rev0)_fd392282-2e45-4d09-9ee2-69a13246e338.pdf&originalname=20201118+TYP+Beam+Deflection+value+(from+PROKON)+as-built.pdf|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":35,
+"yaw":-40,
+"type":"info",
+"text":"7772925 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":46,
+"yaw":-45,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-60,
+"yaw":9,
+"type":"info",
+"text":"8137876 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-26,
+"yaw":-44,
+"type":"info",
+"text":"TYP of Low Zone Framing & CJ (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+},
+{
+"pitch":-24,
+"yaw":97,
+"type":"info",
+"text":"8137905 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-22,
+"yaw":102,
+"type":"info",
+"text":"8137903 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-21,
+"yaw":104,
+"type":"info",
+"text":"8138080 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no",
+"div":{
+}
+},
+{
+"pitch":-10,
+"yaw":135,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes",
+"div":{
+}
+}
+]
+},
+"Pano_00_AIM_Lift Lobby_01G10_STR":{
+"panorama":"Pano_00_AIM_Lift Lobby_01G10_STR.jpg",
+"panoramaflip":"Pano_00_AIM_Lift Lobby_01G10_STR_flipEM",
+"hotSpots":[
+{
+"pitch":0,
+"yaw":-44.4731571061576,
+"type":"scene",
+"text":"Pano_00_AIM_Lift Lobby_02G11_STR",
+"sceneId":"Pano_00_AIM_Lift Lobby_02G11_STR",
+"show":"yes"
+},
+{
+"pitch":-60,
+"yaw":-1,
+"type":"info",
+"text":"Floor and Wall Material",
+"linktype":"ma",
+"URLs":"Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;material|",
+"show":"yes"
+},
+{
+"pitch":-73,
+"yaw":77,
+"type":"info",
+"text":"5459893 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-39,
+"yaw":-133,
+"type":"info",
+"text":"5255788 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":-112,
+"type":"info",
+"text":"6435490 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":5,
+"yaw":-124,
+"type":"info",
+"text":"2816599 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":-157,
+"type":"info",
+"text":"6430740 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":-95,
+"type":"info",
+"text":"6432907 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-109,
+"type":"info",
+"text":"3235760 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-163,
+"type":"info",
+"text":"4054331 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-28,
+"yaw":137,
+"type":"info",
+"text":"Low Zone (5-15/F) Master Plan, MS & RA",
+"linktype":"ma",
+"URLs":"Low Zone (5-15/F) Master Layout Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=2;drawing|Low Zone Typical Layout Plan (6/F to 18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=ea8b0969-e7a2-4426-b4a8-97cae719185e#page=2;drawing|Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;material|Work Methodology and Risk Assessment Report;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;method|",
+"show":"yes"
+},
+{
+"pitch":-37,
+"yaw":-147,
+"type":"info",
+"text":"7129237 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-37,
+"yaw":46,
+"type":"info",
+"text":"5330117 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":64,
+"type":"info",
+"text":"3247949 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":45,
+"type":"info",
+"text":"2816435 Doors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":31,
+"type":"info",
+"text":"3696498 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":27,
+"type":"info",
+"text":"3697321 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-1,
+"yaw":75,
+"type":"info",
+"text":"3248111 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":60,
+"type":"info",
+"text":"3258995 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":2,
+"yaw":6,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation & Material",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=8;drawing|Floor and Wall Material;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;material|Tower Office FOH Lift Lobby - Terrazzo Tile;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=292a58e9-66be-44aa-b4ba-5d425a0945c3#page=3;material|",
+"show":"yes"
+},
+{
+"pitch":-15,
+"yaw":92,
+"type":"info",
+"text":"3700005 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-8,
+"yaw":169,
+"type":"info",
+"text":"TYP HR Door Details",
+"linktype":"ma",
+"URLs":"Typical HR Door Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=24|",
+"show":"yes"
+},
+{
+"pitch":17,
+"yaw":169,
+"type":"info",
+"text":"6945056 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":98,
+"type":"info",
+"text":"TYP Lift Lobby Detail",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=6|",
+"show":"yes"
+},
+{
+"pitch":-23,
+"yaw":-75,
+"type":"info",
+"text":"5255774 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-22,
+"yaw":-11,
+"type":"info",
+"text":"5255805 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-19,
+"yaw":161,
+"type":"info",
+"text":"7477063 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-21,
+"yaw":-11,
+"type":"info",
+"text":"7128992 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-13,
+"yaw":-73,
+"type":"info",
+"text":"5199530 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-18,
+"yaw":106,
+"type":"info",
+"text":"TYP Lift Lobby Floor Divider Trim Detail",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Floor Divider Trim Detail;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=23|",
+"show":"yes"
+},
+{
+"pitch":11,
+"yaw":-16,
+"type":"info",
+"text":"2816603 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":16,
+"yaw":-74,
+"type":"info",
+"text":"Lift Portal Details",
+"linktype":"ma",
+"URLs":"Lift Portal Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=2|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-21,
+"type":"info",
+"text":"Floor and Wall Material",
+"linktype":"ma",
+"URLs":"Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":-66,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation & Material",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=9;drawing|Floor and Wall Material;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;material|Tower Office FOH Lift Lobby - Terrazzo Tile;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=292a58e9-66be-44aa-b4ba-5d425a0945c3#page=1;material|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":151,
+"type":"info",
+"text":"7113065 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":144,
+"type":"info",
+"text":"Unit Number Signage Details",
+"linktype":"ma",
+"URLs":"Unit Number Signage Details;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=29|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":133,
+"type":"info",
+"text":"Door Schedule of Flat",
+"linktype":"ma",
+"URLs":"Door Schedule of Flat;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=2f695fec-e2d6-4103-9c89-df03d30f43dd#page=6|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":119,
+"type":"info",
+"text":"7112095 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-16,
+"yaw":161,
+"type":"info",
+"text":"6505493 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":161,
+"type":"info",
+"text":"3257376 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-1,
+"yaw":113,
+"type":"info",
+"text":"7112106 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":108,
+"type":"info",
+"text":"3254709 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-16,
+"yaw":108,
+"type":"info",
+"text":"4965703 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":-25,
+"type":"info",
+"text":"6410096 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-13,
+"yaw":-26,
+"type":"info",
+"text":"5255850 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-13,
+"yaw":-62,
+"type":"info",
+"text":"5252824 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-12,
+"yaw":-97,
+"type":"info",
+"text":"Lift Button Details",
+"linktype":"ma",
+"URLs":"Lift Button Details;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=3|",
+"show":"yes"
+},
+{
+"pitch":4,
+"yaw":-28,
+"type":"info",
+"text":"2816602 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":-29,
+"type":"info",
+"text":"6409730 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":1,
+"yaw":-59,
+"type":"info",
+"text":"3239806 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":9,
+"yaw":-60,
+"type":"info",
+"text":"2816601 Specialty Equipment",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-12,
+"yaw":-61,
+"type":"info",
+"text":"7129145 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-11,
+"yaw":10,
+"type":"info",
+"text":"6079167 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-11,
+"yaw":5,
+"type":"info",
+"text":"Lift Button Details",
+"linktype":"ma",
+"URLs":"Lift Button Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=3|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-30,
+"type":"info",
+"text":"3244440 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-58,
+"type":"info",
+"text":"3240334 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-10,
+"yaw":-44,
+"type":"info",
+"text":"Low Zone (5-15/F) Master Plan, MS & RA",
+"linktype":"ma",
+"URLs":"Low Zone Typical Layout Plan (6/F to 18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=ea8b0969-e7a2-4426-b4a8-97cae719185e#page=2;drawing|Low Zone (5-15/F) Master Layout Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=2;drawing|Work Methodology and Risk Assessment Report;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f18471%2fTSF_17104_TEMP001409(Rev0)_eac02cd8-c5ce-436b-859b-b5582899ad27.pdf&originalname=Ngai+To+Method+statement+for+Fit+out+Works+CIP.pdf#page=7;method|Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;material|",
+"show":"yes"
+},
+{
+"pitch":6,
+"yaw":84,
+"type":"info",
+"text":"TV Door Details",
+"linktype":"ma",
+"URLs":"TV Door Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=17|",
+"show":"yes"
+},
+{
+"pitch":-9,
+"yaw":-33,
+"type":"info",
+"text":"3060173 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-9,
+"yaw":-56,
+"type":"info",
+"text":"TYP Lift Lobby Floor Divider Trim Detail",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Floor Divider Trim Detail;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=23|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-33,
+"type":"info",
+"text":"3254191 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-38,
+"type":"info",
+"text":"Low Zone Lift Lobby Elevation & Material",
+"linktype":"ma",
+"URLs":"Low Zone Lift Lobby Elevation;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=e54fe76a-5cdf-46d4-b5ed-62c8c79c87f0#page=10;drawing|Floor and Wall Material;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=308483d0-51ea-46cc-b0f9-e54124b19165;material|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-45,
+"type":"info",
+"text":"11432409 Doors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-50,
+"type":"info",
+"text":"Door Schedule of Flat",
+"linktype":"ma",
+"URLs":"Door Schedule of Flat;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=2f695fec-e2d6-4103-9c89-df03d30f43dd#page=6|",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-53,
+"type":"info",
+"text":"7110829 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":0,
+"yaw":-56,
+"type":"info",
+"text":"3671559 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-5,
+"yaw":116,
+"type":"info",
+"text":"Unit Number Signage & LED Details",
+"linktype":"ma",
+"URLs":"Unit Number Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=29|LED Strip;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=10|",
+"show":"yes"
+},
+{
+"pitch":-4,
+"yaw":118,
+"type":"info",
+"text":"Unit Number Signage Details",
+"linktype":"ma",
+"URLs":"Unit Number Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=29|",
+"show":"no"
+},
+{
+"pitch":9,
+"yaw":152,
+"type":"info",
+"text":"7115697 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":10,
+"yaw":-21,
+"type":"info",
+"text":"Signage Distribution Plan & Detail",
+"linktype":"ma",
+"URLs":"Signage Distribution Plan;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=82511f5b-5705-4e0e-b62a-180f9c6a005a#page=7|Floor Level Signage Details;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=16|",
+"show":"yes"
+},
+{
+"pitch":10,
+"yaw":-44,
+"type":"info",
+"text":"Lift Lobby & Office Corridor TYP Detail",
+"linktype":"ma",
+"URLs":"Lift Lobby & Office Corridor Typical Detail;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=20|",
+"show":"yes"
+},
+{
+"pitch":10,
+"yaw":-55,
+"type":"info",
+"text":"3579893 Furniture",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":12,
+"yaw":-26,
+"type":"info",
+"text":"7129964 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":13,
+"yaw":-38,
+"type":"info",
+"text":"TYP Lift Lobby Section",
+"linktype":"ma",
+"URLs":"Typical Lift Lobby Section;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=5|",
+"show":"yes"
+},
+{
+"pitch":12,
+"yaw":-45,
+"type":"info",
+"text":"4729059 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":63,
+"yaw":-14,
+"type":"info",
+"text":"3230762 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":66,
+"yaw":-63,
+"type":"info",
+"text":"Timber false ceiling suspension system",
+"linktype":"ma",
+"URLs":"Timber false ceiling suspension system;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=c704def6-d383-49d3-b7f4-f8395ffac155#page=5|",
+"show":"no"
+},
+{
+"pitch":16,
+"yaw":-89,
+"type":"info",
+"text":"Floor Level Signage Details",
+"linktype":"ma",
+"URLs":"Floor Level Signage Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=16|",
+"show":"yes"
+},
+{
+"pitch":17,
+"yaw":105,
+"type":"info",
+"text":"Ceilings Detail",
+"linktype":"ma",
+"URLs":"Ceiling Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=19|",
+"show":"yes"
+},
+{
+"pitch":17,
+"yaw":162,
+"type":"info",
+"text":"5612979 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":39,
+"yaw":114,
+"type":"info",
+"text":"Lift Lobby & Office Corridor Typ. Detail",
+"linktype":"ma",
+"URLs":"Lift Lobby & Office Corridor Typical Detail;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=20|",
+"show":"yes"
+},
+{
+"pitch":60,
+"yaw":-18,
+"type":"info",
+"text":"7130982 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":18,
+"yaw":-71,
+"type":"info",
+"text":"Lift Arrival Light Details",
+"linktype":"ma",
+"URLs":"Lift Arrival Light Details;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=11|",
+"show":"no"
+},
+{
+"pitch":18,
+"yaw":115,
+"type":"info",
+"text":"3229798 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":19,
+"yaw":142,
+"type":"info",
+"text":"4674263 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":20,
+"yaw":133,
+"type":"info",
+"text":"3416166 Sprinklers",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":22,
+"yaw":-8,
+"type":"info",
+"text":"Lift Arrival Light Details",
+"linktype":"ma",
+"URLs":"Lift Arrival Light Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=11|",
+"show":"yes"
+},
+{
+"pitch":23,
+"yaw":-16,
+"type":"info",
+"text":"6403269 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":23,
+"yaw":-70,
+"type":"info",
+"text":"6402033 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":24,
+"yaw":105,
+"type":"info",
+"text":"3689422 Furniture",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":28,
+"yaw":-33,
+"type":"info",
+"text":"7131047 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":29,
+"yaw":-38,
+"type":"info",
+"text":"Timber false ceiling suspension system",
+"linktype":"ma",
+"URLs":"Timber false ceiling suspension system;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=c704def6-d383-49d3-b7f4-f8395ffac155#page=5|",
+"show":"yes"
+},
+{
+"pitch":28,
+"yaw":-64,
+"type":"info",
+"text":"7130608 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":28,
+"yaw":-77,
+"type":"info",
+"text":"6402779 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":32,
+"yaw":160,
+"type":"info",
+"text":"6531084 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":35,
+"yaw":-115,
+"type":"info",
+"text":"Lift Arrival Light Details",
+"linktype":"ma",
+"URLs":"Lift Arrival Light Details;https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=11|",
+"show":"yes"
+},
+{
+"pitch":57,
+"yaw":166,
+"type":"info",
+"text":"TYP Lobby Ceiling Joint Section",
+"linktype":"ma",
+"URLs":"Typical Lobby Ceiling Joint Section;https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=f2ba6584-f7ef-4d53-9fb2-adb419363147#page=20|",
+"show":"yes"
+},
+{
+"pitch":38,
+"yaw":69,
+"type":"info",
+"text":"3257753 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":40,
+"yaw":46,
+"type":"info",
+"text":"5295493 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":51,
+"yaw":9,
+"type":"info",
+"text":"7130572 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":41,
+"yaw":-162,
+"type":"info",
+"text":"3236487 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":45,
+"yaw":-130,
+"type":"info",
+"text":"6401609 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":45,
+"yaw":-133,
+"type":"info",
+"text":"6402515 Ceilings",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":49,
+"yaw":13,
+"type":"info",
+"text":"7130595 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":52,
+"yaw":8,
+"type":"info",
+"text":"7130577 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":53,
+"yaw":-97,
+"type":"info",
+"text":"7130596 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":63,
+"yaw":-22,
+"type":"info",
+"text":"7130609 Generic Models",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":56,
+"yaw":-91,
+"type":"info",
+"text":"7130576 Lighting Fixtures",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":85,
+"yaw":10,
+"type":"info",
+"text":"6027867 Sprinklers",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+}
+]
+},
+"Pano_00_AIM_Lift Lobby_01G10_STR_flipEM":{
+"panorama":"Pano_00_AIM_Lift Lobby_01G10_STR_flipEM.jpg",
+"panoramaflip":"Pano_00_AIM_Lift Lobby_01G10_STR_flipST",
+"hotSpots":[
+{
+"pitch":0,
+"yaw":-44.4731571061576,
+"type":"scene",
+"text":"Pano_00_AIM_Lift Lobby_02G11_STR_flipEM",
+"sceneId":"Pano_00_AIM_Lift Lobby_02G11_STR_flipEM",
+"show":"yes"
+},
+{
+"pitch":-20,
+"yaw":32,
+"type":"info",
+"text":"Low Zone CBWD P1_Slab & Beam Opening (6/F to 18/F)",
+"linktype":"dw",
+"URLs":"Low Zone CBWD P1_Slab & Beam Opening (6/F to 18/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f7965%2fSSF_17104_TEMP000417(Rev0)_13d2c6f7-033c-4167-8ea1-1a008e17ee31.pdf&originalname=17104_CBWD_6F-18F_P1(Rev.B).pdf",
+"show":"yes"
+},
+{
+"pitch":25,
+"yaw":57,
+"type":"info",
+"text":"Low Zone CBWD P1_Wall Opening (6/F to 18/F)",
+"linktype":"dw",
+"URLs":"Low Zone CBWD P1_Wall Opening (6/F to 18/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f7725%2fSSF_17104_TEMP000413(Rev0)_aca2395b-f73b-493a-ac94-1c6d7053993e.pdf&originalname=17104_CBWD_6F-17F_P2+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":50,
+"yaw":5,
+"type":"info",
+"text":"CSD Section Drawing",
+"linktype":"dw",
+"URLs":"CSD Section Drawing;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_02e05386-8f02-4001-9cb8-b119ee355c93.pdf&originalname=17104_CSD_LZ_S1+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":70,
+"yaw":-50,
+"type":"info",
+"text":"CSD Low Zone & Ceiling Plan",
+"linktype":"dw",
+"URLs":"CSD Low Zone;https://cia.contechpoint.com/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_6d07ec1a-5e9b-48c0-bd06-94d1b7c4e9ef.pdf&originalname=17104_CSD_LZ_P1+(Rev.A).pdf|CSD Ceiling Plan;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_4296f981-8116-4d66-a53b-9f9a32a75e80.pdf&originalname=17104-CSD-LZ+5_18F-D2+(0).pdf",
+"show":"yes"
+},
+{
+"pitch":20,
+"yaw":140,
+"type":"info",
+"text":"CSD Elevation & Section Drawing_1",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_1;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_62ffe062-59b7-4188-adfe-f17b305808a8.pdf&originalname=17104-CSD-LZ+5_18F-D2-2+(0).pdf|CSD Section Drawing_1;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_bf65d4ae-54ca-4026-b52f-92598151bcdf.pdf&originalname=17104_CSD_LZ_S2+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":-100,
+"type":"info",
+"text":"CSD Elevation Drawing_2",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_2;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_f6a46c30-eb6c-4328-a473-b42194d6a485.pdf&originalname=17104-CSD-LZ+5_18F-D2-1+(0).pdf",
+"show":"yes"
+},
+{
+"pitch":15,
+"yaw":-45,
+"type":"info",
+"text":"CSD Elevation & Section Drawing_3",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_3;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_62ffe062-59b7-4188-adfe-f17b305808a8.pdf&originalname=17104-CSD-LZ+5_18F-D2-2+(0).pdf|CSD Sections Drawing_3;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f5700%2fSSF_17104_BS-0034(Rev1)_bf65d4ae-54ca-4026-b52f-92598151bcdf.pdf&originalname=17104_CSD_LZ_S2+(Rev.A).pdf",
+"show":"yes"
+},
+{
+"pitch":0,
+"yaw":10,
+"type":"info",
+"text":"CSD Elevation Drawing_4",
+"linktype":"dw",
+"URLs":"CSD Elevation Drawing_4;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8352%2fSSF_17104_TEMP000440(Rev0)_f6a46c30-eb6c-4328-a473-b42194d6a485.pdf&originalname=17104-CSD-LZ+5_18F-D2-1+(0).pdf",
+"show":"yes"
+}
+]
+},
+"Pano_00_AIM_Lift Lobby_01G10_STR_flipST":{
+"panorama":"Pano_00_AIM_Lift Lobby_01G10_STR_flipST.jpg",
+"panoramaflip":"Pano_00_AIM_Lift Lobby_01G10_STR",
+"hotSpots":[
+{
+"pitch":0,
+"yaw":-44.4731571061576,
+"type":"scene",
+"text":"Pano_00_AIM_Lift Lobby_02G11_STR_flipST",
+"sceneId":"Pano_00_AIM_Lift Lobby_02G11_STR_flipST",
+"show":"yes"
+},
+{
+"pitch":3,
+"yaw":-51,
+"type":"info",
+"text":"Block Wall Summary & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_b0ab8685-c2b6-4f80-961d-ff2277732645.pdf&originalname=20201106+-+Shop+Drawing+of+Block+Wall+revB+.pdf;drawing|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes"
+},
+{
+"pitch":6,
+"yaw":-96,
+"type":"info",
+"text":"MS for Construction of Superstructure (From G/F to R/F)",
+"linktype":"ma",
+"URLs":"Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;material|",
+"show":"yes"
+},
+{
+"pitch":17,
+"yaw":64,
+"type":"info",
+"text":"5679687 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":4,
+"yaw":18,
+"type":"info",
+"text":"Precast Solid Concrete Block",
+"linktype":"ma",
+"URLs":"Precast Solid Concrete Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_c8b1ad6f-16f0-4fdf-91c6-bd5f1001a149.pdf&originalname=Fire+Block.pdf;drawing|Solid Block;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fMS%2f7392%2fMS_17104_TEMP000749(Rev0)_7a17b2fe-6e73-4e61-a6d0-589dffc0199c.pdf&originalname=Solid+Blk_300mm.pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes"
+},
+{
+"pitch":4,
+"yaw":81,
+"type":"info",
+"text":"5679582 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":4,
+"yaw":68,
+"type":"info",
+"text":"2816392 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":4,
+"yaw":-22,
+"type":"info",
+"text":"2816396 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":8,
+"yaw":171,
+"type":"info",
+"text":"7712448 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-1,
+"yaw":169,
+"type":"info",
+"text":"2816400 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":3,
+"yaw":100,
+"type":"info",
+"text":"2816390 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":4,
+"yaw":159,
+"type":"info",
+"text":"Block Wall Summary & Package Contract Requirements",
+"linktype":"ma",
+"URLs":"Shop Drawing of Block Wall Summary;https://www.google.com.hk;drawing|Shop Drawing of Block Wall Stiffener;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fSSF%2f8160%2fSSF_17104_TEMP0000433(Rev0)_6c500118-eed9-454e-80f1-fbc3c228b8bc.pdf&originalname=201105+NWCON%27s+Blockwall+Stiffener+Standard+Details+(P%26T+endorsed).pdf;drawing|Block wall Package Contract Requirements;https://uatcia.contechpoint.com/modules/RegisterDSOpenFile.aspx?sr=pdf&guid=8df59114-913f-4320-864b-7487c309841b&#page=4;method|",
+"show":"yes"
+},
+{
+"pitch":68,
+"yaw":-8,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes"
+},
+{
+"pitch":-38,
+"yaw":-126,
+"type":"info",
+"text":"8137909 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-32,
+"yaw":-175,
+"type":"info",
+"text":"4861730 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-22,
+"yaw":-9,
+"type":"info",
+"text":"8137937 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-17,
+"yaw":-75,
+"type":"info",
+"text":"8137907 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-20,
+"yaw":-14,
+"type":"info",
+"text":"8138319 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-60,
+"yaw":-2,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes"
+},
+{
+"pitch":1,
+"yaw":-31,
+"type":"info",
+"text":"6659270 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-11,
+"yaw":-58,
+"type":"info",
+"text":"4861726 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":13,
+"yaw":-79,
+"type":"info",
+"text":"4861728 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":13,
+"yaw":-56,
+"type":"info",
+"text":"7716997 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":16,
+"yaw":-44,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes"
+},
+{
+"pitch":15,
+"yaw":-30,
+"type":"info",
+"text":"4861622 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":15,
+"yaw":-57,
+"type":"info",
+"text":"4861626 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":18,
+"yaw":-80,
+"type":"info",
+"text":"9383620 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":30,
+"yaw":108,
+"type":"info",
+"text":"TYP Floor System Formwork Pre-camber Procedure",
+"linktype":"ma",
+"URLs":"Typical Floor System Formwork Pre-camber Procedure;https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f16269%2fTSF_17104_TEMP001261(Rev0)_fd392282-2e45-4d09-9ee2-69a13246e338.pdf&originalname=20201118+TYP+Beam+Deflection+value+(from+PROKON)+as-built.pdf|",
+"show":"yes"
+},
+{
+"pitch":25,
+"yaw":144,
+"type":"info",
+"text":"9615456 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":25,
+"yaw":165,
+"type":"info",
+"text":"8090844 Floors",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":36,
+"yaw":140,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes"
+},
+{
+"pitch":49,
+"yaw":125,
+"type":"info",
+"text":"4861628 Structural Framing",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-38,
+"yaw":-152,
+"type":"info",
+"text":"8137911 Walls",
+"linktype":"ma",
+"URLs":"Google;https://www.google.com.hk|Yahoo;https://www.yahoo.com.hk|",
+"show":"no"
+},
+{
+"pitch":-27,
+"yaw":134,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes"
+},
+{
+"pitch":-10,
+"yaw":-48,
+"type":"info",
+"text":"TYP of Low Zone Framing, CJ & MS (6/F to 18/F)",
+"linktype":"ma",
+"URLs":"Typical Floor of Low Zone Framing Plan (6/F to 18/F);https://cia.contechpoint.com/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=cb1ce932-3d38-4879-a84a-31ce92b924a0#page=2;drawing|Superstructure Construction Joint (CJ) Plan (6/F-18/F);https://cia.nwconstruction.com.hk/Modules/RegisterDSOpenFile.aspx?sr=pdf&guid=a9a806c7-d929-4727-aebb-9e82119d6196;drawing|Method Statement for Construction of Superstructure (From G/F to R/F);https://cia.nwconstruction.com.hk/Modules/DWF/GetAttachment.ashx?file=%2fRFC%2f17104%2fTSF%2f15569%2fTSF_17104_SE-0453(Rev1)_7f19bb49-ba34-46e4-9c20-8e043e0ead12.pdf&originalname=Method+Statement+for+Superstructure+Construction+r1.pdf;method|",
+"show":"yes"
+}
+]
+}
+
+
+
+
+
+
+            }
+}
+

@@ -5,6 +5,7 @@ function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
     let xcategoires = []
     let thisMonthData = []
     let previousMonthData = []
+    var max = 0
 
     thisMonth.map(function (v, i) {
         xcategoires.push(v[fieldName])
@@ -12,6 +13,7 @@ function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
 
         let check = previousMonth.some((ele) => {
             if (ele[fieldName] === v[fieldName]) {
+                max = (ele.count > max) ? ele.count : max
                 previousMonthData.push(ele.count)
             }
 
@@ -26,7 +28,8 @@ function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
     return {
         thisMonthData: thisMonthData,
         xcategoires: xcategoires,
-        previousMonthData: previousMonthData
+        previousMonthData: previousMonthData,
+        max: max
     }
 }
 
@@ -80,7 +83,7 @@ function NCRPeriodChart(series, xcategoires) {
     }
 }
 
-function NCRChart(series, xcategoires) {
+function NCRChart(series, xcategoires, max) {
 
     return {
         series: series,
@@ -135,7 +138,7 @@ function NCRChart(series, xcategoires) {
                     tooltip: {
                         enabled: true
                     },
-                    max: 7
+                    max: max
                 },
                 {
                     seriesName: 'Income',
@@ -159,7 +162,7 @@ function NCRChart(series, xcategoires) {
                             color: '#00E396',
                         }
                     },
-                    max: 7
+                    max: max
 
                 },
                 {

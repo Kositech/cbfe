@@ -61,7 +61,7 @@ function NCR(props) {
     //    "Majestic定安(水喉)", "Majestic定安(消防)", "Or Sui Ying(柯穗瑛)", "ST 順通 (冷氣)"]
 
     const [ncrChart, setNCRChart] = useState(NCRChart(
-        [], []
+        [], [], 0
     ))
 
     useEffect(() => {
@@ -78,7 +78,8 @@ function NCR(props) {
                         {data: newResult.thisMonthData, name: "本週期", type: "column"},
                         {data: newResult.previousMonthData, name: "上週期", type: 'column'},
                     ],
-                    newResult.xcategoires
+                    newResult.xcategoires,
+                    newResult.max
                 ))
             }
         }
