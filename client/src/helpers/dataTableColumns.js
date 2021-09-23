@@ -6,58 +6,70 @@ const NCRColumns = [
     {
         name: <Trans i18nKey="Columns.applicant"></Trans>,
         selector: (row) => {
-            return row.applicant
+            return row.safety_lodged_by
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.pcCompany"></Trans>,
         selector: (row) => {
-            return row.pcCompany
+            return row.company_name
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.type"></Trans>,
         selector: (row) => {
-            return row.type
+            return row.safety_type
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.description"></Trans>,
         selector: (row) => {
-            return row.description
+            return row.safety_description
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.status"></Trans>,
         selector: (row) => {
-            return row.status
+            return row.safety_status_name
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.location"></Trans>,
         selector: (row) => {
-            return row.location
+            return row.safety_location
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.time"></Trans>,
         selector: (row) => {
-            return row.time
+            return row.safety_date
         },
         wrap: true,
         sortable: true,
+        center: true,
+        format: (row) => {
+            return (
+                <div>{moment.unix(row.safety_date).format("DD/MM/YYYY HH:mm")}</div>
+            )
+        }
     },
 ]
 
@@ -69,6 +81,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.pcCompany"></Trans>,
@@ -77,6 +90,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.type"></Trans>,
@@ -85,6 +99,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.Sub-Type"></Trans>,
@@ -93,6 +108,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.status"></Trans>,
@@ -101,6 +117,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.location"></Trans>,
@@ -109,6 +126,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true
     },
     {
         name: <Trans i18nKey="Columns.time"></Trans>,
@@ -117,6 +135,7 @@ const PTWColumns = [
         },
         wrap: true,
         sortable: true,
+        center: true,
     },
 ]
 

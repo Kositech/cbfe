@@ -7,7 +7,7 @@ import DataTable from 'react-data-table-component';
 import Tabs from "react-responsive-tabs";
 import Chart from "react-apexcharts";
 import { _gqlQuery } from '../../gql/apolloClient';
-import { ncrByCompanyAndPeriodRecentMonths } from '../../gql/ncrGql'
+import { ncrByCompanyAndPeriodRecentMonths, ncrDetailByTypes } from '../../gql/ncrGql'
 import SideMenu from '../../menu/side-menu';
 import variable from '../../helpers/variable';
 import { NCRColumns } from '../../helpers/dataTableColumns';
@@ -27,9 +27,15 @@ function NCR(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
 
-    const [updateNCRData, setUpdateNCRData] = useState(0)
+    const [updateNCRData, setUpdateNCRData] = useState({
+        total: 0,
+        skip: 0,
+        take: variable.DATA_TABLE_PER_PAGE,
+        currentValue: 0,
+        process: false
+    })
     const [tabs, setTabs] = useState([
-        { name: "All", value: -1 },
+        { name: "ALL", value: -1 },
         { name: 'NEW', value: 1 },
         { name: 'WIP', value: 2 },
         { name: 'COMPLETED', value: 5 },
@@ -39,8 +45,6 @@ function NCR(props) {
         { name: 'LATE', value: 100 },
     ])
     const [ncrData, setNCRData] = useState([
-        { applicant: "Ray KS Ho (何敬誠)", pcCompany: "CS 震昇 (地基)", type: "04. 廢料處理", description: "058. 欠清理", status: "NEW", location: "Mid Zone - Mid Zone", time: "12/05/2021 18:00" },
-        { applicant: "CK Tsang (曾志強) (震昇地基)", pcCompany: "CS 震昇 (地基)", type: "13. 焊接/氣體火焰切割", description: "270. 風煤壓力錶損毀", status: "NEW", location: "Mid Zone - Mid Zone", time: "07/04/2021 17:30" },
     ])
 
     // [{
@@ -64,6 +68,21 @@ function NCR(props) {
         [], [], 0
     ))
 
+    async function fetchNCRData(){
+        let items = await _gqlQuery(ncrDetailByTypes, {status: tabs[updateNCRData.currentValue]["name"], skip: updateNCRData.page * updateNCRData.skip, take: updateNCRData.take})
+        console.log("fetchNCRData ", items)
+        if(typeof(items.errors) !== "undefined"){
+
+        } else{
+            setNCRData(items.data.ncrDetailByTypes[0].ncrData)
+            setUpdateNCRData({
+                ...updateNCRData,
+                total: items.data.ncrDetailByTypes[0].total,
+                process: false
+            })
+        }
+    }
+
     useEffect(() => {
         async function fetchNCRChart(){
             let items = await _gqlQuery(ncrByCompanyAndPeriodRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
@@ -85,18 +104,25 @@ function NCR(props) {
         }
 
         fetchNCRChart()
+        fetchNCRData()
     }, [])
 
     useEffect(() => {
-        if (typeof (updateNCRData) == "number") {
-            // fetch get data
-            setUpdateNCRData(null)
+        console.log("updateNCRData fire")
+        if(updateNCRData.process){
+            fetchNCRData()
         }
     }, [updateNCRData])
 
     const handleOnViewTabChange = (v, i) => {
         // console.log("handleOnViewTabChange ")
-        setUpdateNCRData(i)
+        setUpdateNCRData({
+            ...updateNCRData,
+            total: 0,
+            skip: 0,
+            currentValue: i,
+            process: true
+        })
     }
 
     return (
@@ -141,6 +167,25 @@ function NCR(props) {
                             data={ncrData}
                             columns={NCRColumns}
                             pagination
+                            paginationPerPage={updateNCRData.take}
+                            paginationTotalRows={updateNCRData.total}
+                            paginationServer
+                            onChangeRowsPerPage={(currentRowsPerPage, currentPage) => {
+                                setUpdateNCRData({
+                                    ...updateNCRData,
+                                    take: currentRowsPerPage,
+                                    process: true
+                                })
+                            }}
+                            onChangePage={async (page, totalRows) => {
+                                setUpdateNCRData({
+                                    ...updateNCRData,
+                                    skip: (page - 1) * updateNCRData.take,
+                                    process: true
+                                })
+                            }}
+                            striped={true}
+                            noHeader={true}
                         />
                     </Col>
                 </Row>

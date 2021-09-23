@@ -1,6 +1,7 @@
 import { Trans } from 'react-i18next'
 
 const RESPONSIVE_WIDTH = '768px';
+const DATA_TABLE_PER_PAGE = 15;
 
 const LANGUAGE = [
     { code: "zh-HK", name: "繁" },
@@ -79,6 +80,8 @@ const LABEL_BOX_3 = [
 ]
 
 export default {
+    DATA_TABLE_PER_PAGE,
+
     RESPONSIVE_WIDTH,
     LANGUAGE,
     DOWNLOAD_LINK,
