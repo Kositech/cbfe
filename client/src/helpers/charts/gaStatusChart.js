@@ -1,7 +1,11 @@
-function PTWPermitChart(series, xcategoires) {
+function GateAccessStatusChart(series, xcategoires) {
+    var color = ["#BA894F","#3F817D"]
     return {
         series: series,
         options: {
+            title: {
+                text: "大牌/細牌狀況分佈"
+            },
             chart: {
                 type: "donut",
             },
@@ -21,12 +25,12 @@ function PTWPermitChart(series, xcategoires) {
                     }
                 }
             },
-            fill:{
-                colors:["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+            fill: {
+                colors: color
             },
-            legend:{
-                markers:{
-                    fillColors: ["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+            legend: {
+                markers: {
+                    fillColors: color
                 }
             },
             labels: xcategoires,
@@ -36,14 +40,15 @@ function PTWPermitChart(series, xcategoires) {
                     opacity: 0.8
                 }
             },
-            tooltip:{
+            tooltip: {
                 fillSeriesColor: true
             },
-            colors: ["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+            colors: color
         }
     }
 }
 
+
 export {
-    PTWPermitChart
+    GateAccessStatusChart
 }

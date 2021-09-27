@@ -1,3 +1,25 @@
+import { Trans } from 'react-i18next'
+import { permitKeyI18nKey } from '../common'
+
+function reassignPermitChartData(data) {
+    let output = []
+    console.log("reassignPermitChartData ", data)
+    Object.keys(data).forEach(function (key) {
+        var totals = []
+        data[key].map(function (item) {
+            totals.push(item.waiting_approval + item.not_cancelled + item.not_approved + item.cancelled + item.withdrawn + item.cancel_confirmed)
+        })
+
+        var i18nkey = permitKeyI18nKey(key)
+
+        output.push(
+            { data: totals, name: i18nkey }
+        )
+    })
+
+    return output
+}
+
 function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
     let thisMonth = data.thismonth;
     let previousMonth = data.previousmonth
@@ -240,6 +262,7 @@ function NCRPermitChart(series, xcategoires) {
 }
 
 export {
+    reassignPermitChartData,
     NCRPeriodChartDataReassign,
     NCRChart,
     NCRPeriodChart,

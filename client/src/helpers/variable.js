@@ -15,16 +15,37 @@ const DOWNLOAD_LINK = [
     { link: "", img: "download_android_apk.png", className: "download-android-apk" },
 ]
 
+const PERMIT_TYPE = [
+    "THERMAL" ,
+    "SIDEWALK",
+    "LADDER",
+    "FALSECEILING"
+]
+
 const SIDE_MENU = [
     {
-        name: "side_menu.CIA",
-        description: "side_menu.CIA_description",
+        name: "Home",
+        link: "/"
+    },
+    {
+        name: "side_menu.Safety_Health",
+        description: "side_menu.Safety_Health_description",
         sub: [
-            { name: 'side_menu.SSF', link: "#" },
-            { name: 'side_menu.TSF', link: "#" },
-            { name: 'side_menu.DCS', link: "#" },
+            {name: 'side_menu.PTW', link: '/health-safety/ptw'},
+            {name: 'side_menu.NCR', link: '/health-safety/ncr'},
+            {name: 'side_menu.Gate_Access', link: '/health-safety/gate-access'},
+            {name: 'side_menu.IoT', link: '/health-safety/iot'},
         ]
     },
+    // {
+    //     name: "side_menu.CIA",
+    //     description: "side_menu.CIA_description",
+    //     sub: [
+    //         { name: 'side_menu.SSF', link: "#" },
+    //         { name: 'side_menu.TSF', link: "#" },
+    //         { name: 'side_menu.DCS', link: "#" },
+    //     ]
+    // },
     {
         name: 'side_menu.Knowledge_Portal',
         description: 'side_menu.Knowledge_Portal_description',
@@ -80,6 +101,7 @@ const LABEL_BOX_3 = [
 ]
 
 export default {
+    PERMIT_TYPE,
     DATA_TABLE_PER_PAGE,
 
     RESPONSIVE_WIDTH,

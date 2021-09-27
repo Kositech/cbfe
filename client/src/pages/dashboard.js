@@ -10,6 +10,8 @@ import Chart from "react-apexcharts";
 import SideMenu from '../menu/side-menu';
 import { _gqlQuery } from '../gql/apolloClient';
 import { ncrTypesCountRecentMonths } from '../gql/ncrGql';
+import { ptwTypesCountDaily } from '../gql/ptwGql'
+import { permitDataFilter } from '../helpers/common'
 import variable from '../helpers/variable';
 import ViewWrapper from '../components/view-wrapper'
 import ViewContent from '../components/view-content';
@@ -36,9 +38,11 @@ function Dashboard(props) {
         []
     ))
 
+    const [permitData, setPermitData] = useState({})
+
     useEffect(() => {
         async function fetchData() {
-            let items = await _gqlQuery(ncrTypesCountRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
+            let items = await _gqlQuery(ncrTypesCountRecentMonths, { project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
 
             if (typeof (items.errors) !== "undefined") {
 
@@ -56,9 +60,49 @@ function Dashboard(props) {
                 ))
             }
         }
+        async function fetchDailyPermit() {
+            let startDate = moment().startOf('day').format("YYYY-MM-DD HH:mm:ss")
+            let endDate = moment().endOf('day').format("YYYY-MM-DD HH:mm:ss")
+            let newPermitData = {}
+
+            for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
+                let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
+                if (typeof (items.errors) !== "undefined") {
+
+                } else {
+                    newPermitData[variable.PERMIT_TYPE[i]] = items.data.ptwTypesCountDaily[0].data
+                }
+
+                // Is last type
+                if (i == variable.PERMIT_TYPE.length - 1) {
+                    setPermitData(newPermitData)
+                }
+            }
+        }
 
         fetchData()
+        fetchDailyPermit()
     }, [])
+
+    const dailyPermitCount = () => {
+        var submitted = 0
+        var approved = 0
+        for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
+            approved += permitDataFilter(permitData, variable.PERMIT_TYPE[i], t)[1].value
+            submitted += permitDataFilter(permitData, variable.PERMIT_TYPE[i], t)[0].value
+        }
+
+        return [
+            {
+                label: t("Submitted"),
+                value: submitted
+            },
+            {
+                label: t("Approved"),
+                value: approved
+            }
+        ]
+    }
 
     const renderSummary = (label, value) => {
         return (
@@ -76,8 +120,6 @@ function Dashboard(props) {
         )
     }
 
-    console.log("props", ncrPeriodChart)
-
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
             <SideMenu
@@ -85,7 +127,7 @@ function Dashboard(props) {
             >
             </SideMenu>
             <div id="page-wrap" className="cb-page-wrap cb-dashboard pt-4 pl-5 pr-5 pb-4 mt-1">
-                <NavTop showIcon={true} {...props}/>
+                <NavTop showIcon={true} {...props} />
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">
                         <div className="ml-6 pl-5 bold font-xl">{t('Crystal_Ball')}</div>
@@ -214,7 +256,7 @@ function Dashboard(props) {
                                     showStatus={false}
                                     showThumbs={false}
                                     showIndicators={false}
-                                    dynamicHeight={true}                                    
+                                    dynamicHeight={true}
                                     className="announcement-carousel"
                                     axis="vertical"
                                 >
@@ -248,7 +290,7 @@ function Dashboard(props) {
                                     <div className="d-flex flex-column justify-content-start align-items-start px-2">
                                         <div className="bold font-xm gray mb-2 pb-1">{t('即日工作')}</div>
                                         <ViewLabelBox
-                                            data={variable.LABEL_BOX_1}
+                                            data={dailyPermitCount()}
                                             className="w-100 p-2 box-bg box-vector-bg"
                                         >
                                         </ViewLabelBox>
@@ -272,7 +314,7 @@ function Dashboard(props) {
                                                             <div className="d-flex flex-column justify-content-start align-items-start px-2">
                                                                 <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
                                                                 <ViewLabelBox
-                                                                    data={variable.LABEL_BOX_2}
+                                                                    data={permitDataFilter(permitData, "THERMAL", t)}
                                                                     className="w-100 p-2 box-bg box-fire-bg"
                                                                 >
                                                                 </ViewLabelBox>
@@ -282,7 +324,7 @@ function Dashboard(props) {
                                                             <div className="d-flex flex-column justify-content-start align-items-start px-2">
                                                                 <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
                                                                 <ViewLabelBox
-                                                                    data={variable.LABEL_BOX_3}
+                                                                    data={permitDataFilter(permitData, "SIDEWALK", t)}
                                                                     className="w-100 p-2 box-bg box-wall-bg"
                                                                 >
                                                                 </ViewLabelBox>
@@ -296,7 +338,7 @@ function Dashboard(props) {
                                                             <div className="d-flex flex-column justify-content-start align-items-start px-2">
                                                                 <div className="bold font-xm gray mb-2 pb-1">{t('梯具工作')}</div>
                                                                 <ViewLabelBox
-                                                                    data={variable.LABEL_BOX_2}
+                                                                    data={permitDataFilter(permitData, "LADDER", t)}
                                                                     className="w-100 p-2 box-bg box-stair-bg"
                                                                 >
                                                                 </ViewLabelBox>
@@ -306,7 +348,7 @@ function Dashboard(props) {
                                                             <div className="d-flex flex-column justify-content-start align-items-start px-2">
                                                                 <div className="bold font-xm gray mb-2 pb-1">{t('假天花工作')}</div>
                                                                 <ViewLabelBox
-                                                                    data={variable.LABEL_BOX_3}
+                                                                    data={permitDataFilter(permitData, "FALSECEILING", t)}
                                                                     className="w-100 p-2 box-bg box-ceiling-bg"
                                                                 >
                                                                 </ViewLabelBox>

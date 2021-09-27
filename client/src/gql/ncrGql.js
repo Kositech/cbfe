@@ -11,7 +11,7 @@ let ncrTypesCountRecentMonthsOutput = `
     }
 `
 
-let ncrByCompanyAndPeriodRecentMonthsOutput = `
+let ncrByCompanyAndStatusRecentMonthsOutput = `
     previousmonth{
         company_name
         count
@@ -22,7 +22,7 @@ let ncrByCompanyAndPeriodRecentMonthsOutput = `
     }
 `
 
-let ncrDetailByTypesOutput = `
+let ncrDetailByStatusOutput = `
     ncrData{
         safety_lodged_by
         company_name
@@ -36,25 +36,25 @@ let ncrDetailByTypesOutput = `
 `
 
 export var ncrTypesCountRecentMonths = gql`
-    query ncrTypesCountRecentMonths($dateTime: DateTime!){
-        ncrTypesCountRecentMonths(dateTime: $dateTime){
+    query ncrTypesCountRecentMonths($project: Int!, $dateTime: DateTime!){
+        ncrTypesCountRecentMonths(project: $project, dateTime: $dateTime){
             ${ncrTypesCountRecentMonthsOutput}
         }
     }
 `
 
-export var ncrByCompanyAndPeriodRecentMonths = gql`
-    query ncrByCompanyAndPeriodRecentMonths($dateTime: DateTime!){
-        ncrByCompanyAndPeriodRecentMonths(dateTime: $dateTime){
-            ${ncrByCompanyAndPeriodRecentMonthsOutput}
+export var ncrByCompanyAndStatusRecentMonths = gql`
+    query ncrByCompanyAndStatusRecentMonths($status: String!, $project: Int!, $dateTime: DateTime!){
+        ncrByCompanyAndStatusRecentMonths(status: $status, project: $project, dateTime: $dateTime){
+            ${ncrByCompanyAndStatusRecentMonthsOutput}
         }
     }
 `
 
-export var ncrDetailByTypes = gql`
-    query ncrDetailByTypes($status: String, $skip: Int, $take: Int){
-        ncrDetailByTypes(status: $status, skip: $skip, take: $take){
-            ${ncrDetailByTypesOutput}
+export var ncrDetailByStatus = gql`
+    query ncrDetailByStatus($project: Int!, $status: String!, $skip: Int, $take: Int){
+        ncrDetailByStatus(project: $project, status: $status, skip: $skip, take: $take){
+            ${ncrDetailByStatusOutput}
         }
     }
 `

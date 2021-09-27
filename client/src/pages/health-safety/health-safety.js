@@ -5,8 +5,9 @@ import { Row, Col } from 'react-bootstrap'
 import moment from 'moment'
 import Chart from "react-apexcharts";
 import variable from '../../helpers/variable'
-import { getRandomInt } from '../../helpers/common'
-import { NCRPermitChart } from '../../helpers/charts/ncr-chart'
+import { getRandomInt, permitDataFilter } from '../../helpers/common'
+import { NCRPermitChart, reassignPermitChartData } from '../../helpers/charts/ncr-chart'
+import { ptwTypesCountDaily } from '../../gql/ptwGql'
 import SideMenu from '../../menu/side-menu';
 import ViewWrapper from '../../components/view-wrapper'
 import ViewContent from '../../components/view-content';
@@ -18,23 +19,25 @@ import ViewBarContent from '../../components/view-bar-content';
 import ViewLabelBox from '../../components/view-label-box';
 import HealthSafetyMenu from '../../menu/health-safety-menu';
 import ViewContentLabel from '../../components/view-content-label';
+import { _gqlQuery } from '../../gql/apolloClient';
 
 function HealthSafety(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
 
+    let days = 9
     let dateCateg = []
-    let hotData = [], wallData = [], stairData = [], ceilingData = []
 
     for (let i = 9; i >= 0; i--) {
         dateCateg.push(moment().subtract(i, 'd').format("DD/MM"))
-        hotData.push(getRandomInt(50))
-        wallData.push(getRandomInt(50))
-        stairData.push(getRandomInt(50))
-        ceilingData.push(getRandomInt(50))
     }
 
-    console.log("dateCateg ", dateCateg)
+    // console.log("dateCateg ", dateCateg)
+
+    const [permitData, setPermitData] = useState({})
+    const [updateNCRPermitData, setUpdateNCRPermitData] = useState({
+        progress: false
+    })
 
     const [monthlyNCR, setMonthlyNCR] = useState({
         data: [
@@ -71,15 +74,54 @@ function HealthSafety(props) {
 
     const [ncrPermitChart, setNCRPermitChart] = useState(NCRPermitChart(
         [
-            { data: hotData, name: t('熱工序') },
-            { data: wallData, name: t('外牆/牆邊') },
-            { data: stairData, name: t('梯具工作') },
-            { data: ceilingData, name: t('假天花工作') },
+            { data: [], name: t('熱工序') },
+            { data: [], name: t('外牆/牆邊') },
+            { data: [], name: t('梯具工作') },
+            { data: [], name: t('假天花工作') },
         ],
         dateCateg
     ))
 
-    console.log("ncrPermitChart ", ncrPermitChart)
+    const fetchTypesCountDaily = async () => {
+        let startDate = moment().subtract(days, 'days').startOf('day').format("YYYY-MM-DD HH:mm:ss")
+        let endDate = moment().endOf('day').format("YYYY-MM-DD HH:mm:ss")
+        let newPermitData = {}
+
+        for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
+            let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
+            // console.log("fetchTypesCountDaily ", items)
+
+            if (typeof (items.errors) !== "undefined") {
+
+            } else {
+                newPermitData[variable.PERMIT_TYPE[i]] = items.data.ptwTypesCountDaily[0].data
+            }
+            // Is last type
+            if (i == variable.PERMIT_TYPE.length - 1) {
+                console.log("newPermitData ", newPermitData)
+                setPermitData(newPermitData)
+
+                var reassignedPermitData = reassignPermitChartData(newPermitData)
+                console.log("reassignedPermitData", reassignedPermitData)
+
+                Object.keys(reassignedPermitData).forEach(function (key) {
+                    reassignedPermitData[key].name = t(reassignedPermitData[key].name)
+                })
+
+                setNCRPermitChart(NCRPermitChart(
+                    reassignedPermitData,
+                    dateCateg
+                ))
+
+            }
+        }
+    }
+
+    useEffect(() => {
+        fetchTypesCountDaily()
+    }, [])
+
+    // console.log("hhss ", permitDataFilter("FALSECEILING"))
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
@@ -87,7 +129,7 @@ function HealthSafety(props) {
                 burgerButtonClassName="cb-menu-bth-sm"
             ></SideMenu>
             <div id="page-wrap" className="cb-page-wrap cb-health-safety pt-4 pl-5 pr-5 pb-4 mt-1">
-                <NavTop showIcon={true} {...props}/>
+                <NavTop showIcon={true} {...props} />
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">
                         <div className="ml-6 pl-5 bold font-xl">{t('Crystal_Ball')}</div>
@@ -117,7 +159,7 @@ function HealthSafety(props) {
                                 <div className="d-flex flex-column justify-content-start align-items-start">
                                     <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
                                     <ViewLabelBox
-                                        data={variable.LABEL_BOX_2}
+                                        data={permitDataFilter(permitData, "THERMAL", t)}
                                         className="w-100 p-2 box-bg box-fire-bg"
                                     >
                                     </ViewLabelBox>
@@ -127,7 +169,7 @@ function HealthSafety(props) {
                                 <div className="d-flex flex-column justify-content-start align-items-start">
                                     <div className="bold font-xm gray mb-2 pb-1">{t('外牆/樓邊')}</div>
                                     <ViewLabelBox
-                                        data={variable.LABEL_BOX_3}
+                                        data={permitDataFilter(permitData, "SIDEWALK", t)}
                                         className="w-100 p-2 box-bg box-wall-bg"
                                     >
                                     </ViewLabelBox>
@@ -137,7 +179,7 @@ function HealthSafety(props) {
                                 <div className="d-flex flex-column justify-content-start align-items-start">
                                     <div className="bold font-xm gray mb-2 pb-1">{t('梯具工作')}</div>
                                     <ViewLabelBox
-                                        data={variable.LABEL_BOX_2}
+                                        data={permitDataFilter(permitData, "LADDER", t)}
                                         className="w-100 p-2 box-bg box-stair-bg"
                                     >
                                     </ViewLabelBox>
@@ -147,7 +189,7 @@ function HealthSafety(props) {
                                 <div className="d-flex flex-column justify-content-start align-items-start">
                                     <div className="bold font-xm gray mb-2 pb-1">{t('假天花工作')}</div>
                                     <ViewLabelBox
-                                        data={variable.LABEL_BOX_3}
+                                        data={permitDataFilter(permitData, "FALSECEILING", t)}
                                         className="w-100 p-2 box-bg box-ceiling-bg"
                                     >
                                     </ViewLabelBox>
@@ -161,7 +203,7 @@ function HealthSafety(props) {
                                         css="d-flex justify-content-start align-items-center mb-3"
                                     >
                                         <ViewContentLabel
-                                            label={t('Permit_Submission_Status') + "(" + moment().subtract(10, 'd').format("DD/MM/YYYY") + " ~ " + moment().format("DD/MM/YYYY")}
+                                            label={t('Permit_Submission_Status') + "(" + moment().subtract(days, 'd').format("DD/MM/YYYY") + " ~ " + moment().format("DD/MM/YYYY") + ")"}
                                         >
                                         </ViewContentLabel>
                                     </ViewContent>
@@ -203,7 +245,7 @@ function HealthSafety(props) {
                         </ViewShadowBox>
                     </Col>
                     <Col sm={12} md={7}>
-                        <ViewShadowBox 
+                        <ViewShadowBox
                             className="p-3 h-100"
                         >
                             <Row className="mb-3">

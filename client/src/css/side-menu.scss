@@ -29,11 +29,19 @@
           >li {
               >a {
                   padding   : 14px 12px;
-                  background: rgba(33, 33, 33, 0.08);
+                  background: #018786;
+                  &:hover,&:active,&:focus{
+                    color: white !important;
+                  }
               }
 
               ul {
                   padding: 0;
+                  a{
+                    &:hover,&:active,&:focus{
+                      color: #00000099 !important;
+                    }
+                  }
               }
           }
       }

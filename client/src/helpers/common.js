@@ -1,4 +1,5 @@
 import routes from '../routers/routes'
+import moment from 'moment'
 
 function debug(name = "", value = "") {
     if (process.env.NODE_ENV !== "production") {
@@ -110,6 +111,62 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
+function permitKeyI18nKey(key){
+    var i18nkey = ""
+    switch(key){
+        case "FALSECEILING":
+            i18nkey = "False_Ceiling_Permit"
+            break;
+        case "LADDER":
+            i18nkey = "Ladder_Work_Permit"
+            break;
+        case "SIDEWALK":
+            i18nkey = "Exterior_wall_Permit"
+            break;
+        case "THERMAL":
+            i18nkey = "Hot_Work_Permit"
+            break;
+    }
+
+    return i18nkey
+}
+
+function permitDataFilter (permitData, key, t) {
+    var data = [
+        {
+            label: t("Submitted"),
+            value: 0
+        },
+        {
+            label: t("Approved"),
+            value: 0
+        }
+    ]
+    var clonePermitData = { ...permitData }
+    if (typeof (clonePermitData[key]) !== "undefined") {
+        var filterdata = clonePermitData[key].filter(function (v, i) {
+            return v.dateTime == moment().format("MM/DD/YYYY")
+        })
+        
+        if (filterdata.length > 0) {
+            data = []
+            data.push(
+                {
+                    label: t("Submitted"),
+                    value: (filterdata[0].waiting_approval + filterdata[0].not_cancelled +
+                    filterdata[0].not_approved + filterdata[0].cancelled +
+                    filterdata[0].withdrawn + filterdata[0].cancel_confirmed)
+                },
+                {
+                    label: t("Approved"),
+                    value: filterdata[0].not_cancelled
+                }
+            )
+        }
+    }
+    return data
+}
+
 export {
     debug,
     searchArrayObject,
@@ -119,5 +176,7 @@ export {
     arrayGroupBy,
     countDecimals,
     objArrayToDropdownObject,
-    getRandomInt
+    getRandomInt,
+    permitKeyI18nKey,
+    permitDataFilter
 }

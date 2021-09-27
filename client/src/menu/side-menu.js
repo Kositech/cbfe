@@ -23,7 +23,7 @@ function SideMenu(props) {
 
             submenulayout.push(
                 <li className="pl-4 mb-3">
-                    <a className="d-flex" href={sm.link}>{t(sm.name)}</a>
+                    <a className="d-flex dark-06" href={sm.link}>{t(sm.name)}</a>
                     {sub}
                 </li>
             )
@@ -47,10 +47,10 @@ function SideMenu(props) {
 
             layout.push(
                 <li className="lv-1">
-                    <a className="font-n d-flex align-items-center" href={v.link}>{t(v.name)}</a>
+                    <a className="font-n d-flex align-items-center white" href={v.link}>{t(v.name)}</a>
                     {
                         (typeof (v.description) !== "undefined") ?
-                            (<div className="font-xs pl-3 mb-3">{t(v.description)}</div>) :
+                            (<div className="font-xs pl-3 mt-2 mb-3 dark-06">{t(v.description)}</div>) :
                             (null)
                     }
                     {sub}
@@ -70,16 +70,18 @@ function SideMenu(props) {
             <div className="cb-menu-header">
                 <div className="user-icon mb-3"></div>
                 <div className="font-xm bold deep-dark">{t('side_menu.Central_Search')}</div>
-                <div className="font-s bold gray">{'CIA, KP, VVMU & GIA'}</div>
+                <div className="font-s bold dark-06">{'CIA, KP, VVMU & GIA'}</div>
             </div>
         )
     }
 
     const renderFooter = () => {
         return (
-            <a className="cb-menu-footer" href="/">
-                <div className="crystal-ball-logo logo-sm "></div>
-            </a>
+            <div style={{ width: "60px", height: "60px" }} className="position-relative">
+                <a className="cb-menu-footer" href="/">
+                    <div className="crystal-ball-logo logo-sm "></div>
+                </a>
+            </div>
         )
     }
 

@@ -7,7 +7,7 @@ import DataTable from 'react-data-table-component';
 import Tabs from "react-responsive-tabs";
 import Chart from "react-apexcharts";
 import { _gqlQuery } from '../../gql/apolloClient';
-import { ncrByCompanyAndPeriodRecentMonths, ncrDetailByTypes } from '../../gql/ncrGql'
+import { ncrByCompanyAndStatusRecentMonths, ncrDetailByStatus } from '../../gql/ncrGql'
 import SideMenu from '../../menu/side-menu';
 import variable from '../../helpers/variable';
 import { NCRColumns } from '../../helpers/dataTableColumns';
@@ -30,6 +30,7 @@ function NCR(props) {
     const [updateNCRData, setUpdateNCRData] = useState({
         total: 0,
         skip: 0,
+        page: 1,
         take: variable.DATA_TABLE_PER_PAGE,
         currentValue: 0,
         process: false
@@ -47,55 +48,40 @@ function NCR(props) {
     const [ncrData, setNCRData] = useState([
     ])
 
-    // [{
-    //     name: '本週期',
-    //     type: 'column',
-    //     data: [1, 4, 5, 1, 1, 7, 2, 1, 1, 3, 3, 1, 4, 1, 2]
-    // }, {
-    //     name: '上週期',
-    //     type: 'column',
-    //     data: [0, 0, 4, 1, 0, 5, 5, 0, 0, 1, 0, 0, 0, 0, 0]
-    // }, {
-    //     name: '平均行動回應時間',
-    //     type: 'line',
-    //     data: [2, 1.3, 18, 23, 16, 8, 1.5, 0, 2, 2, 0.7, 23, 11, 1, 3.5]
-    // }], ["EC宜利(打拆/地盤平...", "GS 創昇(什項)", "Hop Fat 合發(釘板)", "TW 天和(扎鐵)",
-    //  "WY 宏業(臨時鐵器/圍街板)", "YH 有合(棚)", "明泰(釘板)", "港利(外欄-圍街)",
-    //   "Alpha Idea星滿(煤氣)", "ATAL 安樂(ELE)", "Lixil Suzuki鈴木 (火閘)",
-    //    "Majestic定安(水喉)", "Majestic定安(消防)", "Or Sui Ying(柯穗瑛)", "ST 順通 (冷氣)"]
-
     const [ncrChart, setNCRChart] = useState(NCRChart(
         [], [], 0
     ))
 
-    async function fetchNCRData(){
-        let items = await _gqlQuery(ncrDetailByTypes, {status: tabs[updateNCRData.currentValue]["name"], skip: updateNCRData.page * updateNCRData.skip, take: updateNCRData.take})
-        console.log("fetchNCRData ", items)
-        if(typeof(items.errors) !== "undefined"){
+    async function fetchNCRData() {
+        let items = await _gqlQuery(ncrDetailByStatus, { project: -1, status: tabs[updateNCRData.currentValue]["name"], skip: updateNCRData.skip, take: updateNCRData.take })
+        // console.log("fetchNCRData ", items)
+        if (typeof (items.errors) !== "undefined") {
 
-        } else{
-            setNCRData(items.data.ncrDetailByTypes[0].ncrData)
+        } else {
+            setNCRData(items.data.ncrDetailByStatus[0].ncrData)
             setUpdateNCRData({
                 ...updateNCRData,
-                total: items.data.ncrDetailByTypes[0].total,
+                total: items.data.ncrDetailByStatus[0].total,
                 process: false
             })
         }
     }
 
     useEffect(() => {
-        async function fetchNCRChart(){
-            let items = await _gqlQuery(ncrByCompanyAndPeriodRecentMonths, { dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
+        async function fetchNCRChart() {
+            let items = await _gqlQuery(ncrByCompanyAndStatusRecentMonths, {
+                status: tabs[updateNCRData.currentValue]["name"],
+                project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
 
             if (typeof (items.errors) !== "undefined") {
 
             } else {
-                let newResult = NCRPeriodChartDataReassign(items.data.ncrByCompanyAndPeriodRecentMonths[0], "company_name")
+                let newResult = NCRPeriodChartDataReassign(items.data.ncrByCompanyAndStatusRecentMonths[0], "company_name")
                 console.log("NCRPeriodChartDataReassign newResult ", newResult)
                 setNCRChart(NCRChart(
                     [
-                        {data: newResult.thisMonthData, name: "本週期", type: "column"},
-                        {data: newResult.previousMonthData, name: "上週期", type: 'column'},
+                        { data: newResult.thisMonthData, name: "本週期", type: "column" },
+                        { data: newResult.previousMonthData, name: "上週期", type: 'column' },
                     ],
                     newResult.xcategoires,
                     newResult.max
@@ -108,17 +94,19 @@ function NCR(props) {
     }, [])
 
     useEffect(() => {
-        console.log("updateNCRData fire")
-        if(updateNCRData.process){
+        // console.log("updateNCRData fire")
+        if (updateNCRData.process) {
             fetchNCRData()
         }
     }, [updateNCRData])
 
     const handleOnViewTabChange = (v, i) => {
-        // console.log("handleOnViewTabChange ")
+        // console.log("handleOnViewTabChange ", updateNCRData)
+
         setUpdateNCRData({
             ...updateNCRData,
             total: 0,
+            page: 1,
             skip: 0,
             currentValue: i,
             process: true
@@ -131,7 +119,7 @@ function NCR(props) {
                 burgerButtonClassName="cb-menu-bth-sm"
             ></SideMenu>
             <div id="page-wrap" className="cb-page-wrap cb-ncr pt-4 pl-5 pr-5 pb-4 mt-1">
-                <NavTop showIcon={true} {...props}/>
+                <NavTop showIcon={true} {...props} />
                 <Row>
                     <Col className="d-flex justify-content-start align-items-center mb-5">
                         <div className="ml-6 pl-5 bold font-xl">{t('Crystal_Ball')}</div>
@@ -141,7 +129,7 @@ function NCR(props) {
                 <div className="font-28 bold deep-dark mb-3">{t('Health_Safety')}</div>
                 <HealthSafetyMenu {...props} />
                 <Row>
-                    <Col md={12} className="mt-2 mb-4">
+                    <Col md={12} className="mb-4">
                         <DateClock />
                     </Col>
                 </Row>
@@ -163,30 +151,35 @@ function NCR(props) {
                 <Row>
                     <Col>
                         <ViewTabs tabs={tabs} onChange={handleOnViewTabChange} />
-                        <DataTable
-                            data={ncrData}
-                            columns={NCRColumns}
-                            pagination
-                            paginationPerPage={updateNCRData.take}
-                            paginationTotalRows={updateNCRData.total}
-                            paginationServer
-                            onChangeRowsPerPage={(currentRowsPerPage, currentPage) => {
-                                setUpdateNCRData({
-                                    ...updateNCRData,
-                                    take: currentRowsPerPage,
-                                    process: true
-                                })
-                            }}
-                            onChangePage={async (page, totalRows) => {
-                                setUpdateNCRData({
-                                    ...updateNCRData,
-                                    skip: (page - 1) * updateNCRData.take,
-                                    process: true
-                                })
-                            }}
-                            striped={true}
-                            noHeader={true}
-                        />
+                        <div className="cb-data-table">
+                            <DataTable
+                                data={ncrData}
+                                columns={NCRColumns}
+                                pagination
+                                paginationPerPage={updateNCRData.take}
+                                paginationTotalRows={updateNCRData.total}
+                                paginationServer
+                                onChangeRowsPerPage={(currentRowsPerPage, currentPage) => {
+                                    setUpdateNCRData({
+                                        ...updateNCRData,
+                                        take: currentRowsPerPage,
+                                        process: true
+                                    })
+                                }}
+                                onChangePage={async (page, totalRows) => {
+                                    console.log("page ", page, updateNCRData.take)
+                                    setUpdateNCRData({
+                                        ...updateNCRData,
+                                        skip: (page - 1),
+                                        page: page,
+                                        process: true
+                                    })
+                                }}
+                                paginationDefaultPage={updateNCRData.page}
+                                striped={true}
+                                noHeader={true}
+                            />
+                        </div>
                     </Col>
                 </Row>
             </div>

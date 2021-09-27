@@ -13,6 +13,12 @@
     "Stay_Signed_In": "Stay Signed In",
     "Or_Sign_In_with_Single_Sign_On": "Or Sign In with Signle Sign On",
     "side_menu": {
+        "Safety_Health": "Safety Health",
+        "Safety_Health_description": "A place with treasures.",
+        "PTW": "PTW",
+        "NCR": "NCR",
+        "Gate_Access": "Gate Access",
+        "IoT": "IoT",
         "Central_Search": "Central Search",
         "Central_Search_info": "Document related to this project.",
         "CIA": "CIA",
@@ -87,9 +93,12 @@
         "Fri":"Fri",
         "Sat":"Sat"
     },
+    "year": "year ",
+    "Home": "Home",
     "Health_Safety": "Health & Safety",
     "Monthly_NCR": "Monthly NCR",
     "Top_Ten_Work_Type": "Top 10 type of work",
+    "Monthly_Worker": "Monthly Worker",
     "Permit_Submission_Status": "Permit Submission Status",
     "Work_permit_status_distribution": "Work permit status distribution",
     "Permit": "Permit",
@@ -101,5 +110,5 @@
     "Hot_Work_Permit": "Hot Work Permit",
     "Exterior_wall_Permit": "Exterior wall",
     "Ladder_Work_Permit": "Ladder Work Permit",
-    "Above_Ceiling_Permit": "Above Ceiling Permit"
+    "False_Ceiling_Permit": "False Ceiling Permit"
 }
