@@ -141,7 +141,15 @@ function PTW(props) {
 
     const handleOnViewTabChange = (v, i) => {
         // console.log("handleOnViewTabChange ")
-        setUpdatePTWData(i)
+        // setUpdatePTWData(i)
+        setUpdatePTWData({
+            ...updatePTWData,
+            total: 0,
+            page: 1,
+            skip: 0,
+            currentValue: i,
+            process: true
+        })
     }
 
 
@@ -185,9 +193,13 @@ function PTW(props) {
                             }
                         </Col>
                         <Col sm={12} md={{ span: 7 }} lg={{ span: 6, offset: 1 }}>
-                            <PermitTable
-                                data={permitData}
-                            />
+                            {
+                                (Object.keys(permitData).length > 0) ?
+                                    <PermitTable
+                                        data={permitData}
+                                    /> :
+                                    (null)
+                            }
                         </Col>
                     </Row>
                 </ViewShadowBox>
@@ -199,6 +211,27 @@ function PTW(props) {
                                 data={ptwData}
                                 columns={PTWColumns}
                                 pagination
+                                paginationPerPage={updatePTWData.take}
+                                paginationTotalRows={updatePTWData.total}
+                                paginationServer
+                                onChangeRowsPerPage={(currentRowsPerPage, currentPage) => {
+                                    setUpdatePTWData({
+                                        ...updatePTWData,
+                                        take: currentRowsPerPage,
+                                        process: true
+                                    })
+                                }}
+                                onChangePage={async (page, totalRows) => {
+                                    setUpdatePTWData({
+                                        ...updatePTWData,
+                                        skip: (page - 1),
+                                        page: page,
+                                        process: true
+                                    })
+                                }}
+                                paginationDefaultPage={updatePTWData.page}
+                                striped={true}
+                                noHeader={true}
                             />
                         </div>
                     </Col>

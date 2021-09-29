@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
+import { Collapse } from 'react-bootstrap'
 import { useHistory } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu'
 import variable from '../helpers/variable'
@@ -11,28 +12,52 @@ function SideMenu(props) {
 
     // console.log("burgerButtonClassName ", burgerButtonClassName)
 
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState({})
 
-    const renderSubMenu = (submenu) => {
+    const renderSubMenu = (submenu, id) => {
         let submenulayout = [];
         submenu.map(function (sm, i) {
             let sub = []
             if (typeof (sm.sub) !== "undefined") {
-                sub.push(renderSubMenu(sm.sub))
+                sub.push(renderSubMenu(sm.sub, sm.id))
             }
 
             submenulayout.push(
                 <li className="pl-4 mb-3">
-                    <a className="d-flex dark-06" href={sm.link}>{t(sm.name)}</a>
+                    {
+                        (typeof (sm.id) !== "undefined") ?
+                            (
+                                <a className="d-flex dark-06 pointer"
+                                    onClick={() => {
+                                        setIsOpen({
+                                            ...isOpen,
+                                            [sm.id]: (typeof (isOpen[sm.id]) !== "undefined") ? !isOpen[sm.id] : true
+                                        })
+                                    }}
+                                    aria-controls={sm.id}
+                                    aria-expanded={false}
+                                >{t(sm.name)}</a>) :
+                            (<a className="d-flex dark-06" href={sm.link} >{t(sm.name)}</a>)
+                    }
                     {sub}
                 </li>
             )
         })
 
         return (
-            <ul>
-                {submenulayout}
-            </ul>
+            <>
+                {
+                    (typeof (id) !== "undefined") ?
+                        (<Collapse in={(typeof (isOpen[id]) !== "undefined") ? isOpen[id] : false}>
+                            <ul id={id} className="mt-3">
+                                {submenulayout}
+                            </ul>
+                        </Collapse>) :
+                        (<ul id={(typeof (id) !== "undefined") ? id : null}>
+                            {submenulayout}
+                        </ul>)
+                }
+            </>
         )
     }
 
@@ -42,7 +67,7 @@ function SideMenu(props) {
         variable.SIDE_MENU.map(function (v, i) {
             let sub = []
             if (typeof (v.sub) !== "undefined") {
-                sub = renderSubMenu(v.sub)
+                sub = renderSubMenu(v.sub, v.id)
             }
 
             layout.push(

@@ -4,7 +4,8 @@ let ptwDetailByTypesOutput = `
     total
     data{
         applicant
-        form_owner
+        form_id
+        company_name
         form_status
         form_status_name
         form_template_name

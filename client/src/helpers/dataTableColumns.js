@@ -117,7 +117,10 @@ const PTWColumns = [
         },
         wrap: false,
         sortable: true,
-        center: true
+        center: true,
+        format: (row) => {
+            return <div><Trans i18nKey={row.form_status_name}></Trans></div>
+        }
     },
     {
         name: <Trans i18nKey="Columns.location"></Trans>,

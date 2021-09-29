@@ -16,11 +16,33 @@ const DOWNLOAD_LINK = [
 ]
 
 const PERMIT_TYPE = [
-    "THERMAL" ,
+    "THERMAL",
     "SIDEWALK",
     "LADDER",
     "FALSECEILING"
 ]
+
+const CS_TYPE = [
+    { text: <Trans i18nKey="All_Type"></Trans>, value: "All", key: "all-type" },
+    { text: <Trans i18nKey="TSF"></Trans>, value: "TSF", key: "tsf" },
+    { text: <Trans i18nKey="DCS"></Trans>, value: "DCS", key: "dcs" },
+    { text: <Trans i18nKey="SSF"></Trans>, value: "SSF", key: "ssf" },
+    { text: <Trans i18nKey="MSS"></Trans>, value: "MSS", key: "mss" },
+    { text: <Trans i18nKey="KP"></Trans>, value: "KP", key: "kp" }
+]
+
+const KP_FILTER = {
+    "technical-data-bank": { value: "technical-data-bank" },
+    "technical-training": { value: "technical-training" },
+    "creativity-implementation": { value: "creativity-implementation" },
+    "innovation-technology": { value: "innovation-technology" },
+    "item-management": { value: "item-management" },
+    "new-item": { value: "new-item" },
+    "tag-management": { value: "tag-management" },
+    "user-list": { value: "user-list" },
+    "eplatform": { value: "eplatform" },
+    "help": { value: "help" }
+}
 
 const SIDE_MENU = [
     {
@@ -30,32 +52,46 @@ const SIDE_MENU = [
     {
         name: "side_menu.Safety_Health",
         description: "side_menu.Safety_Health_description",
+        link: "/health-safety",
         sub: [
-            {name: 'side_menu.PTW', link: '/health-safety/ptw'},
-            {name: 'side_menu.NCR', link: '/health-safety/ncr'},
-            {name: 'side_menu.Gate_Access', link: '/health-safety/gate-access'},
-            {name: 'side_menu.IoT', link: '/health-safety/iot'},
+            { name: 'side_menu.PTW', link: '/health-safety/ptw' },
+            { name: 'side_menu.NCR', link: '/health-safety/ncr' },
+            { name: 'side_menu.Gate_Access', link: '/health-safety/gate-access' },
+            { name: 'side_menu.IoT', link: '/health-safety/iot' },
         ]
     },
-    // {
-    //     name: "side_menu.CIA",
-    //     description: "side_menu.CIA_description",
-    //     sub: [
-    //         { name: 'side_menu.SSF', link: "#" },
-    //         { name: 'side_menu.TSF', link: "#" },
-    //         { name: 'side_menu.DCS', link: "#" },
-    //     ]
-    // },
     {
-        name: 'side_menu.Knowledge_Portal',
-        description: 'side_menu.Knowledge_Portal_description',
-        link: "#",
+        name: 'side_menu.Central_Search',
+        description: 'side_menu.Central_Search_description',
+        link: "/central-search",
         sub: [
-            { name: "side_menu.Building_Materials", link: "#" },
-            { name: "side_menu.Design_Reference_Library", link: "#" },
-            { name: "side_menu.Statutory_Updates_Impact_Remarks", link: "#" },
-            { name: "side_menu.Operation_Control_Reference_Systems", link: "#" },
-            { name: "side_menu.Project", link: "#" },
+            { name: "side_menu.favourite", link: "/central-search/favourite#" },
+            {
+                name: "side_menu.CIA",
+                id: "smCIA",
+                sub: [
+                    { name: 'side_menu.TSF', link: "/central-search?type=TSF" },
+                    { name: 'side_menu.DCS', link: "/central-search?type=DCS" },
+                    { name: 'side_menu.SSF', link: "/central-search?type=SSF" },
+                    { name: 'side_menu.MSS', link: "/central-search?type=MSS" }
+                ]
+            },
+            {
+                name: "side_menu.Knowledge_Portal",
+                id: "smKP",
+                sub: [
+                    { name: 'side_menu.Techincal_Data_Bank', link: "/central-seacrh?type=KP&filter=technical-data-bank" },
+                    { name: 'side_menu.Technical_Training', link: "/central-seacrh?type=KP&filter=technical-training" },
+                    { name: 'side_menu.Creativity_Implementation', link: "/central-seacrh?type=KP&filter=creativity-implementation" },
+                    { name: 'side_menu.Innovation_Technology', link: "/central-seacrh?type=KP&filter=innovation-technology" },
+                    { name: 'side_menu.Item_Management', link: "/central-seacrh?type=KP&filter=item-management" },
+                    { name: 'side_menu.New_Item', link: "/central-seacrh?type=KP&filter=new-item" },
+                    { name: 'side_menu.Tag_Management', link: "/central-seacrh?type=KP&filter=tag-management" },
+                    { name: 'side_menu.User_List', link: "/central-seacrh?type=KP&filter=user-list" },
+                    { name: 'side_menu.Eplatform', link: "/central-seacrh?type=KP&filter=eplatform" },
+                    { name: 'side_menu.Help', link: "/central-seacrh?type=KP&filter=help" },
+                ]
+            }
         ]
     },
     {
@@ -111,6 +147,8 @@ export default {
     NAV_TAB,
     NCR_MENU,
 
+    CS_TYPE,
+    KP_FILTER,
 
     LABEL_BOX_1,
     LABEL_BOX_2,

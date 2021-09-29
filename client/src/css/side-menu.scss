@@ -1,3 +1,17 @@
+.cb-menu-wrap{
+  &.ui.menu{
+    box-shadow: none;
+    border: none;
+  }
+  .cb-menu-label{
+    background: rgba(0, 84, 87, 0.1) !important;
+    color: var(--text-black) !important;
+    &:before{
+      background: transparent !important;
+    }
+  }
+}
+
 .cb-menu-cross-btn {
   display: none;
 }
