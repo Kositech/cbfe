@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { Row, Col } from 'react-bootstrap'
 import { Dropdown } from 'semantic-ui-react'
@@ -24,14 +24,14 @@ function ViewTabs(props) {
                         <Row>
                             {
                                 tabs.map(function (tab, i) {
-                                    let active = (current == i) ? "active" : ""
+                                    let active = (current === i) ? "active" : ""
                                     return (
-                                        <Col className="d-flex justify-content-center align-items-center p-0">
+                                        <Col key={i} className="d-flex justify-content-center align-items-center p-0">
                                             <div onClick={() => {
                                                 setCurrent(i)
                                                 onChange(tab, i)
                                             }}
-                                                className={"cb-data-tab-item w-100 py-3 bold font-n text-center pointer " + active}>{tab.name}</div>
+                                                className={"cb-data-tab-item w-100 py-3 bold font-n text-center pointer " + active}>{tab.text}</div>
                                         </Col>
                                     )
                                 })

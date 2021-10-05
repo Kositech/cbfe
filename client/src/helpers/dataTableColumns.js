@@ -8,6 +8,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.safety_lodged_by
         },
+        id: "safety_lodged_by",
         wrap: false,
         sortable: true,
         center: true
@@ -17,6 +18,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.company_name
         },
+        id: "company_name",
         wrap: false,
         sortable: true,
         center: true
@@ -26,6 +28,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.safety_type
         },
+        id: "safety_type",
         wrap: false,
         sortable: true,
         center: true
@@ -35,6 +38,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.safety_description
         },
+        id: "safety_description",
         wrap: false,
         sortable: true,
         center: true
@@ -44,6 +48,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.safety_status_name
         },
+        id: "safety_status_name",
         wrap: false,
         sortable: true,
         center: true
@@ -53,6 +58,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.safety_location
         },
+        id: "safety_location",
         wrap: false,
         sortable: true,
         center: true
@@ -62,6 +68,7 @@ const NCRColumns = [
         selector: (row) => {
             return row.safety_date
         },
+        id: "safety_date",
         wrap: false,
         sortable: true,
         center: true,
@@ -86,25 +93,25 @@ const PTWColumns = [
     {
         name: <Trans i18nKey="Columns.pcCompany"></Trans>,
         selector: (row) => {
-            return ""
+            return row.company_name
         },
         wrap: false,
         sortable: true,
         center: true
     },
-    {
-        name: <Trans i18nKey="Columns.type"></Trans>,
-        selector: (row) => {
-            return row.form_template_name
-        },
-        wrap: false,
-        sortable: true,
-        center: true
-    },
+    // {
+    //     name: <Trans i18nKey="Columns.type"></Trans>,
+    //     selector: (row) => {
+    //         return row.form_template_name
+    //     },
+    //     wrap: false,
+    //     sortable: true,
+    //     center: true
+    // },
     {
         name: <Trans i18nKey="Columns.Sub-Type"></Trans>,
         selector: (row) => {
-            return ""
+            return row.form_sub_type
         },
         wrap: false,
         sortable: true,
@@ -141,7 +148,7 @@ const PTWColumns = [
         center: true,
         format: (row) => {
             return (
-                <div>{moment.unix(row.form_date).format("DD/MM/YYYY HH:mm")}</div>
+                <div>{moment.unix(row.form_date).format("DD/MMM/YYYY")}</div>
             )
         }
     },

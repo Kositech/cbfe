@@ -16,7 +16,7 @@ function HealthSafetyMenu(props) {
                     variable.NCR_MENU.map(function (v, i) {
                         let isActive = (v.link == props.match.url) ? "active" : ""
                         return (
-                            <a href={v.link} className="mr-3">
+                            <a href={v.link} className="mr-3" key={i}>
                                 <ViewShadowBox
                                     className={"ncr-menu-wrap px-2 " + isActive}
                                 >

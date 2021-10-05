@@ -125,9 +125,32 @@
     }
 }
 
+.cb-chart-date-filter{
+    left: 12px;
+    top: 12px;
+}
+
+.cb-chart-date-filter .active{
+    background-color: var(--main-light-green);
+}
+
+.cb-chart-date-filter .active div{
+    color: white;
+}
+
 .ui.button.cb-central-search-btn{
     background: var(--main-sky-green);
     color: white;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
+}
+
+.cb-dount{
+    max-height: 320px !important;
+    min-height: 320px !important;
+}
+
+.cb-overlay{
+    // background-color: #000000;
+    // opacity: .5; 
 }

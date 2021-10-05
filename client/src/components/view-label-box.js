@@ -1,9 +1,9 @@
-import {Row, Col} from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import ViewShadowBox from './view-shadowbox'
 
 function ViewLabelBox(props) {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     var data = (typeof (props.data) !== "undefined") ? props.data : []
 
     return (
@@ -12,7 +12,7 @@ function ViewLabelBox(props) {
                 {
                     data.map(function (d, i) {
                         return (
-                            <Col className="d-flex flex-column justify-content-center align-items-center">
+                            <Col key={i} className="d-flex flex-column justify-content-center align-items-center">
                                 <div className="font-xm bold deep-dark mb-1">
                                     {t(d.label)}
                                 </div>

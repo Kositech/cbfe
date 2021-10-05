@@ -1,43 +1,40 @@
 import React, { useState, useEffect } from 'react'
-import { Trans, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import moment from 'moment'
 import Chart from "react-apexcharts";
 import variable from '../../helpers/variable'
-import { getRandomInt, permitDataFilter } from '../../helpers/common'
-import { NCRPermitChart, reassignPermitChartData } from '../../helpers/charts/ncr-chart'
+import { permitDataFilter, getDateArray } from '../../helpers/common'
+import { NCRPermitChart, reassignPermitChartData, reassignPermitBarChartData, NCRPermitBarChart, NCRBarChart } from '../../helpers/charts/ncr-chart'
 import { ptwTypesCountDaily } from '../../gql/ptwGql'
 import SideMenu from '../../menu/side-menu';
 import ViewWrapper from '../../components/view-wrapper'
 import ViewContent from '../../components/view-content';
 import NavTop from '../../components/nav-top';
-import DateClock from '../../components/date-clock'
+// import DateClock from '../../components/date-clock'
 import ResponsiveFooterMenu from '../../components/responsive-footer-menu'
 import ViewShadowBox from '../../components/view-shadowbox';
 import ViewBarContent from '../../components/view-bar-content';
 import ViewLabelBox from '../../components/view-label-box';
 import HealthSafetyMenu from '../../menu/health-safety-menu';
 import ViewContentLabel from '../../components/view-content-label';
+import ChartFilterBtn from '../../components/chart-filter-btn';
 import { _gqlQuery } from '../../gql/apolloClient';
 
+
 function HealthSafety(props) {
-    let history = useHistory()
-    const { t, i18n } = useTranslation();
-
-    let days = 9
-    let dateCateg = []
-
-    for (let i = 9; i >= 0; i--) {
-        dateCateg.push(moment().subtract(i, 'd').format("DD/MM"))
-    }
+    // let history = useHistory()
+    const { t } = useTranslation();
+    var [chartFilterStatus, setChartFilterStatus] = useState(1)
+    const [dateCateg, setDataCateg] = useState(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays))
 
     // console.log("dateCateg ", dateCateg)
 
     const [permitData, setPermitData] = useState({})
-    const [updateNCRPermitData, setUpdateNCRPermitData] = useState({
-        progress: false
-    })
+    // const [updateNCRPermitData, setUpdateNCRPermitData] = useState({
+    //     progress: false
+    // })
 
     const [monthlyNCR, setMonthlyNCR] = useState({
         data: [
@@ -82,14 +79,22 @@ function HealthSafety(props) {
         dateCateg
     ))
 
-    const fetchTypesCountDaily = async () => {
-        let startDate = moment().subtract(days, 'days').startOf('day').format("YYYY-MM-DD HH:mm:ss")
-        let endDate = moment().endOf('day').format("YYYY-MM-DD HH:mm:ss")
+    const [ncrPermitTodayChart, setNCRPermitTodayChart] = useState(NCRBarChart(
+        [{
+            data: [10,20], name: "Today"
+        }],
+        ["a","b"],
+        false
+    ))
+
+    const fetchTypesCountDaily = async (updatePermiData = false) => {
+        let startDate = moment().subtract(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, 'days').startOf('day').format("YYYY-MM-DD HH:mm:ss")
+        let endDate = moment().subtract(variable.CHART_DATE_FILTER[chartFilterStatus].endDays, 'days').endOf('day').format("YYYY-MM-DD HH:mm:ss")
         let newPermitData = {}
+        var reassignedPermitData = {}
 
         for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
             let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
-            // console.log("fetchTypesCountDaily ", items)
 
             if (typeof (items.errors) !== "undefined") {
 
@@ -97,12 +102,12 @@ function HealthSafety(props) {
                 newPermitData[variable.PERMIT_TYPE[i]] = items.data.ptwTypesCountDaily[0].data
             }
             // Is last type
-            if (i == variable.PERMIT_TYPE.length - 1) {
-                console.log("newPermitData ", newPermitData)
-                setPermitData(newPermitData)
+            if (i === variable.PERMIT_TYPE.length - 1) {
+                if (updatePermiData) {
+                    setPermitData(newPermitData)
+                }
 
-                var reassignedPermitData = reassignPermitChartData(newPermitData)
-                console.log("reassignedPermitData", reassignedPermitData)
+                reassignedPermitData = reassignPermitChartData(newPermitData)
 
                 Object.keys(reassignedPermitData).forEach(function (key) {
                     reassignedPermitData[key].name = t(reassignedPermitData[key].name)
@@ -118,10 +123,16 @@ function HealthSafety(props) {
     }
 
     useEffect(() => {
-        fetchTypesCountDaily()
+        // fetchTypesCountDaily(true)
     }, [])
 
-    // console.log("hhss ", permitDataFilter("FALSECEILING"))
+    useEffect(() => {
+        fetchTypesCountDaily(false)
+    }, [dateCateg])
+
+    useEffect(() => {
+        setDataCateg(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, variable.CHART_DATE_FILTER[chartFilterStatus].endDays))
+    }, [chartFilterStatus])
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
@@ -153,8 +164,7 @@ function HealthSafety(props) {
                         />
                     </Col>
                     <Col sm={12} md={7} lg={8}>
-                        <DateClock />
-                        <Row className="mt-4 mb-4">
+                        <Row className="mb-4">
                             <Col sm={6} md={3}>
                                 <div className="d-flex flex-column justify-content-start align-items-start">
                                     <div className="bold font-xm gray mb-2 pb-1">{t('熱工序')}</div>
@@ -203,18 +213,40 @@ function HealthSafety(props) {
                                         css="d-flex justify-content-start align-items-center mb-3"
                                     >
                                         <ViewContentLabel
-                                            label={t('Permit_Submission_Status') + "(" + moment().subtract(days, 'd').format("DD/MM/YYYY") + " ~ " + moment().format("DD/MM/YYYY") + ")"}
+                                            lableClassName={"ml-2 mt-6 font-xm bold"}
+                                            label={t('Permit_Submission_Status') + "(" + moment().subtract(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, 'd').format("DD/MM/YYYY") + " ~ " + moment().subtract(variable.CHART_DATE_FILTER[chartFilterStatus].endDays, 'd').format("DD/MM/YYYY") + ")"}
                                         >
                                         </ViewContentLabel>
+                                        <div className="position-absolute cb-chart-date-filter d-flex justify-content-start align-items-center">
+                                            {/* <Select placeholder={t('Date_Filter')} options={variable.CHART_DATE_FILTER}>
+                                            </Select> */}
+                                            <ChartFilterBtn
+                                                data={variable.CHART_DATE_FILTER}
+                                                chartFilterStatus={chartFilterStatus}
+                                                setChartFilterStatus={setChartFilterStatus}
+                                            />
+                                        </div>
                                     </ViewContent>
                                     {
-                                        (ncrPermitChart.options.xaxis.categories.length > 0) ?
+                                        (ncrPermitTodayChart.options.xaxis.categories.length > 0 && chartFilterStatus === 0) ?
+                                            (
+                                                <Chart
+                                                    options={ncrPermitTodayChart.options}
+                                                    series={ncrPermitTodayChart.series}
+                                                    height={(ncrPermitTodayChart.options.xaxis.categories.length * 25 > 487) ? ncrPermitTodayChart.options.xaxis.categories.length * 25 : 487}
+                                                    type="bar"
+                                                />
+                                            ) :
+                                            (null)
+                                    }
+                                    {
+                                        (ncrPermitChart.options.xaxis.categories.length > 0 && chartFilterStatus !== 0) ?
                                             (
                                                 <Chart
                                                     options={ncrPermitChart.options}
                                                     series={ncrPermitChart.series}
-                                                    height={(ncrPermitChart.options.xaxis.categories.length * 25 > 487) ? ncrPermitChart.options.xaxis.categories.length * 25 : 487}
-                                                    type="line"
+                                                    height={478}
+                                                    type={'line'}
                                                 />
                                             ) :
                                             (null)

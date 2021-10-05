@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import { useTranslation } from 'react-i18next'
-import { useHistory } from 'react-router-dom';
+// import React, { useState, useEffect } from 'react'
+// import { useTranslation } from 'react-i18next'
+// import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import variable from '../helpers/variable';
 import { Dropdown } from 'semantic-ui-react'
@@ -8,23 +8,24 @@ import NavTopItem from '../components/nav-top-item'
 import ViewContent from '../components/view-content';
 
 import dummy from '../helpers/dummy'
+import DateClock from './date-clock';
 
 function NavTop(props) {
-    let history = useHistory()
-    const { t } = useTranslation();
+    // let history = useHistory()
+    // const { t } = useTranslation();
 
-    const [notificationBoxEnable, setNotificationBoxEnable] = useState(false)
+    // const [notificationBoxEnable, setNotificationBoxEnable] = useState(false)
 
-    useEffect(() => {
-        //Fetch notification
-    }, [])
+    // useEffect(() => {
+    //     //Fetch notification
+    // }, [])
 
-    useEffect(() => {
-        // Socket?
-        if(notificationBoxEnable){
+    // useEffect(() => {
+    //     // Socket?
+    //     if(notificationBoxEnable){
 
-        }
-    }, [notificationBoxEnable])
+    //     }
+    // }, [notificationBoxEnable])
 
     return (
         <ViewContent
@@ -36,7 +37,10 @@ function NavTop(props) {
                 <Row>
                     <Col className="d-flex justify-content-end align-items-end p-0">
                         <div className="w-100 border-deep-dark">
-                            <div className="font-n px-3 py-2">{t('Project')}</div>
+                            {/* <div className="font-n px-3 py-2">{t('Project')}</div> */}
+                            <DateClock 
+                                fontSize={16}
+                            />
                             <Dropdown
                                 fluid
                                 search
@@ -46,7 +50,7 @@ function NavTop(props) {
                                 className={"nav-top-dropdown"}
                             />
                         </div>
-                        <div className="cb-notifications-icon mx-4 my-3 pointer">
+                        <div className="cb-notifications-icon mx-3 my-2 pointer">
                             <span>8</span>
                         </div>
                     </Col>
@@ -54,7 +58,7 @@ function NavTop(props) {
                 <Row>
                     {
                         variable.NAV_TAB.map(function (v, i) {
-                            return (<NavTopItem value={v} {...props}/>)
+                            return (<NavTopItem value={v} {...props} key={i}/>)
                         })
                     }
                 </Row>

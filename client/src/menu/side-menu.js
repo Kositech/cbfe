@@ -23,7 +23,7 @@ function SideMenu(props) {
             }
 
             submenulayout.push(
-                <li className="pl-4 mb-3">
+                <li className="pl-4 mb-3" key={sm.name+i}>
                     {
                         (typeof (sm.id) !== "undefined") ?
                             (
@@ -71,7 +71,7 @@ function SideMenu(props) {
             }
 
             layout.push(
-                <li className="lv-1">
+                <li className="lv-1" key={v.name+i}>
                     <a className="font-n d-flex align-items-center white" href={v.link}>{t(v.name)}</a>
                     {
                         (typeof (v.description) !== "undefined") ?

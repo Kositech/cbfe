@@ -1,5 +1,6 @@
-import { Trans } from 'react-i18next'
+// import { Trans } from 'react-i18next'
 import { permitKeyI18nKey } from '../common'
+import variable from '../variable'
 
 function reassignPermitChartData(data) {
     let output = []
@@ -7,7 +8,8 @@ function reassignPermitChartData(data) {
     Object.keys(data).forEach(function (key) {
         var totals = []
         data[key].map(function (item) {
-            totals.push(item.waiting_approval + item.not_cancelled + item.not_approved + item.cancelled + item.withdrawn + item.cancel_confirmed)
+            totals.push(item.waiting_approval + item.not_cancelled + item.not_approved + item.cancelled + item.withdrawn + item.cancel_confirmed)            
+            return item;
         })
 
         var i18nkey = permitKeyI18nKey(key)
@@ -20,7 +22,51 @@ function reassignPermitChartData(data) {
     return output
 }
 
-function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
+function reassignPermitBarChartData(data){
+    let totals = []
+    let names = []
+    Object.keys(data).forEach(function (key) {
+        let total = 0
+        let name = ""
+        data[key].map(function (item) {
+            total = item.waiting_approval + item.not_cancelled + item.not_approved + item.cancelled + item.withdrawn + item.cancel_confirmed
+            name = permitKeyI18nKey(key)
+
+            return item
+        })
+        totals.push(total)
+        names.push(name)
+    })
+
+    return {
+        totals: totals,
+        names: names
+    }
+}
+
+function NCRAverageResponseDayDataReassign(data, xcategoiresFieldName = "", dataFieldName = "average_response_day") {
+    let xcategoires = []
+    let avgdata = []
+    let max = 0
+    let avg = data.data
+
+    avg.map(function (v, i) {
+        xcategoires.push(v[xcategoiresFieldName])
+        avgdata.push(v[dataFieldName])
+
+        max = (v[dataFieldName] > max) ? v[dataFieldName] : max
+
+        return v
+    })
+
+    return {
+        avgdata: avgdata,
+        xcategoires: xcategoires,
+        max: max
+    }
+}
+
+function NCRPeriodChartDataReassign(data, xcategoiresFieldName = "safety_type", dataFieldName = "count") {
     let thisMonth = data.thismonth;
     let previousMonth = data.previousmonth
 
@@ -30,22 +76,24 @@ function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
     var max = 0
 
     thisMonth.map(function (v, i) {
-        xcategoires.push(v[fieldName])
-        thisMonthData.push(v.count)
+        xcategoires.push(v[xcategoiresFieldName])
+        thisMonthData.push(v[dataFieldName])
 
-        let check = previousMonth.some((ele) => {
-            if (ele[fieldName] === v[fieldName]) {
-                max = (ele.count > max) ? ele.count : max
-                previousMonthData.push(ele.count)
+        previousMonth.some((ele) => {
+            if (ele[xcategoiresFieldName] === v[xcategoiresFieldName]) {
+                max = (ele[dataFieldName] > max) ? ele[dataFieldName] : max
+                previousMonthData.push(ele[dataFieldName])
             }
 
-            return ele[fieldName] === v[fieldName]
+            return ele[xcategoiresFieldName] === v[xcategoiresFieldName]
         })
+
+        return v
     })
 
-    console.log("thisMonthData ", thisMonthData)
-    console.log("xcategoires ", xcategoires)
-    console.log("previousMonthData ", previousMonthData)
+    // console.log("thisMonthData ", thisMonthData)
+    // console.log("xcategoires ", xcategoires)
+    // console.log("previousMonthData ", previousMonthData)
 
     return {
         thisMonthData: thisMonthData,
@@ -55,22 +103,38 @@ function NCRPeriodChartDataReassign(data, fieldName = "safety_type") {
     }
 }
 
-function NCRPeriodChart(series, xcategoires) {
+function NCRAvgResponseDaySorting(avgResponseDay, companyAndStatusRecentMonths){
+    let data = []
+    companyAndStatusRecentMonths.xcategoires.map(function(v1, i) {
+        avgResponseDay.xcategoires.map(function(v2, j){
+            if(avgResponseDay.xcategoires[j] === companyAndStatusRecentMonths.xcategoires[i]){
+                data[i] = avgResponseDay.avgdata[j]
+            }
+        })
+    })
+
+    avgResponseDay["avgdata"] = data
+    avgResponseDay["xcategoires"] = companyAndStatusRecentMonths.xcategoires
+    return avgResponseDay
+}
+
+function NCRBarChart(series, xcategoires, horizontal = true, distributed = false) {
+    // console.log("NCRPeriodChart", series, xcategoires)
     return {
         series: series,
         options: {
-            colors: ['#00509d', '#fdc500'],
+            colors: variable.CHART_COLOR,
             chart: {
-                type: 'bar',
-                height: 450
+                type: 'bar'
             },
             plotOptions: {
                 bar: {
-                    horizontal: true,
+                    horizontal: horizontal,
                     dataLabels: {
                         position: 'top',
                     },
                     barHeight: '90%',
+                    distributed: distributed
                 }
             },
             dataLabels: {
@@ -121,20 +185,21 @@ function NCRChart(series, xcategoires, max) {
             stroke: {
                 width: [2, 2, 2]
             },
-            title: {
-                text: "承判商NC數目",
-                align: 'left',
-                offsetX: 0,
-                style: {
-                    fontSize: '25px'
-                }
-            },
+            // title: {
+            //     text: "承判商NC數目",
+            //     align: 'left',
+            //     offsetX: 0,
+            //     style: {
+            //         fontSize: '25px'
+            //     }
+            // },
             xaxis: {
                 type: 'category',
                 categories: xcategoires,
                 labels: {
                     minHeight: 120,
                     maxHeight: 350,
+                    hideOverlappingLabels: false
                 }
             },
             yaxis: [
@@ -152,7 +217,7 @@ function NCRChart(series, xcategoires, max) {
                         }
                     },
                     title: {
-                        text: "本周期 及 上週期",
+                        text: "本月份 及 上月份",
                         style: {
                             color: '#000',
                         }
@@ -210,14 +275,14 @@ function NCRChart(series, xcategoires, max) {
                     }
                 },
             ],
-            tooltip: {
-                fixed: {
-                    enabled: true,
-                    position: 'topLeft', // topRight, topLeft, bottomRight, bottomLeft
-                    offsetY: 30,
-                    offsetX: 60
-                },
-            },
+            // tooltip: {
+            //     fixed: {
+            //         enabled: true,
+            //         position: 'topLeft', // topRight, topLeft, bottomRight, bottomLeft
+            //         offsetY: 30,
+            //         offsetX: 60
+            //     },
+            // },
             legend: {
                 position: 'top', // topRight, topLeft, bottomRight, bottomLef
                 horizontalAlign: 'left',
@@ -227,12 +292,37 @@ function NCRChart(series, xcategoires, max) {
     }
 }
 
-function NCRPermitChart(series, xcategoires) {
+function NCRPermitBarChart(series, xcategoires, type = "bar") {
+    return {
+        series: series,
+        options: {
+            colors: variable.CHART_COLOR,
+            chart: {
+                type: type,
+            },
+            plotOptions: {
+                bar: {
+                    borderRadius: 4,
+                    horizontal: true,
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            xaxis: {
+                type: 'category',
+                categories: xcategoires
+            },
+        }
+    }
+}
+
+function NCRPermitChart(series, xcategoires, type = "line") {
     return {
         series: series,
         options: {
             chart: {
-                type: 'line',
+                type: type,
                 zoom: {
                     enabled: false
                 }
@@ -262,9 +352,13 @@ function NCRPermitChart(series, xcategoires) {
 }
 
 export {
+    reassignPermitBarChartData,
     reassignPermitChartData,
+    NCRAverageResponseDayDataReassign,
     NCRPeriodChartDataReassign,
     NCRChart,
-    NCRPeriodChart,
-    NCRPermitChart
+    NCRBarChart,
+    NCRPermitBarChart,
+    NCRPermitChart,
+    NCRAvgResponseDaySorting
 }

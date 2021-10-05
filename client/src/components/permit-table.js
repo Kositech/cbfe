@@ -1,9 +1,9 @@
 import { Row, Col } from 'react-bootstrap'
-import { Trans, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import { permitKeyI18nKey } from '../helpers/common'
 
 function PermitTable(props) {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     var data = (typeof (props.data) !== "undefined") ? props.data : {}
     let totalWaitingApperoval = 0, totalNotCancelled = 0,
@@ -13,7 +13,7 @@ function PermitTable(props) {
         <div className="permit-table text-center d-flex h-100 justify-content-center aligin-items-center flex-column px-2" {...props.className}>
             <Row className="permit-table-header">
                 <Col className="align-items-center d-flex justify-content-center">{t('Permit')}</Col>
-                <Col className="align-items-center d-flex justify-content-center">{t('waiting_approved')}</Col>
+                <Col className="align-items-center d-flex justify-content-center">{t('waiting_approval')}</Col>
                 <Col className="align-items-center d-flex justify-content-center">{t('not_cancelled')}</Col>
                 <Col className="align-items-center d-flex justify-content-center">{t('not_approved')}</Col>
                 <Col className="align-items-center d-flex justify-content-center">{t('cancelled')}</Col>

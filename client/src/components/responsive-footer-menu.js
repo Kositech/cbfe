@@ -10,7 +10,7 @@ function ResponsiveFooterMenu(props) {
                 <Row style={{ height: "100%" }}>
                     {
                         variable.NAV_TAB.map(function (v, i) {
-                            return (<NavTopItem value={v} />)
+                            return (<NavTopItem value={v} key={i}/>)
                         })
                     }
                 </Row>

@@ -3,8 +3,10 @@ import { Trans, useTranslation } from 'react-i18next'
 import moment from 'moment';
 
 function DateClock(props) {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const [clock, setClock] = useState(new moment())
+
+    const fontSize = (typeof(props.fontSize) !== "undefined") ? props.fontSize : 16
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -18,7 +20,7 @@ function DateClock(props) {
 
     return (
         <div className="cb-clock-wrap">
-            <div className="bold font-28 deep-dark ml-2 pl-1">
+            <div className="bold deep-dark ml-2 pl-1" style={{fontSize: fontSize + "px"}}>
                 {<Trans i18nKey="cb_clock"
                     components={[clock.format('YYYY'),
                     clock.format('M'), clock.format('D'),

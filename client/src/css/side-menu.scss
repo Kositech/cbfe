@@ -2,12 +2,56 @@
   &.ui.menu{
     box-shadow: none;
     border: none;
+    margin-top: 0;
+
+    .cb-menu-label{
+      padding: 11px 10px;
+    }
+
+    >.item:first-child{
+      border-radius: 2px 0 0 2px;
+    }
+
+    .ui.input{
+      input{
+        border-radius: 0 2px 2px 0;
+        border:1px solid rgba(0,84,87,.1);
+      }
+    }
   }
   .cb-menu-label{
     background: rgba(0, 84, 87, 0.1) !important;
     color: var(--text-black) !important;
+    padding: 11px 10px !important;
     &:before{
       background: transparent !important;
+    }
+  }
+
+  .cb-menu-dropdown{
+    background: rgba(0, 84, 87, 0.1) !important;
+    color: var(--text-black) !important;
+    padding: 11px 10px;
+    .menu{
+      border: none;
+      box-shadow: none;
+    }
+    .input{
+      margin: 0 !important;
+    }
+
+    .cb-menu-dropdown-search{
+      padding: 11px 10px !important;
+      background: rgba(0, 84, 87, 0.1) !important;
+    }
+  }
+
+  
+
+  .cb-menu-dropdown-wrap{
+    border-radius: 0;
+    .form-check-label{
+      margin-left: .5em
     }
   }
 }

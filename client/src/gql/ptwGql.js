@@ -6,9 +6,9 @@ let ptwDetailByTypesOutput = `
         applicant
         form_id
         company_name
-        form_status
         form_status_name
         form_template_name
+        form_sub_type
         unit_level
         form_date
     }
@@ -40,8 +40,8 @@ let ptwTypesCountDateRangeOutput = `
 `
 
 export var ptwDetailByTypes = gql`
-    query ptwDetailByTypes($project: Int!, $type: String!, $startDate: DateTime!, $endDate: DateTime!, $skip: Int, $take: Int){
-        ptwDetailByTypes(project: $project, type: $type, startDate: $startDate, endDate: $endDate, skip: $skip, take: $take){
+    query ptwDetailByTypes($project: Int!, $type: String!, $status: String!, $startDate: DateTime!, $endDate: DateTime!, $skip: Int, $take: Int){
+        ptwDetailByTypes(project: $project, type: $type, status: $status, startDate: $startDate, endDate: $endDate, skip: $skip, take: $take){
             ${ptwDetailByTypesOutput}
         }
     }

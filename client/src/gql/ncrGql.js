@@ -35,7 +35,22 @@ let ncrDetailByStatusOutput = `
     total
 `
 
-export var ncrTypesCountRecentMonths = gql`
+let ncrAverageResponseDayOutput = `
+    status
+    data{
+        company_name
+        average_response_day
+    }
+`
+
+let ncrStatusOutput = `
+    data{
+        safety_status_name
+        safety_status_id
+    }
+`
+
+export var ncrTypesCountRecentMonthsGQL = gql`
     query ncrTypesCountRecentMonths($project: Int!, $dateTime: DateTime!){
         ncrTypesCountRecentMonths(project: $project, dateTime: $dateTime){
             ${ncrTypesCountRecentMonthsOutput}
@@ -43,15 +58,15 @@ export var ncrTypesCountRecentMonths = gql`
     }
 `
 
-export var ncrByCompanyAndStatusRecentMonths = gql`
-    query ncrByCompanyAndStatusRecentMonths($status: String!, $project: Int!, $dateTime: DateTime!){
-        ncrByCompanyAndStatusRecentMonths(status: $status, project: $project, dateTime: $dateTime){
+export var ncrByCompanyAndStatusRecentMonthsGQL = gql`
+    query ncrByCompanyAndStatusRecentMonths($status: String!, $project: Int!, $dateTime: DateTime!, $sort: String){
+        ncrByCompanyAndStatusRecentMonths(status: $status, project: $project, dateTime: $dateTime, sort: $sort){
             ${ncrByCompanyAndStatusRecentMonthsOutput}
         }
     }
 `
 
-export var ncrDetailByStatus = gql`
+export var ncrDetailByStatusGQL = gql`
     query ncrDetailByStatus($project: Int!, $status: String!, $skip: Int, $take: Int){
         ncrDetailByStatus(project: $project, status: $status, skip: $skip, take: $take){
             ${ncrDetailByStatusOutput}
@@ -59,3 +74,18 @@ export var ncrDetailByStatus = gql`
     }
 `
 
+export var ncrAverageResponseDayGQL = gql`
+    query ncrAverageResponseDay($project: Int!, $status: String!, $dateTime: DateTime!){
+        ncrAverageResponseDay(project: $project, status: $status, dateTime: $dateTime){
+            ${ncrAverageResponseDayOutput}
+        }
+    }
+`
+
+export var ncrStatusGQL = gql`
+    query ncrStatus{
+        ncrStatus{
+            ${ncrStatusOutput}
+        }
+    }
+`

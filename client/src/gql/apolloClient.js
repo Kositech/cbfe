@@ -1,6 +1,6 @@
 // import React from 'react';
 // import { ApolloProvider } from '@apollo/client/react';
-import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
+import { ApolloClient, InMemoryCache } from '@apollo/client';
 import { debug } from '../helpers/common'
 
 const createApolloClient = (status) => {

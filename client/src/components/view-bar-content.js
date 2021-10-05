@@ -1,19 +1,19 @@
-import { Trans, useTranslation } from 'react-i18next'
-import {Row, Col} from 'react-bootstrap'
+// import { useTranslation } from 'react-i18next'
+import { Row, Col } from 'react-bootstrap'
 import ViewShadowBox from './view-shadowbox'
 import ViewContent from './view-content'
 
 function ViewBarContent(props) {
-    const { t, i18n } = useTranslation();
-    let label = (typeof(props.label) !== "undefined") ? props.label : ""
-    let data = (typeof(props.data) !== "undefined") ? props.data : []
-    let color = (typeof(props.color) !== "undefined") ? props.color : "bg-yellow"
-    let md_l = (typeof(props.md_l) !== "undefined") ? props.md_l : 6
-    let md_r = (typeof(props.md_r) !== "undefined") ? props.md_r : 6
+    // const { t, i18n } = useTranslation();
+    let label = (typeof (props.label) !== "undefined") ? props.label : ""
+    let data = (typeof (props.data) !== "undefined") ? props.data : []
+    let color = (typeof (props.color) !== "undefined") ? props.color : "bg-yellow"
+    let md_l = (typeof (props.md_l) !== "undefined") ? props.md_l : 6
+    let md_r = (typeof (props.md_r) !== "undefined") ? props.md_r : 6
 
     return (
         <ViewShadowBox
-            className={"p-3 mb-3 " + (typeof(props.className) !== "undefined") ? props.className : ""}
+            className={"p-3 mb-3 " + (typeof (props.className) !== "undefined") ? props.className : ""}
         >
             <div className="font-n deep-dark mb-3">{label}</div>
             <ViewContent
@@ -21,7 +21,7 @@ function ViewBarContent(props) {
                 {
                     (data.data.map(function (n, i) {
                         return (
-                            <Row className="w-100 mb-2">
+                            <Row className="w-100 mb-2" key={i}>
                                 <Col md={md_l} className="d-flex justify-content-between pl-0">
                                     <div className="font-s deep-dark">{n.name}</div>
                                     <div className="font-s deep-dark">{n.value}</div>

@@ -13,7 +13,9 @@ import { PTWColumns } from '../../helpers/dataTableColumns'
 import { permitDataFilter } from '../../helpers/common'
 import variable from '../../helpers/variable'
 import NavTop from '../../components/nav-top';
+import ViewContentLabel from '../../components/view-content-label'
 import ResponsiveFooterMenu from '../../components/responsive-footer-menu'
+import ChartFilterBtn from '../../components/chart-filter-btn'
 import ViewWrapper from '../../components/view-wrapper'
 import ViewContent from '../../components/view-content'
 import DateClock from '../../components/date-clock'
@@ -27,11 +29,12 @@ function PTW(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
 
+    var [chartFilterStatus, setChartFilterStatus] = useState(0)
     const [tabs, setTabs] = useState([
-        { name: t("Hot_Work_Permit"), value: 1, key: "THERMAL" },
-        { name: t("Exterior_wall_Permit"), value: 2, key: "SIDEWALK" },
-        { name: t("Ladder_Work_Permit"), value: 3, key: "LADDER" },
-        { name: t("False_Ceiling_Permit"), value: 4, key: "FALSECEILING" },
+        { text: t("Hot_Work_Permit"), value: 1, key: "THERMAL" },
+        { text: t("Exterior_wall_Permit"), value: 2, key: "SIDEWALK" },
+        { text: t("Ladder_Work_Permit"), value: 3, key: "LADDER" },
+        { text: t("False_Ceiling_Permit"), value: 4, key: "FALSECEILING" },
     ])
 
     // 未批核，不批核，已註銷，未註銷
@@ -59,6 +62,7 @@ function PTW(props) {
     async function fetchPTWDetailByType() {
         let items = await _gqlQuery(ptwDetailByTypes, {
             project: -1, type: tabs[updatePTWData.currentValue]["key"],
+            status: "ALL",
             startDate: updatePTWData.startDate, endDate: updatePTWData.endDate,
             skip: updatePTWData.skip, take: updatePTWData.take
         })
@@ -77,12 +81,13 @@ function PTW(props) {
     }
 
     async function fetchDailyPermit() {
-        let startDate = moment().startOf('day').format("YYYY-MM-DD HH:mm:ss")
-        let endDate = moment().endOf('day').format("YYYY-MM-DD HH:mm:ss")
+        let startDate = moment().subtract(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, 'days').startOf('day').format("YYYY-MM-DD HH:mm:ss")
+        let endDate = moment().subtract(variable.CHART_DATE_FILTER[chartFilterStatus].endDays, 'days').endOf('day').format("YYYY-MM-DD HH:mm:ss")
         let newPermitData = {}
 
         for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
             let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
+            console.log("items", items)
             if (typeof (items.errors) !== "undefined") {
 
             } else {
@@ -129,7 +134,7 @@ function PTW(props) {
             setPTWPermitChart(PTWPermitChart(
                 [totalWaitingApperoval, totalNotCancelled, totalNotApproved,
                     totalCancelled, totalCancelConfirmed, totalWithdrawn],
-                [t('waiting_approved'), t('not_cancelled'), t('not_approved'), t('cancelled'), t('cancel_confirmed'), t('withdrawn')]
+                [t('waiting_approval'), t('not_cancelled'), t('not_approved'), t('cancelled'), t('cancel_confirmed'), t('withdrawn')]
             ))
         }
     }, [permitData])
@@ -138,6 +143,10 @@ function PTW(props) {
         fetchDailyPermit()
         fetchPTWDetailByType()
     }, [])
+
+    useEffect(() => {
+        fetchDailyPermit()
+    }, [chartFilterStatus])
 
     const handleOnViewTabChange = (v, i) => {
         // console.log("handleOnViewTabChange ")
@@ -168,15 +177,20 @@ function PTW(props) {
                 </Row>
                 <div className="font-28 bold deep-dark mb-3">{t('Health_Safety')}</div>
                 <HealthSafetyMenu {...props} />
-                <Row>
-                    <Col md={12} className="mb-4">
-                        <DateClock />
-                    </Col>
-                </Row>
-                <ViewShadowBox className="p-3 mb-5">
+                <ViewShadowBox className="p-3 mb-5 position-relative">
                     <Row className="mb-4 pb-2">
                         <Col>
-                            <div className="bold font-l">{t('Work_permit_status_distribution')}</div>
+                            <ViewContentLabel
+                                lableClassName={"ml-2 mt-6 font-xm bold"}
+                                label={t('Work_permit_status_distribution')}
+                            ></ViewContentLabel>
+                            <div className="position-absolute cb-chart-date-filter d-flex justify-content-start align-items-center">
+                                <ChartFilterBtn
+                                    data={variable.CHART_DATE_FILTER}
+                                    chartFilterStatus={chartFilterStatus}
+                                    setChartFilterStatus={setChartFilterStatus}
+                                />
+                            </div>
                         </Col>
                     </Row>
                     <Row>
@@ -186,8 +200,9 @@ function PTW(props) {
                                     (<Chart
                                         options={ptwPermitChart.options}
                                         series={ptwPermitChart.series}
-                                        height={(ptwPermitChart.options.labels.length * 72 > 285) ? ptwPermitChart.options.labels.length * 72 : 285}
+                                        height={320}
                                         type={"donut"}
+                                        className="cb-dount"
                                     />) :
                                     (null)
                             }

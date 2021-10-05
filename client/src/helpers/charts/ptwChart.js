@@ -1,3 +1,5 @@
+import variable from '../variable'
+
 function PTWPermitChart(series, xcategoires) {
     return {
         series: series,
@@ -22,11 +24,11 @@ function PTWPermitChart(series, xcategoires) {
                 }
             },
             fill:{
-                colors:["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+                colors: variable.PTW_CHART_COLOR
             },
             legend:{
                 markers:{
-                    fillColors: ["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+                    fillColors: variable.PTW_CHART_COLOR
                 }
             },
             labels: xcategoires,
@@ -39,7 +41,7 @@ function PTWPermitChart(series, xcategoires) {
             tooltip:{
                 fillSeriesColor: true
             },
-            colors: ["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+            colors: variable.PTW_CHART_COLOR
         }
     }
 }

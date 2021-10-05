@@ -1,12 +1,38 @@
+import moment from 'moment';
 import { Trans } from 'react-i18next'
 
 const RESPONSIVE_WIDTH = '768px';
 const DATA_TABLE_PER_PAGE = 15;
 
+const CHART_COLOR = [
+    "#5B8FF9", "#61DDAA", "#65789B", "#F6BD16", "#CD7B7B"
+]
+
+const PTW_CHART_COLOR = ["#5B8FF9", "#CD7B7B", "#61DDAA", "#65789B", "#f2711c", "#6435c9"]
+// 'company_name_asc' , 'company_name_desc', 'previousmonth_count_asc', 'previousmonth_count_desc', 'thismonth_count_asc', 'thismonth_count_desc'
+const NCR_CHART_SORT = [
+    {kay: "A-Z", value: "company_name_asc", text: "A-Z"},
+    {kay: "Z-A", value: "company_name_desc", text: "Z-A"},
+    {kay: "thismonth_count_asc", value: "thismonth_count_asc", text: <Trans i18nKey="thismonth_count_asc"></Trans>},
+    {kay: "thismonth_count_desc", value: "thismonth_count_desc", text: <Trans i18nKey="thismonth_count_desc"></Trans>},
+    {kay: "previousmonth_count_asc", value: "previousmonth_count_asc", text: <Trans i18nKey="previousmonth_count_asc"></Trans>},
+    {kay: "previousmonth_count_desc", value: "previousmonth_count_desc", text: <Trans i18nKey="previousmonth_count_desc"></Trans>},
+]
+
 const LANGUAGE = [
     { code: "zh-HK", name: "繁" },
     { code: "zh-cn", name: "简" },
     { code: "en", name: "English" }
+]
+
+const CHART_DATE_FILTER = [
+    { key: "today", value: 0, text: <Trans i18nKey="Today"></Trans>, startDays: 0, endDays: 0 },
+    { key: "Last_7_days", value: 1, text: <Trans i18nKey="Last_7_days"></Trans>, startDays: 7, endDays: 0 },
+    {
+        key: "Last_month", value: 2, text: <Trans i18nKey="Last_month"></Trans>,
+        startDays: moment().diff(moment().subtract(1,'month').startOf('month'), "days"),
+        endDays: moment().diff(moment().subtract(1,'month').endOf('month'), "days") + 1,
+    },
 ]
 
 const DOWNLOAD_LINK = [
@@ -137,8 +163,13 @@ const LABEL_BOX_3 = [
 ]
 
 export default {
+    CHART_COLOR,
+    PTW_CHART_COLOR,
+    NCR_CHART_SORT,
+    
     PERMIT_TYPE,
     DATA_TABLE_PER_PAGE,
+    CHART_DATE_FILTER,
 
     RESPONSIVE_WIDTH,
     LANGUAGE,

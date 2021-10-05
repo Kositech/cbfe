@@ -5,11 +5,11 @@ import { Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-responsive-carousel';
 import moment from 'moment';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { NCRPeriodChart, NCRPeriodChartDataReassign } from '../helpers/charts/ncr-chart'
+import { NCRBarChart, NCRPeriodChartDataReassign } from '../helpers/charts/ncr-chart'
 import Chart from "react-apexcharts";
 import SideMenu from '../menu/side-menu';
 import { _gqlQuery } from '../gql/apolloClient';
-import { ncrTypesCountRecentMonths } from '../gql/ncrGql';
+import { ncrTypesCountRecentMonthsGQL } from '../gql/ncrGql';
 import { ptwTypesCountDaily } from '../gql/ptwGql'
 import { permitDataFilter } from '../helpers/common'
 import variable from '../helpers/variable';
@@ -29,11 +29,11 @@ function Dashboard(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
 
-    const [ncrPeriodChart, setNCRPeriodChart] = useState(NCRPeriodChart(
+    const [ncrPeriodChart, setNCRPeriodChart] = useState(NCRBarChart(
         [{
-            data: [], name: "本週期"
+            data: [], name: "本月份"
         }, {
-            data: [], name: "上週期"
+            data: [], name: "上月份"
         }],
         []
     ))
@@ -42,7 +42,7 @@ function Dashboard(props) {
 
     useEffect(() => {
         async function fetchData() {
-            let items = await _gqlQuery(ncrTypesCountRecentMonths, { project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
+            let items = await _gqlQuery(ncrTypesCountRecentMonthsGQL, { project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
 
             if (typeof (items.errors) !== "undefined") {
 
@@ -50,11 +50,12 @@ function Dashboard(props) {
                 console.log("fetchData ", items)
                 let newResult = NCRPeriodChartDataReassign(items.data.ncrTypesCountRecentMonths[0])
 
-                setNCRPeriodChart(NCRPeriodChart(
+                setNCRPeriodChart(NCRBarChart(
                     [{
-                        data: newResult.thisMonthData, name: "本週期"
-                    }, {
-                        data: newResult.previousMonthData, name: "上週期"
+                        data: newResult.thisMonthData, name: "本月份"
+                    }
+                    , {
+                        data: newResult.previousMonthData, name: "上月份"
                     }],
                     newResult.xcategoires
                 ))
@@ -120,6 +121,8 @@ function Dashboard(props) {
         )
     }
 
+    console.log("ncrPeriodChart", ncrPeriodChart)
+
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
             <SideMenu
@@ -136,7 +139,7 @@ function Dashboard(props) {
                 </Row>
                 <Row>
                     <Col md={7} className="mt-2 mb-4">
-                        <DateClock />
+                        {/* <DateClock /> */}
                     </Col>
                 </Row>
                 <Row>
@@ -286,7 +289,7 @@ function Dashboard(props) {
                                 </ViewContentLabel>
                             </ViewContent>
                             <Row>
-                                <Col md={12} lg={4} className="mb-3">
+                                <Col md={12} lg={12} className="mb-3">
                                     <div className="d-flex flex-column justify-content-start align-items-start px-2">
                                         <div className="bold font-xm gray mb-2 pb-1">{t('即日工作')}</div>
                                         <ViewLabelBox
@@ -296,7 +299,7 @@ function Dashboard(props) {
                                         </ViewLabelBox>
                                     </div>
                                 </Col>
-                                <Col md={12} lg={8} className="mb-3">
+                                {/* <Col md={12} lg={8} className="mb-3">
                                     <div className="pr-2">
                                         <div className="border-gray p-3 mb-3">
                                             <Carousel
@@ -359,11 +362,11 @@ function Dashboard(props) {
                                             </Carousel>
                                         </div>
                                     </div>
-                                </Col>
+                                </Col> */}
                             </Row>
                             <div className="px-2">
                                 <div className="border-gray p-3 mb-3">
-                                    <div className="bold deep-dark font-xm">{t('8月累計NCR')}</div>
+                                    <div className="bold deep-dark font-xm">{t('Accumulated_NCR_current_month', {month: moment().format("M")})}</div>
                                     <Row>
                                         <Col>
                                             {

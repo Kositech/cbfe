@@ -7,7 +7,7 @@ import routes from './routes'
 export default function Router(props) {
     const storedJwt = localStorage.getItem('X-CSRF-TOKEN')
     const [token, setToken] = useState(storedJwt || null)
-    
+
     const updateToken = async (token, remove = false) => {
         // console.log("updateToken ", token, remove)
         // if (remove) {

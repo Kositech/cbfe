@@ -14,9 +14,13 @@ function objArrayToDropdownObject(objs, keys = [], targetKeys = ['key', 'value',
         let newObj = { ...obj };
         keys.map(function (key, j) {
             newObj[targetKeys[j]] = obj[key]
+
+            return key
         })
 
         output.push(newObj)
+
+        return obj
     })
 
     return output
@@ -56,7 +60,7 @@ function currencyFormat(n, currency = "", output = 0, fixed = 0) {
                 symbol = "-"
             }
 
-            var c = (fixed == -1) ? countDecimals(n.toString()) : fixed
+            var c = (fixed === -1) ? countDecimals(n.toString()) : fixed
 
             return symbol + currency + Number(n).toFixed(c).replace(/./g, function (c, i, a) {
                 return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
@@ -126,6 +130,7 @@ function permitKeyI18nKey(key){
         case "THERMAL":
             i18nkey = "Hot_Work_Permit"
             break;
+        default:            
     }
 
     return i18nkey
@@ -134,37 +139,47 @@ function permitKeyI18nKey(key){
 function permitDataFilter (permitData, key, t) {
     var data = [
         {
-            label: t("Submitted"),
+            label: "Submitted",
             value: 0
         },
         {
-            label: t("Approved"),
+            label: "Approved",
             value: 0
         }
     ]
     var clonePermitData = { ...permitData }
     if (typeof (clonePermitData[key]) !== "undefined") {
         var filterdata = clonePermitData[key].filter(function (v, i) {
-            return v.dateTime == moment().format("MM/DD/YYYY")
+            return v.dateTime === moment().format("MM/DD/YYYY")
         })
         
         if (filterdata.length > 0) {
             data = []
             data.push(
                 {
-                    label: t("Submitted"),
+                    label: "Submitted",
                     value: (filterdata[0].waiting_approval + filterdata[0].not_cancelled +
                     filterdata[0].not_approved + filterdata[0].cancelled +
                     filterdata[0].withdrawn + filterdata[0].cancel_confirmed)
                 },
                 {
-                    label: t("Approved"),
+                    label: "Approved",
                     value: filterdata[0].not_cancelled
                 }
             )
         }
     }
     return data
+}
+
+function getDateArray(startdays = 10, enddays = 0, format = "DD/MM"){
+    let date = []
+
+    for (let i = startdays; i >= enddays; i--) {
+        date.push(moment().subtract(i, 'd').format("DD/MM"))
+    }
+
+    return date
 }
 
 export {
@@ -178,5 +193,6 @@ export {
     objArrayToDropdownObject,
     getRandomInt,
     permitKeyI18nKey,
-    permitDataFilter
+    permitDataFilter,
+    getDateArray
 }

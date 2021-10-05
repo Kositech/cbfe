@@ -8,9 +8,9 @@ function NavTopItem(props) {
     let active = ""
     if (typeof (props.match) !== "undefined") {
         if (props.match.path !== "/" && props.value.link !== "/"){
-            active = (props.match.path.indexOf(props.value.link) == 0) ? "active" : ""
+            active = (props.match.path.indexOf(props.value.link) === 0) ? "active" : ""
         } else {
-            active = (props.match.path == "/" && props.value.link == "/") ? "active" : ""
+            active = (props.match.path === "/" && props.value.link === "/") ? "active" : ""
         }
     }
 
