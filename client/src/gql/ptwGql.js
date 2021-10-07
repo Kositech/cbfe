@@ -40,24 +40,24 @@ let ptwTypesCountDateRangeOutput = `
 `
 
 export var ptwDetailByTypes = gql`
-    query ptwDetailByTypes($project: Int!, $type: String!, $status: String!, $startDate: DateTime!, $endDate: DateTime!, $skip: Int, $take: Int){
-        ptwDetailByTypes(project: $project, type: $type, status: $status, startDate: $startDate, endDate: $endDate, skip: $skip, take: $take){
+    query ptwDetailByTypes($site: Int!, $type: String!, $status: String!, $startDate: DateTime!, $endDate: DateTime!, $skip: Int, $take: Int){
+        ptwDetailByTypes(site: $site, type: $type, status: $status, startDate: $startDate, endDate: $endDate, skip: $skip, take: $take){
             ${ptwDetailByTypesOutput}
         }
     }
 `
 
 export var ptwTypesCountDaily = gql`
-    query ptwTypesCountDaily($project: Int!, $type: String!, $startDate: DateTime!, $endDate: DateTime!){
-        ptwTypesCountDaily(project: $project, type: $type, startDate: $startDate, endDate: $endDate) {
+    query ptwTypesCountDaily($site: Int!, $type: String!, $startDate: DateTime!, $endDate: DateTime!){
+        ptwTypesCountDaily(site: $site, type: $type, startDate: $startDate, endDate: $endDate) {
             ${ptwTypesCountDailyOutput}
         }
     }
 `
 
 export var  ptwTypesCountDateRange = gql`
-    query ptwTypesCountDateRange($project: Int!, $type: type, $startDate: startDate, $endDate: endDate){
-        ptwTypesCountDateRange(project: $project, type: $type, startDate: $startDate, endDate: $endDate){
+    query ptwTypesCountDateRange($site: Int!, $type: type, $startDate: startDate, $endDate: endDate){
+        ptwTypesCountDateRange(site: $site, type: $type, startDate: $startDate, endDate: $endDate){
             ${ptwTypesCountDateRangeOutput}
         }
     }

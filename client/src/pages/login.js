@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'
 import { Row, Col, Form, Button } from 'react-bootstrap'
+import { fetchAuthPOST } from '../helpers/fetch'
 import variable from '../helpers/variable'
 import ViewContent from '../components/view-content'
 import ViewWrapper from '../components/view-wrapper'
@@ -11,6 +12,34 @@ import bg from '../assets/bg01.png'
 function Login(props) {
     let history = useHistory()
     const { t, i18n } = useTranslation();
+
+    const [loginForm, setLoginForm] = useState({
+        email: "",
+        password: ""
+    })
+
+    const [uiControl, setUIControl] = useState({
+        loginFormProgress: false
+    })
+
+    const fetchLogin = async () => {
+        console.log("window .. ", window.location)
+        let result = await fetchAuthPOST(window.location.origin + '/auth', loginForm, {}, {"Content-type": "application/json"})
+        console.log("fetchLogin result ", result)
+    }
+
+    useEffect(() => {
+        if(uiControl.loginFormProgress){
+            fetchLogin()
+
+            setUIControl({
+                ...uiControl,
+                loginFormProgress: true
+            })
+        }
+    }, [uiControl.loginFormProgress])
+
+    console.log("loginForm ", loginForm, uiControl)
 
     return (
         <ViewWrapper>
@@ -44,7 +73,7 @@ function Login(props) {
                                     {
                                         variable.LANGUAGE.map(function (v, i) {
                                             return (
-                                                <div className="language-box text-center pointer"
+                                                <div key={i} className="language-box text-center pointer"
                                                     onClick={() => {
                                                         i18n.changeLanguage(v.code)
                                                     }}>
@@ -63,8 +92,22 @@ function Login(props) {
                                 <ViewContent
                                 >
                                     <Form.Group className="mb-2" controlId="formEmail">
-                                        <Form.Control type="email" placeholder={t('form.Email')} className="mb-3" />
-                                        <Form.Control type="password" placeholder={t('form.Password')} />
+                                        <Form.Control type="email" placeholder={t('form.Email')} className="mb-3" 
+                                            onChange={(event) => {
+                                                setLoginForm({
+                                                    ...loginForm,
+                                                    email: event.target.value
+                                                })
+                                            }}
+                                        />
+                                        <Form.Control type="password" placeholder={t('form.Password')} 
+                                            onChange={(event) => {
+                                                setLoginForm({
+                                                    ...loginForm,
+                                                    password: event.target.value
+                                                })
+                                            }}
+                                        />
                                     </Form.Group>
                                 </ViewContent>
                                 <ViewContent
@@ -83,7 +126,11 @@ function Login(props) {
                                 >
                                     <Button size="lg" className="font-l style-btn white bg-green bold fst-italic w-100"
                                         onClick={() => {
-                                            history.push("/")
+                                            // history.push("/")
+                                            setUIControl({
+                                                ...uiControl,
+                                                loginFormProgress: true
+                                            })
                                         }}
                                     >
                                         {t('Sign_In')}
@@ -95,7 +142,6 @@ function Login(props) {
                                     <div className="bold fst-italic dark text-start mb-3">{t('Or_Sign_In_with_Single_Sign_On')}</div>
                                     <div className="sso-logo-wrap">
                                         <div className="sso-logo m-2"
-                                            onClick={() => { }}
                                         >
 
                                         </div>

@@ -80,7 +80,8 @@ const fetchAuthPOST = async (url, body = {}, params = {}, headers = {}) => {
         })
 
         console.log("fetchAuthPOST", res)
-        return res
+        let results = await res.json()
+        return results
     } catch (error) {
         console.log("fetchAuthPOST error", error)
         return error

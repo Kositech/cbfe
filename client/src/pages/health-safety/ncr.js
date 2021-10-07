@@ -57,7 +57,7 @@ function NCR(props) {
     async function fetchNCRData() {
         let items = await _gqlQuery(ncrDetailByStatusGQL,
             {
-                project: -1, status: tabs[updateNCRData.currentValue]["key"],
+                site: -1, status: tabs[updateNCRData.currentValue]["key"],
                 skip: updateNCRData.skip, take: updateNCRData.take
             })
         // console.log("fetchNCRData ", items)
@@ -77,12 +77,12 @@ function NCR(props) {
         let items = await _gqlQuery(ncrByCompanyAndStatusRecentMonthsGQL, {
             status: tabs[uiControl.ncrChartCurrentStatus]["key"],
             sort: uiControl.ncrChartSort[uiControl.ncrChartCurrentSort].value,
-            project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss')
+            site: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss')
         })
 
         let avgResponseDay = await _gqlQuery(ncrAverageResponseDayGQL, {
             status: tabs[uiControl.ncrChartCurrentStatus]["key"],
-            project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss')
+            site: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss')
         })
 
 

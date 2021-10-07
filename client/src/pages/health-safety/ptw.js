@@ -61,7 +61,7 @@ function PTW(props) {
 
     async function fetchPTWDetailByType() {
         let items = await _gqlQuery(ptwDetailByTypes, {
-            project: -1, type: tabs[updatePTWData.currentValue]["key"],
+            site: -1, type: tabs[updatePTWData.currentValue]["key"],
             status: "ALL",
             startDate: updatePTWData.startDate, endDate: updatePTWData.endDate,
             skip: updatePTWData.skip, take: updatePTWData.take
@@ -70,7 +70,7 @@ function PTW(props) {
         if (typeof (items.errors) !== "undefined") {
 
         } else {
-            console.log("items ", items)
+            // console.log("items ", items)
             setPTWData(items.data.ptwDetailByTypes[0].data)
             setUpdatePTWData({
                 ...updatePTWData,
@@ -86,7 +86,7 @@ function PTW(props) {
         let newPermitData = {}
 
         for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
-            let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
+            let items = await _gqlQuery(ptwTypesCountDaily, { site: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
             console.log("items", items)
             if (typeof (items.errors) !== "undefined") {
 

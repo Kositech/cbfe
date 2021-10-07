@@ -4,7 +4,7 @@ import variable from '../variable'
 
 function reassignPermitChartData(data) {
     let output = []
-    console.log("reassignPermitChartData ", data)
+    // console.log("reassignPermitChartData ", data)
     Object.keys(data).forEach(function (key) {
         var totals = []
         data[key].map(function (item) {

@@ -136,7 +136,7 @@ const NAV_TAB = [
     { name: "nav_tab.Home", link: "/", className: "nav-tab nav-tab-home" },
     { name: "nav_tab.Safety", link: "/health-safety", className: "nav-tab nav-tab-safety" },
     { name: "nav_tab.Database", link: "#", className: "nav-tab nav-tab-database" },
-    { name: "nav_tab.VWT", link: "/VWT/viewer", className: "nav-tab nav-tab-vwt", target: "_blank" },
+    { name: "nav_tab.VWT", link: "/VWT-viewer", className: "nav-tab nav-tab-vwt", target: "_blank" },
     { name: "nav_tab.GIA", link: "#", className: "nav-tab nav-tab-gia" },
 ]
 

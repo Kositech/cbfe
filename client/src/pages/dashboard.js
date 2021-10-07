@@ -3,6 +3,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import { useHistory } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap'
 import { Carousel } from 'react-responsive-carousel';
+import Cookies from 'js-cookie';
 import moment from 'moment';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { NCRBarChart, NCRPeriodChartDataReassign } from '../helpers/charts/ncr-chart'
@@ -42,7 +43,7 @@ function Dashboard(props) {
 
     useEffect(() => {
         async function fetchData() {
-            let items = await _gqlQuery(ncrTypesCountRecentMonthsGQL, { project: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
+            let items = await _gqlQuery(ncrTypesCountRecentMonthsGQL, { site: -1, dateTime: moment().format('YYYY-MM-DD HH:mm:ss') })
 
             if (typeof (items.errors) !== "undefined") {
 
@@ -67,7 +68,7 @@ function Dashboard(props) {
             let newPermitData = {}
 
             for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
-                let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
+                let items = await _gqlQuery(ptwTypesCountDaily, { site: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
                 if (typeof (items.errors) !== "undefined") {
 
                 } else {
@@ -121,7 +122,7 @@ function Dashboard(props) {
         )
     }
 
-    console.log("ncrPeriodChart", ncrPeriodChart)
+    console.log("ncrPeriodChart", Cookies.get("cookies"))
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">

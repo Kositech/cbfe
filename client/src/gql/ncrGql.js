@@ -51,32 +51,32 @@ let ncrStatusOutput = `
 `
 
 export var ncrTypesCountRecentMonthsGQL = gql`
-    query ncrTypesCountRecentMonths($project: Int!, $dateTime: DateTime!){
-        ncrTypesCountRecentMonths(project: $project, dateTime: $dateTime){
+    query ncrTypesCountRecentMonths($site: Int!, $dateTime: DateTime!){
+        ncrTypesCountRecentMonths(site: $site, dateTime: $dateTime){
             ${ncrTypesCountRecentMonthsOutput}
         }
     }
 `
 
 export var ncrByCompanyAndStatusRecentMonthsGQL = gql`
-    query ncrByCompanyAndStatusRecentMonths($status: String!, $project: Int!, $dateTime: DateTime!, $sort: String){
-        ncrByCompanyAndStatusRecentMonths(status: $status, project: $project, dateTime: $dateTime, sort: $sort){
+    query ncrByCompanyAndStatusRecentMonths($status: String!, $site: Int!, $dateTime: DateTime!, $sort: String){
+        ncrByCompanyAndStatusRecentMonths(status: $status, site: $site, dateTime: $dateTime, sort: $sort){
             ${ncrByCompanyAndStatusRecentMonthsOutput}
         }
     }
 `
 
 export var ncrDetailByStatusGQL = gql`
-    query ncrDetailByStatus($project: Int!, $status: String!, $skip: Int, $take: Int){
-        ncrDetailByStatus(project: $project, status: $status, skip: $skip, take: $take){
+    query ncrDetailByStatus($site: Int!, $status: String!, $skip: Int, $take: Int){
+        ncrDetailByStatus(site: $site, status: $status, skip: $skip, take: $take){
             ${ncrDetailByStatusOutput}
         }
     }
 `
 
 export var ncrAverageResponseDayGQL = gql`
-    query ncrAverageResponseDay($project: Int!, $status: String!, $dateTime: DateTime!){
-        ncrAverageResponseDay(project: $project, status: $status, dateTime: $dateTime){
+    query ncrAverageResponseDay($site: Int!, $status: String!, $dateTime: DateTime!){
+        ncrAverageResponseDay(site: $site, status: $status, dateTime: $dateTime){
             ${ncrAverageResponseDayOutput}
         }
     }

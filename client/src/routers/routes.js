@@ -21,5 +21,5 @@ export default [
     { path: "/health-safety/ncr", name: "", Component: NCR, isPrivate: false },
     { path: "/health-safety/gate-access", name: "", Component: GateAccess, isPrivate: false },
     { path: "/health-safety/iot", name: "", Component: Iot, isPrivate: false },
-    { path: "/VWT/viewer", name: "", Component: VWTViewer, isPrivate: false}
+    { path: "/VWT-viewer", name: "", Component: VWTViewer, isPrivate: false}
 ]

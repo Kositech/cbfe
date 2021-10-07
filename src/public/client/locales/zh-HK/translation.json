@@ -1,8 +1,8 @@
 {
-    "thismonth_count_asc": "本月份(升序)",
-    "thismonth_count_desc": "本月份(降序)",
-    "previousmonth_count_asc": "上月份(升序)",
-    "previousmonth_count_desc": "上月份(降序)",
+    "thismonth_count_asc": "本月份 (升序)",
+    "thismonth_count_desc": "本月份 (降序)",
+    "previousmonth_count_asc": "上月份 (升序)",
+    "previousmonth_count_desc": "上月份 (降序)",
     "no-data": "No Data",
     "Number_of_NC_Contractor": "承判商NC數目",
     "Today": "今天",

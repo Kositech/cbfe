@@ -44,13 +44,12 @@ function objToQueryString(obj) {
 }
 
 function countDecimals(str) { // str must be number
-    console.log("conuntDecimals ", str)
     let value = Number(str)
-    if (Math.floor(value) === value) return 0;
-    return value.toString().split(".")[1].length || 0;
+    if(Math.floor(value) === value) return 0;
+    return value.toString().split(".")[1].length || 0; 
 }
 
-function currencyFormat(n, currency = "", output = 0, fixed = 0) {
+function currencyFormat(n, currency = "", output = 0, fixed = -1) {
     if (n !== "") {
         if (!isNaN(n) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
             !isNaN(parseFloat(n))) {
@@ -59,11 +58,14 @@ function currencyFormat(n, currency = "", output = 0, fixed = 0) {
                 n *= -1
                 symbol = "-"
             }
-
+ 
             var c = (fixed === -1) ? countDecimals(n.toString()) : fixed
 
+            // console.log("countDecimals(n.toString()) ",n, countDecimals(n.toString()))
+
             return symbol + currency + Number(n).toFixed(c).replace(/./g, function (c, i, a) {
-                return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+                console.log("c i a", c, i, a, (a.length - i) % 3, a.indexOf('.'))
+                return i > 0 && c !== "." && (a.length - i) % 3 === 0 && ((a.indexOf('.') == -1) ? true : i < a.indexOf('.')) ? "," + c : c;
             });
         } else {
             return output

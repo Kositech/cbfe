@@ -28,10 +28,8 @@ function HealthSafety(props) {
     const { t } = useTranslation();
     var [chartFilterStatus, setChartFilterStatus] = useState(1)
     const [dateCateg, setDataCateg] = useState(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays))
-
-    // console.log("dateCateg ", dateCateg)
-
     const [permitData, setPermitData] = useState({})
+    const [rangePermitData, setRangePermitData] = useState([])
     // const [updateNCRPermitData, setUpdateNCRPermitData] = useState({
     //     progress: false
     // })
@@ -81,9 +79,9 @@ function HealthSafety(props) {
 
     const [ncrPermitTodayChart, setNCRPermitTodayChart] = useState(NCRBarChart(
         [{
-            data: [10,20], name: "Today"
+            data: [10, 20], name: "Today"
         }],
-        ["a","b"],
+        ["a", "b"],
         false
     ))
 
@@ -94,7 +92,7 @@ function HealthSafety(props) {
         var reassignedPermitData = {}
 
         for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
-            let items = await _gqlQuery(ptwTypesCountDaily, { project: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
+            let items = await _gqlQuery(ptwTypesCountDaily, { site: -1, type: variable.PERMIT_TYPE[i], startDate: startDate, endDate: endDate })
 
             if (typeof (items.errors) !== "undefined") {
 
@@ -113,17 +111,19 @@ function HealthSafety(props) {
                     reassignedPermitData[key].name = t(reassignedPermitData[key].name)
                 })
 
+                // console.log("reassignedPermitData ", reassignedPermitData, newPermitData)
+                setRangePermitData(reassignedPermitData)
+
                 setNCRPermitChart(NCRPermitChart(
                     reassignedPermitData,
                     dateCateg
                 ))
-
             }
         }
     }
 
     useEffect(() => {
-        // fetchTypesCountDaily(true)
+        fetchTypesCountDaily(true)
     }, [])
 
     useEffect(() => {
@@ -133,6 +133,34 @@ function HealthSafety(props) {
     useEffect(() => {
         setDataCateg(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, variable.CHART_DATE_FILTER[chartFilterStatus].endDays))
     }, [chartFilterStatus])
+
+    const renderRangePermitDataCount = () => {
+        let layout = []
+        // console.log("rangePermitData ", rangePermitData)
+        rangePermitData.map(function (v, i) {
+            let total = v.data.reduce(function (d, j) {
+                return d + j
+            })
+
+            console.log("total ", total)
+
+            layout.push(
+                <Col xs={6} sm={6} md={6} lg={3} key={i} className="d-flex justify-content-around align-items-center">
+                    <div className="d-flex justify-content-between align-items-center font-xm gray">
+                        {t(v.name)}
+                    </div>
+                    <div className="font-xm deep-dark">{total}</div>
+                </Col>
+            )
+        })
+
+        return (
+            <Row className="cb-range-permit-data-wrap mb-3">
+                {layout}
+            </Row>
+        )
+    }
+
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">
@@ -242,12 +270,15 @@ function HealthSafety(props) {
                                     {
                                         (ncrPermitChart.options.xaxis.categories.length > 0 && chartFilterStatus !== 0) ?
                                             (
-                                                <Chart
-                                                    options={ncrPermitChart.options}
-                                                    series={ncrPermitChart.series}
-                                                    height={478}
-                                                    type={'line'}
-                                                />
+                                                <>
+                                                    {renderRangePermitDataCount()}
+                                                    <Chart
+                                                        options={ncrPermitChart.options}
+                                                        series={ncrPermitChart.series}
+                                                        height={478}
+                                                        type={'line'}
+                                                    />
+                                                </>
                                             ) :
                                             (null)
                                     }
