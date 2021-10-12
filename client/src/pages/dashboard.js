@@ -23,6 +23,7 @@ import ResponsiveFooterMenu from '../components/responsive-footer-menu';
 import ViewLabelBox from '../components/view-label-box';
 import skycityImg from '../assets/Skycity1a.png'
 import ViewContentLabel from '../components/view-content-label';
+import Announcement from '../components/announcement'
 
 import dummy from '../helpers/dummy';
 
@@ -40,6 +41,7 @@ function Dashboard(props) {
     ))
 
     const [permitData, setPermitData] = useState({})
+    const [uiControl, setUIControl] = useState()
 
     useEffect(() => {
         async function fetchData() {
@@ -253,30 +255,7 @@ function Dashboard(props) {
                                 css="d-flex flex-column justify-content-start align-items-start"
                             >
                                 <div className="font-xm bold deep-dark mb-2">{t('Announcement')}:</div>
-                                <Carousel
-                                    autoPlay={true}
-                                    showArrows={true}
-                                    infiniteLoop={true}
-                                    showStatus={false}
-                                    showThumbs={false}
-                                    showIndicators={false}
-                                    dynamicHeight={true}
-                                    className="announcement-carousel"
-                                    axis="vertical"
-                                >
-                                    {
-                                        dummy.announcement.map(function (a, i) {
-                                            return (
-                                                <div className="d-flex justify-content-between align-items-start">
-                                                    <div className="bold font-xm deep-dark text-left">
-                                                        {a.announcement}
-                                                    </div>
-                                                    <div className="font-s gray announcement-carousel-date">{a.date}</div>
-                                                </div>
-                                            )
-                                        })
-                                    }
-                                </Carousel>
+                                <Announcement  />
                             </ViewContent>
                         </ViewShadowBox>
                         <ViewShadowBox>

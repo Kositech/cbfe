@@ -184,6 +184,24 @@ function getDateArray(startdays = 10, enddays = 0, format = "DD/MM"){
     return date
 }
 
+function getDateHourlyArray(days = 1){
+    let startDate = moment().startOf("day")
+    let endDate = moment().add(days, 'd').startOf('day')
+    let date = []
+
+    for (let i = 0; i < endDate.diff(startDate, 'hours'); i++) {
+        date.push(moment().startOf("day").add(i, 'h').format("HH:mm"))
+    }
+
+    return date
+}
+
+function importAllImage(r) {
+    let images = {};
+    r.keys().map(item => { images[item.replace('./', '')] = r(item); });
+    return images;
+}
+
 export {
     debug,
     searchArrayObject,
@@ -196,5 +214,7 @@ export {
     getRandomInt,
     permitKeyI18nKey,
     permitDataFilter,
-    getDateArray
+    getDateArray,
+    getDateHourlyArray,
+    importAllImage
 }

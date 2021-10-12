@@ -283,3 +283,35 @@
 }
 
 /*** Nav Tab end ***/
+
+/*** HKO ***/
+.hko{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-size: contain;
+
+    &.WCOLD{background-image: url('../assets/hko-icon/cold.gif');}
+    &.WFIRER{background-image: url('../assets/hko-icon/firer.gif');}
+    &.WFIREY{background-image: url('../assets/hko-icon/firey.gif');}
+    &.WHOT{background-image: url('../assets/hko-icon/vhot.gif');}
+    &.WMSGNL{background-image: url('../assets/hko-icon/sms.gif');}
+    &.WRAINA{background-image: url('../assets/hko-icon/raina.gif');}
+    &.WRAINR{background-image: url('../assets/hko-icon/rainr.gif');}
+    &.WRAINB{background-image: url('../assets/hko-icon/rainb.gif');}
+    &.WRAINB{background-image: url('../assets/hko-icon/rainb.gif');}
+    &.WRAINB{background-image: url('../assets/hko-icon/rainb.gif');}
+    &.WL{background-image: url('../assets/hko-icon/landslip.gif');}
+    &.TC1{background-image: url('../assets/hko-icon/tc1.gif');}
+    &.TC3{background-image: url('../assets/hko-icon/tc3.gif');}
+    &.TC8NE{background-image: url('../assets/hko-icon/tc8ne.gif');}
+    &.TC8SE{background-image: url('../assets/hko-icon/tc8se.gif');}
+    &.TC8SW{background-image: url('../assets/hko-icon/tc8sw.gif');}
+    &.TC8NW{background-image: url('../assets/hko-icon/tc8nw.gif');}
+    &.TC9{background-image: url('../assets/hko-icon/tc9.gif');}
+    &.TC10{background-image: url('../assets/hko-icon/tc10.gif');}
+    &.WTMW{background-image: url('../assets/hko-icon/tsunami-warn.gif');}
+    &.WTS{background-image: url('../assets/hko-icon/ts.gif');}
+}
+
+/*** HKO end ***/

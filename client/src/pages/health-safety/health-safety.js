@@ -5,9 +5,9 @@ import { Row, Col } from 'react-bootstrap'
 import moment from 'moment'
 import Chart from "react-apexcharts";
 import variable from '../../helpers/variable'
-import { permitDataFilter, getDateArray } from '../../helpers/common'
+import { permitDataFilter, getDateArray, getDateHourlyArray } from '../../helpers/common'
 import { NCRPermitChart, reassignPermitChartData, reassignPermitBarChartData, NCRPermitBarChart, NCRBarChart } from '../../helpers/charts/ncr-chart'
-import { ptwTypesCountDaily } from '../../gql/ptwGql'
+import { ptwTypesCountDaily, ptwTypesCountHourlyByDays } from '../../gql/ptwGql'
 import SideMenu from '../../menu/side-menu';
 import ViewWrapper from '../../components/view-wrapper'
 import ViewContent from '../../components/view-content';
@@ -28,7 +28,9 @@ function HealthSafety(props) {
     const { t } = useTranslation();
     var [chartFilterStatus, setChartFilterStatus] = useState(1)
     const [dateCateg, setDataCateg] = useState(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays))
+    const [dateHourlyCateg, setDateHourlyCateg] = useState(getDateHourlyArray())
     const [permitData, setPermitData] = useState({})
+    const [permitHourlyData, setPermitHourlyData] = useState({})
     const [rangePermitData, setRangePermitData] = useState([])
     // const [updateNCRPermitData, setUpdateNCRPermitData] = useState({
     //     progress: false
@@ -78,10 +80,8 @@ function HealthSafety(props) {
     ))
 
     const [ncrPermitTodayChart, setNCRPermitTodayChart] = useState(NCRBarChart(
-        [{
-            data: [10, 20], name: "Today"
-        }],
-        ["a", "b"],
+        [],
+        [],
         false
     ))
 
@@ -122,6 +122,38 @@ function HealthSafety(props) {
         }
     }
 
+    const fetchTypesCountHourly = async () => {
+        let date = moment().format("YYYY-MM-DD")
+        let newPermitHourlyData = {}
+        var reassignedPermitData = {}
+        for (let i = 0; i < variable.PERMIT_TYPE.length; i++) {
+            let items = await _gqlQuery(ptwTypesCountHourlyByDays, { site: -1, type: variable.PERMIT_TYPE[i], startDate: date, endDate: date })
+            if (typeof (items.errors) !== "undefined") {
+
+            } else {
+                newPermitHourlyData[variable.PERMIT_TYPE[i]] = items.data.ptwTypesCountHourlyByDays
+            }
+            // Is last type
+            if (i === variable.PERMIT_TYPE.length - 1) {
+                setPermitHourlyData(newPermitHourlyData)
+
+                reassignedPermitData = reassignPermitChartData(newPermitHourlyData)
+
+                Object.keys(reassignedPermitData).forEach(function (key) {
+                    reassignedPermitData[key].name = t(reassignedPermitData[key].name)
+                })
+
+                console.log("reassignedPermitData fetchTypesCountHourly", reassignedPermitData)
+                setRangePermitData(reassignedPermitData)
+                setNCRPermitTodayChart(NCRBarChart(
+                    reassignedPermitData,
+                    dateHourlyCateg,
+                    false
+                ))
+            }
+        }
+    }
+
     useEffect(() => {
         fetchTypesCountDaily(true)
     }, [])
@@ -131,7 +163,11 @@ function HealthSafety(props) {
     }, [dateCateg])
 
     useEffect(() => {
-        setDataCateg(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, variable.CHART_DATE_FILTER[chartFilterStatus].endDays))
+        if(chartFilterStatus == 0){
+            fetchTypesCountHourly()
+        }else{
+            setDataCateg(getDateArray(variable.CHART_DATE_FILTER[chartFilterStatus].startDays, variable.CHART_DATE_FILTER[chartFilterStatus].endDays))
+        }
     }, [chartFilterStatus])
 
     const renderRangePermitDataCount = () => {
@@ -142,7 +178,7 @@ function HealthSafety(props) {
                 return d + j
             })
 
-            console.log("total ", total)
+            // console.log("total ", total)
 
             layout.push(
                 <Col xs={6} sm={6} md={6} lg={3} key={i} className="d-flex justify-content-around align-items-center">
@@ -161,6 +197,7 @@ function HealthSafety(props) {
         )
     }
 
+    // console.log("ncrPermitTodayChart" ,ncrPermitTodayChart, ncrPermitTodayChart.options.xaxis.categories.length)
 
     return (
         <ViewWrapper id="outer-container" className="font-roboto">

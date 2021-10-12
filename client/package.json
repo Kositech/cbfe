@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "apexcharts": "^3.28.1",
+    "axios": "^0.22.0",
     "bootstrap": "^5.1.0",
     "graphql": "^15.5.3",
     "i18next": "^20.6.0",
@@ -28,6 +29,7 @@
     "react-responsive-tabs": "^4.4.3",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-xml-parser": "^1.1.8",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.2"

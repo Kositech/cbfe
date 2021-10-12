@@ -12,20 +12,19 @@ router.use(function(req,res,next){
 
 router.post('/', async function (req,res, next){
     var body = req.body
-    console.log("body", body)
     if(typeof(body.email !== "undefined") && typeof(body.password !== "undefined")){
-        if(body.email === "cb-user@crystalball.com" && body.password === "Zaq!@wsX"){
-            console.log("process ", process.env)
+        if(body.email === "cb-user@crystalball.com" && body.password === "Zaq!2wsX"){
+            // console.log("process ", process.env)
             res.cookie("x-api-key", process.env.X_API_KEY, { maxAge: 60 * 60 * 1000, httpOnly: false }) // millisecs
             res.status(200).json({
                 data: {
-                    "msg": "login success."
+                    "key": "login.success"
                 }
             })
         }else{
             res.status(403).json({
                 errors:{
-                    "msg": "login fail."
+                    "key": "login.fail."
                 }
             })
         }

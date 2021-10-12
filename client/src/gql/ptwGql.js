@@ -39,6 +39,17 @@ let ptwTypesCountDateRangeOutput = `
     }
 `
 
+let ptwTypesCountHourlyByDaysOutput = `
+    dateTime
+    hour
+    waiting_approval
+    not_cancelled
+    not_approved
+    cancelled
+    cancel_confirmed
+    withdrawn
+`
+
 export var ptwDetailByTypes = gql`
     query ptwDetailByTypes($site: Int!, $type: String!, $status: String!, $startDate: DateTime!, $endDate: DateTime!, $skip: Int, $take: Int){
         ptwDetailByTypes(site: $site, type: $type, status: $status, startDate: $startDate, endDate: $endDate, skip: $skip, take: $take){
@@ -56,9 +67,17 @@ export var ptwTypesCountDaily = gql`
 `
 
 export var  ptwTypesCountDateRange = gql`
-    query ptwTypesCountDateRange($site: Int!, $type: type, $startDate: startDate, $endDate: endDate){
+    query ptwTypesCountDateRange($site: Int!, $type: String!, $startDate:  DateTime!, $endDate: DateTime!){
         ptwTypesCountDateRange(site: $site, type: $type, startDate: $startDate, endDate: $endDate){
             ${ptwTypesCountDateRangeOutput}
+        }
+    }
+`
+
+export var ptwTypesCountHourlyByDays = gql`
+    query ptwTypesCountHourlyByDays($site: Int!, $type: String!, $startDate: DateTime!, $endDate:  DateTime!){
+        ptwTypesCountHourlyByDays(site: $site, type: $type, startDate: $startDate, endDate: $endDate){
+            ${ptwTypesCountHourlyByDaysOutput}
         }
     }
 `

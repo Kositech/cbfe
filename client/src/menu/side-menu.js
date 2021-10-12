@@ -49,11 +49,11 @@ function SideMenu(props) {
                 {
                     (typeof (id) !== "undefined") ?
                         (<Collapse in={(typeof (isOpen[id]) !== "undefined") ? isOpen[id] : false}>
-                            <ul id={id} className="mt-3">
+                            <ul id={id} className="mt-3" key={id}>
                                 {submenulayout}
                             </ul>
                         </Collapse>) :
-                        (<ul id={(typeof (id) !== "undefined") ? id : null}>
+                        (<ul id={(typeof (id) !== "undefined") ? id : null} key={id}>
                             {submenulayout}
                         </ul>)
                 }
@@ -84,7 +84,7 @@ function SideMenu(props) {
         })
 
         return (
-            <ul>
+            <ul >
                 {layout}
             </ul>
         )

@@ -23,9 +23,14 @@ function Login(props) {
     })
 
     const fetchLogin = async () => {
-        console.log("window .. ", window.location)
+        // console.log("window .. ", window.location)
         let result = await fetchAuthPOST(window.location.origin + '/auth', loginForm, {}, {"Content-type": "application/json"})
-        console.log("fetchLogin result ", result)
+        // console.log("fetchLogin result ", result)
+        if(typeof(result.errors) !== "undefined"){
+            // Show error msg.
+        }else{
+            history.push('/')
+        }
     }
 
     useEffect(() => {
@@ -34,7 +39,7 @@ function Login(props) {
 
             setUIControl({
                 ...uiControl,
-                loginFormProgress: true
+                loginFormProgress: false
             })
         }
     }, [uiControl.loginFormProgress])
